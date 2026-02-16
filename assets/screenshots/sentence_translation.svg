@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#1b1f27"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 26px 'JetBrains Mono', 'Consolas', monospace; fill: #a5d6ff; }
+      .text  { font: 400 19px 'JetBrains Mono', 'Consolas', monospace; fill: #d0d7de; }
+      .muted { fill: #8b949e; }
+      .panel { fill: #0d1525; stroke: #30363d; }
+      .h1 { fill: #58a6ff; }
+      .h2 { fill: #3fb950; }
+      .h3 { fill: #f0883e; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg2)"/>
+  <rect x="24" y="24" width="1152" height="652" rx="12" class="panel"/>
+
+  <text x="56" y="74" class="title">📝 SATZÜBERSETZUNG — "My name is Raphael"</text>
+  <text x="56" y="108" class="text muted">Template Match: my_name_is · 22/22 Sprachen verfügbar</text>
+
+  <rect x="56" y="136" width="350" height="500" rx="10" class="panel"/>
+  <text x="76" y="174" class="text h1">Slawisch</text>
+  <text x="76" y="208" class="text">🇷🇺 Меня зовут Рафаэль.</text>
+  <text x="76" y="242" class="text">🇺🇦 Мене звати Рафаель.</text>
+  <text x="76" y="276" class="text">🇵🇱 Nazywam się Raphael.</text>
+
+  <rect x="424" y="136" width="350" height="500" rx="10" class="panel"/>
+  <text x="444" y="174" class="text h2">Romanisch</text>
+  <text x="444" y="208" class="text">🇪🇸 Me llamo Raphael.</text>
+  <text x="444" y="242" class="text">🇫🇷 Je m'appelle Raphael.</text>
+  <text x="444" y="276" class="text">🇮🇹 Mi chiamo Raphael.</text>
+
+  <rect x="792" y="136" width="352" height="500" rx="10" class="panel"/>
+  <text x="812" y="174" class="text h3">Sinosphäre / Uralisch</text>
+  <text x="812" y="208" class="text">🇨🇳 我叫Raphael。</text>
+  <text x="812" y="242" class="text">🇯🇵 私はRaphaelです。</text>
+  <text x="812" y="276" class="text">🇰🇷 저는 Raphael입니다.</text>
+  <text x="812" y="310" class="text">🇫🇮 Nimeni on Raphael.</text>
+</svg>

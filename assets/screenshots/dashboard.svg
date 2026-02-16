@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 28px 'JetBrains Mono', 'Consolas', monospace; fill: #79c0ff; }
+      .text  { font: 400 20px 'JetBrains Mono', 'Consolas', monospace; fill: #c9d1d9; }
+      .muted { fill: #8b949e; }
+      .good  { fill: #3fb950; }
+      .warn  { fill: #d29922; }
+      .panel { fill: #0b1220; stroke: #30363d; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1152" height="652" rx="12" class="panel"/>
+
+  <text x="56" y="76" class="title">🌍 POLYGLOT CLI — Dashboard</text>
+  <text x="56" y="112" class="text muted">Tag 14 / 30 · Lokaler Modus · 22 Sprachen</text>
+
+  <rect x="56" y="142" width="520" height="220" rx="10" class="panel"/>
+  <text x="76" y="182" class="text">Sprint Summary</text>
+  <text x="76" y="220" class="text good">✔ Wörter gelernt: 1,284</text>
+  <text x="76" y="254" class="text">⏱ Heute gelernt: 68 Minuten</text>
+  <text x="76" y="288" class="text warn">↺ Fällig heute: 93 Karten</text>
+  <text x="76" y="322" class="text">🏆 XP Level: 17 (Sprachreisender)</text>
+
+  <rect x="624" y="142" width="520" height="220" rx="10" class="panel"/>
+  <text x="644" y="182" class="text">Familien-Fortschritt</text>
+  <text x="644" y="220" class="text">🔵 Slawisch   62%</text>
+  <text x="644" y="254" class="text">🟢 Romanisch  57%</text>
+  <text x="644" y="288" class="text">🔴 Sinosphäre 41%</text>
+  <text x="644" y="322" class="text">🟡 Uralisch   39%</text>
+
+  <rect x="56" y="392" width="1088" height="244" rx="10" class="panel"/>
+  <text x="76" y="432" class="text">Nächste Aktionen</text>
+  <text x="76" y="470" class="text">[1] Dashboard  [2] Cluster-Vergleich  [3] Review  [4] Neue Wörter</text>
+  <text x="76" y="504" class="text">[5] Satzübersetzen  [10] Lückentext  [11] Konjugation  [12] Satzbau</text>
+  <text x="76" y="538" class="text">[13] Daily Challenge  [14] Eigene Vokabeln  [15] Erweiterte Statistik</text>
+  <text x="76" y="582" class="text muted">> _</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 26px 'JetBrains Mono', 'Consolas', monospace; fill: #79c0ff; }
+      .text  { font: 400 19px 'JetBrains Mono', 'Consolas', monospace; fill: #d0d7de; }
+      .muted { fill: #8b949e; }
+      .panel { fill: #0f1728; stroke: #30363d; }
+      .ok { fill: #3fb950; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg3)"/>
+  <rect x="24" y="24" width="1152" height="652" rx="12" class="panel"/>
+
+  <text x="56" y="76" class="title">🔗 CLUSTER-VERGLEICH — Konzept: "Wasser"</text>
+  <text x="56" y="112" class="text muted">1 Wort gelernt → 22 Sprachen in Familien sichtbar</text>
+
+  <rect x="56" y="146" width="350" height="490" rx="10" class="panel"/>
+  <text x="76" y="184" class="text">🔵 Slawisch</text>
+  <text x="76" y="220" class="text">🇷🇺 вода · 🇺🇦 вода · 🇵🇱 woda</text>
+  <text x="76" y="254" class="text">🇨🇿 voda · 🇸🇰 voda · 🇭🇷 voda</text>
+
+  <rect x="424" y="146" width="350" height="490" rx="10" class="panel"/>
+  <text x="444" y="184" class="text">🟢 Romanisch</text>
+  <text x="444" y="220" class="text">🇪🇸 agua · 🇵🇹 água · 🇮🇹 acqua</text>
+  <text x="444" y="254" class="text">🇫🇷 eau · 🇷🇴 apă</text>
+
+  <rect x="792" y="146" width="352" height="490" rx="10" class="panel"/>
+  <text x="812" y="184" class="text">🔴/🟡 Sinosphäre & Uralisch</text>
+  <text x="812" y="220" class="text">🇨🇳 水 · 🇯🇵 水 · 🇰🇷 물 · 🇻🇳 nước</text>
+  <text x="812" y="254" class="text">🇫🇮 vesi · 🇪🇪 vesi · 🇭🇺 víz</text>
+
+  <text x="56" y="666" class="text ok">✅ Effizienz: Ein Konzept stärkt mehrere Sprachen parallel.</text>
+</svg>
