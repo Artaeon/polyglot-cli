@@ -1,0 +1,101 @@
+{
+  "language_id": "sk",
+  "words": [
+    {
+      "word": "Nerozumiem.",
+      "romanization": "",
+      "pronunciation_hint": "NE-ro-zu-myem",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1801,
+      "concept_id": "tpl9_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Kde je toaleta?",
+      "romanization": "",
+      "pronunciation_hint": "gde ye to-a-LE-ta",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1802,
+      "concept_id": "tpl9_where_is",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Som hladný / hladná.",
+      "romanization": "",
+      "pronunciation_hint": "som HLAD-nih",
+      "meaning_de": "Ich habe Hunger.",
+      "meaning_en": "I am hungry.",
+      "category": "essen_trinken",
+      "frequency_rank": 1803,
+      "concept_id": "tpl9_i_am_hungry",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Ľúbim ťa.",
+      "romanization": "",
+      "pronunciation_hint": "LYUU-bim tya",
+      "meaning_de": "Ich liebe dich.",
+      "meaning_en": "I love you.",
+      "category": "phrasen",
+      "frequency_rank": 1804,
+      "concept_id": "tpl9_i_love_you",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Ďakujem veľmi pekne!",
+      "romanization": "",
+      "pronunciation_hint": "DYA-ku-yem VEL-mi PEK-ne",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1805,
+      "concept_id": "tpl9_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Pohár vody, prosím.",
+      "romanization": "",
+      "pronunciation_hint": "PO-haar VO-dih, PRO-seem",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1806,
+      "concept_id": "tpl9_water_please",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Koľko to stojí?",
+      "romanization": "",
+      "pronunciation_hint": "KOL-ko to STO-yee",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1807,
+      "concept_id": "tpl9_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Volám sa...",
+      "romanization": "",
+      "pronunciation_hint": "VO-laam sa",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1808,
+      "concept_id": "tpl9_my_name_is",
+      "tone": null,
+      "notes": "template_pack_9"
+    }
+  ]
+}

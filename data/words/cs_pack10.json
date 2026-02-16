@@ -1,0 +1,101 @@
+{
+  "language_id": "cs",
+  "words": [
+    {
+      "word": "Ahoj, jak se máš?",
+      "romanization": "",
+      "pronunciation_hint": "A-hoy, yak se maash",
+      "meaning_de": "Hallo, wie geht es dir?",
+      "meaning_en": "Hello, how are you?",
+      "category": "phrasen",
+      "frequency_rank": 1901,
+      "concept_id": "tpl10_hello_how_are_you",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Nerozumím.",
+      "romanization": "",
+      "pronunciation_hint": "NE-ro-zu-meem",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1902,
+      "concept_id": "tpl10_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Kde je toaleta?",
+      "romanization": "",
+      "pronunciation_hint": "gde ye to-a-LE-ta",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1903,
+      "concept_id": "tpl10_where_is",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Kolik to stojí?",
+      "romanization": "",
+      "pronunciation_hint": "KO-lik to STO-yee",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1904,
+      "concept_id": "tpl10_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Chtěl(a) bych...",
+      "romanization": "",
+      "pronunciation_hint": "khtyel bikh",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1905,
+      "concept_id": "tpl10_i_would_like",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Mám hlad.",
+      "romanization": "",
+      "pronunciation_hint": "maam hlat",
+      "meaning_de": "Ich habe Hunger.",
+      "meaning_en": "I am hungry.",
+      "category": "essen_trinken",
+      "frequency_rank": 1906,
+      "concept_id": "tpl10_i_am_hungry",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Sklenici vody, prosím.",
+      "romanization": "",
+      "pronunciation_hint": "SKLE-ni-tsi VO-dih, PRO-seem",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1907,
+      "concept_id": "tpl10_water_please",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Děkuji moc!",
+      "romanization": "",
+      "pronunciation_hint": "DYE-ku-yi mots",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1908,
+      "concept_id": "tpl10_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_10"
+    }
+  ]
+}

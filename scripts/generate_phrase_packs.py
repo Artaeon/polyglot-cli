@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate multilingual phrase packs from validated sentence templates.
 
-Creates pack5/pack6/pack7 files for all languages using existing
+Creates pack5..pack10 files for all languages using existing
 translations in data/sentences/templates.json.
 """
 
@@ -59,6 +59,36 @@ PACK_DEFS = {
         "what_time_is_it",
         "the_weather_is_nice",
         "water_please",
+    ],
+    8: [
+        "hello_how_are_you",
+        "my_name_is",
+        "i_speak_language",
+        "where_is",
+        "how_much_cost",
+        "i_would_like",
+        "what_time_is_it",
+        "the_weather_is_nice",
+    ],
+    9: [
+        "i_dont_understand",
+        "where_is",
+        "i_am_hungry",
+        "i_love_you",
+        "thank_you_very_much",
+        "water_please",
+        "how_much_cost",
+        "my_name_is",
+    ],
+    10: [
+        "hello_how_are_you",
+        "i_dont_understand",
+        "where_is",
+        "how_much_cost",
+        "i_would_like",
+        "i_am_hungry",
+        "water_please",
+        "thank_you_very_much",
     ],
 }
 

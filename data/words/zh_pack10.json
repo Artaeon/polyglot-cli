@@ -1,0 +1,101 @@
+{
+  "language_id": "zh",
+  "words": [
+    {
+      "word": "你好，你怎么样？",
+      "romanization": "Nǐ hǎo, nǐ zěnme yàng?",
+      "pronunciation_hint": "nii hau, nii dsen-me yang",
+      "meaning_de": "Hallo, wie geht es dir?",
+      "meaning_en": "Hello, how are you?",
+      "category": "phrasen",
+      "frequency_rank": 1901,
+      "concept_id": "tpl10_hello_how_are_you",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "我不明白。",
+      "romanization": "Wǒ bù míngbai.",
+      "pronunciation_hint": "wo bu ming-bai",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1902,
+      "concept_id": "tpl10_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "厕所在哪里？",
+      "romanization": "Cèsuǒ zài nǎlǐ?",
+      "pronunciation_hint": "tsö-suo dsai na-lii",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1903,
+      "concept_id": "tpl10_where_is",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "这个多少钱？",
+      "romanization": "Zhège duōshao qián?",
+      "pronunciation_hint": "dschö-ge duo-schau tschien",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1904,
+      "concept_id": "tpl10_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "我想要...",
+      "romanization": "Wǒ xiǎng yào...",
+      "pronunciation_hint": "wo schiang yau",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1905,
+      "concept_id": "tpl10_i_would_like",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "我饿了。",
+      "romanization": "Wǒ è le.",
+      "pronunciation_hint": "wo ö le",
+      "meaning_de": "Ich habe Hunger.",
+      "meaning_en": "I am hungry.",
+      "category": "essen_trinken",
+      "frequency_rank": 1906,
+      "concept_id": "tpl10_i_am_hungry",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "请给我一杯水。",
+      "romanization": "Qǐng gěi wǒ yì bēi shuǐ.",
+      "pronunciation_hint": "tsching gei wo ii bei schuei",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1907,
+      "concept_id": "tpl10_water_please",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "非常感谢！",
+      "romanization": "Fēicháng gǎnxiè!",
+      "pronunciation_hint": "fei-tschang gan-schie",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1908,
+      "concept_id": "tpl10_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_10"
+    }
+  ]
+}

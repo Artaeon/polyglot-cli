@@ -1,0 +1,101 @@
+{
+  "language_id": "mk",
+  "words": [
+    {
+      "word": "Не разбирам.",
+      "romanization": "Ne razbiram.",
+      "pronunciation_hint": "ne raz-BEE-ram",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1801,
+      "concept_id": "tpl9_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Каде е тоалетот?",
+      "romanization": "Kade e toaletot?",
+      "pronunciation_hint": "KA-de e to-a-LE-tot",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1802,
+      "concept_id": "tpl9_where_is",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Гладен / Гладна сум.",
+      "romanization": "Gladen / Gladna sum.",
+      "pronunciation_hint": "GLA-den sum",
+      "meaning_de": "Ich habe Hunger.",
+      "meaning_en": "I am hungry.",
+      "category": "essen_trinken",
+      "frequency_rank": 1803,
+      "concept_id": "tpl9_i_am_hungry",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Те сакам.",
+      "romanization": "Te sakam.",
+      "pronunciation_hint": "te SA-kam",
+      "meaning_de": "Ich liebe dich.",
+      "meaning_en": "I love you.",
+      "category": "phrasen",
+      "frequency_rank": 1804,
+      "concept_id": "tpl9_i_love_you",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Многу благодарам!",
+      "romanization": "Mnogu blagodaram!",
+      "pronunciation_hint": "MNO-gu bla-go-DA-ram",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1805,
+      "concept_id": "tpl9_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Чаша вода, молам.",
+      "romanization": "Chasha voda, molam.",
+      "pronunciation_hint": "TSCHA-sha VO-da, MO-lam",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1806,
+      "concept_id": "tpl9_water_please",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Колку чини ова?",
+      "romanization": "Kolku chini ova?",
+      "pronunciation_hint": "KOL-ku TSCHI-ni O-va",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1807,
+      "concept_id": "tpl9_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Се викам...",
+      "romanization": "Se vikam...",
+      "pronunciation_hint": "se VEE-kam",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1808,
+      "concept_id": "tpl9_my_name_is",
+      "tone": null,
+      "notes": "template_pack_9"
+    }
+  ]
+}

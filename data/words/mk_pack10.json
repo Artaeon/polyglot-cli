@@ -1,0 +1,101 @@
+{
+  "language_id": "mk",
+  "words": [
+    {
+      "word": "Здраво, како си?",
+      "romanization": "Zdravo, kako si?",
+      "pronunciation_hint": "ZDRA-vo, KA-ko see",
+      "meaning_de": "Hallo, wie geht es dir?",
+      "meaning_en": "Hello, how are you?",
+      "category": "phrasen",
+      "frequency_rank": 1901,
+      "concept_id": "tpl10_hello_how_are_you",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Не разбирам.",
+      "romanization": "Ne razbiram.",
+      "pronunciation_hint": "ne raz-BEE-ram",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1902,
+      "concept_id": "tpl10_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Каде е тоалетот?",
+      "romanization": "Kade e toaletot?",
+      "pronunciation_hint": "KA-de e to-a-LE-tot",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1903,
+      "concept_id": "tpl10_where_is",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Колку чини ова?",
+      "romanization": "Kolku chini ova?",
+      "pronunciation_hint": "KOL-ku TSCHI-ni O-va",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1904,
+      "concept_id": "tpl10_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Би сакал(а)...",
+      "romanization": "Bi sakal(a)...",
+      "pronunciation_hint": "bee SA-kal(-a)",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1905,
+      "concept_id": "tpl10_i_would_like",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Гладен / Гладна сум.",
+      "romanization": "Gladen / Gladna sum.",
+      "pronunciation_hint": "GLA-den sum",
+      "meaning_de": "Ich habe Hunger.",
+      "meaning_en": "I am hungry.",
+      "category": "essen_trinken",
+      "frequency_rank": 1906,
+      "concept_id": "tpl10_i_am_hungry",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Чаша вода, молам.",
+      "romanization": "Chasha voda, molam.",
+      "pronunciation_hint": "TSCHA-sha VO-da, MO-lam",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1907,
+      "concept_id": "tpl10_water_please",
+      "tone": null,
+      "notes": "template_pack_10"
+    },
+    {
+      "word": "Многу благодарам!",
+      "romanization": "Mnogu blagodaram!",
+      "pronunciation_hint": "MNO-gu bla-go-DA-ram",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1908,
+      "concept_id": "tpl10_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_10"
+    }
+  ]
+}

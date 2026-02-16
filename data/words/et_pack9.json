@@ -1,0 +1,101 @@
+{
+  "language_id": "et",
+  "words": [
+    {
+      "word": "Ma ei saa aru.",
+      "romanization": "",
+      "pronunciation_hint": "ma ei saa A-ru",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1801,
+      "concept_id": "tpl9_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Kus on tualett?",
+      "romanization": "",
+      "pronunciation_hint": "kus on tu-a-LETT",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1802,
+      "concept_id": "tpl9_where_is",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Mul on kõht tühi.",
+      "romanization": "",
+      "pronunciation_hint": "mul on köht TÜ-hi",
+      "meaning_de": "Ich habe Hunger.",
+      "meaning_en": "I am hungry.",
+      "category": "essen_trinken",
+      "frequency_rank": 1803,
+      "concept_id": "tpl9_i_am_hungry",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Ma armastan sind.",
+      "romanization": "",
+      "pronunciation_hint": "ma AR-mas-tan sind",
+      "meaning_de": "Ich liebe dich.",
+      "meaning_en": "I love you.",
+      "category": "phrasen",
+      "frequency_rank": 1804,
+      "concept_id": "tpl9_i_love_you",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Suur tänu!",
+      "romanization": "",
+      "pronunciation_hint": "suur TÄ-nu",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1805,
+      "concept_id": "tpl9_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Klaas vett, palun.",
+      "romanization": "",
+      "pronunciation_hint": "klaas wett, PA-lun",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1806,
+      "concept_id": "tpl9_water_please",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Kui palju see maksab?",
+      "romanization": "",
+      "pronunciation_hint": "kui PAL-yu see MAK-sab",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1807,
+      "concept_id": "tpl9_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_9"
+    },
+    {
+      "word": "Minu nimi on...",
+      "romanization": "",
+      "pronunciation_hint": "MI-nu NI-mi on",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1808,
+      "concept_id": "tpl9_my_name_is",
+      "tone": null,
+      "notes": "template_pack_9"
+    }
+  ]
+}
