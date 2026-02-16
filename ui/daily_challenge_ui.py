@@ -89,26 +89,45 @@ def _run_challenge(app: AppContext, challenge_type: str, data: dict) -> int:
     from ui import terminal as ui
 
     count = data.get("count", 10)
+    target_cefr = data.get("cefr_target")
+    if not target_cefr and getattr(app, "planner", None):
+        try:
+            target_cefr = app.planner.get_daily_plan().get("recommended_cefr")
+        except Exception:
+            target_cefr = None
     score = 0
 
     if challenge_type in ("vocab_blitz", "speed_round"):
-        score = _run_vocab_challenge(app, count, data.get("time_limit", 120))
+        score = _run_vocab_challenge(
+            app,
+            count,
+            data.get("time_limit", 120),
+            target_cefr=target_cefr,
+        )
     elif challenge_type == "mixed_review":
-        score = _run_mixed_challenge(app, count)
+        score = _run_mixed_challenge(app, count, target_cefr=target_cefr)
     elif challenge_type == "polyglot_test":
-        score = _run_polyglot_test(app, count)
+        score = _run_polyglot_test(app, count, target_cefr=target_cefr)
     else:
         # Fallback: simple vocab quiz
-        score = _run_vocab_challenge(app, count, 0)
+        score = _run_vocab_challenge(app, count, 0, target_cefr=target_cefr)
 
     return score
 
 
-def _run_vocab_challenge(app: AppContext, count: int, time_limit: int) -> int:
+def _run_vocab_challenge(
+    app: AppContext,
+    count: int,
+    time_limit: int,
+    target_cefr: str | None = None,
+) -> int:
     """Vocabulary translation challenge."""
     from ui import terminal as ui
 
-    words = app.speed_engine.prepare_micro_session(count=count)
+    words = app.speed_engine.prepare_micro_session(
+        count=count,
+        target_cefr=target_cefr,
+    )
     if not words:
         console.print("  Keine Woerter verfuegbar!")
         return 0
@@ -142,16 +161,27 @@ def _run_vocab_challenge(app: AppContext, count: int, time_limit: int) -> int:
     return score
 
 
-def _run_mixed_challenge(app: AppContext, count: int) -> int:
+def _run_mixed_challenge(
+    app: AppContext,
+    count: int,
+    target_cefr: str | None = None,
+) -> int:
     """Mixed exercise challenge."""
-    return _run_vocab_challenge(app, count, 0)
+    return _run_vocab_challenge(app, count, 0, target_cefr=target_cefr)
 
 
-def _run_polyglot_test(app: AppContext, count: int) -> int:
+def _run_polyglot_test(
+    app: AppContext,
+    count: int,
+    target_cefr: str | None = None,
+) -> int:
     """Multi-language challenge."""
     from ui import terminal as ui
 
-    words = app.speed_engine.prepare_interleaved_session(count)
+    words = app.speed_engine.prepare_interleaved_session(
+        count,
+        target_cefr=target_cefr,
+    )
     if not words:
         console.print("  Keine Woerter verfuegbar!")
         return 0

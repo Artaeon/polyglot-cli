@@ -11,7 +11,7 @@ DB_DIR = BASE_DIR / "db"
 DB_PATH = DB_DIR / "polyglot.db"
 LANGUAGES_FILE = DATA_DIR / "languages.json"
 COGNATES_FILE = CLUSTERS_DIR / "cognates.json"
-DATA_VERSION = "2026.10"
+DATA_VERSION = "2026.11"
 
 # SRS defaults
 SRS_INITIAL_EASE = 2.5

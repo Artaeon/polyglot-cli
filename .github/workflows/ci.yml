@@ -30,3 +30,13 @@ jobs:
 
       - name: Test (pytest)
         run: pytest -q
+
+      - name: Validate content (offline)
+        run: python scripts/validate_content.py
+
+      - name: Content quality report
+        run: |
+          python scripts/content_quality_report.py \
+            --json-out .artifacts/content_quality.json \
+            --fail-under-avg 80 \
+            --fail-under-min 72

@@ -11,7 +11,7 @@
       "frequency_rank": 1801,
       "concept_id": "tpl9_i_dont_understand",
       "tone": null,
-      "notes": "template_pack_9"
+      "notes": "template_pack_9;cefr:A1+"
     },
     {
       "word": "Kde je toaleta?",
@@ -23,7 +23,7 @@
       "frequency_rank": 1802,
       "concept_id": "tpl9_where_is",
       "tone": null,
-      "notes": "template_pack_9"
+      "notes": "template_pack_9;cefr:A1+"
     },
     {
       "word": "Mám hlad.",
@@ -35,7 +35,7 @@
       "frequency_rank": 1803,
       "concept_id": "tpl9_i_am_hungry",
       "tone": null,
-      "notes": "template_pack_9"
+      "notes": "template_pack_9;cefr:A1+"
     },
     {
       "word": "Miluji tě.",
@@ -47,7 +47,7 @@
       "frequency_rank": 1804,
       "concept_id": "tpl9_i_love_you",
       "tone": null,
-      "notes": "template_pack_9"
+      "notes": "template_pack_9;cefr:A1+"
     },
     {
       "word": "Děkuji moc!",
@@ -59,7 +59,7 @@
       "frequency_rank": 1805,
       "concept_id": "tpl9_thank_you_very_much",
       "tone": null,
-      "notes": "template_pack_9"
+      "notes": "template_pack_9;cefr:A1+"
     },
     {
       "word": "Sklenici vody, prosím.",
@@ -71,7 +71,7 @@
       "frequency_rank": 1806,
       "concept_id": "tpl9_water_please",
       "tone": null,
-      "notes": "template_pack_9"
+      "notes": "template_pack_9;cefr:A1+"
     },
     {
       "word": "Kolik to stojí?",
@@ -83,7 +83,7 @@
       "frequency_rank": 1807,
       "concept_id": "tpl9_how_much_cost",
       "tone": null,
-      "notes": "template_pack_9"
+      "notes": "template_pack_9;cefr:A1+"
     },
     {
       "word": "Jmenuji se...",
@@ -95,7 +95,7 @@
       "frequency_rank": 1808,
       "concept_id": "tpl9_my_name_is",
       "tone": null,
-      "notes": "template_pack_9"
+      "notes": "template_pack_9;cefr:A1+"
     }
   ]
 }

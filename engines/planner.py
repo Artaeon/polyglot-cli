@@ -63,6 +63,7 @@ class PlannerEngine:
         # Determine focus language based on sprint week
         week = (sprint_day - 1) // 7 + 1
         focus = self._get_focus_languages(week, progress)
+        recommended_cefr = self.get_recommended_cefr_target(progress, focus)
 
         # Word of the day
         wotd = self.cluster.get_word_of_the_day()
@@ -74,10 +75,42 @@ class PlannerEngine:
             "total_due": total_due,
             "due_by_language": due_counts,
             "focus_languages": focus,
+            "recommended_cefr": recommended_cefr,
             "recommended_new_words": DEFAULT_NEW_WORDS_PER_SESSION,
             "word_of_the_day": wotd,
             "progress": progress,
         }
+
+    def get_recommended_cefr_target(
+        self,
+        progress: list[dict] | None = None,
+        focus_languages: list[dict] | None = None,
+    ) -> str:
+        """Recommend a CEFR band for phrase-heavy drills.
+
+        Uses average learned word count of current focus languages.
+        """
+        progress = progress or self.get_progress_by_language()
+        focus_languages = focus_languages or []
+
+        if focus_languages:
+            values = [f.get("learned", 0) for f in focus_languages]
+        else:
+            values = [p.get("learned", 0) for p in progress]
+
+        avg_learned = sum(values) / max(len(values), 1)
+
+        if avg_learned < 120:
+            return "A1"
+        if avg_learned < 280:
+            return "A1+"
+        if avg_learned < 500:
+            return "A2-"
+        if avg_learned < 750:
+            return "A2"
+        if avg_learned < 1000:
+            return "A2+"
+        return "B1-"
 
     def _get_focus_languages(self, week: int,
                               progress: list[dict]) -> list[dict]:

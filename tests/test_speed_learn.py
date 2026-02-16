@@ -3,6 +3,7 @@
 import pytest
 from engines.speed_learn import SpeedLearnEngine, DUAL_CODING_SCENES
 from engines.cluster import ClusterEngine
+from models import Word
 
 
 @pytest.fixture
@@ -139,3 +140,47 @@ def test_error_focused_words_empty(speed_engine):
     """No error words with fresh database."""
     words = speed_engine.get_error_focused_words(limit=10)
     assert len(words) == 0
+
+
+def test_micro_session_cefr_filter(populated_db):
+    """Micro session can filter cards by CEFR notes tag."""
+    cluster = ClusterEngine(populated_db)
+    engine = SpeedLearnEngine(populated_db, cluster)
+
+    extras = [
+        Word(
+            id=0,
+            language_id="ru",
+            word="пример_a1",
+            meaning_de="Beispiel A1",
+            meaning_en="example A1",
+            category="phrasen",
+            frequency_rank=100,
+            concept_id="example_a1",
+            notes="template_pack_test;cefr:A1",
+        ),
+        Word(
+            id=0,
+            language_id="ru",
+            word="пример_a2",
+            meaning_de="Beispiel A2",
+            meaning_en="example A2",
+            category="phrasen",
+            frequency_rank=101,
+            concept_id="example_a2",
+            notes="template_pack_test;cefr:A2",
+        ),
+    ]
+    for w in extras:
+        wid = populated_db.insert_word(w)
+        populated_db.create_review_card(wid)
+
+    cards = engine.prepare_micro_session(
+        lang_id="ru",
+        count=5,
+        target_cefr="A1",
+        include_lower_cefr=False,
+    )
+
+    assert any("cefr:A1" in c.get("notes", "") for c in cards)
+    assert not any("cefr:A2" in c.get("notes", "") for c in cards)

@@ -8,6 +8,9 @@ from datetime import date
 from typing import Optional
 
 
+CEFR_ORDER = ("A1", "A1+", "A2-", "A2", "A2+", "B1-")
+
+
 # Emoji scenes for dual coding
 DUAL_CODING_SCENES = {
     "water": "\U0001f4a7\U0001f30a ~~~~ Wasser fliesst",
@@ -39,6 +42,33 @@ class SpeedLearnEngine:
     def __init__(self, db, cluster_engine):
         self.db = db
         self.cluster_engine = cluster_engine
+
+    @staticmethod
+    def _normalize_cefr(target_cefr: str | None) -> str | None:
+        if not target_cefr:
+            return None
+        cefr = target_cefr.strip().upper()
+        return cefr if cefr in CEFR_ORDER else None
+
+    def _cefr_where_clause(self, target_cefr: str | None,
+                           include_lower: bool = True) -> tuple[str, list[str]]:
+        """Return SQL WHERE snippet + parameters for CEFR filtering.
+
+        CEFR tags are stored in notes as `cefr:<level>`.
+        """
+        cefr = self._normalize_cefr(target_cefr)
+        if not cefr:
+            return "", []
+
+        if include_lower:
+            idx = CEFR_ORDER.index(cefr)
+            levels = CEFR_ORDER[:idx + 1]
+        else:
+            levels = (cefr,)
+
+        clause = " AND (" + " OR ".join("w.notes LIKE ?" for _ in levels) + ")"
+        params = [f"%cefr:{lvl}%" for lvl in levels]
+        return clause, params
 
     # ── 1. Keyword Method ────────────────────────────────────────
 
@@ -80,7 +110,9 @@ class SpeedLearnEngine:
     # ── 2. Micro-Sessions ───────────────────────────────────────
 
     def prepare_micro_session(self, lang_id: str = None,
-                               count: int = 10) -> list[dict]:
+                               count: int = 10,
+                               target_cefr: str | None = None,
+                               include_lower_cefr: bool = True) -> list[dict]:
         """Select ~10 words optimized for retention in 2-minute burst."""
         # Priority: due cards > lowest ease > recently learned
         today = date.today().isoformat()
@@ -98,6 +130,14 @@ class SpeedLearnEngine:
         if lang_id:
             sql += " AND w.language_id = ?"
             params.append(lang_id)
+
+        cefr_clause, cefr_params = self._cefr_where_clause(
+            target_cefr,
+            include_lower=include_lower_cefr,
+        )
+        if cefr_clause:
+            sql += cefr_clause
+            params.extend(cefr_params)
 
         sql += " ORDER BY rc.ease_factor ASC, rc.next_review_date ASC LIMIT ?"
         params.append(count)
@@ -121,6 +161,14 @@ class SpeedLearnEngine:
                 sql2 += " WHERE w.language_id = ?"
                 params2.append(lang_id)
 
+            # Keep CEFR preference in fallback set where possible.
+            if cefr_clause:
+                if " WHERE " in sql2:
+                    sql2 += cefr_clause
+                else:
+                    sql2 += " WHERE " + cefr_clause.removeprefix(" AND ")
+                params2.extend(cefr_params)
+
             sql2 += " ORDER BY rc.created_at DESC LIMIT ?"
             params2.append(remaining + len(existing_ids))
 
@@ -138,10 +186,10 @@ class SpeedLearnEngine:
     # ── 3. Interleaving ─────────────────────────────────────────
 
     def prepare_interleaved_session(self, count: int = 15,
-                                     lang_ids: list[str] = None) -> list[dict]:
+                                     lang_ids: list[str] = None,
+                                     target_cefr: str | None = None,
+                                     include_lower_cefr: bool = True) -> list[dict]:
         """Shuffle to maximize diversity — no two consecutive same lang+cat."""
-        today = date.today().isoformat()
-
         sql = """SELECT rc.*, w.word, w.romanization, w.meaning_de,
                         w.meaning_en, w.language_id, w.pronunciation_hint,
                         w.concept_id, w.category, w.id as word_id,
@@ -149,12 +197,24 @@ class SpeedLearnEngine:
                  FROM review_cards rc
                  JOIN words w ON rc.word_id = w.id
                  JOIN languages l ON w.language_id = l.id"""
-        params: list = []
+        params: list[str | int] = []
+        where: list[str] = []
 
         if lang_ids:
             placeholders = ",".join("?" * len(lang_ids))
-            sql += f" WHERE w.language_id IN ({placeholders})"
+            where.append(f"w.language_id IN ({placeholders})")
             params.extend(lang_ids)
+
+        cefr_clause, cefr_params = self._cefr_where_clause(
+            target_cefr,
+            include_lower=include_lower_cefr,
+        )
+        if cefr_clause:
+            where.append(cefr_clause.removeprefix(" AND "))
+            params.extend(cefr_params)
+
+        if where:
+            sql += " WHERE " + " AND ".join(where)
 
         sql += " ORDER BY RANDOM() LIMIT ?"
         params.append(count * 3)
@@ -300,7 +360,9 @@ class SpeedLearnEngine:
     # ── 6. Error-Focused Drilling ────────────────────────────────
 
     def get_error_focused_words(self, limit: int = 15,
-                                 lang_id: str = None) -> list[dict]:
+                                 lang_id: str = None,
+                                 target_cefr: str | None = None,
+                                 include_lower_cefr: bool = True) -> list[dict]:
         """Get cards with ease < 1.8 or retention < 50%."""
         sql = """SELECT rc.*, w.word, w.romanization, w.meaning_de,
                         w.meaning_en, w.language_id, w.pronunciation_hint,
@@ -318,6 +380,14 @@ class SpeedLearnEngine:
         if lang_id:
             sql += " AND w.language_id = ?"
             params.append(lang_id)
+
+        cefr_clause, cefr_params = self._cefr_where_clause(
+            target_cefr,
+            include_lower=include_lower_cefr,
+        )
+        if cefr_clause:
+            sql += cefr_clause
+            params.extend(cefr_params)
 
         sql += " ORDER BY rc.ease_factor ASC LIMIT ?"
         params.append(limit)

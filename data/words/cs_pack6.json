@@ -11,7 +11,7 @@
       "frequency_rank": 1501,
       "concept_id": "tpl6_i_speak_language",
       "tone": null,
-      "notes": "template_pack_6"
+      "notes": "template_pack_6;cefr:A1"
     },
     {
       "word": "Kolik je hodin?",
@@ -23,7 +23,7 @@
       "frequency_rank": 1502,
       "concept_id": "tpl6_what_time_is_it",
       "tone": null,
-      "notes": "template_pack_6"
+      "notes": "template_pack_6;cefr:A1"
     },
     {
       "word": "Dnes je hezké počasí.",
@@ -35,7 +35,7 @@
       "frequency_rank": 1503,
       "concept_id": "tpl6_the_weather_is_nice",
       "tone": null,
-      "notes": "template_pack_6"
+      "notes": "template_pack_6;cefr:A1"
     },
     {
       "word": "Mám hlad.",
@@ -47,7 +47,7 @@
       "frequency_rank": 1504,
       "concept_id": "tpl6_i_am_hungry",
       "tone": null,
-      "notes": "template_pack_6"
+      "notes": "template_pack_6;cefr:A1"
     },
     {
       "word": "Miluji tě.",
@@ -59,7 +59,7 @@
       "frequency_rank": 1505,
       "concept_id": "tpl6_i_love_you",
       "tone": null,
-      "notes": "template_pack_6"
+      "notes": "template_pack_6;cefr:A1"
     },
     {
       "word": "Ahoj, jak se máš?",
@@ -71,7 +71,7 @@
       "frequency_rank": 1506,
       "concept_id": "tpl6_hello_how_are_you",
       "tone": null,
-      "notes": "template_pack_6"
+      "notes": "template_pack_6;cefr:A1"
     },
     {
       "word": "Kde je toaleta?",
@@ -83,7 +83,7 @@
       "frequency_rank": 1507,
       "concept_id": "tpl6_where_is",
       "tone": null,
-      "notes": "template_pack_6"
+      "notes": "template_pack_6;cefr:A1"
     },
     {
       "word": "Kolik to stojí?",
@@ -95,7 +95,7 @@
       "frequency_rank": 1508,
       "concept_id": "tpl6_how_much_cost",
       "tone": null,
-      "notes": "template_pack_6"
+      "notes": "template_pack_6;cefr:A1"
     }
   ]
 }

@@ -92,6 +92,15 @@ PACK_DEFS = {
     ],
 }
 
+PACK_CEFR = {
+    5: "A1",
+    6: "A1",
+    7: "A1",
+    8: "A1+",
+    9: "A1+",
+    10: "A2",
+}
+
 
 def load_json(path: Path):
     with open(path, encoding="utf-8") as f:
@@ -107,6 +116,7 @@ def main() -> int:
 
     for pack_num, template_ids in PACK_DEFS.items():
         base_rank = 1400 + (pack_num - 5) * 100
+        cefr = PACK_CEFR.get(pack_num, "A1")
 
         for lang_id in languages:
             words = []
@@ -127,7 +137,7 @@ def main() -> int:
                         "frequency_rank": base_rank + offset,
                         "concept_id": f"tpl{pack_num}_{sid}",
                         "tone": None,
-                        "notes": f"template_pack_{pack_num}",
+                        "notes": f"template_pack_{pack_num};cefr:{cefr}",
                     }
                 )
 

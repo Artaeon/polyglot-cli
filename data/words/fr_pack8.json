@@ -11,7 +11,7 @@
       "frequency_rank": 1701,
       "concept_id": "tpl8_hello_how_are_you",
       "tone": null,
-      "notes": "template_pack_8"
+      "notes": "template_pack_8;cefr:A1+"
     },
     {
       "word": "Je m'appelle...",
@@ -23,7 +23,7 @@
       "frequency_rank": 1702,
       "concept_id": "tpl8_my_name_is",
       "tone": null,
-      "notes": "template_pack_8"
+      "notes": "template_pack_8;cefr:A1+"
     },
     {
       "word": "Je parle un peu...",
@@ -35,7 +35,7 @@
       "frequency_rank": 1703,
       "concept_id": "tpl8_i_speak_language",
       "tone": null,
-      "notes": "template_pack_8"
+      "notes": "template_pack_8;cefr:A1+"
     },
     {
       "word": "Où sont les toilettes ?",
@@ -47,7 +47,7 @@
       "frequency_rank": 1704,
       "concept_id": "tpl8_where_is",
       "tone": null,
-      "notes": "template_pack_8"
+      "notes": "template_pack_8;cefr:A1+"
     },
     {
       "word": "Combien ça coûte ?",
@@ -59,7 +59,7 @@
       "frequency_rank": 1705,
       "concept_id": "tpl8_how_much_cost",
       "tone": null,
-      "notes": "template_pack_8"
+      "notes": "template_pack_8;cefr:A1+"
     },
     {
       "word": "Je voudrais...",
@@ -71,7 +71,7 @@
       "frequency_rank": 1706,
       "concept_id": "tpl8_i_would_like",
       "tone": null,
-      "notes": "template_pack_8"
+      "notes": "template_pack_8;cefr:A1+"
     },
     {
       "word": "Quelle heure est-il ?",
@@ -83,7 +83,7 @@
       "frequency_rank": 1707,
       "concept_id": "tpl8_what_time_is_it",
       "tone": null,
-      "notes": "template_pack_8"
+      "notes": "template_pack_8;cefr:A1+"
     },
     {
       "word": "Il fait beau aujourd'hui.",
@@ -95,7 +95,7 @@
       "frequency_rank": 1708,
       "concept_id": "tpl8_the_weather_is_nice",
       "tone": null,
-      "notes": "template_pack_8"
+      "notes": "template_pack_8;cefr:A1+"
     }
   ]
 }

@@ -52,6 +52,7 @@ The result is a fast, private, and extensible environment suitable for independe
 - **SRS review engine** for long-term memory consolidation.
 - **Cluster drills** to exploit cognates and family-level similarity.
 - **Sentence templates** for immediate productive usage.
+- **CEFR-aware drill selection** for adaptive phrase difficulty targeting.
 - **Conjugation practice** with morphology-oriented repetition.
 - **Adaptive + gamified systems** (daily challenge, XP, statistics).
 - **Custom vocabulary ingestion** for personal or domain-specific lexicons.
@@ -60,11 +61,11 @@ The result is a fast, private, and extensible environment suitable for independe
 
 ## Corpus Scope (Current)
 
-As of `DATA_VERSION = 2026.08`:
+As of `DATA_VERSION = 2026.11`:
 
 - **22 languages**
-- **176 word data files** (base + expansion packs)
-- Per-language word totals currently in the high hundreds (roughly **348–352 raw entries**, **336–340 unique entries**, language-dependent)
+- **242 word data files** (base + expansion packs)
+- Per-language word totals currently in the high hundreds (roughly **372–376 raw entries**, language-dependent)
 
 This growth is supported by automated phrase-pack generation plus strict offline validation.
 
@@ -97,6 +98,7 @@ Polyglot CLI favors local reproducibility over opaque online dependency.
 
 ```bash
 python scripts/validate_content.py
+python scripts/content_quality_report.py
 ```
 
 Validation includes:
@@ -105,6 +107,7 @@ Validation includes:
 - duplicate tuple detection
 - pack consistency checks
 - sentence template coverage and integrity checks
+- language-level quality scoring (`raw_count`, uniqueness, category coverage, CEFR tag coverage)
 
 ### Static and behavioral checks
 
@@ -139,6 +142,7 @@ ruff check .
 mypy .
 pytest -q
 python scripts/validate_content.py
+python scripts/content_quality_report.py
 ```
 
 ---
@@ -162,6 +166,7 @@ This approach seeks to maximize retention-per-minute for multilingual learners.
 - Add or modify files under [data/words](data/words).
 - Add sentence templates in [data/sentences/templates.json](data/sentences/templates.json).
 - Use generation scripts in [scripts](scripts) for scale operations.
+- For phrase packs, include CEFR metadata in `notes` using `cefr:<level>`.
 - Run validator before committing new packs.
 - Bump `DATA_VERSION` in [config.py](config.py) so incremental import runs on startup.
 

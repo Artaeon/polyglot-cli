@@ -11,7 +11,7 @@
       "frequency_rank": 1401,
       "concept_id": "tpl5_hello_how_are_you",
       "tone": null,
-      "notes": "template_pack_5"
+      "notes": "template_pack_5;cefr:A1"
     },
     {
       "word": "Мяне завуць...",
@@ -23,7 +23,7 @@
       "frequency_rank": 1402,
       "concept_id": "tpl5_my_name_is",
       "tone": null,
-      "notes": "template_pack_5"
+      "notes": "template_pack_5;cefr:A1"
     },
     {
       "word": "Я не разумею.",
@@ -35,7 +35,7 @@
       "frequency_rank": 1403,
       "concept_id": "tpl5_i_dont_understand",
       "tone": null,
-      "notes": "template_pack_5"
+      "notes": "template_pack_5;cefr:A1"
     },
     {
       "word": "Дзе туалет?",
@@ -47,7 +47,7 @@
       "frequency_rank": 1404,
       "concept_id": "tpl5_where_is",
       "tone": null,
-      "notes": "template_pack_5"
+      "notes": "template_pack_5;cefr:A1"
     },
     {
       "word": "Колькі гэта каштуе?",
@@ -59,7 +59,7 @@
       "frequency_rank": 1405,
       "concept_id": "tpl5_how_much_cost",
       "tone": null,
-      "notes": "template_pack_5"
+      "notes": "template_pack_5;cefr:A1"
     },
     {
       "word": "Я хацеў бы (хацела б)...",
@@ -71,7 +71,7 @@
       "frequency_rank": 1406,
       "concept_id": "tpl5_i_would_like",
       "tone": null,
-      "notes": "template_pack_5"
+      "notes": "template_pack_5;cefr:A1"
     },
     {
       "word": "Вялікі дзякуй!",
@@ -83,7 +83,7 @@
       "frequency_rank": 1407,
       "concept_id": "tpl5_thank_you_very_much",
       "tone": null,
-      "notes": "template_pack_5"
+      "notes": "template_pack_5;cefr:A1"
     },
     {
       "word": "Шклянку вады, калі ласка.",
@@ -95,7 +95,7 @@
       "frequency_rank": 1408,
       "concept_id": "tpl5_water_please",
       "tone": null,
-      "notes": "template_pack_5"
+      "notes": "template_pack_5;cefr:A1"
     }
   ]
 }

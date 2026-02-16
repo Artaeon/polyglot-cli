@@ -11,7 +11,7 @@
       "frequency_rank": 1901,
       "concept_id": "tpl10_hello_how_are_you",
       "tone": null,
-      "notes": "template_pack_10"
+      "notes": "template_pack_10;cefr:A2"
     },
     {
       "word": "Ne razumijem.",
@@ -23,7 +23,7 @@
       "frequency_rank": 1902,
       "concept_id": "tpl10_i_dont_understand",
       "tone": null,
-      "notes": "template_pack_10"
+      "notes": "template_pack_10;cefr:A2"
     },
     {
       "word": "Gdje je toalet?",
@@ -35,7 +35,7 @@
       "frequency_rank": 1903,
       "concept_id": "tpl10_where_is",
       "tone": null,
-      "notes": "template_pack_10"
+      "notes": "template_pack_10;cefr:A2"
     },
     {
       "word": "Koliko to košta?",
@@ -47,7 +47,7 @@
       "frequency_rank": 1904,
       "concept_id": "tpl10_how_much_cost",
       "tone": null,
-      "notes": "template_pack_10"
+      "notes": "template_pack_10;cefr:A2"
     },
     {
       "word": "Htio (Htjela) bih...",
@@ -59,7 +59,7 @@
       "frequency_rank": 1905,
       "concept_id": "tpl10_i_would_like",
       "tone": null,
-      "notes": "template_pack_10"
+      "notes": "template_pack_10;cefr:A2"
     },
     {
       "word": "Gladan / Gladna sam.",
@@ -71,7 +71,7 @@
       "frequency_rank": 1906,
       "concept_id": "tpl10_i_am_hungry",
       "tone": null,
-      "notes": "template_pack_10"
+      "notes": "template_pack_10;cefr:A2"
     },
     {
       "word": "Čašu vode, molim.",
@@ -83,7 +83,7 @@
       "frequency_rank": 1907,
       "concept_id": "tpl10_water_please",
       "tone": null,
-      "notes": "template_pack_10"
+      "notes": "template_pack_10;cefr:A2"
     },
     {
       "word": "Puno hvala!",
@@ -95,7 +95,7 @@
       "frequency_rank": 1908,
       "concept_id": "tpl10_thank_you_very_much",
       "tone": null,
-      "notes": "template_pack_10"
+      "notes": "template_pack_10;cefr:A2"
     }
   ]
 }

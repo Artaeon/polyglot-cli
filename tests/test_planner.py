@@ -54,3 +54,16 @@ def test_get_sprint_summary(planner):
     assert "total_learned" in summary
     assert "streak" in summary
     assert "sprint_day" in summary
+
+
+def test_get_daily_plan_contains_recommended_cefr(planner):
+    """Daily plan exposes CEFR recommendation for adaptive drills."""
+    plan = planner.get_daily_plan()
+    assert "recommended_cefr" in plan
+    assert isinstance(plan["recommended_cefr"], str)
+
+
+def test_recommended_cefr_target(planner):
+    """Recommended CEFR target is within supported range."""
+    target = planner.get_recommended_cefr_target()
+    assert target in {"A1", "A1+", "A2-", "A2", "A2+", "B1-"}

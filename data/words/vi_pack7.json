@@ -11,7 +11,7 @@
       "frequency_rank": 1601,
       "concept_id": "tpl7_my_name_is",
       "tone": null,
-      "notes": "template_pack_7"
+      "notes": "template_pack_7;cefr:A1"
     },
     {
       "word": "Tôi nói một chút...",
@@ -23,7 +23,7 @@
       "frequency_rank": 1602,
       "concept_id": "tpl7_i_speak_language",
       "tone": null,
-      "notes": "template_pack_7"
+      "notes": "template_pack_7;cefr:A1"
     },
     {
       "word": "Tôi không hiểu.",
@@ -35,7 +35,7 @@
       "frequency_rank": 1603,
       "concept_id": "tpl7_i_dont_understand",
       "tone": null,
-      "notes": "template_pack_7"
+      "notes": "template_pack_7;cefr:A1"
     },
     {
       "word": "Tôi muốn...",
@@ -47,7 +47,7 @@
       "frequency_rank": 1604,
       "concept_id": "tpl7_i_would_like",
       "tone": null,
-      "notes": "template_pack_7"
+      "notes": "template_pack_7;cefr:A1"
     },
     {
       "word": "Cảm ơn rất nhiều!",
@@ -59,7 +59,7 @@
       "frequency_rank": 1605,
       "concept_id": "tpl7_thank_you_very_much",
       "tone": null,
-      "notes": "template_pack_7"
+      "notes": "template_pack_7;cefr:A1"
     },
     {
       "word": "Bây giờ là mấy giờ?",
@@ -71,7 +71,7 @@
       "frequency_rank": 1606,
       "concept_id": "tpl7_what_time_is_it",
       "tone": null,
-      "notes": "template_pack_7"
+      "notes": "template_pack_7;cefr:A1"
     },
     {
       "word": "Hôm nay thời tiết đẹp.",
@@ -83,7 +83,7 @@
       "frequency_rank": 1607,
       "concept_id": "tpl7_the_weather_is_nice",
       "tone": null,
-      "notes": "template_pack_7"
+      "notes": "template_pack_7;cefr:A1"
     },
     {
       "word": "Cho tôi một ly nước.",
@@ -95,7 +95,7 @@
       "frequency_rank": 1608,
       "concept_id": "tpl7_water_please",
       "tone": null,
-      "notes": "template_pack_7"
+      "notes": "template_pack_7;cefr:A1"
     }
   ]
 }
