@@ -1,0 +1,13 @@
+{
+  "language_id": "ru",
+  "words": [
+    {"word": "вокзал", "romanization": "vokzal", "pronunciation_hint": "vak-ZAL", "meaning_de": "Bahnhof", "meaning_en": "station", "category": "fragen_richtungen", "frequency_rank": 1001, "concept_id": "station", "tone": null, "notes": "Ж/д вокзал"},
+    {"word": "билет", "romanization": "bilet", "pronunciation_hint": "bee-LYET", "meaning_de": "Ticket", "meaning_en": "ticket", "category": "fragen_richtungen", "frequency_rank": 1002, "concept_id": "ticket", "tone": null, "notes": "На поезд/автобус"},
+    {"word": "аптека", "romanization": "apteka", "pronunciation_hint": "ap-TYE-ka", "meaning_de": "Apotheke", "meaning_en": "pharmacy", "category": "koerper_gesundheit", "frequency_rank": 1003, "concept_id": "pharmacy", "tone": null, "notes": "Лекарства"},
+    {"word": "мне нужна помощь", "romanization": "mne nuzhna pomoshch", "pronunciation_hint": "mnye nuzh-NA PO-moshch", "meaning_de": "ich brauche Hilfe", "meaning_en": "I need help", "category": "phrasen", "frequency_rank": 1004, "concept_id": "i_need_help", "tone": null, "notes": "В экстренной ситуации"},
+    {"word": "где остановка?", "romanization": "gde ostanovka?", "pronunciation_hint": "gdye as-ta-NOV-ka", "meaning_de": "wo ist die Haltestelle?", "meaning_en": "where is the stop?", "category": "fragen_richtungen", "frequency_rank": 1005, "concept_id": "where_is_stop", "tone": null, "notes": "Автобус/трамвай"},
+    {"word": "открыто", "romanization": "otkryto", "pronunciation_hint": "at-KRY-ta", "meaning_de": "offen", "meaning_en": "open", "category": "adjektive", "frequency_rank": 1006, "concept_id": "open_adj", "tone": null, "notes": "Магазин открыт"},
+    {"word": "закрыто", "romanization": "zakryto", "pronunciation_hint": "za-KRY-ta", "meaning_de": "geschlossen", "meaning_en": "closed", "category": "adjektive", "frequency_rank": 1007, "concept_id": "closed_adj", "tone": null, "notes": "Магазин закрыт"},
+    {"word": "чек", "romanization": "chek", "pronunciation_hint": "chek", "meaning_de": "Quittung", "meaning_en": "receipt", "category": "essen_trinken", "frequency_rank": 1008, "concept_id": "receipt", "tone": null, "notes": "Кассовый чек"}
+  ]
+}

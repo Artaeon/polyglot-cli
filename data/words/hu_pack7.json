@@ -1,0 +1,101 @@
+{
+  "language_id": "hu",
+  "words": [
+    {
+      "word": "A nevem...",
+      "romanization": "",
+      "pronunciation_hint": "a NE-wem",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1601,
+      "concept_id": "tpl7_my_name_is",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Beszélek egy kicsit...",
+      "romanization": "",
+      "pronunciation_hint": "BE-see-lek edj KI-tschit",
+      "meaning_de": "Ich spreche ein bisschen...",
+      "meaning_en": "I speak a little...",
+      "category": "phrasen",
+      "frequency_rank": 1602,
+      "concept_id": "tpl7_i_speak_language",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Nem értem.",
+      "romanization": "",
+      "pronunciation_hint": "nem ER-tem",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1603,
+      "concept_id": "tpl7_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Szeretnék...",
+      "romanization": "",
+      "pronunciation_hint": "SE-ret-neek",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1604,
+      "concept_id": "tpl7_i_would_like",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Köszönöm szépen!",
+      "romanization": "",
+      "pronunciation_hint": "KÖ-sö-nöm SEE-pen",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1605,
+      "concept_id": "tpl7_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Hány óra van?",
+      "romanization": "",
+      "pronunciation_hint": "haany O-ra wan",
+      "meaning_de": "Wie spät ist es?",
+      "meaning_en": "What time is it?",
+      "category": "phrasen",
+      "frequency_rank": 1606,
+      "concept_id": "tpl7_what_time_is_it",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Ma szép az idő.",
+      "romanization": "",
+      "pronunciation_hint": "ma seep as I-dö",
+      "meaning_de": "Das Wetter ist schön heute.",
+      "meaning_en": "The weather is nice today.",
+      "category": "natur_wetter",
+      "frequency_rank": 1607,
+      "concept_id": "tpl7_the_weather_is_nice",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Egy pohár vizet kérek.",
+      "romanization": "",
+      "pronunciation_hint": "edj PO-haar WI-set KEE-rek",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1608,
+      "concept_id": "tpl7_water_please",
+      "tone": null,
+      "notes": "template_pack_7"
+    }
+  ]
+}

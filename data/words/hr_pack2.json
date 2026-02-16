@@ -1,0 +1,11 @@
+{
+  "language_id": "hr",
+  "words": [
+    {"word": "imam rezervaciju", "romanization": "", "pronunciation_hint": "EE-mam re-zer-VA-tsi-yu", "meaning_de": "ich habe eine Reservierung", "meaning_en": "I have a reservation", "category": "phrasen", "frequency_rank": 1101, "concept_id": "i_have_reservation", "tone": null, "notes": "Hotel"},
+    {"word": "trebam liječnika", "romanization": "", "pronunciation_hint": "TRE-bam LI-yech-ni-ka", "meaning_de": "ich brauche einen Arzt", "meaning_en": "I need a doctor", "category": "koerper_gesundheit", "frequency_rank": 1102, "concept_id": "i_need_doctor", "tone": null, "notes": "Hitno"},
+    {"word": "zovite policiju", "romanization": "", "pronunciation_hint": "ZO-vi-te po-LI-tsi-yu", "meaning_de": "rufen Sie die Polizei", "meaning_en": "call the police", "category": "phrasen", "frequency_rank": 1103, "concept_id": "call_police", "tone": null, "notes": "Hitna situacija"},
+    {"word": "gdje je bolnica?", "romanization": "", "pronunciation_hint": "gdye ye BOL-ni-tsa", "meaning_de": "wo ist das Krankenhaus?", "meaning_en": "where is the hospital?", "category": "fragen_richtungen", "frequency_rank": 1104, "concept_id": "where_is_hospital", "tone": null, "notes": "Pitati za put"},
+    {"word": "izgubio sam putovnicu", "romanization": "", "pronunciation_hint": "iz-GU-bi-o sam pu-TOV-ni-tsu", "meaning_de": "ich habe meinen Pass verloren", "meaning_en": "I lost my passport", "category": "phrasen", "frequency_rank": 1105, "concept_id": "i_lost_passport", "tone": null, "notes": "Dokumenti"},
+    {"word": "mogu li platiti karticom?", "romanization": "", "pronunciation_hint": "MO-gu li PLA-ti-ti KAR-ti-tsom", "meaning_de": "kann ich mit Karte zahlen?", "meaning_en": "can I pay by card?", "category": "essen_trinken", "frequency_rank": 1106, "concept_id": "card_payment_question", "tone": null, "notes": "Plaćanje"}
+  ]
+}

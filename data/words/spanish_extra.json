@@ -1,0 +1,13 @@
+{
+  "language_id": "es",
+  "words": [
+    {"word": "estación", "romanization": "", "pronunciation_hint": "ehs-ta-SYON", "meaning_de": "Bahnhof", "meaning_en": "station", "category": "fragen_richtungen", "frequency_rank": 1001, "concept_id": "station", "tone": null, "notes": "Estación de tren"},
+    {"word": "billete", "romanization": "", "pronunciation_hint": "bee-YEH-teh", "meaning_de": "Ticket", "meaning_en": "ticket", "category": "fragen_richtungen", "frequency_rank": 1002, "concept_id": "ticket", "tone": null, "notes": "También: boleto (LatAm)"},
+    {"word": "farmacia", "romanization": "", "pronunciation_hint": "far-MA-sya", "meaning_de": "Apotheke", "meaning_en": "pharmacy", "category": "koerper_gesundheit", "frequency_rank": 1003, "concept_id": "pharmacy", "tone": null, "notes": "Salud"},
+    {"word": "necesito ayuda", "romanization": "", "pronunciation_hint": "neh-seh-SEE-toh ah-YOO-dah", "meaning_de": "ich brauche Hilfe", "meaning_en": "I need help", "category": "phrasen", "frequency_rank": 1004, "concept_id": "i_need_help", "tone": null, "notes": "Frase de emergencia"},
+    {"word": "¿dónde está la parada?", "romanization": "", "pronunciation_hint": "DON-deh ehs-TA la pah-RA-dah", "meaning_de": "wo ist die Haltestelle?", "meaning_en": "where is the stop?", "category": "fragen_richtungen", "frequency_rank": 1005, "concept_id": "where_is_stop", "tone": null, "notes": "Parada de bus"},
+    {"word": "abierto", "romanization": "", "pronunciation_hint": "ah-BYEHR-toh", "meaning_de": "offen", "meaning_en": "open", "category": "adjektive", "frequency_rank": 1006, "concept_id": "open_adj", "tone": null, "notes": "Local abierto"},
+    {"word": "cerrado", "romanization": "", "pronunciation_hint": "seh-RRA-doh", "meaning_de": "geschlossen", "meaning_en": "closed", "category": "adjektive", "frequency_rank": 1007, "concept_id": "closed_adj", "tone": null, "notes": "Local cerrado"},
+    {"word": "recibo", "romanization": "", "pronunciation_hint": "reh-SEE-boh", "meaning_de": "Quittung", "meaning_en": "receipt", "category": "essen_trinken", "frequency_rank": 1008, "concept_id": "receipt", "tone": null, "notes": "También: ticket"}
+  ]
+}

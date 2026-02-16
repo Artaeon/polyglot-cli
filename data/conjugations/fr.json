@@ -1,0 +1,729 @@
+{
+  "language_id": "fr",
+  "meta": {
+    "persons": ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"],
+    "person_labels_de": {
+      "1sg": "ich (je)",
+      "2sg": "du (tu)",
+      "3sg": "er/sie (il/elle)",
+      "1pl": "wir (nous)",
+      "2pl": "ihr (vous)",
+      "3pl": "sie (ils/elles)"
+    },
+    "tenses": ["present", "passe_compose", "imparfait"],
+    "tense_labels_de": {
+      "present": "Praesens",
+      "passe_compose": "Passé composé",
+      "imparfait": "Imperfekt"
+    }
+  },
+  "conjugation_patterns": [
+    {
+      "pattern_id": "er_regular",
+      "description_de": "-er Verben (1. Gruppe)",
+      "rule_de": "Stamm + -e, -es, -e, -ons, -ez, -ent",
+      "endings": {
+        "present": {
+          "1sg": "-e",
+          "2sg": "-es",
+          "3sg": "-e",
+          "1pl": "-ons",
+          "2pl": "-ez",
+          "3pl": "-ent"
+        }
+      }
+    },
+    {
+      "pattern_id": "ir_regular",
+      "description_de": "-ir Verben (2. Gruppe)",
+      "rule_de": "Stamm + -is, -is, -it, -issons, -issez, -issent",
+      "endings": {
+        "present": {
+          "1sg": "-is",
+          "2sg": "-is",
+          "3sg": "-it",
+          "1pl": "-issons",
+          "2pl": "-issez",
+          "3pl": "-issent"
+        }
+      }
+    },
+    {
+      "pattern_id": "re_regular",
+      "description_de": "-re Verben (3. Gruppe)",
+      "rule_de": "Stamm + -s, -s, -, -ons, -ez, -ent",
+      "endings": {
+        "present": {
+          "1sg": "-s",
+          "2sg": "-s",
+          "3sg": "-",
+          "1pl": "-ons",
+          "2pl": "-ez",
+          "3pl": "-ent"
+        }
+      }
+    }
+  ],
+  "verbs": [
+    {
+      "infinitive": "travailler",
+      "meaning_de": "arbeiten",
+      "meaning_en": "work",
+      "concept_id": "work",
+      "pattern_id": "er_regular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "travaille", "romanization": null },
+          "2sg": { "form": "travailles", "romanization": null },
+          "3sg": { "form": "travaille", "romanization": null },
+          "1pl": { "form": "travaillons", "romanization": null },
+          "2pl": { "form": "travaillez", "romanization": null },
+          "3pl": { "form": "travaillent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai travaillé", "romanization": null },
+          "2sg": { "form": "as travaillé", "romanization": null },
+          "3sg": { "form": "a travaillé", "romanization": null },
+          "1pl": { "form": "avons travaillé", "romanization": null },
+          "2pl": { "form": "avez travaillé", "romanization": null },
+          "3pl": { "form": "ont travaillé", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "travaillais", "romanization": null },
+          "2sg": { "form": "travaillais", "romanization": null },
+          "3sg": { "form": "travaillait", "romanization": null },
+          "1pl": { "form": "travaillions", "romanization": null },
+          "2pl": { "form": "travailliez", "romanization": null },
+          "3pl": { "form": "travaillaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "savoir",
+      "meaning_de": "wissen",
+      "meaning_en": "know",
+      "concept_id": "know",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "sais", "romanization": null },
+          "2sg": { "form": "sais", "romanization": null },
+          "3sg": { "form": "sait", "romanization": null },
+          "1pl": { "form": "savons", "romanization": null },
+          "2pl": { "form": "savez", "romanization": null },
+          "3pl": { "form": "savent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai su", "romanization": null },
+          "2sg": { "form": "as su", "romanization": null },
+          "3sg": { "form": "a su", "romanization": null },
+          "1pl": { "form": "avons su", "romanization": null },
+          "2pl": { "form": "avez su", "romanization": null },
+          "3pl": { "form": "ont su", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "savais", "romanization": null },
+          "2sg": { "form": "savais", "romanization": null },
+          "3sg": { "form": "savait", "romanization": null },
+          "1pl": { "form": "savions", "romanization": null },
+          "2pl": { "form": "saviez", "romanization": null },
+          "3pl": { "form": "savaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "lire",
+      "meaning_de": "lesen",
+      "meaning_en": "read",
+      "concept_id": "read",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "lis", "romanization": null },
+          "2sg": { "form": "lis", "romanization": null },
+          "3sg": { "form": "lit", "romanization": null },
+          "1pl": { "form": "lisons", "romanization": null },
+          "2pl": { "form": "lisez", "romanization": null },
+          "3pl": { "form": "lisent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai lu", "romanization": null },
+          "2sg": { "form": "as lu", "romanization": null },
+          "3sg": { "form": "a lu", "romanization": null },
+          "1pl": { "form": "avons lu", "romanization": null },
+          "2pl": { "form": "avez lu", "romanization": null },
+          "3pl": { "form": "ont lu", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "lisais", "romanization": null },
+          "2sg": { "form": "lisais", "romanization": null },
+          "3sg": { "form": "lisait", "romanization": null },
+          "1pl": { "form": "lisions", "romanization": null },
+          "2pl": { "form": "lisiez", "romanization": null },
+          "3pl": { "form": "lisaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "écrire",
+      "meaning_de": "schreiben",
+      "meaning_en": "write",
+      "concept_id": "write",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "écris", "romanization": null },
+          "2sg": { "form": "écris", "romanization": null },
+          "3sg": { "form": "écrit", "romanization": null },
+          "1pl": { "form": "écrivons", "romanization": null },
+          "2pl": { "form": "écrivez", "romanization": null },
+          "3pl": { "form": "écrivent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai écrit", "romanization": null },
+          "2sg": { "form": "as écrit", "romanization": null },
+          "3sg": { "form": "a écrit", "romanization": null },
+          "1pl": { "form": "avons écrit", "romanization": null },
+          "2pl": { "form": "avez écrit", "romanization": null },
+          "3pl": { "form": "ont écrit", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "écrivais", "romanization": null },
+          "2sg": { "form": "écrivais", "romanization": null },
+          "3sg": { "form": "écrivait", "romanization": null },
+          "1pl": { "form": "écrivions", "romanization": null },
+          "2pl": { "form": "écriviez", "romanization": null },
+          "3pl": { "form": "écrivaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "faire",
+      "meaning_de": "tun/machen",
+      "meaning_en": "do/make",
+      "concept_id": "do_make",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "fais", "romanization": null },
+          "2sg": { "form": "fais", "romanization": null },
+          "3sg": { "form": "fait", "romanization": null },
+          "1pl": { "form": "faisons", "romanization": null },
+          "2pl": { "form": "faites", "romanization": null },
+          "3pl": { "form": "font", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai fait", "romanization": null },
+          "2sg": { "form": "as fait", "romanization": null },
+          "3sg": { "form": "a fait", "romanization": null },
+          "1pl": { "form": "avons fait", "romanization": null },
+          "2pl": { "form": "avez fait", "romanization": null },
+          "3pl": { "form": "ont fait", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "faisais", "romanization": null },
+          "2sg": { "form": "faisais", "romanization": null },
+          "3sg": { "form": "faisait", "romanization": null },
+          "1pl": { "form": "faisions", "romanization": null },
+          "2pl": { "form": "faisiez", "romanization": null },
+          "3pl": { "form": "faisaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "comprendre",
+      "meaning_de": "verstehen",
+      "meaning_en": "understand",
+      "concept_id": "understand",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "comprends", "romanization": null },
+          "2sg": { "form": "comprends", "romanization": null },
+          "3sg": { "form": "comprend", "romanization": null },
+          "1pl": { "form": "comprenons", "romanization": null },
+          "2pl": { "form": "comprenez", "romanization": null },
+          "3pl": { "form": "comprennent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai compris", "romanization": null },
+          "2sg": { "form": "as compris", "romanization": null },
+          "3sg": { "form": "a compris", "romanization": null },
+          "1pl": { "form": "avons compris", "romanization": null },
+          "2pl": { "form": "avez compris", "romanization": null },
+          "3pl": { "form": "ont compris", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "comprenais", "romanization": null },
+          "2sg": { "form": "comprenais", "romanization": null },
+          "3sg": { "form": "comprenait", "romanization": null },
+          "1pl": { "form": "comprenions", "romanization": null },
+          "2pl": { "form": "compreniez", "romanization": null },
+          "3pl": { "form": "comprenaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "vivre",
+      "meaning_de": "leben",
+      "meaning_en": "live",
+      "concept_id": "live",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "vis", "romanization": null },
+          "2sg": { "form": "vis", "romanization": null },
+          "3sg": { "form": "vit", "romanization": null },
+          "1pl": { "form": "vivons", "romanization": null },
+          "2pl": { "form": "vivez", "romanization": null },
+          "3pl": { "form": "vivent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai vécu", "romanization": null },
+          "2sg": { "form": "as vécu", "romanization": null },
+          "3sg": { "form": "a vécu", "romanization": null },
+          "1pl": { "form": "avons vécu", "romanization": null },
+          "2pl": { "form": "avez vécu", "romanization": null },
+          "3pl": { "form": "ont vécu", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "vivais", "romanization": null },
+          "2sg": { "form": "vivais", "romanization": null },
+          "3sg": { "form": "vivait", "romanization": null },
+          "1pl": { "form": "vivions", "romanization": null },
+          "2pl": { "form": "viviez", "romanization": null },
+          "3pl": { "form": "vivaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "donner",
+      "meaning_de": "geben",
+      "meaning_en": "give",
+      "concept_id": "give",
+      "pattern_id": "er_regular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "donne", "romanization": null },
+          "2sg": { "form": "donnes", "romanization": null },
+          "3sg": { "form": "donne", "romanization": null },
+          "1pl": { "form": "donnons", "romanization": null },
+          "2pl": { "form": "donnez", "romanization": null },
+          "3pl": { "form": "donnent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai donné", "romanization": null },
+          "2sg": { "form": "as donné", "romanization": null },
+          "3sg": { "form": "a donné", "romanization": null },
+          "1pl": { "form": "avons donné", "romanization": null },
+          "2pl": { "form": "avez donné", "romanization": null },
+          "3pl": { "form": "ont donné", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "donnais", "romanization": null },
+          "2sg": { "form": "donnais", "romanization": null },
+          "3sg": { "form": "donnait", "romanization": null },
+          "1pl": { "form": "donnions", "romanization": null },
+          "2pl": { "form": "donniez", "romanization": null },
+          "3pl": { "form": "donnaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "aimer",
+      "meaning_de": "lieben",
+      "meaning_en": "love",
+      "concept_id": "love",
+      "pattern_id": "er_regular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "aime", "romanization": null },
+          "2sg": { "form": "aimes", "romanization": null },
+          "3sg": { "form": "aime", "romanization": null },
+          "1pl": { "form": "aimons", "romanization": null },
+          "2pl": { "form": "aimez", "romanization": null },
+          "3pl": { "form": "aiment", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai aimé", "romanization": null },
+          "2sg": { "form": "as aimé", "romanization": null },
+          "3sg": { "form": "a aimé", "romanization": null },
+          "1pl": { "form": "avons aimé", "romanization": null },
+          "2pl": { "form": "avez aimé", "romanization": null },
+          "3pl": { "form": "ont aimé", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "aimais", "romanization": null },
+          "2sg": { "form": "aimais", "romanization": null },
+          "3sg": { "form": "aimait", "romanization": null },
+          "1pl": { "form": "aimions", "romanization": null },
+          "2pl": { "form": "aimiez", "romanization": null },
+          "3pl": { "form": "aimaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "dire",
+      "meaning_de": "sagen",
+      "meaning_en": "say",
+      "concept_id": "say",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "dis", "romanization": null },
+          "2sg": { "form": "dis", "romanization": null },
+          "3sg": { "form": "dit", "romanization": null },
+          "1pl": { "form": "disons", "romanization": null },
+          "2pl": { "form": "dites", "romanization": null },
+          "3pl": { "form": "disent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai dit", "romanization": null },
+          "2sg": { "form": "as dit", "romanization": null },
+          "3sg": { "form": "a dit", "romanization": null },
+          "1pl": { "form": "avons dit", "romanization": null },
+          "2pl": { "form": "avez dit", "romanization": null },
+          "3pl": { "form": "ont dit", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "disais", "romanization": null },
+          "2sg": { "form": "disais", "romanization": null },
+          "3sg": { "form": "disait", "romanization": null },
+          "1pl": { "form": "disions", "romanization": null },
+          "2pl": { "form": "disiez", "romanization": null },
+          "3pl": { "form": "disaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "voir",
+      "meaning_de": "sehen",
+      "meaning_en": "see",
+      "concept_id": "see",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "vois", "romanization": null },
+          "2sg": { "form": "vois", "romanization": null },
+          "3sg": { "form": "voit", "romanization": null },
+          "1pl": { "form": "voyons", "romanization": null },
+          "2pl": { "form": "voyez", "romanization": null },
+          "3pl": { "form": "voient", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai vu", "romanization": null },
+          "2sg": { "form": "as vu", "romanization": null },
+          "3sg": { "form": "a vu", "romanization": null },
+          "1pl": { "form": "avons vu", "romanization": null },
+          "2pl": { "form": "avez vu", "romanization": null },
+          "3pl": { "form": "ont vu", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "voyais", "romanization": null },
+          "2sg": { "form": "voyais", "romanization": null },
+          "3sg": { "form": "voyait", "romanization": null },
+          "1pl": { "form": "voyions", "romanization": null },
+          "2pl": { "form": "voyiez", "romanization": null },
+          "3pl": { "form": "voyaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "vouloir",
+      "meaning_de": "wollen",
+      "meaning_en": "want",
+      "concept_id": "want",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "veux", "romanization": null },
+          "2sg": { "form": "veux", "romanization": null },
+          "3sg": { "form": "veut", "romanization": null },
+          "1pl": { "form": "voulons", "romanization": null },
+          "2pl": { "form": "voulez", "romanization": null },
+          "3pl": { "form": "veulent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai voulu", "romanization": null },
+          "2sg": { "form": "as voulu", "romanization": null },
+          "3sg": { "form": "a voulu", "romanization": null },
+          "1pl": { "form": "avons voulu", "romanization": null },
+          "2pl": { "form": "avez voulu", "romanization": null },
+          "3pl": { "form": "ont voulu", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "voulais", "romanization": null },
+          "2sg": { "form": "voulais", "romanization": null },
+          "3sg": { "form": "voulait", "romanization": null },
+          "1pl": { "form": "voulions", "romanization": null },
+          "2pl": { "form": "vouliez", "romanization": null },
+          "3pl": { "form": "voulaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "pouvoir",
+      "meaning_de": "koennen",
+      "meaning_en": "can",
+      "concept_id": "can",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "peux", "romanization": null },
+          "2sg": { "form": "peux", "romanization": null },
+          "3sg": { "form": "peut", "romanization": null },
+          "1pl": { "form": "pouvons", "romanization": null },
+          "2pl": { "form": "pouvez", "romanization": null },
+          "3pl": { "form": "peuvent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai pu", "romanization": null },
+          "2sg": { "form": "as pu", "romanization": null },
+          "3sg": { "form": "a pu", "romanization": null },
+          "1pl": { "form": "avons pu", "romanization": null },
+          "2pl": { "form": "avez pu", "romanization": null },
+          "3pl": { "form": "ont pu", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "pouvais", "romanization": null },
+          "2sg": { "form": "pouvais", "romanization": null },
+          "3sg": { "form": "pouvait", "romanization": null },
+          "1pl": { "form": "pouvions", "romanization": null },
+          "2pl": { "form": "pouviez", "romanization": null },
+          "3pl": { "form": "pouvaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "aller",
+      "meaning_de": "gehen",
+      "meaning_en": "go",
+      "concept_id": "go",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "vais", "romanization": null },
+          "2sg": { "form": "vas", "romanization": null },
+          "3sg": { "form": "va", "romanization": null },
+          "1pl": { "form": "allons", "romanization": null },
+          "2pl": { "form": "allez", "romanization": null },
+          "3pl": { "form": "vont", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "suis allé", "romanization": null },
+          "2sg": { "form": "es allé", "romanization": null },
+          "3sg": { "form": "est allé", "romanization": null },
+          "1pl": { "form": "sommes allés", "romanization": null },
+          "2pl": { "form": "êtes allés", "romanization": null },
+          "3pl": { "form": "sont allés", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "allais", "romanization": null },
+          "2sg": { "form": "allais", "romanization": null },
+          "3sg": { "form": "allait", "romanization": null },
+          "1pl": { "form": "allions", "romanization": null },
+          "2pl": { "form": "alliez", "romanization": null },
+          "3pl": { "form": "allaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "manger",
+      "meaning_de": "essen",
+      "meaning_en": "eat",
+      "concept_id": "eat",
+      "pattern_id": "er_regular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "mange", "romanization": null },
+          "2sg": { "form": "manges", "romanization": null },
+          "3sg": { "form": "mange", "romanization": null },
+          "1pl": { "form": "mangeons", "romanization": null },
+          "2pl": { "form": "mangez", "romanization": null },
+          "3pl": { "form": "mangent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai mangé", "romanization": null },
+          "2sg": { "form": "as mangé", "romanization": null },
+          "3sg": { "form": "a mangé", "romanization": null },
+          "1pl": { "form": "avons mangé", "romanization": null },
+          "2pl": { "form": "avez mangé", "romanization": null },
+          "3pl": { "form": "ont mangé", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "mangeais", "romanization": null },
+          "2sg": { "form": "mangeais", "romanization": null },
+          "3sg": { "form": "mangeait", "romanization": null },
+          "1pl": { "form": "mangions", "romanization": null },
+          "2pl": { "form": "mangiez", "romanization": null },
+          "3pl": { "form": "mangeaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "boire",
+      "meaning_de": "trinken",
+      "meaning_en": "drink",
+      "concept_id": "drink",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "bois", "romanization": null },
+          "2sg": { "form": "bois", "romanization": null },
+          "3sg": { "form": "boit", "romanization": null },
+          "1pl": { "form": "buvons", "romanization": null },
+          "2pl": { "form": "buvez", "romanization": null },
+          "3pl": { "form": "boivent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai bu", "romanization": null },
+          "2sg": { "form": "as bu", "romanization": null },
+          "3sg": { "form": "a bu", "romanization": null },
+          "1pl": { "form": "avons bu", "romanization": null },
+          "2pl": { "form": "avez bu", "romanization": null },
+          "3pl": { "form": "ont bu", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "buvais", "romanization": null },
+          "2sg": { "form": "buvais", "romanization": null },
+          "3sg": { "form": "buvait", "romanization": null },
+          "1pl": { "form": "buvions", "romanization": null },
+          "2pl": { "form": "buviez", "romanization": null },
+          "3pl": { "form": "buvaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "acheter",
+      "meaning_de": "kaufen",
+      "meaning_en": "buy",
+      "concept_id": "buy",
+      "pattern_id": "er_regular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "achète", "romanization": null },
+          "2sg": { "form": "achètes", "romanization": null },
+          "3sg": { "form": "achète", "romanization": null },
+          "1pl": { "form": "achetons", "romanization": null },
+          "2pl": { "form": "achetez", "romanization": null },
+          "3pl": { "form": "achètent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai acheté", "romanization": null },
+          "2sg": { "form": "as acheté", "romanization": null },
+          "3sg": { "form": "a acheté", "romanization": null },
+          "1pl": { "form": "avons acheté", "romanization": null },
+          "2pl": { "form": "avez acheté", "romanization": null },
+          "3pl": { "form": "ont acheté", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "achetais", "romanization": null },
+          "2sg": { "form": "achetais", "romanization": null },
+          "3sg": { "form": "achetait", "romanization": null },
+          "1pl": { "form": "achetions", "romanization": null },
+          "2pl": { "form": "achetiez", "romanization": null },
+          "3pl": { "form": "achetaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "être",
+      "meaning_de": "sein",
+      "meaning_en": "be",
+      "concept_id": "be",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "suis", "romanization": null },
+          "2sg": { "form": "es", "romanization": null },
+          "3sg": { "form": "est", "romanization": null },
+          "1pl": { "form": "sommes", "romanization": null },
+          "2pl": { "form": "êtes", "romanization": null },
+          "3pl": { "form": "sont", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai été", "romanization": null },
+          "2sg": { "form": "as été", "romanization": null },
+          "3sg": { "form": "a été", "romanization": null },
+          "1pl": { "form": "avons été", "romanization": null },
+          "2pl": { "form": "avez été", "romanization": null },
+          "3pl": { "form": "ont été", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "étais", "romanization": null },
+          "2sg": { "form": "étais", "romanization": null },
+          "3sg": { "form": "était", "romanization": null },
+          "1pl": { "form": "étions", "romanization": null },
+          "2pl": { "form": "étiez", "romanization": null },
+          "3pl": { "form": "étaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "avoir",
+      "meaning_de": "haben",
+      "meaning_en": "have",
+      "concept_id": "have",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "ai", "romanization": null },
+          "2sg": { "form": "as", "romanization": null },
+          "3sg": { "form": "a", "romanization": null },
+          "1pl": { "form": "avons", "romanization": null },
+          "2pl": { "form": "avez", "romanization": null },
+          "3pl": { "form": "ont", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "ai eu", "romanization": null },
+          "2sg": { "form": "as eu", "romanization": null },
+          "3sg": { "form": "a eu", "romanization": null },
+          "1pl": { "form": "avons eu", "romanization": null },
+          "2pl": { "form": "avez eu", "romanization": null },
+          "3pl": { "form": "ont eu", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "avais", "romanization": null },
+          "2sg": { "form": "avais", "romanization": null },
+          "3sg": { "form": "avait", "romanization": null },
+          "1pl": { "form": "avions", "romanization": null },
+          "2pl": { "form": "aviez", "romanization": null },
+          "3pl": { "form": "avaient", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "venir",
+      "meaning_de": "kommen",
+      "meaning_en": "come",
+      "concept_id": "come",
+      "pattern_id": "irregular",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "viens", "romanization": null },
+          "2sg": { "form": "viens", "romanization": null },
+          "3sg": { "form": "vient", "romanization": null },
+          "1pl": { "form": "venons", "romanization": null },
+          "2pl": { "form": "venez", "romanization": null },
+          "3pl": { "form": "viennent", "romanization": null }
+        },
+        "passe_compose": {
+          "1sg": { "form": "suis venu", "romanization": null },
+          "2sg": { "form": "es venu", "romanization": null },
+          "3sg": { "form": "est venu", "romanization": null },
+          "1pl": { "form": "sommes venus", "romanization": null },
+          "2pl": { "form": "êtes venus", "romanization": null },
+          "3pl": { "form": "sont venus", "romanization": null }
+        },
+        "imparfait": {
+          "1sg": { "form": "venais", "romanization": null },
+          "2sg": { "form": "venais", "romanization": null },
+          "3sg": { "form": "venait", "romanization": null },
+          "1pl": { "form": "venions", "romanization": null },
+          "2pl": { "form": "veniez", "romanization": null },
+          "3pl": { "form": "venaient", "romanization": null }
+        }
+      }
+    }
+  ]
+}

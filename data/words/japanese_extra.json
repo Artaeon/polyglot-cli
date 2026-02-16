@@ -1,0 +1,13 @@
+{
+  "language_id": "ja",
+  "words": [
+    {"word": "駅", "romanization": "eki", "pronunciation_hint": "e-ki", "meaning_de": "Bahnhof", "meaning_en": "station", "category": "fragen_richtungen", "frequency_rank": 1001, "concept_id": "station", "tone": null, "notes": "駅へ行きます"},
+    {"word": "切符", "romanization": "kippu", "pronunciation_hint": "kip-pu", "meaning_de": "Ticket", "meaning_en": "ticket", "category": "fragen_richtungen", "frequency_rank": 1002, "concept_id": "ticket", "tone": null, "notes": "電車の切符"},
+    {"word": "薬局", "romanization": "yakkyoku", "pronunciation_hint": "yak-kyo-ku", "meaning_de": "Apotheke", "meaning_en": "pharmacy", "category": "koerper_gesundheit", "frequency_rank": 1003, "concept_id": "pharmacy", "tone": null, "notes": "薬を買う場所"},
+    {"word": "助けが必要です", "romanization": "tasuke ga hitsuyou desu", "pronunciation_hint": "ta-su-ke ga hi-tsu-yo des", "meaning_de": "ich brauche Hilfe", "meaning_en": "I need help", "category": "phrasen", "frequency_rank": 1004, "concept_id": "i_need_help", "tone": null, "notes": "丁寧な表現"},
+    {"word": "バス停はどこですか？", "romanization": "basutei wa doko desu ka?", "pronunciation_hint": "ba-su-tei wa do-ko des ka", "meaning_de": "wo ist die Haltestelle?", "meaning_en": "where is the stop?", "category": "fragen_richtungen", "frequency_rank": 1005, "concept_id": "where_is_stop", "tone": null, "notes": "道を聞く"},
+    {"word": "営業中", "romanization": "eigyouchuu", "pronunciation_hint": "ei-gyo-chuu", "meaning_de": "offen", "meaning_en": "open", "category": "adjektive", "frequency_rank": 1006, "concept_id": "open_adj", "tone": null, "notes": "店が営業中"},
+    {"word": "閉店", "romanization": "heiten", "pronunciation_hint": "hei-ten", "meaning_de": "geschlossen", "meaning_en": "closed", "category": "adjektive", "frequency_rank": 1007, "concept_id": "closed_adj", "tone": null, "notes": "閉店しました"},
+    {"word": "レシート", "romanization": "reshiito", "pronunciation_hint": "re-shii-to", "meaning_de": "Quittung", "meaning_en": "receipt", "category": "essen_trinken", "frequency_rank": 1008, "concept_id": "receipt", "tone": null, "notes": "会計時"}
+  ]
+}

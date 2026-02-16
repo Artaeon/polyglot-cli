@@ -1,0 +1,1767 @@
+{
+  "language_id": "hr",
+  "meta": {
+    "persons": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "person_labels_de": {
+      "1sg": "ich (ja)",
+      "2sg": "du (ti)",
+      "3sg": "er/sie/es (on/ona/ono)",
+      "1pl": "wir (mi)",
+      "2pl": "ihr (vi)",
+      "3pl": "sie (oni/one/ona)"
+    },
+    "tenses": [
+      "prezent",
+      "perfekt",
+      "futur"
+    ],
+    "tense_labels_de": {
+      "prezent": "Praesens",
+      "perfekt": "Perfekt",
+      "futur": "Futur I"
+    }
+  },
+  "conjugation_patterns": [
+    {
+      "pattern_id": "a_conj",
+      "description_de": "-ati Verben (a-Konjugation)"
+    },
+    {
+      "pattern_id": "e_conj",
+      "description_de": "-eti/-ati Verben (e-Konjugation)"
+    },
+    {
+      "pattern_id": "i_conj",
+      "description_de": "-iti Verben (i-Konjugation)"
+    }
+  ],
+  "verbs": [
+    {
+      "concept_id": "be",
+      "infinitive": "biti",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "jesam",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "jesi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "jest",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "jesmo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "jeste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "jesu",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam bio",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si bio",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je bio",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo bio",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste bio",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su bio",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću biti",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš biti",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će biti",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo biti",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete biti",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će biti",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "have",
+      "infinitive": "imati",
+      "romanization": null,
+      "pattern_id": "a_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "imam",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "imaš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "ima",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "imamo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "imate",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "imaju",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam imao",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si imao",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je imao",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo imao",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste imao",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su imao",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću imati",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš imati",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će imati",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo imati",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete imati",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će imati",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "go",
+      "infinitive": "ići",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "idem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ideš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "ide",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "idemo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "idete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "idu",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam išao",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si išao",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je išao",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo išao",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste išao",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su išao",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću ići",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš ići",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će ići",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo ići",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete ići",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će ići",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "come",
+      "infinitive": "doći",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "dođem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "dođeš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "dođe",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "dođemo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dođete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "dođu",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam došao",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si došao",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je došao",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo došao",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste došao",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su došao",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću doći",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš doći",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će doći",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo doći",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete doći",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će doći",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "eat",
+      "infinitive": "jesti",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "jedem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "jedeš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "jede",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "jedemo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "jedete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "jedu",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam jeo",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si jeo",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je jeo",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo jeo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste jeo",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su jeo",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću jesti",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš jesti",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će jesti",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo jesti",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete jesti",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će jesti",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "drink",
+      "infinitive": "piti",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "pijem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "piješ",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "pije",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "pijemo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "pijete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "piju",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam pio",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si pio",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je pio",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo pio",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste pio",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su pio",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću piti",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš piti",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će piti",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo piti",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete piti",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će piti",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "say",
+      "infinitive": "reći",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "reknem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "rekneš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "rekne",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "reknemo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "reknete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "reknu",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam rekao",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si rekao",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je rekao",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo rekao",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste rekao",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su rekao",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću reći",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš reći",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će reći",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo reći",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete reći",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će reći",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "see",
+      "infinitive": "vidjeti",
+      "romanization": null,
+      "pattern_id": "i_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "vidim",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vidiš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vidi",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vidimo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vidite",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vide",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam vidio",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si vidio",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je vidio",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo vidio",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste vidio",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su vidio",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću vidjeti",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš vidjeti",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će vidjeti",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo vidjeti",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete vidjeti",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će vidjeti",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "hear",
+      "infinitive": "čuti",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "čujem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "čuješ",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "čuje",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "čujemo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "čujete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "čuju",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam čuo",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si čuo",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je čuo",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo čuo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste čuo",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su čuo",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću čuti",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš čuti",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će čuti",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo čuti",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete čuti",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će čuti",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "know",
+      "infinitive": "znati",
+      "romanization": null,
+      "pattern_id": "a_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "znam",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "znaš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "zna",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "znamo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "znate",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "znaju",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam znao",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si znao",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je znao",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo znao",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste znao",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su znao",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću znati",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš znati",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će znati",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo znati",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete znati",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će znati",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "want",
+      "infinitive": "htjeti",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "hoću",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "hoćeš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "hoće",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "hoćemo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "hoćete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "hoće",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam htio",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si htio",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je htio",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo htio",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste htio",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su htio",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću htjeti",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš htjeti",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će htjeti",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo htjeti",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete htjeti",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će htjeti",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "can",
+      "infinitive": "moći",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "mogu",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "možeš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "može",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "možemo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "možete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "mogu",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam mogao",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si mogao",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je mogao",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo mogao",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste mogao",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su mogao",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću moći",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš moći",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će moći",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo moći",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete moći",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će moći",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "do_make",
+      "infinitive": "činiti",
+      "romanization": null,
+      "pattern_id": "i_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "činim",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "činiš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "čini",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "činimo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "činite",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "čine",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam činio",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si činio",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je činio",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo činio",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste činio",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su činio",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću činiti",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš činiti",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će činiti",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo činiti",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete činiti",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će činiti",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "give",
+      "infinitive": "dati",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "dajem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "daješ",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "daje",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "dajemo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dajete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "daju",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam dao",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si dao",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je dao",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo dao",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste dao",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su dao",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću dati",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš dati",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će dati",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo dati",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete dati",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će dati",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "take",
+      "infinitive": "uzeti",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "uzmem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "uzmeš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "uzme",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "uzmemo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "uzmete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "uzmu",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam uzeo",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si uzeo",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je uzeo",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo uzeo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste uzeo",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su uzeo",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću uzeti",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš uzeti",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će uzeti",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo uzeti",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete uzeti",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će uzeti",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "read",
+      "infinitive": "čitati",
+      "romanization": null,
+      "pattern_id": "a_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "čitam",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "čitaš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "čita",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "čitamo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "čitate",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "čitaju",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam čitao",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si čitao",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je čitao",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo čitao",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste čitao",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su čitao",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću čitati",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš čitati",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će čitati",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo čitati",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete čitati",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će čitati",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "write",
+      "infinitive": "pisati",
+      "romanization": null,
+      "pattern_id": "e_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "pišem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "pišeš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "piše",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "pišemo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "pišete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "pišu",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam pisao",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si pisao",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je pisao",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo pisao",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste pisao",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su pisao",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću pisati",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš pisati",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će pisati",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo pisati",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete pisati",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će pisati",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "sleep",
+      "infinitive": "spavati",
+      "romanization": null,
+      "pattern_id": "a_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "spavam",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "spavaš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "spava",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "spavamo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "spavate",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "spavaju",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam spavao",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si spavao",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je spavao",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo spavao",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste spavao",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su spavao",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću spavati",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš spavati",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će spavati",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo spavati",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete spavati",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će spavati",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "live",
+      "infinitive": "živjeti",
+      "romanization": null,
+      "pattern_id": "i_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "živim",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "živiš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "živi",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "živimo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "živite",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "žive",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam živio",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si živio",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je živio",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo živio",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste živio",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su živio",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću živjeti",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš živjeti",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će živjeti",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo živjeti",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete živjeti",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će živjeti",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "work",
+      "infinitive": "raditi",
+      "romanization": null,
+      "pattern_id": "i_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "radim",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "radiš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "radi",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "radimo",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "radite",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "rade",
+            "romanization": null
+          }
+        },
+        "perfekt": {
+          "1sg": {
+            "form": "sam radio",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si radio",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je radio",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "smo radio",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste radio",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "su radio",
+            "romanization": null
+          }
+        },
+        "futur": {
+          "1sg": {
+            "form": "ću raditi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ćeš raditi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "će raditi",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ćemo raditi",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ćete raditi",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "će raditi",
+            "romanization": null
+          }
+        }
+      }
+    }
+  ]
+}

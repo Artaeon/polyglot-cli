@@ -1,0 +1,1775 @@
+{
+  "language_id": "ro",
+  "meta": {
+    "persons": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "person_labels_de": {
+      "1sg": "ich (eu)",
+      "2sg": "du (tu)",
+      "3sg": "er/sie (el/ea)",
+      "1pl": "wir (noi)",
+      "2pl": "ihr (voi)",
+      "3pl": "sie (ei/ele)"
+    },
+    "tenses": [
+      "prezent",
+      "perfect_compus",
+      "viitor"
+    ],
+    "tense_labels_de": {
+      "prezent": "Praesens",
+      "perfect_compus": "Perfekt (zusammengesetzt)",
+      "viitor": "Futur"
+    }
+  },
+  "conjugation_patterns": [
+    {
+      "pattern_id": "a_conj",
+      "description_de": "-a Konjugation (I.)",
+      "rule_de": "Stamm + Endungen der I. Konjugation"
+    },
+    {
+      "pattern_id": "ea_conj",
+      "description_de": "-ea Konjugation (II.)",
+      "rule_de": "Stamm + Endungen der II. Konjugation"
+    },
+    {
+      "pattern_id": "e_conj",
+      "description_de": "-e Konjugation (III.)",
+      "rule_de": "Stamm + Endungen der III. Konjugation"
+    },
+    {
+      "pattern_id": "i_conj",
+      "description_de": "-i/-î Konjugation (IV.)",
+      "rule_de": "Stamm + Endungen der IV. Konjugation"
+    }
+  ],
+  "verbs": [
+    {
+      "concept_id": "be",
+      "infinitive": "a fi",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "sunt",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ești",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "este",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "suntem",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "sunteți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "sunt",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am fost",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai fost",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a fost",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am fost",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați fost",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au fost",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi fi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei fi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va fi",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom fi",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți fi",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor fi",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "have",
+      "infinitive": "a avea",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "am",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "are",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "avem",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "aveți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am avut",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai avut",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a avut",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am avut",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați avut",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au avut",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi avea",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei avea",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va avea",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom avea",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți avea",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor avea",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "go",
+      "infinitive": "a merge",
+      "romanization": null,
+      "pattern_id": "e_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "merg",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "mergi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "merge",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "mergem",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "mergeți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "merg",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am mers",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai mers",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a mers",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am mers",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați mers",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au mers",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi merge",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei merge",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va merge",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom merge",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți merge",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor merge",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "come",
+      "infinitive": "a veni",
+      "romanization": null,
+      "pattern_id": "i_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "vin",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vii",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vine",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "venim",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veniți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vin",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am venit",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai venit",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a venit",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am venit",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați venit",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au venit",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi veni",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei veni",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va veni",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom veni",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți veni",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor veni",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "eat",
+      "infinitive": "a mânca",
+      "romanization": null,
+      "pattern_id": "a_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "mănânc",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "mănânci",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "mănâncă",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "mâncăm",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "mâncați",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "mănâncă",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am mâncat",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai mâncat",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a mâncat",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am mâncat",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați mâncat",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au mâncat",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi mânca",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei mânca",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va mânca",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom mânca",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți mânca",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor mânca",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "drink",
+      "infinitive": "a bea",
+      "romanization": null,
+      "pattern_id": "ea_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "beau",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "bei",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bea",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "bem",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "beți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "beau",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am băut",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai băut",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a băut",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am băut",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați băut",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au băut",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi bea",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei bea",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va bea",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom bea",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți bea",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor bea",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "say",
+      "infinitive": "a spune",
+      "romanization": null,
+      "pattern_id": "e_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "spun",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "spui",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "spune",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "spunem",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "spuneți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "spun",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am spus",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai spus",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a spus",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am spus",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați spus",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au spus",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi spune",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei spune",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va spune",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom spune",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți spune",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor spune",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "see",
+      "infinitive": "a vedea",
+      "romanization": null,
+      "pattern_id": "ea_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "văd",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vezi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vede",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vedem",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vedeți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "văd",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am văzut",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai văzut",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a văzut",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am văzut",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați văzut",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au văzut",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi vedea",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei vedea",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va vedea",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom vedea",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți vedea",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor vedea",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "hear",
+      "infinitive": "a auzi",
+      "romanization": null,
+      "pattern_id": "i_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "aud",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "auzi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "aude",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "auzim",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "auziți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "aud",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am auzit",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai auzit",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a auzit",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am auzit",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați auzit",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au auzit",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi auzi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei auzi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va auzi",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom auzi",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți auzi",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor auzi",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "know",
+      "infinitive": "a ști",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "știu",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "știi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "știe",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "știm",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "știți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "știu",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am știut",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai știut",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a știut",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am știut",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați știut",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au știut",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi ști",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei ști",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va ști",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom ști",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți ști",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor ști",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "want",
+      "infinitive": "a vrea",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "vreau",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vrei",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vrea",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vrem",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vreți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am vrut",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai vrut",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a vrut",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am vrut",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați vrut",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au vrut",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi vrea",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei vrea",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va vrea",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom vrea",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți vrea",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor vrea",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "can",
+      "infinitive": "a putea",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "pot",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "poți",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "poate",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "putem",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "puteți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "pot",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am putut",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai putut",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a putut",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am putut",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați putut",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au putut",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi putea",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei putea",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va putea",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom putea",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți putea",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor putea",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "do_make",
+      "infinitive": "a face",
+      "romanization": null,
+      "pattern_id": "e_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "fac",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "faci",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "face",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "facem",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "faceți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "fac",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am făcut",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai făcut",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a făcut",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am făcut",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați făcut",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au făcut",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi face",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei face",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va face",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom face",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți face",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor face",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "give",
+      "infinitive": "a da",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "dau",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "dai",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "dă",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "dăm",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dați",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "dau",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am dat",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai dat",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a dat",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am dat",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați dat",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au dat",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi da",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei da",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va da",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom da",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți da",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor da",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "take",
+      "infinitive": "a lua",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "iau",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "iei",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "ia",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "luăm",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "luați",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "iau",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am luat",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai luat",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a luat",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am luat",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați luat",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au luat",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi lua",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei lua",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va lua",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom lua",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți lua",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor lua",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "read",
+      "infinitive": "a citi",
+      "romanization": null,
+      "pattern_id": "i_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "citesc",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "citești",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "citește",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "citim",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "citiți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "citesc",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am citit",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai citit",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a citit",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am citit",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați citit",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au citit",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi citi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei citi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va citi",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom citi",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți citi",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor citi",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "write",
+      "infinitive": "a scrie",
+      "romanization": null,
+      "pattern_id": "e_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "scriu",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "scrii",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "scrie",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "scriem",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "scrieți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "scriu",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am scris",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai scris",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a scris",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am scris",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați scris",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au scris",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi scrie",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei scrie",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va scrie",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom scrie",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți scrie",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor scrie",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "sleep",
+      "infinitive": "a dormi",
+      "romanization": null,
+      "pattern_id": "i_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "dorm",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "dormi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "doarme",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "dormim",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dormiți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "dorm",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am dormit",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai dormit",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a dormit",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am dormit",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați dormit",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au dormit",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi dormi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei dormi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va dormi",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom dormi",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți dormi",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor dormi",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "live",
+      "infinitive": "a trăi",
+      "romanization": null,
+      "pattern_id": "i_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "trăiesc",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "trăiești",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "trăiește",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "trăim",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "trăiți",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "trăiesc",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am trăit",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai trăit",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a trăit",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am trăit",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați trăit",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au trăit",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi trăi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei trăi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va trăi",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom trăi",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți trăi",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor trăi",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "work",
+      "infinitive": "a lucra",
+      "romanization": null,
+      "pattern_id": "a_conj",
+      "forms": {
+        "prezent": {
+          "1sg": {
+            "form": "lucrez",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "lucrezi",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "lucrează",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "lucrăm",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "lucrați",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "lucrează",
+            "romanization": null
+          }
+        },
+        "perfect_compus": {
+          "1sg": {
+            "form": "am lucrat",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ai lucrat",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "a lucrat",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "am lucrat",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ați lucrat",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "au lucrat",
+            "romanization": null
+          }
+        },
+        "viitor": {
+          "1sg": {
+            "form": "voi lucra",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vei lucra",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "va lucra",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vom lucra",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "veți lucra",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vor lucra",
+            "romanization": null
+          }
+        }
+      }
+    }
+  ]
+}

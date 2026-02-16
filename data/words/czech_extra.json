@@ -1,0 +1,13 @@
+{
+  "language_id": "cs",
+  "words": [
+    {"word": "nádraží", "romanization": "", "pronunciation_hint": "NAA-dra-zhee", "meaning_de": "Bahnhof", "meaning_en": "station", "category": "fragen_richtungen", "frequency_rank": 1001, "concept_id": "station", "tone": null, "notes": "Vlakové nádraží"},
+    {"word": "jízdenka", "romanization": "", "pronunciation_hint": "YEEZ-den-ka", "meaning_de": "Ticket", "meaning_en": "ticket", "category": "fragen_richtungen", "frequency_rank": 1002, "concept_id": "ticket", "tone": null, "notes": "Na tramvaj/vlak"},
+    {"word": "lékárna", "romanization": "", "pronunciation_hint": "LYEH-kar-na", "meaning_de": "Apotheke", "meaning_en": "pharmacy", "category": "koerper_gesundheit", "frequency_rank": 1003, "concept_id": "pharmacy", "tone": null, "notes": "Zdraví"},
+    {"word": "potřebuji pomoc", "romanization": "", "pronunciation_hint": "po-TSHE-bu-yi PO-mots", "meaning_de": "ich brauche Hilfe", "meaning_en": "I need help", "category": "phrasen", "frequency_rank": 1004, "concept_id": "i_need_help", "tone": null, "notes": "Nouzová fráze"},
+    {"word": "kde je zastávka?", "romanization": "", "pronunciation_hint": "gde ye zas-TAAV-ka", "meaning_de": "wo ist die Haltestelle?", "meaning_en": "where is the stop?", "category": "fragen_richtungen", "frequency_rank": 1005, "concept_id": "where_is_stop", "tone": null, "notes": "Autobus/tramvaj"},
+    {"word": "otevřeno", "romanization": "", "pronunciation_hint": "o-TEV-zhe-no", "meaning_de": "offen", "meaning_en": "open", "category": "adjektive", "frequency_rank": 1006, "concept_id": "open_adj", "tone": null, "notes": "Obchod otevřen"},
+    {"word": "zavřeno", "romanization": "", "pronunciation_hint": "za-VZHE-no", "meaning_de": "geschlossen", "meaning_en": "closed", "category": "adjektive", "frequency_rank": 1007, "concept_id": "closed_adj", "tone": null, "notes": "Obchod zavřen"},
+    {"word": "účtenka", "romanization": "", "pronunciation_hint": "UUCH-ten-ka", "meaning_de": "Quittung", "meaning_en": "receipt", "category": "essen_trinken", "frequency_rank": 1008, "concept_id": "receipt", "tone": null, "notes": "V obchodě"}
+  ]
+}

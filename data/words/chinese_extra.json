@@ -1,0 +1,13 @@
+{
+  "language_id": "zh",
+  "words": [
+    {"word": "车站", "romanization": "chēzhàn", "pronunciation_hint": "che-zhan", "meaning_de": "Bahnhof", "meaning_en": "station", "category": "fragen_richtungen", "frequency_rank": 1001, "concept_id": "station", "tone": null, "notes": "Train/Bus context"},
+    {"word": "票", "romanization": "piào", "pronunciation_hint": "piao", "meaning_de": "Ticket", "meaning_en": "ticket", "category": "fragen_richtungen", "frequency_rank": 1002, "concept_id": "ticket", "tone": null, "notes": "车票 = Fahrkarte"},
+    {"word": "药店", "romanization": "yàodiàn", "pronunciation_hint": "yao-dian", "meaning_de": "Apotheke", "meaning_en": "pharmacy", "category": "koerper_gesundheit", "frequency_rank": 1003, "concept_id": "pharmacy", "tone": null, "notes": "买药"},
+    {"word": "我需要帮助", "romanization": "wǒ xūyào bāngzhù", "pronunciation_hint": "wo xu-yao bang-zhu", "meaning_de": "ich brauche Hilfe", "meaning_en": "I need help", "category": "phrasen", "frequency_rank": 1004, "concept_id": "i_need_help", "tone": null, "notes": "紧急情况下"},
+    {"word": "车站在哪里？", "romanization": "chēzhàn zài nǎlǐ?", "pronunciation_hint": "che-zhan zai na-li", "meaning_de": "wo ist die Haltestelle?", "meaning_en": "where is the stop?", "category": "fragen_richtungen", "frequency_rank": 1005, "concept_id": "where_is_stop", "tone": null, "notes": "问路"},
+    {"word": "开着", "romanization": "kāizhe", "pronunciation_hint": "kai-zhe", "meaning_de": "offen", "meaning_en": "open", "category": "adjektive", "frequency_rank": 1006, "concept_id": "open_adj", "tone": null, "notes": "门开着"},
+    {"word": "关门", "romanization": "guānmén", "pronunciation_hint": "guan-men", "meaning_de": "geschlossen", "meaning_en": "closed", "category": "adjektive", "frequency_rank": 1007, "concept_id": "closed_adj", "tone": null, "notes": "商店关门"},
+    {"word": "收据", "romanization": "shōujù", "pronunciation_hint": "shou-ju", "meaning_de": "Quittung", "meaning_en": "receipt", "category": "essen_trinken", "frequency_rank": 1008, "concept_id": "receipt", "tone": null, "notes": "付款后"}
+  ]
+}

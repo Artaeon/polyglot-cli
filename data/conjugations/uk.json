@@ -1,0 +1,1763 @@
+{
+  "language_id": "uk",
+  "meta": {
+    "persons": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "person_labels_de": {
+      "1sg": "ich (я)",
+      "2sg": "du (ти)",
+      "3sg": "er/sie/es (він/вона/воно)",
+      "1pl": "wir (ми)",
+      "2pl": "ihr (ви)",
+      "3pl": "sie (вони)"
+    },
+    "tenses": [
+      "teperishnij",
+      "mynulyj",
+      "majbutnij"
+    ],
+    "tense_labels_de": {
+      "teperishnij": "Praesens (теперішній)",
+      "mynulyj": "Vergangenheit (минулий)",
+      "majbutnij": "Futur (майбутній)"
+    }
+  },
+  "conjugation_patterns": [
+    {
+      "pattern_id": "first_conj",
+      "description_de": "I. Konjugation (-ати/-яти)"
+    },
+    {
+      "pattern_id": "second_conj",
+      "description_de": "II. Konjugation (-ити/-іти)"
+    }
+  ],
+  "verbs": [
+    {
+      "concept_id": "be",
+      "infinitive": "бути",
+      "romanization": "buty",
+      "pattern_id": "irregular",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "є",
+            "romanization": "ye"
+          },
+          "2sg": {
+            "form": "є",
+            "romanization": "ye"
+          },
+          "3sg": {
+            "form": "є",
+            "romanization": "ye"
+          },
+          "1pl": {
+            "form": "є",
+            "romanization": "ye"
+          },
+          "2pl": {
+            "form": "є",
+            "romanization": "ye"
+          },
+          "3pl": {
+            "form": "є",
+            "romanization": "ye"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "був",
+            "romanization": "buv"
+          },
+          "2sg": {
+            "form": "був",
+            "romanization": "buv"
+          },
+          "3sg": {
+            "form": "був",
+            "romanization": "buv"
+          },
+          "1pl": {
+            "form": "був",
+            "romanization": "buv"
+          },
+          "2pl": {
+            "form": "був",
+            "romanization": "buv"
+          },
+          "3pl": {
+            "form": "був",
+            "romanization": "buv"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду",
+            "romanization": "budu"
+          },
+          "2sg": {
+            "form": "будеш",
+            "romanization": "budesh"
+          },
+          "3sg": {
+            "form": "буде",
+            "romanization": "bude"
+          },
+          "1pl": {
+            "form": "будемо",
+            "romanization": "budemo"
+          },
+          "2pl": {
+            "form": "будете",
+            "romanization": "budete"
+          },
+          "3pl": {
+            "form": "будуть",
+            "romanization": "budut'"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "have",
+      "infinitive": "мати",
+      "romanization": "maty",
+      "pattern_id": "first_conj",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "маю",
+            "romanization": "mayu"
+          },
+          "2sg": {
+            "form": "маєш",
+            "romanization": "mayesh"
+          },
+          "3sg": {
+            "form": "має",
+            "romanization": "maye"
+          },
+          "1pl": {
+            "form": "маємо",
+            "romanization": "mayemo"
+          },
+          "2pl": {
+            "form": "маєте",
+            "romanization": "mayete"
+          },
+          "3pl": {
+            "form": "мають",
+            "romanization": "mayut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "мав",
+            "romanization": "mav"
+          },
+          "2sg": {
+            "form": "мав",
+            "romanization": "mav"
+          },
+          "3sg": {
+            "form": "мав",
+            "romanization": "mav"
+          },
+          "1pl": {
+            "form": "мав",
+            "romanization": "mav"
+          },
+          "2pl": {
+            "form": "мав",
+            "romanization": "mav"
+          },
+          "3pl": {
+            "form": "мав",
+            "romanization": "mav"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду мати",
+            "romanization": "budu maty"
+          },
+          "2sg": {
+            "form": "будеш мати",
+            "romanization": "budesh maty"
+          },
+          "3sg": {
+            "form": "буде мати",
+            "romanization": "bude maty"
+          },
+          "1pl": {
+            "form": "будемо мати",
+            "romanization": "budemo maty"
+          },
+          "2pl": {
+            "form": "будете мати",
+            "romanization": "budete maty"
+          },
+          "3pl": {
+            "form": "будуть мати",
+            "romanization": "budut' maty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "go",
+      "infinitive": "іти",
+      "romanization": "ity",
+      "pattern_id": "irregular",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "іду",
+            "romanization": "idu"
+          },
+          "2sg": {
+            "form": "ідеш",
+            "romanization": "idesh"
+          },
+          "3sg": {
+            "form": "іде",
+            "romanization": "ide"
+          },
+          "1pl": {
+            "form": "ідемо",
+            "romanization": "idemo"
+          },
+          "2pl": {
+            "form": "ідете",
+            "romanization": "idete"
+          },
+          "3pl": {
+            "form": "ідуть",
+            "romanization": "idut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "ішов",
+            "romanization": "ishov"
+          },
+          "2sg": {
+            "form": "ішов",
+            "romanization": "ishov"
+          },
+          "3sg": {
+            "form": "ішов",
+            "romanization": "ishov"
+          },
+          "1pl": {
+            "form": "ішов",
+            "romanization": "ishov"
+          },
+          "2pl": {
+            "form": "ішов",
+            "romanization": "ishov"
+          },
+          "3pl": {
+            "form": "ішов",
+            "romanization": "ishov"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "піду",
+            "romanization": "pidu"
+          },
+          "2sg": {
+            "form": "підеш",
+            "romanization": "pidesh"
+          },
+          "3sg": {
+            "form": "піде",
+            "romanization": "pide"
+          },
+          "1pl": {
+            "form": "підемо",
+            "romanization": "pidemo"
+          },
+          "2pl": {
+            "form": "підете",
+            "romanization": "pidete"
+          },
+          "3pl": {
+            "form": "підуть",
+            "romanization": "pidut'"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "come",
+      "infinitive": "приходити",
+      "romanization": "prykhodity",
+      "pattern_id": "second_conj",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "приходжу",
+            "romanization": "prykhodzu"
+          },
+          "2sg": {
+            "form": "приходиш",
+            "romanization": "prykhodish"
+          },
+          "3sg": {
+            "form": "приходить",
+            "romanization": "prykhodyt'"
+          },
+          "1pl": {
+            "form": "приходимо",
+            "romanization": "prykhodimo"
+          },
+          "2pl": {
+            "form": "приходите",
+            "romanization": "prykhodite"
+          },
+          "3pl": {
+            "form": "приходять",
+            "romanization": "prykhodat'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "приходив",
+            "romanization": "prykhodiv"
+          },
+          "2sg": {
+            "form": "приходив",
+            "romanization": "prykhodiv"
+          },
+          "3sg": {
+            "form": "приходив",
+            "romanization": "prykhodiv"
+          },
+          "1pl": {
+            "form": "приходив",
+            "romanization": "prykhodiv"
+          },
+          "2pl": {
+            "form": "приходив",
+            "romanization": "prykhodiv"
+          },
+          "3pl": {
+            "form": "приходив",
+            "romanization": "prykhodiv"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду приходити",
+            "romanization": "budu prykhodity"
+          },
+          "2sg": {
+            "form": "будеш приходити",
+            "romanization": "budesh prykhodity"
+          },
+          "3sg": {
+            "form": "буде приходити",
+            "romanization": "bude prykhodity"
+          },
+          "1pl": {
+            "form": "будемо приходити",
+            "romanization": "budemo prykhodity"
+          },
+          "2pl": {
+            "form": "будете приходити",
+            "romanization": "budete prykhodity"
+          },
+          "3pl": {
+            "form": "будуть приходити",
+            "romanization": "budut' prykhodity"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "eat",
+      "infinitive": "їсти",
+      "romanization": "yisty",
+      "pattern_id": "irregular",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "їм",
+            "romanization": "yim"
+          },
+          "2sg": {
+            "form": "їси",
+            "romanization": "yisy"
+          },
+          "3sg": {
+            "form": "їсть",
+            "romanization": "yist'"
+          },
+          "1pl": {
+            "form": "їмо",
+            "romanization": "yimo"
+          },
+          "2pl": {
+            "form": "їсте",
+            "romanization": "yiste"
+          },
+          "3pl": {
+            "form": "їдять",
+            "romanization": "yidyat'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "їв",
+            "romanization": "yiv"
+          },
+          "2sg": {
+            "form": "їв",
+            "romanization": "yiv"
+          },
+          "3sg": {
+            "form": "їв",
+            "romanization": "yiv"
+          },
+          "1pl": {
+            "form": "їв",
+            "romanization": "yiv"
+          },
+          "2pl": {
+            "form": "їв",
+            "romanization": "yiv"
+          },
+          "3pl": {
+            "form": "їв",
+            "romanization": "yiv"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду їсти",
+            "romanization": "budu yisty"
+          },
+          "2sg": {
+            "form": "будеш їсти",
+            "romanization": "budesh yisty"
+          },
+          "3sg": {
+            "form": "буде їсти",
+            "romanization": "bude yisty"
+          },
+          "1pl": {
+            "form": "будемо їсти",
+            "romanization": "budemo yisty"
+          },
+          "2pl": {
+            "form": "будете їсти",
+            "romanization": "budete yisty"
+          },
+          "3pl": {
+            "form": "будуть їсти",
+            "romanization": "budut' yisty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "drink",
+      "infinitive": "пити",
+      "romanization": "pyty",
+      "pattern_id": "irregular",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "п'ю",
+            "romanization": "p'yu"
+          },
+          "2sg": {
+            "form": "п'єш",
+            "romanization": "p'yesh"
+          },
+          "3sg": {
+            "form": "п'є",
+            "romanization": "p'ye"
+          },
+          "1pl": {
+            "form": "п'ємо",
+            "romanization": "p'yemo"
+          },
+          "2pl": {
+            "form": "п'єте",
+            "romanization": "p'yete"
+          },
+          "3pl": {
+            "form": "п'ють",
+            "romanization": "p'yut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "пив",
+            "romanization": "pyv"
+          },
+          "2sg": {
+            "form": "пив",
+            "romanization": "pyv"
+          },
+          "3sg": {
+            "form": "пив",
+            "romanization": "pyv"
+          },
+          "1pl": {
+            "form": "пив",
+            "romanization": "pyv"
+          },
+          "2pl": {
+            "form": "пив",
+            "romanization": "pyv"
+          },
+          "3pl": {
+            "form": "пив",
+            "romanization": "pyv"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду пити",
+            "romanization": "budu pyty"
+          },
+          "2sg": {
+            "form": "будеш пити",
+            "romanization": "budesh pyty"
+          },
+          "3sg": {
+            "form": "буде пити",
+            "romanization": "bude pyty"
+          },
+          "1pl": {
+            "form": "будемо пити",
+            "romanization": "budemo pyty"
+          },
+          "2pl": {
+            "form": "будете пити",
+            "romanization": "budete pyty"
+          },
+          "3pl": {
+            "form": "будуть пити",
+            "romanization": "budut' pyty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "say",
+      "infinitive": "казати",
+      "romanization": "kazaty",
+      "pattern_id": "first_conj",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "кажу",
+            "romanization": "kazhu"
+          },
+          "2sg": {
+            "form": "кажеш",
+            "romanization": "kazhesh"
+          },
+          "3sg": {
+            "form": "каже",
+            "romanization": "kazhe"
+          },
+          "1pl": {
+            "form": "кажемо",
+            "romanization": "kazhemo"
+          },
+          "2pl": {
+            "form": "кажете",
+            "romanization": "kazhete"
+          },
+          "3pl": {
+            "form": "кажуть",
+            "romanization": "kazhut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "казав",
+            "romanization": "kazav"
+          },
+          "2sg": {
+            "form": "казав",
+            "romanization": "kazav"
+          },
+          "3sg": {
+            "form": "казав",
+            "romanization": "kazav"
+          },
+          "1pl": {
+            "form": "казав",
+            "romanization": "kazav"
+          },
+          "2pl": {
+            "form": "казав",
+            "romanization": "kazav"
+          },
+          "3pl": {
+            "form": "казав",
+            "romanization": "kazav"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду казати",
+            "romanization": "budu kazaty"
+          },
+          "2sg": {
+            "form": "будеш казати",
+            "romanization": "budesh kazaty"
+          },
+          "3sg": {
+            "form": "буде казати",
+            "romanization": "bude kazaty"
+          },
+          "1pl": {
+            "form": "будемо казати",
+            "romanization": "budemo kazaty"
+          },
+          "2pl": {
+            "form": "будете казати",
+            "romanization": "budete kazaty"
+          },
+          "3pl": {
+            "form": "будуть казати",
+            "romanization": "budut' kazaty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "see",
+      "infinitive": "бачити",
+      "romanization": "bachyty",
+      "pattern_id": "second_conj",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "бачу",
+            "romanization": "bachu"
+          },
+          "2sg": {
+            "form": "бачиш",
+            "romanization": "bachysh"
+          },
+          "3sg": {
+            "form": "бачить",
+            "romanization": "bachyt'"
+          },
+          "1pl": {
+            "form": "бачимо",
+            "romanization": "bachymo"
+          },
+          "2pl": {
+            "form": "бачите",
+            "romanization": "bachyte"
+          },
+          "3pl": {
+            "form": "бачать",
+            "romanization": "bachat'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "бачив",
+            "romanization": "bachyv"
+          },
+          "2sg": {
+            "form": "бачив",
+            "romanization": "bachyv"
+          },
+          "3sg": {
+            "form": "бачив",
+            "romanization": "bachyv"
+          },
+          "1pl": {
+            "form": "бачив",
+            "romanization": "bachyv"
+          },
+          "2pl": {
+            "form": "бачив",
+            "romanization": "bachyv"
+          },
+          "3pl": {
+            "form": "бачив",
+            "romanization": "bachyv"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду бачити",
+            "romanization": "budu bachyty"
+          },
+          "2sg": {
+            "form": "будеш бачити",
+            "romanization": "budesh bachyty"
+          },
+          "3sg": {
+            "form": "буде бачити",
+            "romanization": "bude bachyty"
+          },
+          "1pl": {
+            "form": "будемо бачити",
+            "romanization": "budemo bachyty"
+          },
+          "2pl": {
+            "form": "будете бачити",
+            "romanization": "budete bachyty"
+          },
+          "3pl": {
+            "form": "будуть бачити",
+            "romanization": "budut' bachyty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "hear",
+      "infinitive": "чути",
+      "romanization": "chuty",
+      "pattern_id": "first_conj",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "чую",
+            "romanization": "chuyu"
+          },
+          "2sg": {
+            "form": "чуєш",
+            "romanization": "chuyesh"
+          },
+          "3sg": {
+            "form": "чує",
+            "romanization": "chuye"
+          },
+          "1pl": {
+            "form": "чуємо",
+            "romanization": "chuyemo"
+          },
+          "2pl": {
+            "form": "чуєте",
+            "romanization": "chuyete"
+          },
+          "3pl": {
+            "form": "чують",
+            "romanization": "chuyut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "чув",
+            "romanization": "chuv"
+          },
+          "2sg": {
+            "form": "чув",
+            "romanization": "chuv"
+          },
+          "3sg": {
+            "form": "чув",
+            "romanization": "chuv"
+          },
+          "1pl": {
+            "form": "чув",
+            "romanization": "chuv"
+          },
+          "2pl": {
+            "form": "чув",
+            "romanization": "chuv"
+          },
+          "3pl": {
+            "form": "чув",
+            "romanization": "chuv"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду чути",
+            "romanization": "budu chuty"
+          },
+          "2sg": {
+            "form": "будеш чути",
+            "romanization": "budesh chuty"
+          },
+          "3sg": {
+            "form": "буде чути",
+            "romanization": "bude chuty"
+          },
+          "1pl": {
+            "form": "будемо чути",
+            "romanization": "budemo chuty"
+          },
+          "2pl": {
+            "form": "будете чути",
+            "romanization": "budete chuty"
+          },
+          "3pl": {
+            "form": "будуть чути",
+            "romanization": "budut' chuty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "know",
+      "infinitive": "знати",
+      "romanization": "znaty",
+      "pattern_id": "first_conj",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "знаю",
+            "romanization": "znayu"
+          },
+          "2sg": {
+            "form": "знаєш",
+            "romanization": "znayesh"
+          },
+          "3sg": {
+            "form": "знає",
+            "romanization": "znaye"
+          },
+          "1pl": {
+            "form": "знаємо",
+            "romanization": "znayemo"
+          },
+          "2pl": {
+            "form": "знаєте",
+            "romanization": "znayete"
+          },
+          "3pl": {
+            "form": "знають",
+            "romanization": "znayut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "знав",
+            "romanization": "znav"
+          },
+          "2sg": {
+            "form": "знав",
+            "romanization": "znav"
+          },
+          "3sg": {
+            "form": "знав",
+            "romanization": "znav"
+          },
+          "1pl": {
+            "form": "знав",
+            "romanization": "znav"
+          },
+          "2pl": {
+            "form": "знав",
+            "romanization": "znav"
+          },
+          "3pl": {
+            "form": "знав",
+            "romanization": "znav"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду знати",
+            "romanization": "budu znaty"
+          },
+          "2sg": {
+            "form": "будеш знати",
+            "romanization": "budesh znaty"
+          },
+          "3sg": {
+            "form": "буде знати",
+            "romanization": "bude znaty"
+          },
+          "1pl": {
+            "form": "будемо знати",
+            "romanization": "budemo znaty"
+          },
+          "2pl": {
+            "form": "будете знати",
+            "romanization": "budete znaty"
+          },
+          "3pl": {
+            "form": "будуть знати",
+            "romanization": "budut' znaty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "want",
+      "infinitive": "хотіти",
+      "romanization": "khotity",
+      "pattern_id": "irregular",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "хочу",
+            "romanization": "khochu"
+          },
+          "2sg": {
+            "form": "хочеш",
+            "romanization": "khochesh"
+          },
+          "3sg": {
+            "form": "хоче",
+            "romanization": "khoche"
+          },
+          "1pl": {
+            "form": "хочемо",
+            "romanization": "khochemo"
+          },
+          "2pl": {
+            "form": "хочете",
+            "romanization": "khochete"
+          },
+          "3pl": {
+            "form": "хочуть",
+            "romanization": "khochut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "хотів",
+            "romanization": "khotiv"
+          },
+          "2sg": {
+            "form": "хотів",
+            "romanization": "khotiv"
+          },
+          "3sg": {
+            "form": "хотів",
+            "romanization": "khotiv"
+          },
+          "1pl": {
+            "form": "хотів",
+            "romanization": "khotiv"
+          },
+          "2pl": {
+            "form": "хотів",
+            "romanization": "khotiv"
+          },
+          "3pl": {
+            "form": "хотів",
+            "romanization": "khotiv"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду хотіти",
+            "romanization": "budu khotity"
+          },
+          "2sg": {
+            "form": "будеш хотіти",
+            "romanization": "budesh khotity"
+          },
+          "3sg": {
+            "form": "буде хотіти",
+            "romanization": "bude khotity"
+          },
+          "1pl": {
+            "form": "будемо хотіти",
+            "romanization": "budemo khotity"
+          },
+          "2pl": {
+            "form": "будете хотіти",
+            "romanization": "budete khotity"
+          },
+          "3pl": {
+            "form": "будуть хотіти",
+            "romanization": "budut' khotity"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "can",
+      "infinitive": "могти",
+      "romanization": "mohty",
+      "pattern_id": "irregular",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "можу",
+            "romanization": "mozhu"
+          },
+          "2sg": {
+            "form": "можеш",
+            "romanization": "mozhesh"
+          },
+          "3sg": {
+            "form": "може",
+            "romanization": "mozhe"
+          },
+          "1pl": {
+            "form": "можемо",
+            "romanization": "mozhemo"
+          },
+          "2pl": {
+            "form": "можете",
+            "romanization": "mozhete"
+          },
+          "3pl": {
+            "form": "можуть",
+            "romanization": "mozhut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "міг",
+            "romanization": "mih"
+          },
+          "2sg": {
+            "form": "міг",
+            "romanization": "mih"
+          },
+          "3sg": {
+            "form": "міг",
+            "romanization": "mih"
+          },
+          "1pl": {
+            "form": "міг",
+            "romanization": "mih"
+          },
+          "2pl": {
+            "form": "міг",
+            "romanization": "mih"
+          },
+          "3pl": {
+            "form": "міг",
+            "romanization": "mih"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду могти",
+            "romanization": "budu mohty"
+          },
+          "2sg": {
+            "form": "будеш могти",
+            "romanization": "budesh mohty"
+          },
+          "3sg": {
+            "form": "буде могти",
+            "romanization": "bude mohty"
+          },
+          "1pl": {
+            "form": "будемо могти",
+            "romanization": "budemo mohty"
+          },
+          "2pl": {
+            "form": "будете могти",
+            "romanization": "budete mohty"
+          },
+          "3pl": {
+            "form": "будуть могти",
+            "romanization": "budut' mohty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "do_make",
+      "infinitive": "робити",
+      "romanization": "robyty",
+      "pattern_id": "second_conj",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "роблю",
+            "romanization": "roblyu"
+          },
+          "2sg": {
+            "form": "робиш",
+            "romanization": "robysh"
+          },
+          "3sg": {
+            "form": "робить",
+            "romanization": "robyt'"
+          },
+          "1pl": {
+            "form": "робимо",
+            "romanization": "robymo"
+          },
+          "2pl": {
+            "form": "робите",
+            "romanization": "robyte"
+          },
+          "3pl": {
+            "form": "роблять",
+            "romanization": "roblyat'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "робив",
+            "romanization": "robyv"
+          },
+          "2sg": {
+            "form": "робив",
+            "romanization": "robyv"
+          },
+          "3sg": {
+            "form": "робив",
+            "romanization": "robyv"
+          },
+          "1pl": {
+            "form": "робив",
+            "romanization": "robyv"
+          },
+          "2pl": {
+            "form": "робив",
+            "romanization": "robyv"
+          },
+          "3pl": {
+            "form": "робив",
+            "romanization": "robyv"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду робити",
+            "romanization": "budu robyty"
+          },
+          "2sg": {
+            "form": "будеш робити",
+            "romanization": "budesh robyty"
+          },
+          "3sg": {
+            "form": "буде робити",
+            "romanization": "bude robyty"
+          },
+          "1pl": {
+            "form": "будемо робити",
+            "romanization": "budemo robyty"
+          },
+          "2pl": {
+            "form": "будете робити",
+            "romanization": "budete robyty"
+          },
+          "3pl": {
+            "form": "будуть робити",
+            "romanization": "budut' robyty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "give",
+      "infinitive": "давати",
+      "romanization": "davaty",
+      "pattern_id": "first_conj",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "даю",
+            "romanization": "dayu"
+          },
+          "2sg": {
+            "form": "даєш",
+            "romanization": "dayesh"
+          },
+          "3sg": {
+            "form": "дає",
+            "romanization": "daye"
+          },
+          "1pl": {
+            "form": "даємо",
+            "romanization": "dayemo"
+          },
+          "2pl": {
+            "form": "даєте",
+            "romanization": "dayete"
+          },
+          "3pl": {
+            "form": "дають",
+            "romanization": "dayut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "давав",
+            "romanization": "davav"
+          },
+          "2sg": {
+            "form": "давав",
+            "romanization": "davav"
+          },
+          "3sg": {
+            "form": "давав",
+            "romanization": "davav"
+          },
+          "1pl": {
+            "form": "давав",
+            "romanization": "davav"
+          },
+          "2pl": {
+            "form": "давав",
+            "romanization": "davav"
+          },
+          "3pl": {
+            "form": "давав",
+            "romanization": "davav"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду давати",
+            "romanization": "budu davaty"
+          },
+          "2sg": {
+            "form": "будеш давати",
+            "romanization": "budesh davaty"
+          },
+          "3sg": {
+            "form": "буде давати",
+            "romanization": "bude davaty"
+          },
+          "1pl": {
+            "form": "будемо давати",
+            "romanization": "budemo davaty"
+          },
+          "2pl": {
+            "form": "будете давати",
+            "romanization": "budete davaty"
+          },
+          "3pl": {
+            "form": "будуть давати",
+            "romanization": "budut' davaty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "take",
+      "infinitive": "брати",
+      "romanization": "braty",
+      "pattern_id": "first_conj",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "беру",
+            "romanization": "beru"
+          },
+          "2sg": {
+            "form": "береш",
+            "romanization": "beresh"
+          },
+          "3sg": {
+            "form": "бере",
+            "romanization": "bere"
+          },
+          "1pl": {
+            "form": "беремо",
+            "romanization": "beremo"
+          },
+          "2pl": {
+            "form": "берете",
+            "romanization": "berete"
+          },
+          "3pl": {
+            "form": "беруть",
+            "romanization": "berut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "брав",
+            "romanization": "brav"
+          },
+          "2sg": {
+            "form": "брав",
+            "romanization": "brav"
+          },
+          "3sg": {
+            "form": "брав",
+            "romanization": "brav"
+          },
+          "1pl": {
+            "form": "брав",
+            "romanization": "brav"
+          },
+          "2pl": {
+            "form": "брав",
+            "romanization": "brav"
+          },
+          "3pl": {
+            "form": "брав",
+            "romanization": "brav"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду брати",
+            "romanization": "budu braty"
+          },
+          "2sg": {
+            "form": "будеш брати",
+            "romanization": "budesh braty"
+          },
+          "3sg": {
+            "form": "буде брати",
+            "romanization": "bude braty"
+          },
+          "1pl": {
+            "form": "будемо брати",
+            "romanization": "budemo braty"
+          },
+          "2pl": {
+            "form": "будете брати",
+            "romanization": "budete braty"
+          },
+          "3pl": {
+            "form": "будуть брати",
+            "romanization": "budut' braty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "read",
+      "infinitive": "читати",
+      "romanization": "chytaty",
+      "pattern_id": "first_conj",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "читаю",
+            "romanization": "chytayu"
+          },
+          "2sg": {
+            "form": "читаєш",
+            "romanization": "chytayesh"
+          },
+          "3sg": {
+            "form": "читає",
+            "romanization": "chytaye"
+          },
+          "1pl": {
+            "form": "читаємо",
+            "romanization": "chytayemo"
+          },
+          "2pl": {
+            "form": "читаєте",
+            "romanization": "chytayete"
+          },
+          "3pl": {
+            "form": "читають",
+            "romanization": "chytayut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "читав",
+            "romanization": "chytav"
+          },
+          "2sg": {
+            "form": "читав",
+            "romanization": "chytav"
+          },
+          "3sg": {
+            "form": "читав",
+            "romanization": "chytav"
+          },
+          "1pl": {
+            "form": "читав",
+            "romanization": "chytav"
+          },
+          "2pl": {
+            "form": "читав",
+            "romanization": "chytav"
+          },
+          "3pl": {
+            "form": "читав",
+            "romanization": "chytav"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду читати",
+            "romanization": "budu chytaty"
+          },
+          "2sg": {
+            "form": "будеш читати",
+            "romanization": "budesh chytaty"
+          },
+          "3sg": {
+            "form": "буде читати",
+            "romanization": "bude chytaty"
+          },
+          "1pl": {
+            "form": "будемо читати",
+            "romanization": "budemo chytaty"
+          },
+          "2pl": {
+            "form": "будете читати",
+            "romanization": "budete chytaty"
+          },
+          "3pl": {
+            "form": "будуть читати",
+            "romanization": "budut' chytaty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "write",
+      "infinitive": "писати",
+      "romanization": "pysaty",
+      "pattern_id": "first_conj",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "пишу",
+            "romanization": "pyshu"
+          },
+          "2sg": {
+            "form": "пишеш",
+            "romanization": "pyshesh"
+          },
+          "3sg": {
+            "form": "пише",
+            "romanization": "pyshe"
+          },
+          "1pl": {
+            "form": "пишемо",
+            "romanization": "pyshemo"
+          },
+          "2pl": {
+            "form": "пишете",
+            "romanization": "pyshete"
+          },
+          "3pl": {
+            "form": "пишуть",
+            "romanization": "pyshut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "писав",
+            "romanization": "pysav"
+          },
+          "2sg": {
+            "form": "писав",
+            "romanization": "pysav"
+          },
+          "3sg": {
+            "form": "писав",
+            "romanization": "pysav"
+          },
+          "1pl": {
+            "form": "писав",
+            "romanization": "pysav"
+          },
+          "2pl": {
+            "form": "писав",
+            "romanization": "pysav"
+          },
+          "3pl": {
+            "form": "писав",
+            "romanization": "pysav"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду писати",
+            "romanization": "budu pysaty"
+          },
+          "2sg": {
+            "form": "будеш писати",
+            "romanization": "budesh pysaty"
+          },
+          "3sg": {
+            "form": "буде писати",
+            "romanization": "bude pysaty"
+          },
+          "1pl": {
+            "form": "будемо писати",
+            "romanization": "budemo pysaty"
+          },
+          "2pl": {
+            "form": "будете писати",
+            "romanization": "budete pysaty"
+          },
+          "3pl": {
+            "form": "будуть писати",
+            "romanization": "budut' pysaty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "sleep",
+      "infinitive": "спати",
+      "romanization": "spaty",
+      "pattern_id": "irregular",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "сплю",
+            "romanization": "splyu"
+          },
+          "2sg": {
+            "form": "спиш",
+            "romanization": "spysh"
+          },
+          "3sg": {
+            "form": "спить",
+            "romanization": "spyt'"
+          },
+          "1pl": {
+            "form": "спимо",
+            "romanization": "spymo"
+          },
+          "2pl": {
+            "form": "спите",
+            "romanization": "spyte"
+          },
+          "3pl": {
+            "form": "сплять",
+            "romanization": "splyat'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "спав",
+            "romanization": "spav"
+          },
+          "2sg": {
+            "form": "спав",
+            "romanization": "spav"
+          },
+          "3sg": {
+            "form": "спав",
+            "romanization": "spav"
+          },
+          "1pl": {
+            "form": "спав",
+            "romanization": "spav"
+          },
+          "2pl": {
+            "form": "спав",
+            "romanization": "spav"
+          },
+          "3pl": {
+            "form": "спав",
+            "romanization": "spav"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду спати",
+            "romanization": "budu spaty"
+          },
+          "2sg": {
+            "form": "будеш спати",
+            "romanization": "budesh spaty"
+          },
+          "3sg": {
+            "form": "буде спати",
+            "romanization": "bude spaty"
+          },
+          "1pl": {
+            "form": "будемо спати",
+            "romanization": "budemo spaty"
+          },
+          "2pl": {
+            "form": "будете спати",
+            "romanization": "budete spaty"
+          },
+          "3pl": {
+            "form": "будуть спати",
+            "romanization": "budut' spaty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "live",
+      "infinitive": "жити",
+      "romanization": "zhyty",
+      "pattern_id": "irregular",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "живу",
+            "romanization": "zhyvu"
+          },
+          "2sg": {
+            "form": "живеш",
+            "romanization": "zhyvesh"
+          },
+          "3sg": {
+            "form": "живе",
+            "romanization": "zhyve"
+          },
+          "1pl": {
+            "form": "живемо",
+            "romanization": "zhyvemo"
+          },
+          "2pl": {
+            "form": "живете",
+            "romanization": "zhyvete"
+          },
+          "3pl": {
+            "form": "живуть",
+            "romanization": "zhyvut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "жив",
+            "romanization": "zhyv"
+          },
+          "2sg": {
+            "form": "жив",
+            "romanization": "zhyv"
+          },
+          "3sg": {
+            "form": "жив",
+            "romanization": "zhyv"
+          },
+          "1pl": {
+            "form": "жив",
+            "romanization": "zhyv"
+          },
+          "2pl": {
+            "form": "жив",
+            "romanization": "zhyv"
+          },
+          "3pl": {
+            "form": "жив",
+            "romanization": "zhyv"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду жити",
+            "romanization": "budu zhyty"
+          },
+          "2sg": {
+            "form": "будеш жити",
+            "romanization": "budesh zhyty"
+          },
+          "3sg": {
+            "form": "буде жити",
+            "romanization": "bude zhyty"
+          },
+          "1pl": {
+            "form": "будемо жити",
+            "romanization": "budemo zhyty"
+          },
+          "2pl": {
+            "form": "будете жити",
+            "romanization": "budete zhyty"
+          },
+          "3pl": {
+            "form": "будуть жити",
+            "romanization": "budut' zhyty"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "work",
+      "infinitive": "працювати",
+      "romanization": "pratsyuvaty",
+      "pattern_id": "first_conj",
+      "forms": {
+        "teperishnij": {
+          "1sg": {
+            "form": "працюю",
+            "romanization": "pratsyuyu"
+          },
+          "2sg": {
+            "form": "працюєш",
+            "romanization": "pratsyuyesh"
+          },
+          "3sg": {
+            "form": "працює",
+            "romanization": "pratsyuye"
+          },
+          "1pl": {
+            "form": "працюємо",
+            "romanization": "pratsyuyemo"
+          },
+          "2pl": {
+            "form": "працюєте",
+            "romanization": "pratsyuyete"
+          },
+          "3pl": {
+            "form": "працюють",
+            "romanization": "pratsyuyut'"
+          }
+        },
+        "mynulyj": {
+          "1sg": {
+            "form": "працював",
+            "romanization": "pratsyuvav"
+          },
+          "2sg": {
+            "form": "працював",
+            "romanization": "pratsyuvav"
+          },
+          "3sg": {
+            "form": "працював",
+            "romanization": "pratsyuvav"
+          },
+          "1pl": {
+            "form": "працював",
+            "romanization": "pratsyuvav"
+          },
+          "2pl": {
+            "form": "працював",
+            "romanization": "pratsyuvav"
+          },
+          "3pl": {
+            "form": "працював",
+            "romanization": "pratsyuvav"
+          }
+        },
+        "majbutnij": {
+          "1sg": {
+            "form": "буду працювати",
+            "romanization": "budu pratsyuvaty"
+          },
+          "2sg": {
+            "form": "будеш працювати",
+            "romanization": "budesh pratsyuvaty"
+          },
+          "3sg": {
+            "form": "буде працювати",
+            "romanization": "bude pratsyuvaty"
+          },
+          "1pl": {
+            "form": "будемо працювати",
+            "romanization": "budemo pratsyuvaty"
+          },
+          "2pl": {
+            "form": "будете працювати",
+            "romanization": "budete pratsyuvaty"
+          },
+          "3pl": {
+            "form": "будуть працювати",
+            "romanization": "budut' pratsyuvaty"
+          }
+        }
+      }
+    }
+  ]
+}

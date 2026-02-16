@@ -1,0 +1,13 @@
+{
+  "language_id": "zh",
+  "words": [
+    {"word": "护照检查在哪里？", "romanization": "hùzhào jiǎnchá zài nǎlǐ?", "pronunciation_hint": "hu-zhao jian-cha zai na-li", "meaning_de": "wo ist die Passkontrolle?", "meaning_en": "where is passport control?", "category": "fragen_richtungen", "frequency_rank": 1301, "concept_id": "where_passport_control", "tone": null, "notes": "机场"},
+    {"word": "这是我的登机牌", "romanization": "zhè shì wǒ de dēngjīpái", "pronunciation_hint": "zhe shi wo de deng-ji-pai", "meaning_de": "hier ist meine Bordkarte", "meaning_en": "here is my boarding pass", "category": "phrasen", "frequency_rank": 1302, "concept_id": "here_boarding_pass", "tone": null, "notes": "值机"},
+    {"word": "我的航班延误了", "romanization": "wǒ de hángbān yánwù le", "pronunciation_hint": "wo de hang-ban yan-wu le", "meaning_de": "mein Flug hat Verspätung", "meaning_en": "my flight is delayed", "category": "phrasen", "frequency_rank": 1303, "concept_id": "flight_delayed", "tone": null, "notes": "出发"},
+    {"word": "行李提取处在哪里？", "romanization": "xínglǐ tíqǔ chù zài nǎlǐ?", "pronunciation_hint": "xing-li ti-qu chu zai na-li", "meaning_de": "wo ist die Gepäckausgabe?", "meaning_en": "where is baggage claim?", "category": "fragen_richtungen", "frequency_rank": 1304, "concept_id": "where_baggage_claim", "tone": null, "notes": "到达"},
+    {"word": "我是来出差的", "romanization": "wǒ shì lái chūchāi de", "pronunciation_hint": "wo shi lai chu-chai de", "meaning_de": "ich bin geschäftlich hier", "meaning_en": "I am here for business", "category": "beruf_bildung", "frequency_rank": 1305, "concept_id": "here_for_business", "tone": null, "notes": "商务"},
+    {"word": "我十点有会议", "romanization": "wǒ shí diǎn yǒu huìyì", "pronunciation_hint": "wo shi dian you hui-yi", "meaning_de": "ich habe um zehn ein Meeting", "meaning_en": "I have a meeting at ten", "category": "beruf_bildung", "frequency_rank": 1306, "concept_id": "meeting_at_ten", "tone": null, "notes": "工作"},
+    {"word": "我们可以安排电话吗？", "romanization": "wǒmen kěyǐ ānpái diànhuà ma?", "pronunciation_hint": "wo-men ke-yi an-pai dian-hua ma", "meaning_de": "können wir einen Call planen?", "meaning_en": "can we schedule a call?", "category": "beruf_bildung", "frequency_rank": 1307, "concept_id": "schedule_call", "tone": null, "notes": "沟通"},
+    {"word": "请发送合同", "romanization": "qǐng fāsòng hétong", "pronunciation_hint": "qing fa-song he-tong", "meaning_de": "bitte senden Sie den Vertrag", "meaning_en": "please send the contract", "category": "beruf_bildung", "frequency_rank": 1308, "concept_id": "send_contract", "tone": null, "notes": "文件"}
+  ]
+}

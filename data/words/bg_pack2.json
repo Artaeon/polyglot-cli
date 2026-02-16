@@ -1,0 +1,11 @@
+{
+  "language_id": "bg",
+  "words": [
+    {"word": "имам резервация", "romanization": "imam rezervatsiya", "pronunciation_hint": "I-mam re-zer-VA-tsi-ya", "meaning_de": "ich habe eine Reservierung", "meaning_en": "I have a reservation", "category": "phrasen", "frequency_rank": 1101, "concept_id": "i_have_reservation", "tone": null, "notes": "Хотел"},
+    {"word": "имам нужда от лекар", "romanization": "imam nuzhda ot lekar", "pronunciation_hint": "I-mam NUZH-da ot LE-kar", "meaning_de": "ich brauche einen Arzt", "meaning_en": "I need a doctor", "category": "koerper_gesundheit", "frequency_rank": 1102, "concept_id": "i_need_doctor", "tone": null, "notes": "Спешно"},
+    {"word": "обадете се на полицията", "romanization": "obadete se na politsiyata", "pronunciation_hint": "o-BA-de-te se na po-li-TSI-ya-ta", "meaning_de": "rufen Sie die Polizei", "meaning_en": "call the police", "category": "phrasen", "frequency_rank": 1103, "concept_id": "call_police", "tone": null, "notes": "Спешен случай"},
+    {"word": "къде е болницата?", "romanization": "kade e bolnitsata?", "pronunciation_hint": "ku-DE e bol-NI-tsa-ta", "meaning_de": "wo ist das Krankenhaus?", "meaning_en": "where is the hospital?", "category": "fragen_richtungen", "frequency_rank": 1104, "concept_id": "where_is_hospital", "tone": null, "notes": "Път"},
+    {"word": "загубих паспорта си", "romanization": "zagubih pasporta si", "pronunciation_hint": "za-GU-bih PAS-por-ta si", "meaning_de": "ich habe meinen Pass verloren", "meaning_en": "I lost my passport", "category": "phrasen", "frequency_rank": 1105, "concept_id": "i_lost_passport", "tone": null, "notes": "Документи"},
+    {"word": "мога ли да платя с карта?", "romanization": "moga li da platya s karta?", "pronunciation_hint": "MO-ga li da PLA-tya s KAR-ta", "meaning_de": "kann ich mit Karte zahlen?", "meaning_en": "can I pay by card?", "category": "essen_trinken", "frequency_rank": 1106, "concept_id": "card_payment_question", "tone": null, "notes": "Плащане"}
+  ]
+}

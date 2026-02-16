@@ -1,0 +1,11 @@
+{
+  "language_id": "ja",
+  "words": [
+    {"word": "予約があります", "romanization": "yoyaku ga arimasu", "pronunciation_hint": "yo-ya-ku ga a-ri-mas", "meaning_de": "ich habe eine Reservierung", "meaning_en": "I have a reservation", "category": "phrasen", "frequency_rank": 1101, "concept_id": "i_have_reservation", "tone": null, "notes": "ホテル"},
+    {"word": "医者が必要です", "romanization": "isha ga hitsuyou desu", "pronunciation_hint": "i-sha ga hi-tsu-yo des", "meaning_de": "ich brauche einen Arzt", "meaning_en": "I need a doctor", "category": "koerper_gesundheit", "frequency_rank": 1102, "concept_id": "i_need_doctor", "tone": null, "notes": "緊急"},
+    {"word": "警察を呼んでください", "romanization": "keisatsu o yonde kudasai", "pronunciation_hint": "kei-sa-tsu o yon-de ku-da-sai", "meaning_de": "rufen Sie die Polizei", "meaning_en": "call the police", "category": "phrasen", "frequency_rank": 1103, "concept_id": "call_police", "tone": null, "notes": "緊急時"},
+    {"word": "病院はどこですか？", "romanization": "byouin wa doko desu ka?", "pronunciation_hint": "byo-in wa do-ko des ka", "meaning_de": "wo ist das Krankenhaus?", "meaning_en": "where is the hospital?", "category": "fragen_richtungen", "frequency_rank": 1104, "concept_id": "where_is_hospital", "tone": null, "notes": "道案内"},
+    {"word": "パスポートをなくしました", "romanization": "pasupooto o nakushimashita", "pronunciation_hint": "pa-su-poo-to o na-ku-shi-ma-shi-ta", "meaning_de": "ich habe meinen Pass verloren", "meaning_en": "I lost my passport", "category": "phrasen", "frequency_rank": 1105, "concept_id": "i_lost_passport", "tone": null, "notes": "書類"},
+    {"word": "カードで払えますか？", "romanization": "kaado de haraemasu ka?", "pronunciation_hint": "kaa-do de ha-ra-e-mas ka", "meaning_de": "kann ich mit Karte zahlen?", "meaning_en": "can I pay by card?", "category": "essen_trinken", "frequency_rank": 1106, "concept_id": "card_payment_question", "tone": null, "notes": "支払い"}
+  ]
+}

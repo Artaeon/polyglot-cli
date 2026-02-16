@@ -1,0 +1,11 @@
+{
+  "language_id": "cs",
+  "words": [
+    {"word": "je mi špatně", "romanization": "", "pronunciation_hint": "ye mi SHPAT-nye", "meaning_de": "mir ist schlecht", "meaning_en": "I feel sick", "category": "koerper_gesundheit", "frequency_rank": 1201, "concept_id": "i_feel_sick", "tone": null, "notes": "Zdraví"},
+    {"word": "mám alergii", "romanization": "", "pronunciation_hint": "maam a-ler-GII", "meaning_de": "ich habe eine Allergie", "meaning_en": "I have an allergy", "category": "koerper_gesundheit", "frequency_rank": 1202, "concept_id": "i_have_allergy", "tone": null, "notes": "Medicína"},
+    {"word": "vodu, prosím", "romanization": "", "pronunciation_hint": "VO-du PRO-seem", "meaning_de": "Wasser bitte", "meaning_en": "water please", "category": "essen_trinken", "frequency_rank": 1203, "concept_id": "water_please", "tone": null, "notes": "Restaurace"},
+    {"word": "je možný pozdní check-out?", "romanization": "", "pronunciation_hint": "ye MOZH-ny POZD-nii chek-aut", "meaning_de": "ist später Check-out möglich?", "meaning_en": "is late checkout possible?", "category": "phrasen", "frequency_rank": 1204, "concept_id": "late_checkout", "tone": null, "notes": "Hotel"},
+    {"word": "vlak do centra", "romanization": "", "pronunciation_hint": "vlak do TSEN-tra", "meaning_de": "Zug ins Zentrum", "meaning_en": "train to city center", "category": "fragen_richtungen", "frequency_rank": 1205, "concept_id": "train_to_center", "tone": null, "notes": "Doprava"},
+    {"word": "je wifi zdarma?", "romanization": "", "pronunciation_hint": "ye WI-fi ZDAR-ma", "meaning_de": "ist WLAN kostenlos?", "meaning_en": "is wifi free?", "category": "phrasen", "frequency_rank": 1206, "concept_id": "is_wifi_free", "tone": null, "notes": "Ubytování"}
+  ]
+}

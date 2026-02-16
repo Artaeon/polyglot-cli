@@ -1,0 +1,218 @@
+{
+  "patterns": [
+    {
+      "id": "sv_simple",
+      "name_de": "Subjekt + Verb",
+      "difficulty": 1,
+      "word_count": 2,
+      "structure": ["pronomen_basics", "verben"],
+      "grammar_note_de": "Einfacher Subjekt-Verb-Satz",
+      "family_notes": {
+        "slavic": "Pronomen kann oft weggelassen werden",
+        "sinosphere": "Subjekt steht immer vor dem Verb"
+      }
+    },
+    {
+      "id": "svo_simple",
+      "name_de": "Subjekt + Verb + Objekt",
+      "difficulty": 2,
+      "word_count": 3,
+      "structure": ["pronomen_basics", "verben", "nomen"],
+      "grammar_note_de": "Einfacher SVO-Satz",
+      "family_notes": {
+        "slavic": "Wortreihenfolge flexibel (SVO, SOV, OVS moeglich)",
+        "sinosphere": "Strikte SVO-Reihenfolge (ausser Japanisch: SOV)"
+      }
+    },
+    {
+      "id": "sva",
+      "name_de": "Subjekt + Verb + Adjektiv",
+      "difficulty": 2,
+      "word_count": 3,
+      "structure": ["pronomen_basics", "verben", "adjektive"],
+      "grammar_note_de": "Satz mit Adjektiv als Praedikat",
+      "family_notes": {
+        "slavic": "Adjektiv kongruiert mit Subjekt (Genus!)"
+      }
+    },
+    {
+      "id": "phrase_nomen",
+      "name_de": "Phrase + Nomen",
+      "difficulty": 1,
+      "word_count": 2,
+      "structure": ["phrasen", "nomen"],
+      "grammar_note_de": "Einfache Phrase mit Nomen"
+    },
+    {
+      "id": "svon",
+      "name_de": "Subjekt + Verb + Adj + Nomen",
+      "difficulty": 3,
+      "word_count": 4,
+      "structure": ["pronomen_basics", "verben", "adjektive", "nomen"],
+      "grammar_note_de": "Komplexerer Satz mit Adjektiv und Nomen"
+    },
+    {
+      "id": "question_simple",
+      "name_de": "Frage + Verb",
+      "difficulty": 2,
+      "word_count": 2,
+      "structure": ["fragen_richtungen", "verben"],
+      "grammar_note_de": "Einfache Frage",
+      "family_notes": {
+        "slavic": "Fragepartikel variiert je nach Sprache",
+        "sinosphere": "Fragepartikel am Satzende (吗, か, 요)"
+      }
+    },
+    {
+      "id": "number_noun",
+      "name_de": "Zahl + Nomen",
+      "difficulty": 1,
+      "word_count": 2,
+      "structure": ["zahlen", "nomen"],
+      "grammar_note_de": "Zahl mit Nomen (Achtung: Kasusregeln!)"
+    },
+    {
+      "id": "greeting_extended",
+      "name_de": "Phrase + Pronomen",
+      "difficulty": 1,
+      "word_count": 2,
+      "structure": ["phrasen", "pronomen_basics"],
+      "grammar_note_de": "Begruessungsphrase mit Pronomen"
+    },
+    {
+      "id": "adj_noun",
+      "name_de": "Adjektiv + Nomen",
+      "difficulty": 2,
+      "word_count": 2,
+      "structure": ["adjektive", "nomen"],
+      "grammar_note_de": "Adjektiv-Nomen-Kombination (Attribut)",
+      "family_notes": {
+        "slavic": "Adjektiv steht meist vor dem Nomen, kongruiert in Genus/Kasus",
+        "romance": "Adjektiv steht meist nach dem Nomen",
+        "sinosphere": "Adjektiv steht vor dem Nomen (mit Partikel in Japanisch/Koreanisch)"
+      }
+    },
+    {
+      "id": "neg_sv",
+      "name_de": "Negation + Subjekt + Verb",
+      "difficulty": 2,
+      "word_count": 3,
+      "structure": ["zeitwoerter_konjunktionen", "pronomen_basics", "verben"],
+      "grammar_note_de": "Verneinungssatz",
+      "family_notes": {
+        "slavic": "Negation (не/nie/ne) steht direkt vor dem Verb",
+        "romance": "Negation umschließt das Verb (fr: ne...pas)",
+        "sinosphere": "Negation (不/ない) vor dem Verb"
+      }
+    },
+    {
+      "id": "time_sv",
+      "name_de": "Zeitadverb + Subjekt + Verb",
+      "difficulty": 2,
+      "word_count": 3,
+      "structure": ["zeitwoerter_konjunktionen", "pronomen_basics", "verben"],
+      "grammar_note_de": "Satz mit Zeitangabe am Anfang",
+      "family_notes": {
+        "slavic": "Zeitadverbien stehen flexibel im Satz",
+        "sinosphere": "Zeitangabe steht vor dem Verb"
+      }
+    },
+    {
+      "id": "question_svo",
+      "name_de": "Frage + Subjekt + Verb + Objekt",
+      "difficulty": 3,
+      "word_count": 4,
+      "structure": ["fragen_richtungen", "pronomen_basics", "verben", "nomen"],
+      "grammar_note_de": "Fragesatz mit Objekt",
+      "family_notes": {
+        "slavic": "Fragewort am Anfang, flexible Wortstellung danach",
+        "romance": "Fragewort + Verb + Subjekt (Inversion) oder SVO",
+        "sinosphere": "Fragewort ersetzt das gefragte Element an seiner Position"
+      }
+    },
+    {
+      "id": "sv_adj_noun",
+      "name_de": "Subjekt + Verb + Adj + Nomen",
+      "difficulty": 3,
+      "word_count": 4,
+      "structure": ["pronomen_basics", "verben", "adjektive", "nomen"],
+      "grammar_note_de": "Satz mit attributivem Adjektiv beim Objekt"
+    },
+    {
+      "id": "number_adj_noun",
+      "name_de": "Zahl + Adj + Nomen",
+      "difficulty": 3,
+      "word_count": 3,
+      "structure": ["zahlen", "adjektive", "nomen"],
+      "grammar_note_de": "Numerale mit attributivem Adjektiv und Nomen",
+      "family_notes": {
+        "slavic": "Kasus haengt von der Zahl ab (besonders 2-4 vs. 5+)",
+        "sinosphere": "Zaehlwoerter/Klassifikatoren zwischen Zahl und Nomen"
+      }
+    },
+    {
+      "id": "phrase_dir_noun",
+      "name_de": "Phrase + Richtung + Nomen",
+      "difficulty": 3,
+      "word_count": 3,
+      "structure": ["phrasen", "fragen_richtungen", "nomen"],
+      "grammar_note_de": "Phrase mit Richtungsangabe und Nomen"
+    },
+    {
+      "id": "svo_time",
+      "name_de": "Subjekt + Verb + Objekt + Zeit",
+      "difficulty": 4,
+      "word_count": 4,
+      "structure": ["pronomen_basics", "verben", "nomen", "zeitwoerter_konjunktionen"],
+      "grammar_note_de": "Vollstaendiger Satz mit Zeitangabe",
+      "family_notes": {
+        "slavic": "Zeitangabe kann an verschiedenen Positionen stehen",
+        "sinosphere": "Zeitangabe steht vor dem Verb, nicht am Ende"
+      }
+    },
+    {
+      "id": "full_question",
+      "name_de": "Frage + Subj + Verb + Adj + Nomen",
+      "difficulty": 4,
+      "word_count": 5,
+      "structure": ["fragen_richtungen", "pronomen_basics", "verben", "adjektive", "nomen"],
+      "grammar_note_de": "Komplexer Fragesatz mit 5 Slots"
+    },
+    {
+      "id": "compound_sv",
+      "name_de": "Subj + Verb + Konj + Subj + Verb",
+      "difficulty": 4,
+      "word_count": 5,
+      "structure": ["pronomen_basics", "verben", "zeitwoerter_konjunktionen", "pronomen_basics", "verben"],
+      "grammar_note_de": "Zusammengesetzter Satz mit Konjunktion",
+      "family_notes": {
+        "slavic": "Konjunktionen: и/и/i (und), но/але/ali (aber)",
+        "romance": "Konjunktionen: e/y/et/și (und), ma/pero/mais/dar (aber)"
+      }
+    },
+    {
+      "id": "descriptive",
+      "name_de": "Subj + Verb + Adj + Adj + Nomen",
+      "difficulty": 4,
+      "word_count": 5,
+      "structure": ["pronomen_basics", "verben", "adjektive", "adjektive", "nomen"],
+      "grammar_note_de": "Beschreibender Satz mit zwei Adjektiven",
+      "family_notes": {
+        "slavic": "Beide Adjektive kongruieren in Genus/Kasus mit dem Nomen",
+        "romance": "Adjektivreihenfolge: Groesse vor Farbe etc."
+      }
+    },
+    {
+      "id": "possessive_svo",
+      "name_de": "Possessiv + Nomen + Verb + Nomen",
+      "difficulty": 3,
+      "word_count": 4,
+      "structure": ["pronomen_basics", "nomen", "verben", "nomen"],
+      "grammar_note_de": "Possessiv-Konstruktion als Subjekt mit Praedikat",
+      "family_notes": {
+        "slavic": "Possessivpronomen kongruiert mit dem Nomen",
+        "sinosphere": "Possessiv mit Partikel: 的 (zh), の (ja), 의 (ko)"
+      }
+    }
+  ]
+}

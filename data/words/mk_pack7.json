@@ -1,0 +1,101 @@
+{
+  "language_id": "mk",
+  "words": [
+    {
+      "word": "Се викам...",
+      "romanization": "Se vikam...",
+      "pronunciation_hint": "se VEE-kam",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1601,
+      "concept_id": "tpl7_my_name_is",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Зборувам малку...",
+      "romanization": "Zboruvam malku...",
+      "pronunciation_hint": "ZBO-ru-vam MAL-ku",
+      "meaning_de": "Ich spreche ein bisschen...",
+      "meaning_en": "I speak a little...",
+      "category": "phrasen",
+      "frequency_rank": 1602,
+      "concept_id": "tpl7_i_speak_language",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Не разбирам.",
+      "romanization": "Ne razbiram.",
+      "pronunciation_hint": "ne raz-BEE-ram",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1603,
+      "concept_id": "tpl7_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Би сакал(а)...",
+      "romanization": "Bi sakal(a)...",
+      "pronunciation_hint": "bee SA-kal(-a)",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1604,
+      "concept_id": "tpl7_i_would_like",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Многу благодарам!",
+      "romanization": "Mnogu blagodaram!",
+      "pronunciation_hint": "MNO-gu bla-go-DA-ram",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1605,
+      "concept_id": "tpl7_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Колку е часот?",
+      "romanization": "Kolku e chasot?",
+      "pronunciation_hint": "KOL-ku e TSCHA-sot",
+      "meaning_de": "Wie spät ist es?",
+      "meaning_en": "What time is it?",
+      "category": "phrasen",
+      "frequency_rank": 1606,
+      "concept_id": "tpl7_what_time_is_it",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Денес е убаво времето.",
+      "romanization": "Denes e ubavo vremeto.",
+      "pronunciation_hint": "DE-nes e U-ba-vo VRE-me-to",
+      "meaning_de": "Das Wetter ist schön heute.",
+      "meaning_en": "The weather is nice today.",
+      "category": "natur_wetter",
+      "frequency_rank": 1607,
+      "concept_id": "tpl7_the_weather_is_nice",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Чаша вода, молам.",
+      "romanization": "Chasha voda, molam.",
+      "pronunciation_hint": "TSCHA-sha VO-da, MO-lam",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1608,
+      "concept_id": "tpl7_water_please",
+      "tone": null,
+      "notes": "template_pack_7"
+    }
+  ]
+}

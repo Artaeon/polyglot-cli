@@ -1,0 +1,11 @@
+{
+  "language_id": "ko",
+  "words": [
+    {"word": "예약이 있어요", "romanization": "yeyagi isseoyo", "pronunciation_hint": "ye-ya-gi i-sso-yo", "meaning_de": "ich habe eine Reservierung", "meaning_en": "I have a reservation", "category": "phrasen", "frequency_rank": 1101, "concept_id": "i_have_reservation", "tone": null, "notes": "호텔"},
+    {"word": "의사가 필요해요", "romanization": "uisaga piryohaeyo", "pronunciation_hint": "ui-sa-ga pi-ryo-he-yo", "meaning_de": "ich brauche einen Arzt", "meaning_en": "I need a doctor", "category": "koerper_gesundheit", "frequency_rank": 1102, "concept_id": "i_need_doctor", "tone": null, "notes": "응급"},
+    {"word": "경찰을 불러 주세요", "romanization": "gyeongchareul bulleo juseyo", "pronunciation_hint": "gyong-cha-rul bul-lo ju-se-yo", "meaning_de": "rufen Sie die Polizei", "meaning_en": "call the police", "category": "phrasen", "frequency_rank": 1103, "concept_id": "call_police", "tone": null, "notes": "긴급 상황"},
+    {"word": "병원이 어디예요?", "romanization": "byeongwoni eodiyeyo?", "pronunciation_hint": "byong-wo-ni o-di-ye-yo", "meaning_de": "wo ist das Krankenhaus?", "meaning_en": "where is the hospital?", "category": "fragen_richtungen", "frequency_rank": 1104, "concept_id": "where_is_hospital", "tone": null, "notes": "길 묻기"},
+    {"word": "여권을 잃어버렸어요", "romanization": "yeogwoneul ireobeoryeosseoyo", "pronunciation_hint": "yo-gwo-nul i-ro-bo-ryo-sso-yo", "meaning_de": "ich habe meinen Pass verloren", "meaning_en": "I lost my passport", "category": "phrasen", "frequency_rank": 1105, "concept_id": "i_lost_passport", "tone": null, "notes": "서류"},
+    {"word": "카드로 결제할 수 있어요?", "romanization": "kadeuro gyeoljehal su isseoyo?", "pronunciation_hint": "ka-du-ro gyol-je-hal su i-sso-yo", "meaning_de": "kann ich mit Karte zahlen?", "meaning_en": "can I pay by card?", "category": "essen_trinken", "frequency_rank": 1106, "concept_id": "card_payment_question", "tone": null, "notes": "결제"}
+  ]
+}

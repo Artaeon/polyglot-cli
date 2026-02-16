@@ -1,0 +1,101 @@
+{
+  "language_id": "vi",
+  "words": [
+    {
+      "word": "Tôi nói một chút...",
+      "romanization": "",
+      "pronunciation_hint": "toi noi mot tschut",
+      "meaning_de": "Ich spreche ein bisschen...",
+      "meaning_en": "I speak a little...",
+      "category": "phrasen",
+      "frequency_rank": 1501,
+      "concept_id": "tpl6_i_speak_language",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Bây giờ là mấy giờ?",
+      "romanization": "",
+      "pronunciation_hint": "bay dschö la may dschö",
+      "meaning_de": "Wie spät ist es?",
+      "meaning_en": "What time is it?",
+      "category": "phrasen",
+      "frequency_rank": 1502,
+      "concept_id": "tpl6_what_time_is_it",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Hôm nay thời tiết đẹp.",
+      "romanization": "",
+      "pronunciation_hint": "hom nay töi tiet dep",
+      "meaning_de": "Das Wetter ist schön heute.",
+      "meaning_en": "The weather is nice today.",
+      "category": "natur_wetter",
+      "frequency_rank": 1503,
+      "concept_id": "tpl6_the_weather_is_nice",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Tôi đói.",
+      "romanization": "",
+      "pronunciation_hint": "toi doi",
+      "meaning_de": "Ich habe Hunger.",
+      "meaning_en": "I am hungry.",
+      "category": "essen_trinken",
+      "frequency_rank": 1504,
+      "concept_id": "tpl6_i_am_hungry",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Anh/Em yêu em/anh.",
+      "romanization": "",
+      "pronunciation_hint": "anh yeu em",
+      "meaning_de": "Ich liebe dich.",
+      "meaning_en": "I love you.",
+      "category": "phrasen",
+      "frequency_rank": 1505,
+      "concept_id": "tpl6_i_love_you",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Chào, bạn khỏe không?",
+      "romanization": "",
+      "pronunciation_hint": "tschau, ban kwe kong",
+      "meaning_de": "Hallo, wie geht es dir?",
+      "meaning_en": "Hello, how are you?",
+      "category": "phrasen",
+      "frequency_rank": 1506,
+      "concept_id": "tpl6_hello_how_are_you",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Nhà vệ sinh ở đâu?",
+      "romanization": "",
+      "pronunciation_hint": "nya we sing ö dau",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1507,
+      "concept_id": "tpl6_where_is",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Cái này bao nhiêu tiền?",
+      "romanization": "",
+      "pronunciation_hint": "kai nay bau nyieu tien",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1508,
+      "concept_id": "tpl6_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_6"
+    }
+  ]
+}

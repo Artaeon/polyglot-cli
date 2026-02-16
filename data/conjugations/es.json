@@ -1,0 +1,790 @@
+{
+  "language_id": "es",
+  "meta": {
+    "persons": ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"],
+    "person_labels_de": {
+      "1sg": "ich (yo)",
+      "2sg": "du (tú)",
+      "3sg": "er/sie (él/ella)",
+      "1pl": "wir (nosotros)",
+      "2pl": "ihr (vosotros)",
+      "3pl": "sie (ellos/ellas)"
+    },
+    "tenses": ["present", "preterite", "imperfect"],
+    "tense_labels_de": {
+      "present": "Praesens",
+      "preterite": "Indefinido",
+      "imperfect": "Imperfekt"
+    }
+  },
+  "conjugation_patterns": [
+    {
+      "pattern_id": "ar_regular",
+      "description_de": "-ar Verben",
+      "rule_de": "Stamm + -o, -as, -a, -amos, -áis, -an",
+      "endings": {
+        "present": {
+          "1sg": "-o",
+          "2sg": "-as",
+          "3sg": "-a",
+          "1pl": "-amos",
+          "2pl": "-áis",
+          "3pl": "-an"
+        },
+        "preterite": {
+          "1sg": "-é",
+          "2sg": "-aste",
+          "3sg": "-ó",
+          "1pl": "-amos",
+          "2pl": "-asteis",
+          "3pl": "-aron"
+        },
+        "imperfect": {
+          "1sg": "-aba",
+          "2sg": "-abas",
+          "3sg": "-aba",
+          "1pl": "-ábamos",
+          "2pl": "-abais",
+          "3pl": "-aban"
+        }
+      }
+    },
+    {
+      "pattern_id": "er_regular",
+      "description_de": "-er Verben",
+      "rule_de": "Stamm + -o, -es, -e, -emos, -éis, -en",
+      "endings": {
+        "present": {
+          "1sg": "-o",
+          "2sg": "-es",
+          "3sg": "-e",
+          "1pl": "-emos",
+          "2pl": "-éis",
+          "3pl": "-en"
+        },
+        "preterite": {
+          "1sg": "-í",
+          "2sg": "-iste",
+          "3sg": "-ió",
+          "1pl": "-imos",
+          "2pl": "-isteis",
+          "3pl": "-ieron"
+        },
+        "imperfect": {
+          "1sg": "-ía",
+          "2sg": "-ías",
+          "3sg": "-ía",
+          "1pl": "-íamos",
+          "2pl": "-íais",
+          "3pl": "-ían"
+        }
+      }
+    },
+    {
+      "pattern_id": "ir_regular",
+      "description_de": "-ir Verben",
+      "rule_de": "Stamm + -o, -es, -e, -imos, -ís, -en",
+      "endings": {
+        "present": {
+          "1sg": "-o",
+          "2sg": "-es",
+          "3sg": "-e",
+          "1pl": "-imos",
+          "2pl": "-ís",
+          "3pl": "-en"
+        },
+        "preterite": {
+          "1sg": "-í",
+          "2sg": "-iste",
+          "3sg": "-ió",
+          "1pl": "-imos",
+          "2pl": "-isteis",
+          "3pl": "-ieron"
+        },
+        "imperfect": {
+          "1sg": "-ía",
+          "2sg": "-ías",
+          "3sg": "-ía",
+          "1pl": "-íamos",
+          "2pl": "-íais",
+          "3pl": "-ían"
+        }
+      }
+    }
+  ],
+  "verbs": [
+    {
+      "infinitive": "trabajar",
+      "concept_id": "work",
+      "translation_de": "arbeiten",
+      "pattern_id": "ar_regular",
+      "is_irregular": false,
+      "forms": {
+        "present": {
+          "1sg": { "form": "trabajo", "romanization": null },
+          "2sg": { "form": "trabajas", "romanization": null },
+          "3sg": { "form": "trabaja", "romanization": null },
+          "1pl": { "form": "trabajamos", "romanization": null },
+          "2pl": { "form": "trabajáis", "romanization": null },
+          "3pl": { "form": "trabajan", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "trabajé", "romanization": null },
+          "2sg": { "form": "trabajaste", "romanization": null },
+          "3sg": { "form": "trabajó", "romanization": null },
+          "1pl": { "form": "trabajamos", "romanization": null },
+          "2pl": { "form": "trabajasteis", "romanization": null },
+          "3pl": { "form": "trabajaron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "trabajaba", "romanization": null },
+          "2sg": { "form": "trabajabas", "romanization": null },
+          "3sg": { "form": "trabajaba", "romanization": null },
+          "1pl": { "form": "trabajábamos", "romanization": null },
+          "2pl": { "form": "trabajabais", "romanization": null },
+          "3pl": { "form": "trabajaban", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "saber",
+      "concept_id": "know",
+      "translation_de": "wissen",
+      "pattern_id": "irregular",
+      "is_irregular": true,
+      "irregular_note_de": "Unregelmäßig in allen drei Zeiten",
+      "forms": {
+        "present": {
+          "1sg": { "form": "sé", "romanization": null },
+          "2sg": { "form": "sabes", "romanization": null },
+          "3sg": { "form": "sabe", "romanization": null },
+          "1pl": { "form": "sabemos", "romanization": null },
+          "2pl": { "form": "sabéis", "romanization": null },
+          "3pl": { "form": "saben", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "supe", "romanization": null },
+          "2sg": { "form": "supiste", "romanization": null },
+          "3sg": { "form": "supo", "romanization": null },
+          "1pl": { "form": "supimos", "romanization": null },
+          "2pl": { "form": "supisteis", "romanization": null },
+          "3pl": { "form": "supieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "sabía", "romanization": null },
+          "2sg": { "form": "sabías", "romanization": null },
+          "3sg": { "form": "sabía", "romanization": null },
+          "1pl": { "form": "sabíamos", "romanization": null },
+          "2pl": { "form": "sabíais", "romanization": null },
+          "3pl": { "form": "sabían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "leer",
+      "concept_id": "read",
+      "translation_de": "lesen",
+      "pattern_id": "er_regular",
+      "is_irregular": false,
+      "irregular_note_de": "Rechtschreibänderung: i -> y zwischen Vokalen im Indefinido",
+      "forms": {
+        "present": {
+          "1sg": { "form": "leo", "romanization": null },
+          "2sg": { "form": "lees", "romanization": null },
+          "3sg": { "form": "lee", "romanization": null },
+          "1pl": { "form": "leemos", "romanization": null },
+          "2pl": { "form": "leéis", "romanization": null },
+          "3pl": { "form": "leen", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "leí", "romanization": null },
+          "2sg": { "form": "leíste", "romanization": null },
+          "3sg": { "form": "leyó", "romanization": null },
+          "1pl": { "form": "leímos", "romanization": null },
+          "2pl": { "form": "leísteis", "romanization": null },
+          "3pl": { "form": "leyeron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "leía", "romanization": null },
+          "2sg": { "form": "leías", "romanization": null },
+          "3sg": { "form": "leía", "romanization": null },
+          "1pl": { "form": "leíamos", "romanization": null },
+          "2pl": { "form": "leíais", "romanization": null },
+          "3pl": { "form": "leían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "escribir",
+      "concept_id": "write",
+      "translation_de": "schreiben",
+      "pattern_id": "ir_regular",
+      "is_irregular": false,
+      "forms": {
+        "present": {
+          "1sg": { "form": "escribo", "romanization": null },
+          "2sg": { "form": "escribes", "romanization": null },
+          "3sg": { "form": "escribe", "romanization": null },
+          "1pl": { "form": "escribimos", "romanization": null },
+          "2pl": { "form": "escribís", "romanization": null },
+          "3pl": { "form": "escriben", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "escribí", "romanization": null },
+          "2sg": { "form": "escribiste", "romanization": null },
+          "3sg": { "form": "escribió", "romanization": null },
+          "1pl": { "form": "escribimos", "romanization": null },
+          "2pl": { "form": "escribisteis", "romanization": null },
+          "3pl": { "form": "escribieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "escribía", "romanization": null },
+          "2sg": { "form": "escribías", "romanization": null },
+          "3sg": { "form": "escribía", "romanization": null },
+          "1pl": { "form": "escribíamos", "romanization": null },
+          "2pl": { "form": "escribíais", "romanization": null },
+          "3pl": { "form": "escribían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "hacer",
+      "concept_id": "do_make",
+      "translation_de": "machen/tun",
+      "pattern_id": "irregular",
+      "is_irregular": true,
+      "irregular_note_de": "Unregelmäßig: hag- im Präsens (1sg), hic-/hiz- im Indefinido",
+      "forms": {
+        "present": {
+          "1sg": { "form": "hago", "romanization": null },
+          "2sg": { "form": "haces", "romanization": null },
+          "3sg": { "form": "hace", "romanization": null },
+          "1pl": { "form": "hacemos", "romanization": null },
+          "2pl": { "form": "hacéis", "romanization": null },
+          "3pl": { "form": "hacen", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "hice", "romanization": null },
+          "2sg": { "form": "hiciste", "romanization": null },
+          "3sg": { "form": "hizo", "romanization": null },
+          "1pl": { "form": "hicimos", "romanization": null },
+          "2pl": { "form": "hicisteis", "romanization": null },
+          "3pl": { "form": "hicieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "hacía", "romanization": null },
+          "2sg": { "form": "hacías", "romanization": null },
+          "3sg": { "form": "hacía", "romanization": null },
+          "1pl": { "form": "hacíamos", "romanization": null },
+          "2pl": { "form": "hacíais", "romanization": null },
+          "3pl": { "form": "hacían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "entender",
+      "concept_id": "understand",
+      "translation_de": "verstehen",
+      "pattern_id": "er_regular",
+      "is_irregular": false,
+      "irregular_note_de": "Stammwechsel e -> ie im Präsens (außer 1pl und 2pl)",
+      "forms": {
+        "present": {
+          "1sg": { "form": "entiendo", "romanization": null },
+          "2sg": { "form": "entiendes", "romanization": null },
+          "3sg": { "form": "entiende", "romanization": null },
+          "1pl": { "form": "entendemos", "romanization": null },
+          "2pl": { "form": "entendéis", "romanization": null },
+          "3pl": { "form": "entienden", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "entendí", "romanization": null },
+          "2sg": { "form": "entendiste", "romanization": null },
+          "3sg": { "form": "entendió", "romanization": null },
+          "1pl": { "form": "entendimos", "romanization": null },
+          "2pl": { "form": "entendisteis", "romanization": null },
+          "3pl": { "form": "entendieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "entendía", "romanization": null },
+          "2sg": { "form": "entendías", "romanization": null },
+          "3sg": { "form": "entendía", "romanization": null },
+          "1pl": { "form": "entendíamos", "romanization": null },
+          "2pl": { "form": "entendíais", "romanization": null },
+          "3pl": { "form": "entendían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "vivir",
+      "concept_id": "live",
+      "translation_de": "leben",
+      "pattern_id": "ir_regular",
+      "is_irregular": false,
+      "forms": {
+        "present": {
+          "1sg": { "form": "vivo", "romanization": null },
+          "2sg": { "form": "vives", "romanization": null },
+          "3sg": { "form": "vive", "romanization": null },
+          "1pl": { "form": "vivimos", "romanization": null },
+          "2pl": { "form": "vivís", "romanization": null },
+          "3pl": { "form": "viven", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "viví", "romanization": null },
+          "2sg": { "form": "viviste", "romanization": null },
+          "3sg": { "form": "vivió", "romanization": null },
+          "1pl": { "form": "vivimos", "romanization": null },
+          "2pl": { "form": "vivisteis", "romanization": null },
+          "3pl": { "form": "vivieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "vivía", "romanization": null },
+          "2sg": { "form": "vivías", "romanization": null },
+          "3sg": { "form": "vivía", "romanization": null },
+          "1pl": { "form": "vivíamos", "romanization": null },
+          "2pl": { "form": "vivíais", "romanization": null },
+          "3pl": { "form": "vivían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "dar",
+      "concept_id": "give",
+      "translation_de": "geben",
+      "pattern_id": "irregular",
+      "is_irregular": true,
+      "irregular_note_de": "Unregelmäßig: doy (1sg Präsens), Indefinido ohne Akzente",
+      "forms": {
+        "present": {
+          "1sg": { "form": "doy", "romanization": null },
+          "2sg": { "form": "das", "romanization": null },
+          "3sg": { "form": "da", "romanization": null },
+          "1pl": { "form": "damos", "romanization": null },
+          "2pl": { "form": "dais", "romanization": null },
+          "3pl": { "form": "dan", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "di", "romanization": null },
+          "2sg": { "form": "diste", "romanization": null },
+          "3sg": { "form": "dio", "romanization": null },
+          "1pl": { "form": "dimos", "romanization": null },
+          "2pl": { "form": "disteis", "romanization": null },
+          "3pl": { "form": "dieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "daba", "romanization": null },
+          "2sg": { "form": "dabas", "romanization": null },
+          "3sg": { "form": "daba", "romanization": null },
+          "1pl": { "form": "dábamos", "romanization": null },
+          "2pl": { "form": "dabais", "romanization": null },
+          "3pl": { "form": "daban", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "amar",
+      "concept_id": "love",
+      "translation_de": "lieben",
+      "pattern_id": "ar_regular",
+      "is_irregular": false,
+      "forms": {
+        "present": {
+          "1sg": { "form": "amo", "romanization": null },
+          "2sg": { "form": "amas", "romanization": null },
+          "3sg": { "form": "ama", "romanization": null },
+          "1pl": { "form": "amamos", "romanization": null },
+          "2pl": { "form": "amáis", "romanization": null },
+          "3pl": { "form": "aman", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "amé", "romanization": null },
+          "2sg": { "form": "amaste", "romanization": null },
+          "3sg": { "form": "amó", "romanization": null },
+          "1pl": { "form": "amamos", "romanization": null },
+          "2pl": { "form": "amasteis", "romanization": null },
+          "3pl": { "form": "amaron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "amaba", "romanization": null },
+          "2sg": { "form": "amabas", "romanization": null },
+          "3sg": { "form": "amaba", "romanization": null },
+          "1pl": { "form": "amábamos", "romanization": null },
+          "2pl": { "form": "amabais", "romanization": null },
+          "3pl": { "form": "amaban", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "decir",
+      "concept_id": "say",
+      "translation_de": "sagen",
+      "pattern_id": "irregular",
+      "is_irregular": true,
+      "irregular_note_de": "Unregelmäßig: dig- (Präsens 1sg), dij- (Indefinido), Stammwechsel e -> i",
+      "forms": {
+        "present": {
+          "1sg": { "form": "digo", "romanization": null },
+          "2sg": { "form": "dices", "romanization": null },
+          "3sg": { "form": "dice", "romanization": null },
+          "1pl": { "form": "decimos", "romanization": null },
+          "2pl": { "form": "decís", "romanization": null },
+          "3pl": { "form": "dicen", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "dije", "romanization": null },
+          "2sg": { "form": "dijiste", "romanization": null },
+          "3sg": { "form": "dijo", "romanization": null },
+          "1pl": { "form": "dijimos", "romanization": null },
+          "2pl": { "form": "dijisteis", "romanization": null },
+          "3pl": { "form": "dijeron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "decía", "romanization": null },
+          "2sg": { "form": "decías", "romanization": null },
+          "3sg": { "form": "decía", "romanization": null },
+          "1pl": { "form": "decíamos", "romanization": null },
+          "2pl": { "form": "decíais", "romanization": null },
+          "3pl": { "form": "decían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "ver",
+      "concept_id": "see",
+      "translation_de": "sehen",
+      "pattern_id": "irregular",
+      "is_irregular": true,
+      "irregular_note_de": "Unregelmäßig: veo (Präsens 1sg), vi/vio ohne Akzent (Indefinido), veía (Imperfekt)",
+      "forms": {
+        "present": {
+          "1sg": { "form": "veo", "romanization": null },
+          "2sg": { "form": "ves", "romanization": null },
+          "3sg": { "form": "ve", "romanization": null },
+          "1pl": { "form": "vemos", "romanization": null },
+          "2pl": { "form": "veis", "romanization": null },
+          "3pl": { "form": "ven", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "vi", "romanization": null },
+          "2sg": { "form": "viste", "romanization": null },
+          "3sg": { "form": "vio", "romanization": null },
+          "1pl": { "form": "vimos", "romanization": null },
+          "2pl": { "form": "visteis", "romanization": null },
+          "3pl": { "form": "vieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "veía", "romanization": null },
+          "2sg": { "form": "veías", "romanization": null },
+          "3sg": { "form": "veía", "romanization": null },
+          "1pl": { "form": "veíamos", "romanization": null },
+          "2pl": { "form": "veíais", "romanization": null },
+          "3pl": { "form": "veían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "querer",
+      "concept_id": "want",
+      "translation_de": "wollen",
+      "pattern_id": "irregular",
+      "is_irregular": true,
+      "irregular_note_de": "Stammwechsel e -> ie im Präsens, quis- im Indefinido",
+      "forms": {
+        "present": {
+          "1sg": { "form": "quiero", "romanization": null },
+          "2sg": { "form": "quieres", "romanization": null },
+          "3sg": { "form": "quiere", "romanization": null },
+          "1pl": { "form": "queremos", "romanization": null },
+          "2pl": { "form": "queréis", "romanization": null },
+          "3pl": { "form": "quieren", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "quise", "romanization": null },
+          "2sg": { "form": "quisiste", "romanization": null },
+          "3sg": { "form": "quiso", "romanization": null },
+          "1pl": { "form": "quisimos", "romanization": null },
+          "2pl": { "form": "quisisteis", "romanization": null },
+          "3pl": { "form": "quisieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "quería", "romanization": null },
+          "2sg": { "form": "querías", "romanization": null },
+          "3sg": { "form": "quería", "romanization": null },
+          "1pl": { "form": "queríamos", "romanization": null },
+          "2pl": { "form": "queríais", "romanization": null },
+          "3pl": { "form": "querían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "poder",
+      "concept_id": "can",
+      "translation_de": "können",
+      "pattern_id": "irregular",
+      "is_irregular": true,
+      "irregular_note_de": "Stammwechsel o -> ue im Präsens, pud- im Indefinido",
+      "forms": {
+        "present": {
+          "1sg": { "form": "puedo", "romanization": null },
+          "2sg": { "form": "puedes", "romanization": null },
+          "3sg": { "form": "puede", "romanization": null },
+          "1pl": { "form": "podemos", "romanization": null },
+          "2pl": { "form": "podéis", "romanization": null },
+          "3pl": { "form": "pueden", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "pude", "romanization": null },
+          "2sg": { "form": "pudiste", "romanization": null },
+          "3sg": { "form": "pudo", "romanization": null },
+          "1pl": { "form": "pudimos", "romanization": null },
+          "2pl": { "form": "pudisteis", "romanization": null },
+          "3pl": { "form": "pudieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "podía", "romanization": null },
+          "2sg": { "form": "podías", "romanization": null },
+          "3sg": { "form": "podía", "romanization": null },
+          "1pl": { "form": "podíamos", "romanization": null },
+          "2pl": { "form": "podíais", "romanization": null },
+          "3pl": { "form": "podían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "ir",
+      "concept_id": "go",
+      "translation_de": "gehen",
+      "pattern_id": "irregular",
+      "is_irregular": true,
+      "irregular_note_de": "Komplett unregelmäßig: voy/vas (Präsens), fui/fue (Indefinido, identisch mit ser), iba (Imperfekt)",
+      "forms": {
+        "present": {
+          "1sg": { "form": "voy", "romanization": null },
+          "2sg": { "form": "vas", "romanization": null },
+          "3sg": { "form": "va", "romanization": null },
+          "1pl": { "form": "vamos", "romanization": null },
+          "2pl": { "form": "vais", "romanization": null },
+          "3pl": { "form": "van", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "fui", "romanization": null },
+          "2sg": { "form": "fuiste", "romanization": null },
+          "3sg": { "form": "fue", "romanization": null },
+          "1pl": { "form": "fuimos", "romanization": null },
+          "2pl": { "form": "fuisteis", "romanization": null },
+          "3pl": { "form": "fueron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "iba", "romanization": null },
+          "2sg": { "form": "ibas", "romanization": null },
+          "3sg": { "form": "iba", "romanization": null },
+          "1pl": { "form": "íbamos", "romanization": null },
+          "2pl": { "form": "ibais", "romanization": null },
+          "3pl": { "form": "iban", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "comer",
+      "concept_id": "eat",
+      "translation_de": "essen",
+      "pattern_id": "er_regular",
+      "is_irregular": false,
+      "forms": {
+        "present": {
+          "1sg": { "form": "como", "romanization": null },
+          "2sg": { "form": "comes", "romanization": null },
+          "3sg": { "form": "come", "romanization": null },
+          "1pl": { "form": "comemos", "romanization": null },
+          "2pl": { "form": "coméis", "romanization": null },
+          "3pl": { "form": "comen", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "comí", "romanization": null },
+          "2sg": { "form": "comiste", "romanization": null },
+          "3sg": { "form": "comió", "romanization": null },
+          "1pl": { "form": "comimos", "romanization": null },
+          "2pl": { "form": "comisteis", "romanization": null },
+          "3pl": { "form": "comieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "comía", "romanization": null },
+          "2sg": { "form": "comías", "romanization": null },
+          "3sg": { "form": "comía", "romanization": null },
+          "1pl": { "form": "comíamos", "romanization": null },
+          "2pl": { "form": "comíais", "romanization": null },
+          "3pl": { "form": "comían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "beber",
+      "concept_id": "drink",
+      "translation_de": "trinken",
+      "pattern_id": "er_regular",
+      "is_irregular": false,
+      "forms": {
+        "present": {
+          "1sg": { "form": "bebo", "romanization": null },
+          "2sg": { "form": "bebes", "romanization": null },
+          "3sg": { "form": "bebe", "romanization": null },
+          "1pl": { "form": "bebemos", "romanization": null },
+          "2pl": { "form": "bebéis", "romanization": null },
+          "3pl": { "form": "beben", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "bebí", "romanization": null },
+          "2sg": { "form": "bebiste", "romanization": null },
+          "3sg": { "form": "bebió", "romanization": null },
+          "1pl": { "form": "bebimos", "romanization": null },
+          "2pl": { "form": "bebisteis", "romanization": null },
+          "3pl": { "form": "bebieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "bebía", "romanization": null },
+          "2sg": { "form": "bebías", "romanization": null },
+          "3sg": { "form": "bebía", "romanization": null },
+          "1pl": { "form": "bebíamos", "romanization": null },
+          "2pl": { "form": "bebíais", "romanization": null },
+          "3pl": { "form": "bebían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "comprar",
+      "concept_id": "buy",
+      "translation_de": "kaufen",
+      "pattern_id": "ar_regular",
+      "is_irregular": false,
+      "forms": {
+        "present": {
+          "1sg": { "form": "compro", "romanization": null },
+          "2sg": { "form": "compras", "romanization": null },
+          "3sg": { "form": "compra", "romanization": null },
+          "1pl": { "form": "compramos", "romanization": null },
+          "2pl": { "form": "compráis", "romanization": null },
+          "3pl": { "form": "compran", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "compré", "romanization": null },
+          "2sg": { "form": "compraste", "romanization": null },
+          "3sg": { "form": "compró", "romanization": null },
+          "1pl": { "form": "compramos", "romanization": null },
+          "2pl": { "form": "comprasteis", "romanization": null },
+          "3pl": { "form": "compraron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "compraba", "romanization": null },
+          "2sg": { "form": "comprabas", "romanization": null },
+          "3sg": { "form": "compraba", "romanization": null },
+          "1pl": { "form": "comprábamos", "romanization": null },
+          "2pl": { "form": "comprabais", "romanization": null },
+          "3pl": { "form": "compraban", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "ser",
+      "concept_id": "be",
+      "translation_de": "sein",
+      "pattern_id": "irregular",
+      "is_irregular": true,
+      "irregular_note_de": "Komplett unregelmäßig in allen Zeiten; Indefinido identisch mit ir",
+      "forms": {
+        "present": {
+          "1sg": { "form": "soy", "romanization": null },
+          "2sg": { "form": "eres", "romanization": null },
+          "3sg": { "form": "es", "romanization": null },
+          "1pl": { "form": "somos", "romanization": null },
+          "2pl": { "form": "sois", "romanization": null },
+          "3pl": { "form": "son", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "fui", "romanization": null },
+          "2sg": { "form": "fuiste", "romanization": null },
+          "3sg": { "form": "fue", "romanization": null },
+          "1pl": { "form": "fuimos", "romanization": null },
+          "2pl": { "form": "fuisteis", "romanization": null },
+          "3pl": { "form": "fueron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "era", "romanization": null },
+          "2sg": { "form": "eras", "romanization": null },
+          "3sg": { "form": "era", "romanization": null },
+          "1pl": { "form": "éramos", "romanization": null },
+          "2pl": { "form": "erais", "romanization": null },
+          "3pl": { "form": "eran", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "tener",
+      "concept_id": "have",
+      "translation_de": "haben",
+      "pattern_id": "irregular",
+      "is_irregular": true,
+      "irregular_note_de": "Unregelmäßig: teng- (Präsens 1sg), tien- (Stammwechsel e -> ie), tuv- (Indefinido)",
+      "forms": {
+        "present": {
+          "1sg": { "form": "tengo", "romanization": null },
+          "2sg": { "form": "tienes", "romanization": null },
+          "3sg": { "form": "tiene", "romanization": null },
+          "1pl": { "form": "tenemos", "romanization": null },
+          "2pl": { "form": "tenéis", "romanization": null },
+          "3pl": { "form": "tienen", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "tuve", "romanization": null },
+          "2sg": { "form": "tuviste", "romanization": null },
+          "3sg": { "form": "tuvo", "romanization": null },
+          "1pl": { "form": "tuvimos", "romanization": null },
+          "2pl": { "form": "tuvisteis", "romanization": null },
+          "3pl": { "form": "tuvieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "tenía", "romanization": null },
+          "2sg": { "form": "tenías", "romanization": null },
+          "3sg": { "form": "tenía", "romanization": null },
+          "1pl": { "form": "teníamos", "romanization": null },
+          "2pl": { "form": "teníais", "romanization": null },
+          "3pl": { "form": "tenían", "romanization": null }
+        }
+      }
+    },
+    {
+      "infinitive": "venir",
+      "concept_id": "come",
+      "translation_de": "kommen",
+      "pattern_id": "irregular",
+      "is_irregular": true,
+      "irregular_note_de": "Unregelmäßig: veng- (Präsens 1sg), vien- (Stammwechsel e -> ie), vin- (Indefinido)",
+      "forms": {
+        "present": {
+          "1sg": { "form": "vengo", "romanization": null },
+          "2sg": { "form": "vienes", "romanization": null },
+          "3sg": { "form": "viene", "romanization": null },
+          "1pl": { "form": "venimos", "romanization": null },
+          "2pl": { "form": "venís", "romanization": null },
+          "3pl": { "form": "vienen", "romanization": null }
+        },
+        "preterite": {
+          "1sg": { "form": "vine", "romanization": null },
+          "2sg": { "form": "viniste", "romanization": null },
+          "3sg": { "form": "vino", "romanization": null },
+          "1pl": { "form": "vinimos", "romanization": null },
+          "2pl": { "form": "vinisteis", "romanization": null },
+          "3pl": { "form": "vinieron", "romanization": null }
+        },
+        "imperfect": {
+          "1sg": { "form": "venía", "romanization": null },
+          "2sg": { "form": "venías", "romanization": null },
+          "3sg": { "form": "venía", "romanization": null },
+          "1pl": { "form": "veníamos", "romanization": null },
+          "2pl": { "form": "veníais", "romanization": null },
+          "3pl": { "form": "venían", "romanization": null }
+        }
+      }
+    }
+  ]
+}

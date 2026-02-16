@@ -1,0 +1,13 @@
+{
+  "language_id": "fi",
+  "words": [
+    {"word": "asema", "romanization": "", "pronunciation_hint": "A-se-ma", "meaning_de": "Bahnhof", "meaning_en": "station", "category": "fragen_richtungen", "frequency_rank": 1001, "concept_id": "station", "tone": null, "notes": "Rautatieasema"},
+    {"word": "lippu", "romanization": "", "pronunciation_hint": "LIP-pu", "meaning_de": "Ticket", "meaning_en": "ticket", "category": "fragen_richtungen", "frequency_rank": 1002, "concept_id": "ticket", "tone": null, "notes": "Bussi-/junalippu"},
+    {"word": "apteekki", "romanization": "", "pronunciation_hint": "ap-TEEK-ki", "meaning_de": "Apotheke", "meaning_en": "pharmacy", "category": "koerper_gesundheit", "frequency_rank": 1003, "concept_id": "pharmacy", "tone": null, "notes": "Terveys"},
+    {"word": "tarvitsen apua", "romanization": "", "pronunciation_hint": "TAR-vit-sen A-pu-a", "meaning_de": "ich brauche Hilfe", "meaning_en": "I need help", "category": "phrasen", "frequency_rank": 1004, "concept_id": "i_need_help", "tone": null, "notes": "Hätätilanne"},
+    {"word": "missä on pysäkki?", "romanization": "", "pronunciation_hint": "MIS-sä on PY-säk-ki", "meaning_de": "wo ist die Haltestelle?", "meaning_en": "where is the stop?", "category": "fragen_richtungen", "frequency_rank": 1005, "concept_id": "where_is_stop", "tone": null, "notes": "Bussipysäkki"},
+    {"word": "avoinna", "romanization": "", "pronunciation_hint": "A-voin-na", "meaning_de": "offen", "meaning_en": "open", "category": "adjektive", "frequency_rank": 1006, "concept_id": "open_adj", "tone": null, "notes": "Kauppa on avoinna"},
+    {"word": "kiinni", "romanization": "", "pronunciation_hint": "KIIN-ni", "meaning_de": "geschlossen", "meaning_en": "closed", "category": "adjektive", "frequency_rank": 1007, "concept_id": "closed_adj", "tone": null, "notes": "Kauppa on kiinni"},
+    {"word": "kuitti", "romanization": "", "pronunciation_hint": "KUIT-ti", "meaning_de": "Quittung", "meaning_en": "receipt", "category": "essen_trinken", "frequency_rank": 1008, "concept_id": "receipt", "tone": null, "notes": "Kassalla"}
+  ]
+}

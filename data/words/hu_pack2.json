@@ -1,0 +1,11 @@
+{
+  "language_id": "hu",
+  "words": [
+    {"word": "van foglalásom", "romanization": "", "pronunciation_hint": "von fog-laa-laa-shom", "meaning_de": "ich habe eine Reservierung", "meaning_en": "I have a reservation", "category": "phrasen", "frequency_rank": 1101, "concept_id": "i_have_reservation", "tone": null, "notes": "Hotel"},
+    {"word": "orvosra van szükségem", "romanization": "", "pronunciation_hint": "OR-vosh-ra von SUUK-she-gem", "meaning_de": "ich brauche einen Arzt", "meaning_en": "I need a doctor", "category": "koerper_gesundheit", "frequency_rank": 1102, "concept_id": "i_need_doctor", "tone": null, "notes": "Sürgős"},
+    {"word": "hívja a rendőrséget", "romanization": "", "pronunciation_hint": "HIIV-ya a ren-dör-she-get", "meaning_de": "rufen Sie die Polizei", "meaning_en": "call the police", "category": "phrasen", "frequency_rank": 1103, "concept_id": "call_police", "tone": null, "notes": "Vészhelyzet"},
+    {"word": "hol van a kórház?", "romanization": "", "pronunciation_hint": "hol von a KOR-haaz", "meaning_de": "wo ist das Krankenhaus?", "meaning_en": "where is the hospital?", "category": "fragen_richtungen", "frequency_rank": 1104, "concept_id": "where_is_hospital", "tone": null, "notes": "Útbaigazítás"},
+    {"word": "elvesztettem az útlevelemet", "romanization": "", "pronunciation_hint": "el-VES-te-tem az UUT-le-ve-le-met", "meaning_de": "ich habe meinen Pass verloren", "meaning_en": "I lost my passport", "category": "phrasen", "frequency_rank": 1105, "concept_id": "i_lost_passport", "tone": null, "notes": "Okmányok"},
+    {"word": "fizethetek kártyával?", "romanization": "", "pronunciation_hint": "FI-ze-he-tek KAAR-tyaa-val", "meaning_de": "kann ich mit Karte zahlen?", "meaning_en": "can I pay by card?", "category": "essen_trinken", "frequency_rank": 1106, "concept_id": "card_payment_question", "tone": null, "notes": "Fizetés"}
+  ]
+}

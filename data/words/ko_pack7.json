@@ -1,0 +1,101 @@
+{
+  "language_id": "ko",
+  "words": [
+    {
+      "word": "저는 ...입니다.",
+      "romanization": "Jeoneun ...imnida.",
+      "pronunciation_hint": "dschö-nün ... im-ni-da",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1601,
+      "concept_id": "tpl7_my_name_is",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "...를 조금 해요.",
+      "romanization": "...reul jogeum haeyo.",
+      "pronunciation_hint": "...rül dschogüm he-yo",
+      "meaning_de": "Ich spreche ein bisschen...",
+      "meaning_en": "I speak a little...",
+      "category": "phrasen",
+      "frequency_rank": 1602,
+      "concept_id": "tpl7_i_speak_language",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "이해하지 못해요.",
+      "romanization": "Ihaehaji mothaeyo.",
+      "pronunciation_hint": "i-he-ha-dschi mo-te-yo",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1603,
+      "concept_id": "tpl7_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "...을/를 주세요.",
+      "romanization": "...eul/reul juseyo.",
+      "pronunciation_hint": "... ül/rül dschu-se-yo",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1604,
+      "concept_id": "tpl7_i_would_like",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "정말 감사합니다!",
+      "romanization": "Jeongmal gamsahamnida!",
+      "pronunciation_hint": "dschong-mal gam-sa-ham-ni-da",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1605,
+      "concept_id": "tpl7_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "지금 몇 시예요?",
+      "romanization": "Jigeum myeot siyeyo?",
+      "pronunciation_hint": "dschi-güm myöt schi-ye-yo",
+      "meaning_de": "Wie spät ist es?",
+      "meaning_en": "What time is it?",
+      "category": "phrasen",
+      "frequency_rank": 1606,
+      "concept_id": "tpl7_what_time_is_it",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "오늘 날씨가 좋아요.",
+      "romanization": "Oneul nalssiga joayo.",
+      "pronunciation_hint": "o-nül nal-ssi-ga dscho-a-yo",
+      "meaning_de": "Das Wetter ist schön heute.",
+      "meaning_en": "The weather is nice today.",
+      "category": "natur_wetter",
+      "frequency_rank": 1607,
+      "concept_id": "tpl7_the_weather_is_nice",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "물 한 잔 주세요.",
+      "romanization": "Mul han jan juseyo.",
+      "pronunciation_hint": "mul han dschan dschu-se-yo",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1608,
+      "concept_id": "tpl7_water_please",
+      "tone": null,
+      "notes": "template_pack_7"
+    }
+  ]
+}

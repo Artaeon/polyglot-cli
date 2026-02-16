@@ -1,0 +1,694 @@
+{
+  "language_id": "cs",
+  "meta": {
+    "persons": ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"],
+    "person_labels_de": {
+      "1sg": "ich (já)",
+      "2sg": "du (ty)",
+      "3sg": "er/sie/es (on/ona/ono)",
+      "1pl": "wir (my)",
+      "2pl": "ihr (vy)",
+      "3pl": "sie (oni/ony)"
+    },
+    "tenses": ["present", "past_masc", "past_fem"],
+    "tense_labels_de": {
+      "present": "Praesens",
+      "past_masc": "Vergangenheit (maennlich)",
+      "past_fem": "Vergangenheit (weiblich)"
+    }
+  },
+  "conjugation_patterns": [
+    {
+      "id": "class_1",
+      "label": "1. třída (-á/-ám)",
+      "description": "First class: verbs with -ám, -áš, -á endings in present tense",
+      "example": "dělat"
+    },
+    {
+      "id": "class_2",
+      "label": "2. třída (-e/-í)",
+      "description": "Second class: verbs with -u/-i endings in present tense",
+      "example": "psát"
+    },
+    {
+      "id": "class_3",
+      "label": "3. třída (-uje)",
+      "description": "Third class: verbs with -uji/-uješ endings in present tense",
+      "example": "kupovat"
+    },
+    {
+      "id": "class_4",
+      "label": "4. třída (-í/-ím)",
+      "description": "Fourth class: verbs with -ím, -íš, -í endings in present tense",
+      "example": "rozumět"
+    },
+    {
+      "id": "irregular",
+      "label": "nepravidelné",
+      "description": "Irregular verbs with unique conjugation patterns",
+      "example": "být"
+    }
+  ],
+  "verbs": [
+    {
+      "concept_id": "work",
+      "infinitive": "pracovat",
+      "romanization": null,
+      "pattern_id": "class_3",
+      "forms": {
+        "present": {
+          "1sg": {"form": "pracuji", "romanization": null},
+          "2sg": {"form": "pracuješ", "romanization": null},
+          "3sg": {"form": "pracuje", "romanization": null},
+          "1pl": {"form": "pracujeme", "romanization": null},
+          "2pl": {"form": "pracujete", "romanization": null},
+          "3pl": {"form": "pracují", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "pracoval jsem", "romanization": null},
+          "2sg": {"form": "pracoval jsi", "romanization": null},
+          "3sg": {"form": "pracoval", "romanization": null},
+          "1pl": {"form": "pracovali jsme", "romanization": null},
+          "2pl": {"form": "pracovali jste", "romanization": null},
+          "3pl": {"form": "pracovali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "pracovala jsem", "romanization": null},
+          "2sg": {"form": "pracovala jsi", "romanization": null},
+          "3sg": {"form": "pracovala", "romanization": null},
+          "1pl": {"form": "pracovaly jsme", "romanization": null},
+          "2pl": {"form": "pracovaly jste", "romanization": null},
+          "3pl": {"form": "pracovaly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "know",
+      "infinitive": "vědět",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "vím", "romanization": null},
+          "2sg": {"form": "víš", "romanization": null},
+          "3sg": {"form": "ví", "romanization": null},
+          "1pl": {"form": "víme", "romanization": null},
+          "2pl": {"form": "víte", "romanization": null},
+          "3pl": {"form": "vědí", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "věděl jsem", "romanization": null},
+          "2sg": {"form": "věděl jsi", "romanization": null},
+          "3sg": {"form": "věděl", "romanization": null},
+          "1pl": {"form": "věděli jsme", "romanization": null},
+          "2pl": {"form": "věděli jste", "romanization": null},
+          "3pl": {"form": "věděli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "věděla jsem", "romanization": null},
+          "2sg": {"form": "věděla jsi", "romanization": null},
+          "3sg": {"form": "věděla", "romanization": null},
+          "1pl": {"form": "věděly jsme", "romanization": null},
+          "2pl": {"form": "věděly jste", "romanization": null},
+          "3pl": {"form": "věděly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "read",
+      "infinitive": "číst",
+      "romanization": null,
+      "pattern_id": "class_2",
+      "forms": {
+        "present": {
+          "1sg": {"form": "čtu", "romanization": null},
+          "2sg": {"form": "čteš", "romanization": null},
+          "3sg": {"form": "čte", "romanization": null},
+          "1pl": {"form": "čteme", "romanization": null},
+          "2pl": {"form": "čtete", "romanization": null},
+          "3pl": {"form": "čtou", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "četl jsem", "romanization": null},
+          "2sg": {"form": "četl jsi", "romanization": null},
+          "3sg": {"form": "četl", "romanization": null},
+          "1pl": {"form": "četli jsme", "romanization": null},
+          "2pl": {"form": "četli jste", "romanization": null},
+          "3pl": {"form": "četli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "četla jsem", "romanization": null},
+          "2sg": {"form": "četla jsi", "romanization": null},
+          "3sg": {"form": "četla", "romanization": null},
+          "1pl": {"form": "četly jsme", "romanization": null},
+          "2pl": {"form": "četly jste", "romanization": null},
+          "3pl": {"form": "četly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "write",
+      "infinitive": "psát",
+      "romanization": null,
+      "pattern_id": "class_2",
+      "forms": {
+        "present": {
+          "1sg": {"form": "píšu", "romanization": null},
+          "2sg": {"form": "píšeš", "romanization": null},
+          "3sg": {"form": "píše", "romanization": null},
+          "1pl": {"form": "píšeme", "romanization": null},
+          "2pl": {"form": "píšete", "romanization": null},
+          "3pl": {"form": "píšou", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "psal jsem", "romanization": null},
+          "2sg": {"form": "psal jsi", "romanization": null},
+          "3sg": {"form": "psal", "romanization": null},
+          "1pl": {"form": "psali jsme", "romanization": null},
+          "2pl": {"form": "psali jste", "romanization": null},
+          "3pl": {"form": "psali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "psala jsem", "romanization": null},
+          "2sg": {"form": "psala jsi", "romanization": null},
+          "3sg": {"form": "psala", "romanization": null},
+          "1pl": {"form": "psaly jsme", "romanization": null},
+          "2pl": {"form": "psaly jste", "romanization": null},
+          "3pl": {"form": "psaly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "do_make",
+      "infinitive": "dělat",
+      "romanization": null,
+      "pattern_id": "class_1",
+      "forms": {
+        "present": {
+          "1sg": {"form": "dělám", "romanization": null},
+          "2sg": {"form": "děláš", "romanization": null},
+          "3sg": {"form": "dělá", "romanization": null},
+          "1pl": {"form": "děláme", "romanization": null},
+          "2pl": {"form": "děláte", "romanization": null},
+          "3pl": {"form": "dělají", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "dělal jsem", "romanization": null},
+          "2sg": {"form": "dělal jsi", "romanization": null},
+          "3sg": {"form": "dělal", "romanization": null},
+          "1pl": {"form": "dělali jsme", "romanization": null},
+          "2pl": {"form": "dělali jste", "romanization": null},
+          "3pl": {"form": "dělali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "dělala jsem", "romanization": null},
+          "2sg": {"form": "dělala jsi", "romanization": null},
+          "3sg": {"form": "dělala", "romanization": null},
+          "1pl": {"form": "dělaly jsme", "romanization": null},
+          "2pl": {"form": "dělaly jste", "romanization": null},
+          "3pl": {"form": "dělaly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "understand",
+      "infinitive": "rozumět",
+      "romanization": null,
+      "pattern_id": "class_4",
+      "forms": {
+        "present": {
+          "1sg": {"form": "rozumím", "romanization": null},
+          "2sg": {"form": "rozumíš", "romanization": null},
+          "3sg": {"form": "rozumí", "romanization": null},
+          "1pl": {"form": "rozumíme", "romanization": null},
+          "2pl": {"form": "rozumíte", "romanization": null},
+          "3pl": {"form": "rozumějí", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "rozuměl jsem", "romanization": null},
+          "2sg": {"form": "rozuměl jsi", "romanization": null},
+          "3sg": {"form": "rozuměl", "romanization": null},
+          "1pl": {"form": "rozuměli jsme", "romanization": null},
+          "2pl": {"form": "rozuměli jste", "romanization": null},
+          "3pl": {"form": "rozuměli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "rozuměla jsem", "romanization": null},
+          "2sg": {"form": "rozuměla jsi", "romanization": null},
+          "3sg": {"form": "rozuměla", "romanization": null},
+          "1pl": {"form": "rozuměly jsme", "romanization": null},
+          "2pl": {"form": "rozuměly jste", "romanization": null},
+          "3pl": {"form": "rozuměly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "live",
+      "infinitive": "žít",
+      "romanization": null,
+      "pattern_id": "class_2",
+      "forms": {
+        "present": {
+          "1sg": {"form": "žiji", "romanization": null},
+          "2sg": {"form": "žiješ", "romanization": null},
+          "3sg": {"form": "žije", "romanization": null},
+          "1pl": {"form": "žijeme", "romanization": null},
+          "2pl": {"form": "žijete", "romanization": null},
+          "3pl": {"form": "žijí", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "žil jsem", "romanization": null},
+          "2sg": {"form": "žil jsi", "romanization": null},
+          "3sg": {"form": "žil", "romanization": null},
+          "1pl": {"form": "žili jsme", "romanization": null},
+          "2pl": {"form": "žili jste", "romanization": null},
+          "3pl": {"form": "žili", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "žila jsem", "romanization": null},
+          "2sg": {"form": "žila jsi", "romanization": null},
+          "3sg": {"form": "žila", "romanization": null},
+          "1pl": {"form": "žily jsme", "romanization": null},
+          "2pl": {"form": "žily jste", "romanization": null},
+          "3pl": {"form": "žily", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "give",
+      "infinitive": "dávat",
+      "romanization": null,
+      "pattern_id": "class_1",
+      "forms": {
+        "present": {
+          "1sg": {"form": "dávám", "romanization": null},
+          "2sg": {"form": "dáváš", "romanization": null},
+          "3sg": {"form": "dává", "romanization": null},
+          "1pl": {"form": "dáváme", "romanization": null},
+          "2pl": {"form": "dáváte", "romanization": null},
+          "3pl": {"form": "dávají", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "dával jsem", "romanization": null},
+          "2sg": {"form": "dával jsi", "romanization": null},
+          "3sg": {"form": "dával", "romanization": null},
+          "1pl": {"form": "dávali jsme", "romanization": null},
+          "2pl": {"form": "dávali jste", "romanization": null},
+          "3pl": {"form": "dávali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "dávala jsem", "romanization": null},
+          "2sg": {"form": "dávala jsi", "romanization": null},
+          "3sg": {"form": "dávala", "romanization": null},
+          "1pl": {"form": "dávaly jsme", "romanization": null},
+          "2pl": {"form": "dávaly jste", "romanization": null},
+          "3pl": {"form": "dávaly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "love",
+      "infinitive": "milovat",
+      "romanization": null,
+      "pattern_id": "class_3",
+      "forms": {
+        "present": {
+          "1sg": {"form": "miluji", "romanization": null},
+          "2sg": {"form": "miluješ", "romanization": null},
+          "3sg": {"form": "miluje", "romanization": null},
+          "1pl": {"form": "milujeme", "romanization": null},
+          "2pl": {"form": "milujete", "romanization": null},
+          "3pl": {"form": "milují", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "miloval jsem", "romanization": null},
+          "2sg": {"form": "miloval jsi", "romanization": null},
+          "3sg": {"form": "miloval", "romanization": null},
+          "1pl": {"form": "milovali jsme", "romanization": null},
+          "2pl": {"form": "milovali jste", "romanization": null},
+          "3pl": {"form": "milovali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "milovala jsem", "romanization": null},
+          "2sg": {"form": "milovala jsi", "romanization": null},
+          "3sg": {"form": "milovala", "romanization": null},
+          "1pl": {"form": "milovaly jsme", "romanization": null},
+          "2pl": {"form": "milovaly jste", "romanization": null},
+          "3pl": {"form": "milovaly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "say",
+      "infinitive": "říkat",
+      "romanization": null,
+      "pattern_id": "class_1",
+      "forms": {
+        "present": {
+          "1sg": {"form": "říkám", "romanization": null},
+          "2sg": {"form": "říkáš", "romanization": null},
+          "3sg": {"form": "říká", "romanization": null},
+          "1pl": {"form": "říkáme", "romanization": null},
+          "2pl": {"form": "říkáte", "romanization": null},
+          "3pl": {"form": "říkají", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "říkal jsem", "romanization": null},
+          "2sg": {"form": "říkal jsi", "romanization": null},
+          "3sg": {"form": "říkal", "romanization": null},
+          "1pl": {"form": "říkali jsme", "romanization": null},
+          "2pl": {"form": "říkali jste", "romanization": null},
+          "3pl": {"form": "říkali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "říkala jsem", "romanization": null},
+          "2sg": {"form": "říkala jsi", "romanization": null},
+          "3sg": {"form": "říkala", "romanization": null},
+          "1pl": {"form": "říkaly jsme", "romanization": null},
+          "2pl": {"form": "říkaly jste", "romanization": null},
+          "3pl": {"form": "říkaly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "see",
+      "infinitive": "vidět",
+      "romanization": null,
+      "pattern_id": "class_4",
+      "forms": {
+        "present": {
+          "1sg": {"form": "vidím", "romanization": null},
+          "2sg": {"form": "vidíš", "romanization": null},
+          "3sg": {"form": "vidí", "romanization": null},
+          "1pl": {"form": "vidíme", "romanization": null},
+          "2pl": {"form": "vidíte", "romanization": null},
+          "3pl": {"form": "vidí", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "viděl jsem", "romanization": null},
+          "2sg": {"form": "viděl jsi", "romanization": null},
+          "3sg": {"form": "viděl", "romanization": null},
+          "1pl": {"form": "viděli jsme", "romanization": null},
+          "2pl": {"form": "viděli jste", "romanization": null},
+          "3pl": {"form": "viděli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "viděla jsem", "romanization": null},
+          "2sg": {"form": "viděla jsi", "romanization": null},
+          "3sg": {"form": "viděla", "romanization": null},
+          "1pl": {"form": "viděly jsme", "romanization": null},
+          "2pl": {"form": "viděly jste", "romanization": null},
+          "3pl": {"form": "viděly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "want",
+      "infinitive": "chtít",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "chci", "romanization": null},
+          "2sg": {"form": "chceš", "romanization": null},
+          "3sg": {"form": "chce", "romanization": null},
+          "1pl": {"form": "chceme", "romanization": null},
+          "2pl": {"form": "chcete", "romanization": null},
+          "3pl": {"form": "chtějí", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "chtěl jsem", "romanization": null},
+          "2sg": {"form": "chtěl jsi", "romanization": null},
+          "3sg": {"form": "chtěl", "romanization": null},
+          "1pl": {"form": "chtěli jsme", "romanization": null},
+          "2pl": {"form": "chtěli jste", "romanization": null},
+          "3pl": {"form": "chtěli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "chtěla jsem", "romanization": null},
+          "2sg": {"form": "chtěla jsi", "romanization": null},
+          "3sg": {"form": "chtěla", "romanization": null},
+          "1pl": {"form": "chtěly jsme", "romanization": null},
+          "2pl": {"form": "chtěly jste", "romanization": null},
+          "3pl": {"form": "chtěly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "can",
+      "infinitive": "moci",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "mohu", "romanization": null},
+          "2sg": {"form": "můžeš", "romanization": null},
+          "3sg": {"form": "může", "romanization": null},
+          "1pl": {"form": "můžeme", "romanization": null},
+          "2pl": {"form": "můžete", "romanization": null},
+          "3pl": {"form": "mohou", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "mohl jsem", "romanization": null},
+          "2sg": {"form": "mohl jsi", "romanization": null},
+          "3sg": {"form": "mohl", "romanization": null},
+          "1pl": {"form": "mohli jsme", "romanization": null},
+          "2pl": {"form": "mohli jste", "romanization": null},
+          "3pl": {"form": "mohli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "mohla jsem", "romanization": null},
+          "2sg": {"form": "mohla jsi", "romanization": null},
+          "3sg": {"form": "mohla", "romanization": null},
+          "1pl": {"form": "mohly jsme", "romanization": null},
+          "2pl": {"form": "mohly jste", "romanization": null},
+          "3pl": {"form": "mohly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "go",
+      "infinitive": "jít",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "jdu", "romanization": null},
+          "2sg": {"form": "jdeš", "romanization": null},
+          "3sg": {"form": "jde", "romanization": null},
+          "1pl": {"form": "jdeme", "romanization": null},
+          "2pl": {"form": "jdete", "romanization": null},
+          "3pl": {"form": "jdou", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "šel jsem", "romanization": null},
+          "2sg": {"form": "šel jsi", "romanization": null},
+          "3sg": {"form": "šel", "romanization": null},
+          "1pl": {"form": "šli jsme", "romanization": null},
+          "2pl": {"form": "šli jste", "romanization": null},
+          "3pl": {"form": "šli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "šla jsem", "romanization": null},
+          "2sg": {"form": "šla jsi", "romanization": null},
+          "3sg": {"form": "šla", "romanization": null},
+          "1pl": {"form": "šly jsme", "romanization": null},
+          "2pl": {"form": "šly jste", "romanization": null},
+          "3pl": {"form": "šly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "eat",
+      "infinitive": "jíst",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "jím", "romanization": null},
+          "2sg": {"form": "jíš", "romanization": null},
+          "3sg": {"form": "jí", "romanization": null},
+          "1pl": {"form": "jíme", "romanization": null},
+          "2pl": {"form": "jíte", "romanization": null},
+          "3pl": {"form": "jedí", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "jedl jsem", "romanization": null},
+          "2sg": {"form": "jedl jsi", "romanization": null},
+          "3sg": {"form": "jedl", "romanization": null},
+          "1pl": {"form": "jedli jsme", "romanization": null},
+          "2pl": {"form": "jedli jste", "romanization": null},
+          "3pl": {"form": "jedli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "jedla jsem", "romanization": null},
+          "2sg": {"form": "jedla jsi", "romanization": null},
+          "3sg": {"form": "jedla", "romanization": null},
+          "1pl": {"form": "jedly jsme", "romanization": null},
+          "2pl": {"form": "jedly jste", "romanization": null},
+          "3pl": {"form": "jedly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "drink",
+      "infinitive": "pít",
+      "romanization": null,
+      "pattern_id": "class_2",
+      "forms": {
+        "present": {
+          "1sg": {"form": "piji", "romanization": null},
+          "2sg": {"form": "piješ", "romanization": null},
+          "3sg": {"form": "pije", "romanization": null},
+          "1pl": {"form": "pijeme", "romanization": null},
+          "2pl": {"form": "pijete", "romanization": null},
+          "3pl": {"form": "pijí", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "pil jsem", "romanization": null},
+          "2sg": {"form": "pil jsi", "romanization": null},
+          "3sg": {"form": "pil", "romanization": null},
+          "1pl": {"form": "pili jsme", "romanization": null},
+          "2pl": {"form": "pili jste", "romanization": null},
+          "3pl": {"form": "pili", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "pila jsem", "romanization": null},
+          "2sg": {"form": "pila jsi", "romanization": null},
+          "3sg": {"form": "pila", "romanization": null},
+          "1pl": {"form": "pily jsme", "romanization": null},
+          "2pl": {"form": "pily jste", "romanization": null},
+          "3pl": {"form": "pily", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "buy",
+      "infinitive": "kupovat",
+      "romanization": null,
+      "pattern_id": "class_3",
+      "forms": {
+        "present": {
+          "1sg": {"form": "kupuji", "romanization": null},
+          "2sg": {"form": "kupuješ", "romanization": null},
+          "3sg": {"form": "kupuje", "romanization": null},
+          "1pl": {"form": "kupujeme", "romanization": null},
+          "2pl": {"form": "kupujete", "romanization": null},
+          "3pl": {"form": "kupují", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "kupoval jsem", "romanization": null},
+          "2sg": {"form": "kupoval jsi", "romanization": null},
+          "3sg": {"form": "kupoval", "romanization": null},
+          "1pl": {"form": "kupovali jsme", "romanization": null},
+          "2pl": {"form": "kupovali jste", "romanization": null},
+          "3pl": {"form": "kupovali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "kupovala jsem", "romanization": null},
+          "2sg": {"form": "kupovala jsi", "romanization": null},
+          "3sg": {"form": "kupovala", "romanization": null},
+          "1pl": {"form": "kupovaly jsme", "romanization": null},
+          "2pl": {"form": "kupovaly jste", "romanization": null},
+          "3pl": {"form": "kupovaly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "be",
+      "infinitive": "být",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "jsem", "romanization": null},
+          "2sg": {"form": "jsi", "romanization": null},
+          "3sg": {"form": "je", "romanization": null},
+          "1pl": {"form": "jsme", "romanization": null},
+          "2pl": {"form": "jste", "romanization": null},
+          "3pl": {"form": "jsou", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "byl jsem", "romanization": null},
+          "2sg": {"form": "byl jsi", "romanization": null},
+          "3sg": {"form": "byl", "romanization": null},
+          "1pl": {"form": "byli jsme", "romanization": null},
+          "2pl": {"form": "byli jste", "romanization": null},
+          "3pl": {"form": "byli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "byla jsem", "romanization": null},
+          "2sg": {"form": "byla jsi", "romanization": null},
+          "3sg": {"form": "byla", "romanization": null},
+          "1pl": {"form": "byly jsme", "romanization": null},
+          "2pl": {"form": "byly jste", "romanization": null},
+          "3pl": {"form": "byly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "have",
+      "infinitive": "mít",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "mám", "romanization": null},
+          "2sg": {"form": "máš", "romanization": null},
+          "3sg": {"form": "má", "romanization": null},
+          "1pl": {"form": "máme", "romanization": null},
+          "2pl": {"form": "máte", "romanization": null},
+          "3pl": {"form": "mají", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "měl jsem", "romanization": null},
+          "2sg": {"form": "měl jsi", "romanization": null},
+          "3sg": {"form": "měl", "romanization": null},
+          "1pl": {"form": "měli jsme", "romanization": null},
+          "2pl": {"form": "měli jste", "romanization": null},
+          "3pl": {"form": "měli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "měla jsem", "romanization": null},
+          "2sg": {"form": "měla jsi", "romanization": null},
+          "3sg": {"form": "měla", "romanization": null},
+          "1pl": {"form": "měly jsme", "romanization": null},
+          "2pl": {"form": "měly jste", "romanization": null},
+          "3pl": {"form": "měly", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "come",
+      "infinitive": "přicházet",
+      "romanization": null,
+      "pattern_id": "class_4",
+      "forms": {
+        "present": {
+          "1sg": {"form": "přicházím", "romanization": null},
+          "2sg": {"form": "přicházíš", "romanization": null},
+          "3sg": {"form": "přichází", "romanization": null},
+          "1pl": {"form": "přicházíme", "romanization": null},
+          "2pl": {"form": "přicházíte", "romanization": null},
+          "3pl": {"form": "přicházejí", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "přicházel jsem", "romanization": null},
+          "2sg": {"form": "přicházel jsi", "romanization": null},
+          "3sg": {"form": "přicházel", "romanization": null},
+          "1pl": {"form": "přicházeli jsme", "romanization": null},
+          "2pl": {"form": "přicházeli jste", "romanization": null},
+          "3pl": {"form": "přicházeli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "přicházela jsem", "romanization": null},
+          "2sg": {"form": "přicházela jsi", "romanization": null},
+          "3sg": {"form": "přicházela", "romanization": null},
+          "1pl": {"form": "přicházely jsme", "romanization": null},
+          "2pl": {"form": "přicházely jste", "romanization": null},
+          "3pl": {"form": "přicházely", "romanization": null}
+        }
+      }
+    }
+  ]
+}

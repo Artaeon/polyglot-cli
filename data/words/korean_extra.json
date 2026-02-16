@@ -1,0 +1,13 @@
+{
+  "language_id": "ko",
+  "words": [
+    {"word": "역", "romanization": "yeok", "pronunciation_hint": "yok", "meaning_de": "Bahnhof", "meaning_en": "station", "category": "fragen_richtungen", "frequency_rank": 1001, "concept_id": "station", "tone": null, "notes": "기차역"},
+    {"word": "표", "romanization": "pyo", "pronunciation_hint": "pyo", "meaning_de": "Ticket", "meaning_en": "ticket", "category": "fragen_richtungen", "frequency_rank": 1002, "concept_id": "ticket", "tone": null, "notes": "버스/기차 표"},
+    {"word": "약국", "romanization": "yakguk", "pronunciation_hint": "yak-guk", "meaning_de": "Apotheke", "meaning_en": "pharmacy", "category": "koerper_gesundheit", "frequency_rank": 1003, "concept_id": "pharmacy", "tone": null, "notes": "약을 사는 곳"},
+    {"word": "도움이 필요해요", "romanization": "doumi piryohaeyo", "pronunciation_hint": "do-u-mi pi-ryo-he-yo", "meaning_de": "ich brauche Hilfe", "meaning_en": "I need help", "category": "phrasen", "frequency_rank": 1004, "concept_id": "i_need_help", "tone": null, "notes": "정중한 표현"},
+    {"word": "정류장이 어디예요?", "romanization": "jeongryujangi eodiyeyo?", "pronunciation_hint": "jong-ryu-jang-i o-di-ye-yo", "meaning_de": "wo ist die Haltestelle?", "meaning_en": "where is the stop?", "category": "fragen_richtungen", "frequency_rank": 1005, "concept_id": "where_is_stop", "tone": null, "notes": "버스 정류장"},
+    {"word": "열려 있어요", "romanization": "yeollyeo isseoyo", "pronunciation_hint": "yol-lyo i-sso-yo", "meaning_de": "offen", "meaning_en": "open", "category": "adjektive", "frequency_rank": 1006, "concept_id": "open_adj", "tone": null, "notes": "가게가 열려 있어요"},
+    {"word": "닫혔어요", "romanization": "dadhyeosseoyo", "pronunciation_hint": "dat-hyo-sso-yo", "meaning_de": "geschlossen", "meaning_en": "closed", "category": "adjektive", "frequency_rank": 1007, "concept_id": "closed_adj", "tone": null, "notes": "가게가 닫혔어요"},
+    {"word": "영수증", "romanization": "yeongsujeung", "pronunciation_hint": "yong-su-jung", "meaning_de": "Quittung", "meaning_en": "receipt", "category": "essen_trinken", "frequency_rank": 1008, "concept_id": "receipt", "tone": null, "notes": "계산 후"}
+  ]
+}

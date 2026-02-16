@@ -1,0 +1,101 @@
+{
+  "language_id": "hu",
+  "words": [
+    {
+      "word": "Szia, hogy vagy?",
+      "romanization": "",
+      "pronunciation_hint": "SIA, hodj wadj",
+      "meaning_de": "Hallo, wie geht es dir?",
+      "meaning_en": "Hello, how are you?",
+      "category": "phrasen",
+      "frequency_rank": 1401,
+      "concept_id": "tpl5_hello_how_are_you",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "A nevem...",
+      "romanization": "",
+      "pronunciation_hint": "a NE-wem",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1402,
+      "concept_id": "tpl5_my_name_is",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Nem értem.",
+      "romanization": "",
+      "pronunciation_hint": "nem ER-tem",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1403,
+      "concept_id": "tpl5_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Hol van a mosdó?",
+      "romanization": "",
+      "pronunciation_hint": "hol wan a MOSCH-do",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1404,
+      "concept_id": "tpl5_where_is",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Ez mennyibe kerül?",
+      "romanization": "",
+      "pronunciation_hint": "es MEN-nyi-be KE-rül",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1405,
+      "concept_id": "tpl5_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Szeretnék...",
+      "romanization": "",
+      "pronunciation_hint": "SE-ret-neek",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1406,
+      "concept_id": "tpl5_i_would_like",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Köszönöm szépen!",
+      "romanization": "",
+      "pronunciation_hint": "KÖ-sö-nöm SEE-pen",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1407,
+      "concept_id": "tpl5_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Egy pohár vizet kérek.",
+      "romanization": "",
+      "pronunciation_hint": "edj PO-haar WI-set KEE-rek",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1408,
+      "concept_id": "tpl5_water_please",
+      "tone": null,
+      "notes": "template_pack_5"
+    }
+  ]
+}

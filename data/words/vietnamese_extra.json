@@ -1,0 +1,13 @@
+{
+  "language_id": "vi",
+  "words": [
+    {"word": "ga tàu", "romanization": "ga tau", "pronunciation_hint": "ga tau", "meaning_de": "Bahnhof", "meaning_en": "station", "category": "fragen_richtungen", "frequency_rank": 1001, "concept_id": "station", "tone": null, "notes": "Nhà ga xe lửa"},
+    {"word": "vé", "romanization": "ve", "pronunciation_hint": "ve (Sắc-Ton)", "meaning_de": "Ticket", "meaning_en": "ticket", "category": "fragen_richtungen", "frequency_rank": 1002, "concept_id": "ticket", "tone": 2, "notes": "Vé xe/vé tàu"},
+    {"word": "nhà thuốc", "romanization": "nha thuoc", "pronunciation_hint": "nya thuok", "meaning_de": "Apotheke", "meaning_en": "pharmacy", "category": "koerper_gesundheit", "frequency_rank": 1003, "concept_id": "pharmacy", "tone": null, "notes": "Mua thuốc"},
+    {"word": "tôi cần giúp đỡ", "romanization": "toi can giup do", "pronunciation_hint": "toi kan zup də", "meaning_de": "ich brauche Hilfe", "meaning_en": "I need help", "category": "phrasen", "frequency_rank": 1004, "concept_id": "i_need_help", "tone": null, "notes": "Câu khẩn cấp"},
+    {"word": "trạm dừng ở đâu?", "romanization": "tram dung o dau?", "pronunciation_hint": "cham zung ə dau", "meaning_de": "wo ist die Haltestelle?", "meaning_en": "where is the stop?", "category": "fragen_richtungen", "frequency_rank": 1005, "concept_id": "where_is_stop", "tone": null, "notes": "Xe buýt"},
+    {"word": "mở cửa", "romanization": "mo cua", "pronunciation_hint": "mə kua", "meaning_de": "offen", "meaning_en": "open", "category": "adjektive", "frequency_rank": 1006, "concept_id": "open_adj", "tone": null, "notes": "Cửa hàng mở"},
+    {"word": "đóng cửa", "romanization": "dong cua", "pronunciation_hint": "dong kua", "meaning_de": "geschlossen", "meaning_en": "closed", "category": "adjektive", "frequency_rank": 1007, "concept_id": "closed_adj", "tone": null, "notes": "Cửa hàng đóng"},
+    {"word": "hóa đơn", "romanization": "hoa don", "pronunciation_hint": "hoa don", "meaning_de": "Quittung", "meaning_en": "receipt", "category": "essen_trinken", "frequency_rank": 1008, "concept_id": "receipt", "tone": null, "notes": "Sau khi trả tiền"}
+  ]
+}

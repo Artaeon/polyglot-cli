@@ -1,0 +1,101 @@
+{
+  "language_id": "sk",
+  "words": [
+    {
+      "word": "Ahoj, ako sa máš?",
+      "romanization": "",
+      "pronunciation_hint": "A-hoy, A-ko sa maash",
+      "meaning_de": "Hallo, wie geht es dir?",
+      "meaning_en": "Hello, how are you?",
+      "category": "phrasen",
+      "frequency_rank": 1401,
+      "concept_id": "tpl5_hello_how_are_you",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Volám sa...",
+      "romanization": "",
+      "pronunciation_hint": "VO-laam sa",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1402,
+      "concept_id": "tpl5_my_name_is",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Nerozumiem.",
+      "romanization": "",
+      "pronunciation_hint": "NE-ro-zu-myem",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1403,
+      "concept_id": "tpl5_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Kde je toaleta?",
+      "romanization": "",
+      "pronunciation_hint": "gde ye to-a-LE-ta",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1404,
+      "concept_id": "tpl5_where_is",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Koľko to stojí?",
+      "romanization": "",
+      "pronunciation_hint": "KOL-ko to STO-yee",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1405,
+      "concept_id": "tpl5_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Chcel(a) by som...",
+      "romanization": "",
+      "pronunciation_hint": "KHTSEL bih som",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1406,
+      "concept_id": "tpl5_i_would_like",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Ďakujem veľmi pekne!",
+      "romanization": "",
+      "pronunciation_hint": "DYA-ku-yem VEL-mi PEK-ne",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1407,
+      "concept_id": "tpl5_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Pohár vody, prosím.",
+      "romanization": "",
+      "pronunciation_hint": "PO-haar VO-dih, PRO-seem",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1408,
+      "concept_id": "tpl5_water_please",
+      "tone": null,
+      "notes": "template_pack_5"
+    }
+  ]
+}

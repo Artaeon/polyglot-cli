@@ -1,0 +1,101 @@
+{
+  "language_id": "et",
+  "words": [
+    {
+      "word": "Tere, kuidas läheb?",
+      "romanization": "",
+      "pronunciation_hint": "TE-re, KUI-das LÄ-heb",
+      "meaning_de": "Hallo, wie geht es dir?",
+      "meaning_en": "Hello, how are you?",
+      "category": "phrasen",
+      "frequency_rank": 1401,
+      "concept_id": "tpl5_hello_how_are_you",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Minu nimi on...",
+      "romanization": "",
+      "pronunciation_hint": "MI-nu NI-mi on",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1402,
+      "concept_id": "tpl5_my_name_is",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Ma ei saa aru.",
+      "romanization": "",
+      "pronunciation_hint": "ma ei saa A-ru",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1403,
+      "concept_id": "tpl5_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Kus on tualett?",
+      "romanization": "",
+      "pronunciation_hint": "kus on tu-a-LETT",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1404,
+      "concept_id": "tpl5_where_is",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Kui palju see maksab?",
+      "romanization": "",
+      "pronunciation_hint": "kui PAL-yu see MAK-sab",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1405,
+      "concept_id": "tpl5_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Ma sooviksin...",
+      "romanization": "",
+      "pronunciation_hint": "ma SOO-vik-sin",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1406,
+      "concept_id": "tpl5_i_would_like",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Suur tänu!",
+      "romanization": "",
+      "pronunciation_hint": "suur TÄ-nu",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1407,
+      "concept_id": "tpl5_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "Klaas vett, palun.",
+      "romanization": "",
+      "pronunciation_hint": "klaas wett, PA-lun",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1408,
+      "concept_id": "tpl5_water_please",
+      "tone": null,
+      "notes": "template_pack_5"
+    }
+  ]
+}

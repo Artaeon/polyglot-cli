@@ -1,0 +1,17 @@
+{
+  "language_id": "pt",
+  "words": [
+    {"word": "estação", "romanization": "", "pronunciation_hint": "esch-ta-SAUN", "meaning_de": "Bahnhof", "meaning_en": "station", "category": "fragen_richtungen", "frequency_rank": 1001, "concept_id": "station", "tone": null, "notes": "Europäisches Portugiesisch"},
+    {"word": "bilhete", "romanization": "", "pronunciation_hint": "bi-LYE-te", "meaning_de": "Ticket", "meaning_en": "ticket", "category": "fragen_richtungen", "frequency_rank": 1002, "concept_id": "ticket", "tone": null, "notes": "Transport"},
+    {"word": "plataforma", "romanization": "", "pronunciation_hint": "pla-ta-FOR-ma", "meaning_de": "Bahnsteig", "meaning_en": "platform", "category": "fragen_richtungen", "frequency_rank": 1003, "concept_id": "platform", "tone": null, "notes": "Bahn/Metro"},
+    {"word": "farmácia", "romanization": "", "pronunciation_hint": "far-MA-sia", "meaning_de": "Apotheke", "meaning_en": "pharmacy", "category": "koerper_gesundheit", "frequency_rank": 1004, "concept_id": "pharmacy", "tone": null, "notes": "Saúde"},
+    {"word": "dor", "romanization": "", "pronunciation_hint": "dor", "meaning_de": "Schmerz", "meaning_en": "pain", "category": "koerper_gesundheit", "frequency_rank": 1005, "concept_id": "pain_general", "tone": null, "notes": "Tenho dor"},
+    {"word": "preciso de ajuda", "romanization": "", "pronunciation_hint": "pre-SEE-zu de a-ZHU-da", "meaning_de": "ich brauche Hilfe", "meaning_en": "I need help", "category": "phrasen", "frequency_rank": 1006, "concept_id": "i_need_help", "tone": null, "notes": "Notfallphrase"},
+    {"word": "onde fica a paragem?", "romanization": "", "pronunciation_hint": "ON-de FEE-ka a pa-RA-zhem", "meaning_de": "wo ist die Haltestelle?", "meaning_en": "where is the stop?", "category": "fragen_richtungen", "frequency_rank": 1007, "concept_id": "where_is_stop", "tone": null, "notes": "EU-PT paragem"},
+    {"word": "aberto", "romanization": "", "pronunciation_hint": "a-BER-tu", "meaning_de": "offen", "meaning_en": "open", "category": "adjektive", "frequency_rank": 1008, "concept_id": "open_adj", "tone": null, "notes": "Opposto: fechado"},
+    {"word": "fechado", "romanization": "", "pronunciation_hint": "fe-SHA-du", "meaning_de": "geschlossen", "meaning_en": "closed", "category": "adjektive", "frequency_rank": 1009, "concept_id": "closed_adj", "tone": null, "notes": "Loja fechada"},
+    {"word": "recibo", "romanization": "", "pronunciation_hint": "re-SEE-bu", "meaning_de": "Quittung", "meaning_en": "receipt", "category": "essen_trinken", "frequency_rank": 1010, "concept_id": "receipt", "tone": null, "notes": "Conta + recibo"},
+    {"word": "sem", "romanization": "", "pronunciation_hint": "seng", "meaning_de": "ohne", "meaning_en": "without", "category": "zeitwoerter_konjunktionen", "frequency_rank": 1011, "concept_id": "without", "tone": null, "notes": "sem açúcar"},
+    {"word": "com", "romanization": "", "pronunciation_hint": "kong", "meaning_de": "mit", "meaning_en": "with", "category": "zeitwoerter_konjunktionen", "frequency_rank": 1012, "concept_id": "with", "tone": null, "notes": "com leite"}
+  ]
+}

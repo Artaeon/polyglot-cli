@@ -1,0 +1,688 @@
+{
+  "language_id": "it",
+  "meta": {
+    "persons": ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"],
+    "person_labels_de": {
+      "1sg": "ich (io)",
+      "2sg": "du (tu)",
+      "3sg": "er/sie (lui/lei)",
+      "1pl": "wir (noi)",
+      "2pl": "ihr (voi)",
+      "3pl": "sie (loro)"
+    },
+    "tenses": ["present", "passato_prossimo", "imperfetto"],
+    "tense_labels_de": {
+      "present": "Praesens",
+      "passato_prossimo": "Passato Prossimo",
+      "imperfetto": "Imperfekt"
+    }
+  },
+  "conjugation_patterns": [
+    {
+      "id": "are_regular",
+      "label": "-are (regolare)",
+      "description": "Regular first conjugation verbs ending in -are",
+      "example": "lavorare"
+    },
+    {
+      "id": "ere_regular",
+      "label": "-ere (regolare)",
+      "description": "Regular second conjugation verbs ending in -ere",
+      "example": "leggere"
+    },
+    {
+      "id": "ire_regular",
+      "label": "-ire (regolare)",
+      "description": "Regular third conjugation verbs ending in -ire",
+      "example": "capire"
+    },
+    {
+      "id": "irregular",
+      "label": "irregolare",
+      "description": "Irregular verbs with unique conjugation patterns",
+      "example": "essere"
+    }
+  ],
+  "verbs": [
+    {
+      "concept_id": "work",
+      "infinitive": "lavorare",
+      "romanization": null,
+      "pattern_id": "are_regular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "lavoro", "romanization": null},
+          "2sg": {"form": "lavori", "romanization": null},
+          "3sg": {"form": "lavora", "romanization": null},
+          "1pl": {"form": "lavoriamo", "romanization": null},
+          "2pl": {"form": "lavorate", "romanization": null},
+          "3pl": {"form": "lavorano", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho lavorato", "romanization": null},
+          "2sg": {"form": "hai lavorato", "romanization": null},
+          "3sg": {"form": "ha lavorato", "romanization": null},
+          "1pl": {"form": "abbiamo lavorato", "romanization": null},
+          "2pl": {"form": "avete lavorato", "romanization": null},
+          "3pl": {"form": "hanno lavorato", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "lavoravo", "romanization": null},
+          "2sg": {"form": "lavoravi", "romanization": null},
+          "3sg": {"form": "lavorava", "romanization": null},
+          "1pl": {"form": "lavoravamo", "romanization": null},
+          "2pl": {"form": "lavoravate", "romanization": null},
+          "3pl": {"form": "lavoravano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "know",
+      "infinitive": "sapere",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "so", "romanization": null},
+          "2sg": {"form": "sai", "romanization": null},
+          "3sg": {"form": "sa", "romanization": null},
+          "1pl": {"form": "sappiamo", "romanization": null},
+          "2pl": {"form": "sapete", "romanization": null},
+          "3pl": {"form": "sanno", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho saputo", "romanization": null},
+          "2sg": {"form": "hai saputo", "romanization": null},
+          "3sg": {"form": "ha saputo", "romanization": null},
+          "1pl": {"form": "abbiamo saputo", "romanization": null},
+          "2pl": {"form": "avete saputo", "romanization": null},
+          "3pl": {"form": "hanno saputo", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "sapevo", "romanization": null},
+          "2sg": {"form": "sapevi", "romanization": null},
+          "3sg": {"form": "sapeva", "romanization": null},
+          "1pl": {"form": "sapevamo", "romanization": null},
+          "2pl": {"form": "sapevate", "romanization": null},
+          "3pl": {"form": "sapevano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "read",
+      "infinitive": "leggere",
+      "romanization": null,
+      "pattern_id": "ere_regular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "leggo", "romanization": null},
+          "2sg": {"form": "leggi", "romanization": null},
+          "3sg": {"form": "legge", "romanization": null},
+          "1pl": {"form": "leggiamo", "romanization": null},
+          "2pl": {"form": "leggete", "romanization": null},
+          "3pl": {"form": "leggono", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho letto", "romanization": null},
+          "2sg": {"form": "hai letto", "romanization": null},
+          "3sg": {"form": "ha letto", "romanization": null},
+          "1pl": {"form": "abbiamo letto", "romanization": null},
+          "2pl": {"form": "avete letto", "romanization": null},
+          "3pl": {"form": "hanno letto", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "leggevo", "romanization": null},
+          "2sg": {"form": "leggevi", "romanization": null},
+          "3sg": {"form": "leggeva", "romanization": null},
+          "1pl": {"form": "leggevamo", "romanization": null},
+          "2pl": {"form": "leggevate", "romanization": null},
+          "3pl": {"form": "leggevano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "write",
+      "infinitive": "scrivere",
+      "romanization": null,
+      "pattern_id": "ere_regular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "scrivo", "romanization": null},
+          "2sg": {"form": "scrivi", "romanization": null},
+          "3sg": {"form": "scrive", "romanization": null},
+          "1pl": {"form": "scriviamo", "romanization": null},
+          "2pl": {"form": "scrivete", "romanization": null},
+          "3pl": {"form": "scrivono", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho scritto", "romanization": null},
+          "2sg": {"form": "hai scritto", "romanization": null},
+          "3sg": {"form": "ha scritto", "romanization": null},
+          "1pl": {"form": "abbiamo scritto", "romanization": null},
+          "2pl": {"form": "avete scritto", "romanization": null},
+          "3pl": {"form": "hanno scritto", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "scrivevo", "romanization": null},
+          "2sg": {"form": "scrivevi", "romanization": null},
+          "3sg": {"form": "scriveva", "romanization": null},
+          "1pl": {"form": "scrivevamo", "romanization": null},
+          "2pl": {"form": "scrivevate", "romanization": null},
+          "3pl": {"form": "scrivevano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "do_make",
+      "infinitive": "fare",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "faccio", "romanization": null},
+          "2sg": {"form": "fai", "romanization": null},
+          "3sg": {"form": "fa", "romanization": null},
+          "1pl": {"form": "facciamo", "romanization": null},
+          "2pl": {"form": "fate", "romanization": null},
+          "3pl": {"form": "fanno", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho fatto", "romanization": null},
+          "2sg": {"form": "hai fatto", "romanization": null},
+          "3sg": {"form": "ha fatto", "romanization": null},
+          "1pl": {"form": "abbiamo fatto", "romanization": null},
+          "2pl": {"form": "avete fatto", "romanization": null},
+          "3pl": {"form": "hanno fatto", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "facevo", "romanization": null},
+          "2sg": {"form": "facevi", "romanization": null},
+          "3sg": {"form": "faceva", "romanization": null},
+          "1pl": {"form": "facevamo", "romanization": null},
+          "2pl": {"form": "facevate", "romanization": null},
+          "3pl": {"form": "facevano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "understand",
+      "infinitive": "capire",
+      "romanization": null,
+      "pattern_id": "ire_regular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "capisco", "romanization": null},
+          "2sg": {"form": "capisci", "romanization": null},
+          "3sg": {"form": "capisce", "romanization": null},
+          "1pl": {"form": "capiamo", "romanization": null},
+          "2pl": {"form": "capite", "romanization": null},
+          "3pl": {"form": "capiscono", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho capito", "romanization": null},
+          "2sg": {"form": "hai capito", "romanization": null},
+          "3sg": {"form": "ha capito", "romanization": null},
+          "1pl": {"form": "abbiamo capito", "romanization": null},
+          "2pl": {"form": "avete capito", "romanization": null},
+          "3pl": {"form": "hanno capito", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "capivo", "romanization": null},
+          "2sg": {"form": "capivi", "romanization": null},
+          "3sg": {"form": "capiva", "romanization": null},
+          "1pl": {"form": "capivamo", "romanization": null},
+          "2pl": {"form": "capivate", "romanization": null},
+          "3pl": {"form": "capivano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "live",
+      "infinitive": "vivere",
+      "romanization": null,
+      "pattern_id": "ere_regular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "vivo", "romanization": null},
+          "2sg": {"form": "vivi", "romanization": null},
+          "3sg": {"form": "vive", "romanization": null},
+          "1pl": {"form": "viviamo", "romanization": null},
+          "2pl": {"form": "vivete", "romanization": null},
+          "3pl": {"form": "vivono", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho vissuto", "romanization": null},
+          "2sg": {"form": "hai vissuto", "romanization": null},
+          "3sg": {"form": "ha vissuto", "romanization": null},
+          "1pl": {"form": "abbiamo vissuto", "romanization": null},
+          "2pl": {"form": "avete vissuto", "romanization": null},
+          "3pl": {"form": "hanno vissuto", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "vivevo", "romanization": null},
+          "2sg": {"form": "vivevi", "romanization": null},
+          "3sg": {"form": "viveva", "romanization": null},
+          "1pl": {"form": "vivevamo", "romanization": null},
+          "2pl": {"form": "vivevate", "romanization": null},
+          "3pl": {"form": "vivevano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "give",
+      "infinitive": "dare",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "do", "romanization": null},
+          "2sg": {"form": "dai", "romanization": null},
+          "3sg": {"form": "dà", "romanization": null},
+          "1pl": {"form": "diamo", "romanization": null},
+          "2pl": {"form": "date", "romanization": null},
+          "3pl": {"form": "danno", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho dato", "romanization": null},
+          "2sg": {"form": "hai dato", "romanization": null},
+          "3sg": {"form": "ha dato", "romanization": null},
+          "1pl": {"form": "abbiamo dato", "romanization": null},
+          "2pl": {"form": "avete dato", "romanization": null},
+          "3pl": {"form": "hanno dato", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "davo", "romanization": null},
+          "2sg": {"form": "davi", "romanization": null},
+          "3sg": {"form": "dava", "romanization": null},
+          "1pl": {"form": "davamo", "romanization": null},
+          "2pl": {"form": "davate", "romanization": null},
+          "3pl": {"form": "davano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "love",
+      "infinitive": "amare",
+      "romanization": null,
+      "pattern_id": "are_regular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "amo", "romanization": null},
+          "2sg": {"form": "ami", "romanization": null},
+          "3sg": {"form": "ama", "romanization": null},
+          "1pl": {"form": "amiamo", "romanization": null},
+          "2pl": {"form": "amate", "romanization": null},
+          "3pl": {"form": "amano", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho amato", "romanization": null},
+          "2sg": {"form": "hai amato", "romanization": null},
+          "3sg": {"form": "ha amato", "romanization": null},
+          "1pl": {"form": "abbiamo amato", "romanization": null},
+          "2pl": {"form": "avete amato", "romanization": null},
+          "3pl": {"form": "hanno amato", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "amavo", "romanization": null},
+          "2sg": {"form": "amavi", "romanization": null},
+          "3sg": {"form": "amava", "romanization": null},
+          "1pl": {"form": "amavamo", "romanization": null},
+          "2pl": {"form": "amavate", "romanization": null},
+          "3pl": {"form": "amavano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "say",
+      "infinitive": "dire",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "dico", "romanization": null},
+          "2sg": {"form": "dici", "romanization": null},
+          "3sg": {"form": "dice", "romanization": null},
+          "1pl": {"form": "diciamo", "romanization": null},
+          "2pl": {"form": "dite", "romanization": null},
+          "3pl": {"form": "dicono", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho detto", "romanization": null},
+          "2sg": {"form": "hai detto", "romanization": null},
+          "3sg": {"form": "ha detto", "romanization": null},
+          "1pl": {"form": "abbiamo detto", "romanization": null},
+          "2pl": {"form": "avete detto", "romanization": null},
+          "3pl": {"form": "hanno detto", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "dicevo", "romanization": null},
+          "2sg": {"form": "dicevi", "romanization": null},
+          "3sg": {"form": "diceva", "romanization": null},
+          "1pl": {"form": "dicevamo", "romanization": null},
+          "2pl": {"form": "dicevate", "romanization": null},
+          "3pl": {"form": "dicevano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "see",
+      "infinitive": "vedere",
+      "romanization": null,
+      "pattern_id": "ere_regular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "vedo", "romanization": null},
+          "2sg": {"form": "vedi", "romanization": null},
+          "3sg": {"form": "vede", "romanization": null},
+          "1pl": {"form": "vediamo", "romanization": null},
+          "2pl": {"form": "vedete", "romanization": null},
+          "3pl": {"form": "vedono", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho visto", "romanization": null},
+          "2sg": {"form": "hai visto", "romanization": null},
+          "3sg": {"form": "ha visto", "romanization": null},
+          "1pl": {"form": "abbiamo visto", "romanization": null},
+          "2pl": {"form": "avete visto", "romanization": null},
+          "3pl": {"form": "hanno visto", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "vedevo", "romanization": null},
+          "2sg": {"form": "vedevi", "romanization": null},
+          "3sg": {"form": "vedeva", "romanization": null},
+          "1pl": {"form": "vedevamo", "romanization": null},
+          "2pl": {"form": "vedevate", "romanization": null},
+          "3pl": {"form": "vedevano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "want",
+      "infinitive": "volere",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "voglio", "romanization": null},
+          "2sg": {"form": "vuoi", "romanization": null},
+          "3sg": {"form": "vuole", "romanization": null},
+          "1pl": {"form": "vogliamo", "romanization": null},
+          "2pl": {"form": "volete", "romanization": null},
+          "3pl": {"form": "vogliono", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho voluto", "romanization": null},
+          "2sg": {"form": "hai voluto", "romanization": null},
+          "3sg": {"form": "ha voluto", "romanization": null},
+          "1pl": {"form": "abbiamo voluto", "romanization": null},
+          "2pl": {"form": "avete voluto", "romanization": null},
+          "3pl": {"form": "hanno voluto", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "volevo", "romanization": null},
+          "2sg": {"form": "volevi", "romanization": null},
+          "3sg": {"form": "voleva", "romanization": null},
+          "1pl": {"form": "volevamo", "romanization": null},
+          "2pl": {"form": "volevate", "romanization": null},
+          "3pl": {"form": "volevano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "can",
+      "infinitive": "potere",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "posso", "romanization": null},
+          "2sg": {"form": "puoi", "romanization": null},
+          "3sg": {"form": "può", "romanization": null},
+          "1pl": {"form": "possiamo", "romanization": null},
+          "2pl": {"form": "potete", "romanization": null},
+          "3pl": {"form": "possono", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho potuto", "romanization": null},
+          "2sg": {"form": "hai potuto", "romanization": null},
+          "3sg": {"form": "ha potuto", "romanization": null},
+          "1pl": {"form": "abbiamo potuto", "romanization": null},
+          "2pl": {"form": "avete potuto", "romanization": null},
+          "3pl": {"form": "hanno potuto", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "potevo", "romanization": null},
+          "2sg": {"form": "potevi", "romanization": null},
+          "3sg": {"form": "poteva", "romanization": null},
+          "1pl": {"form": "potevamo", "romanization": null},
+          "2pl": {"form": "potevate", "romanization": null},
+          "3pl": {"form": "potevano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "go",
+      "infinitive": "andare",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "vado", "romanization": null},
+          "2sg": {"form": "vai", "romanization": null},
+          "3sg": {"form": "va", "romanization": null},
+          "1pl": {"form": "andiamo", "romanization": null},
+          "2pl": {"form": "andate", "romanization": null},
+          "3pl": {"form": "vanno", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "sono andato", "romanization": null},
+          "2sg": {"form": "sei andato", "romanization": null},
+          "3sg": {"form": "è andato", "romanization": null},
+          "1pl": {"form": "siamo andati", "romanization": null},
+          "2pl": {"form": "siete andati", "romanization": null},
+          "3pl": {"form": "sono andati", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "andavo", "romanization": null},
+          "2sg": {"form": "andavi", "romanization": null},
+          "3sg": {"form": "andava", "romanization": null},
+          "1pl": {"form": "andavamo", "romanization": null},
+          "2pl": {"form": "andavate", "romanization": null},
+          "3pl": {"form": "andavano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "eat",
+      "infinitive": "mangiare",
+      "romanization": null,
+      "pattern_id": "are_regular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "mangio", "romanization": null},
+          "2sg": {"form": "mangi", "romanization": null},
+          "3sg": {"form": "mangia", "romanization": null},
+          "1pl": {"form": "mangiamo", "romanization": null},
+          "2pl": {"form": "mangiate", "romanization": null},
+          "3pl": {"form": "mangiano", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho mangiato", "romanization": null},
+          "2sg": {"form": "hai mangiato", "romanization": null},
+          "3sg": {"form": "ha mangiato", "romanization": null},
+          "1pl": {"form": "abbiamo mangiato", "romanization": null},
+          "2pl": {"form": "avete mangiato", "romanization": null},
+          "3pl": {"form": "hanno mangiato", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "mangiavo", "romanization": null},
+          "2sg": {"form": "mangiavi", "romanization": null},
+          "3sg": {"form": "mangiava", "romanization": null},
+          "1pl": {"form": "mangiavamo", "romanization": null},
+          "2pl": {"form": "mangiavate", "romanization": null},
+          "3pl": {"form": "mangiavano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "drink",
+      "infinitive": "bere",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "bevo", "romanization": null},
+          "2sg": {"form": "bevi", "romanization": null},
+          "3sg": {"form": "beve", "romanization": null},
+          "1pl": {"form": "beviamo", "romanization": null},
+          "2pl": {"form": "bevete", "romanization": null},
+          "3pl": {"form": "bevono", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho bevuto", "romanization": null},
+          "2sg": {"form": "hai bevuto", "romanization": null},
+          "3sg": {"form": "ha bevuto", "romanization": null},
+          "1pl": {"form": "abbiamo bevuto", "romanization": null},
+          "2pl": {"form": "avete bevuto", "romanization": null},
+          "3pl": {"form": "hanno bevuto", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "bevevo", "romanization": null},
+          "2sg": {"form": "bevevi", "romanization": null},
+          "3sg": {"form": "beveva", "romanization": null},
+          "1pl": {"form": "bevevamo", "romanization": null},
+          "2pl": {"form": "bevevate", "romanization": null},
+          "3pl": {"form": "bevevano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "buy",
+      "infinitive": "comprare",
+      "romanization": null,
+      "pattern_id": "are_regular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "compro", "romanization": null},
+          "2sg": {"form": "compri", "romanization": null},
+          "3sg": {"form": "compra", "romanization": null},
+          "1pl": {"form": "compriamo", "romanization": null},
+          "2pl": {"form": "comprate", "romanization": null},
+          "3pl": {"form": "comprano", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho comprato", "romanization": null},
+          "2sg": {"form": "hai comprato", "romanization": null},
+          "3sg": {"form": "ha comprato", "romanization": null},
+          "1pl": {"form": "abbiamo comprato", "romanization": null},
+          "2pl": {"form": "avete comprato", "romanization": null},
+          "3pl": {"form": "hanno comprato", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "compravo", "romanization": null},
+          "2sg": {"form": "compravi", "romanization": null},
+          "3sg": {"form": "comprava", "romanization": null},
+          "1pl": {"form": "compravamo", "romanization": null},
+          "2pl": {"form": "compravate", "romanization": null},
+          "3pl": {"form": "compravano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "be",
+      "infinitive": "essere",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "sono", "romanization": null},
+          "2sg": {"form": "sei", "romanization": null},
+          "3sg": {"form": "è", "romanization": null},
+          "1pl": {"form": "siamo", "romanization": null},
+          "2pl": {"form": "siete", "romanization": null},
+          "3pl": {"form": "sono", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "sono stato", "romanization": null},
+          "2sg": {"form": "sei stato", "romanization": null},
+          "3sg": {"form": "è stato", "romanization": null},
+          "1pl": {"form": "siamo stati", "romanization": null},
+          "2pl": {"form": "siete stati", "romanization": null},
+          "3pl": {"form": "sono stati", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "ero", "romanization": null},
+          "2sg": {"form": "eri", "romanization": null},
+          "3sg": {"form": "era", "romanization": null},
+          "1pl": {"form": "eravamo", "romanization": null},
+          "2pl": {"form": "eravate", "romanization": null},
+          "3pl": {"form": "erano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "have",
+      "infinitive": "avere",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "ho", "romanization": null},
+          "2sg": {"form": "hai", "romanization": null},
+          "3sg": {"form": "ha", "romanization": null},
+          "1pl": {"form": "abbiamo", "romanization": null},
+          "2pl": {"form": "avete", "romanization": null},
+          "3pl": {"form": "hanno", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "ho avuto", "romanization": null},
+          "2sg": {"form": "hai avuto", "romanization": null},
+          "3sg": {"form": "ha avuto", "romanization": null},
+          "1pl": {"form": "abbiamo avuto", "romanization": null},
+          "2pl": {"form": "avete avuto", "romanization": null},
+          "3pl": {"form": "hanno avuto", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "avevo", "romanization": null},
+          "2sg": {"form": "avevi", "romanization": null},
+          "3sg": {"form": "aveva", "romanization": null},
+          "1pl": {"form": "avevamo", "romanization": null},
+          "2pl": {"form": "avevate", "romanization": null},
+          "3pl": {"form": "avevano", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "come",
+      "infinitive": "venire",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "vengo", "romanization": null},
+          "2sg": {"form": "vieni", "romanization": null},
+          "3sg": {"form": "viene", "romanization": null},
+          "1pl": {"form": "veniamo", "romanization": null},
+          "2pl": {"form": "venite", "romanization": null},
+          "3pl": {"form": "vengono", "romanization": null}
+        },
+        "passato_prossimo": {
+          "1sg": {"form": "sono venuto", "romanization": null},
+          "2sg": {"form": "sei venuto", "romanization": null},
+          "3sg": {"form": "è venuto", "romanization": null},
+          "1pl": {"form": "siamo venuti", "romanization": null},
+          "2pl": {"form": "siete venuti", "romanization": null},
+          "3pl": {"form": "sono venuti", "romanization": null}
+        },
+        "imperfetto": {
+          "1sg": {"form": "venivo", "romanization": null},
+          "2sg": {"form": "venivi", "romanization": null},
+          "3sg": {"form": "veniva", "romanization": null},
+          "1pl": {"form": "venivamo", "romanization": null},
+          "2pl": {"form": "venivate", "romanization": null},
+          "3pl": {"form": "venivano", "romanization": null}
+        }
+      }
+    }
+  ]
+}

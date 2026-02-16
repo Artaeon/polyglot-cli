@@ -1,0 +1,101 @@
+{
+  "language_id": "uk",
+  "words": [
+    {
+      "word": "Я трохи розмовляю...",
+      "romanization": "Ya trokhy rozmovlyayu...",
+      "pronunciation_hint": "ya TRO-khih roz-mov-LYA-yu",
+      "meaning_de": "Ich spreche ein bisschen...",
+      "meaning_en": "I speak a little...",
+      "category": "phrasen",
+      "frequency_rank": 1501,
+      "concept_id": "tpl6_i_speak_language",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Котра година?",
+      "romanization": "Kotra hodyna?",
+      "pronunciation_hint": "ko-TRA ho-DIH-na",
+      "meaning_de": "Wie spät ist es?",
+      "meaning_en": "What time is it?",
+      "category": "phrasen",
+      "frequency_rank": 1502,
+      "concept_id": "tpl6_what_time_is_it",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Сьогодні гарна погода.",
+      "romanization": "S'ohodni harna pohoda.",
+      "pronunciation_hint": "syo-HOD-ni HAR-na po-HO-da",
+      "meaning_de": "Das Wetter ist schön heute.",
+      "meaning_en": "The weather is nice today.",
+      "category": "natur_wetter",
+      "frequency_rank": 1503,
+      "concept_id": "tpl6_the_weather_is_nice",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Я голодний / голодна.",
+      "romanization": "Ya holodnyy / holodna.",
+      "pronunciation_hint": "ya ho-LOD-nyy",
+      "meaning_de": "Ich habe Hunger.",
+      "meaning_en": "I am hungry.",
+      "category": "essen_trinken",
+      "frequency_rank": 1504,
+      "concept_id": "tpl6_i_am_hungry",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Я тебе кохаю.",
+      "romanization": "Ya tebe kokhayu.",
+      "pronunciation_hint": "ya te-BE ko-KHA-yu",
+      "meaning_de": "Ich liebe dich.",
+      "meaning_en": "I love you.",
+      "category": "phrasen",
+      "frequency_rank": 1505,
+      "concept_id": "tpl6_i_love_you",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Привіт, як у тебе справи?",
+      "romanization": "Pryvit, yak u tebe spravy?",
+      "pronunciation_hint": "prih-VEET, yak u TE-be SPRA-vih",
+      "meaning_de": "Hallo, wie geht es dir?",
+      "meaning_en": "Hello, how are you?",
+      "category": "phrasen",
+      "frequency_rank": 1506,
+      "concept_id": "tpl6_hello_how_are_you",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Де туалет?",
+      "romanization": "De tualet?",
+      "pronunciation_hint": "de tu-a-LET",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1507,
+      "concept_id": "tpl6_where_is",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Скільки це коштує?",
+      "romanization": "Skil'ky tse koshtuye?",
+      "pronunciation_hint": "SKIL-kih tse kosch-TU-ye",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1508,
+      "concept_id": "tpl6_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_6"
+    }
+  ]
+}

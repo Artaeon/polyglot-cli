@@ -1,0 +1,13 @@
+{
+  "language_id": "fr",
+  "words": [
+    {"word": "où est le contrôle des passeports ?", "romanization": "", "pronunciation_hint": "u è lə kon-trol de pas-por", "meaning_de": "wo ist die Passkontrolle?", "meaning_en": "where is passport control?", "category": "fragen_richtungen", "frequency_rank": 1301, "concept_id": "where_passport_control", "tone": null, "notes": "Aéroport"},
+    {"word": "voici ma carte d'embarquement", "romanization": "", "pronunciation_hint": "vwa-si ma kart dɑ̃-bar-kə-mɑ̃", "meaning_de": "hier ist meine Bordkarte", "meaning_en": "here is my boarding pass", "category": "phrasen", "frequency_rank": 1302, "concept_id": "here_boarding_pass", "tone": null, "notes": "Enregistrement"},
+    {"word": "mon vol est retardé", "romanization": "", "pronunciation_hint": "mon vol è re-tar-dé", "meaning_de": "mein Flug hat Verspätung", "meaning_en": "my flight is delayed", "category": "phrasen", "frequency_rank": 1303, "concept_id": "flight_delayed", "tone": null, "notes": "Départ"},
+    {"word": "où est la récupération des bagages ?", "romanization": "", "pronunciation_hint": "u è la re-ky-pé-ra-syon de ba-gazh", "meaning_de": "wo ist die Gepäckausgabe?", "meaning_en": "where is baggage claim?", "category": "fragen_richtungen", "frequency_rank": 1304, "concept_id": "where_baggage_claim", "tone": null, "notes": "Arrivée"},
+    {"word": "je suis ici pour affaires", "romanization": "", "pronunciation_hint": "jə sɥi i-si pur a-fèr", "meaning_de": "ich bin geschäftlich hier", "meaning_en": "I am here for business", "category": "beruf_bildung", "frequency_rank": 1305, "concept_id": "here_for_business", "tone": null, "notes": "Business"},
+    {"word": "j'ai une réunion à dix heures", "romanization": "", "pronunciation_hint": "jé ün re-yü-nyon a dis ör", "meaning_de": "ich habe um zehn ein Meeting", "meaning_en": "I have a meeting at ten", "category": "beruf_bildung", "frequency_rank": 1306, "concept_id": "meeting_at_ten", "tone": null, "notes": "Travail"},
+    {"word": "pouvons-nous planifier un appel ?", "romanization": "", "pronunciation_hint": "pu-von-nu pla-ni-fi-yé œ̃n a-pel", "meaning_de": "können wir einen Call planen?", "meaning_en": "can we schedule a call?", "category": "beruf_bildung", "frequency_rank": 1307, "concept_id": "schedule_call", "tone": null, "notes": "Communication"},
+    {"word": "merci d'envoyer le contrat", "romanization": "", "pronunciation_hint": "mer-si dɑ̃-vwa-yé lə kon-tra", "meaning_de": "bitte senden Sie den Vertrag", "meaning_en": "please send the contract", "category": "beruf_bildung", "frequency_rank": 1308, "concept_id": "send_contract", "tone": null, "notes": "Documents"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "language_id": "it",
+  "words": [
+    {"word": "ho una prenotazione", "romanization": "", "pronunciation_hint": "o OO-na pre-no-ta-TSYO-ne", "meaning_de": "ich habe eine Reservierung", "meaning_en": "I have a reservation", "category": "phrasen", "frequency_rank": 1101, "concept_id": "i_have_reservation", "tone": null, "notes": "Hotel"},
+    {"word": "ho bisogno di un medico", "romanization": "", "pronunciation_hint": "o bi-ZO-nyo di un ME-di-ko", "meaning_de": "ich brauche einen Arzt", "meaning_en": "I need a doctor", "category": "koerper_gesundheit", "frequency_rank": 1102, "concept_id": "i_need_doctor", "tone": null, "notes": "Emergenza"},
+    {"word": "chiami la polizia", "romanization": "", "pronunciation_hint": "KYA-mi la po-li-TSI-a", "meaning_de": "rufen Sie die Polizei", "meaning_en": "call the police", "category": "phrasen", "frequency_rank": 1103, "concept_id": "call_police", "tone": null, "notes": "Urgenza"},
+    {"word": "dov'è l'ospedale?", "romanization": "", "pronunciation_hint": "do-VE los-pe-DA-le", "meaning_de": "wo ist das Krankenhaus?", "meaning_en": "where is the hospital?", "category": "fragen_richtungen", "frequency_rank": 1104, "concept_id": "where_is_hospital", "tone": null, "notes": "Chiedere indicazioni"},
+    {"word": "ho perso il passaporto", "romanization": "", "pronunciation_hint": "o PER-so il pas-sa-POR-to", "meaning_de": "ich habe meinen Pass verloren", "meaning_en": "I lost my passport", "category": "phrasen", "frequency_rank": 1105, "concept_id": "i_lost_passport", "tone": null, "notes": "Documenti"},
+    {"word": "posso pagare con carta?", "romanization": "", "pronunciation_hint": "POS-so pa-GA-re kon KAR-ta", "meaning_de": "kann ich mit Karte zahlen?", "meaning_en": "can I pay by card?", "category": "essen_trinken", "frequency_rank": 1106, "concept_id": "card_payment_question", "tone": null, "notes": "Pagamento"}
+  ]
+}

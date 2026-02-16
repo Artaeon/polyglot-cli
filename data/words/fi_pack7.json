@@ -1,0 +1,101 @@
+{
+  "language_id": "fi",
+  "words": [
+    {
+      "word": "Nimeni on...",
+      "romanization": "",
+      "pronunciation_hint": "NI-me-ni on",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1601,
+      "concept_id": "tpl7_my_name_is",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Puhun vähän...",
+      "romanization": "",
+      "pronunciation_hint": "PU-hun VÄ-hän",
+      "meaning_de": "Ich spreche ein bisschen...",
+      "meaning_en": "I speak a little...",
+      "category": "phrasen",
+      "frequency_rank": 1602,
+      "concept_id": "tpl7_i_speak_language",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "En ymmärrä.",
+      "romanization": "",
+      "pronunciation_hint": "en ÜM-mär-rä",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1603,
+      "concept_id": "tpl7_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Haluaisin...",
+      "romanization": "",
+      "pronunciation_hint": "HA-lu-ai-sin",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1604,
+      "concept_id": "tpl7_i_would_like",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Kiitos paljon!",
+      "romanization": "",
+      "pronunciation_hint": "KIII-tos PAL-yon",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1605,
+      "concept_id": "tpl7_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Paljonko kello on?",
+      "romanization": "",
+      "pronunciation_hint": "PAL-yon-ko KEL-lo on",
+      "meaning_de": "Wie spät ist es?",
+      "meaning_en": "What time is it?",
+      "category": "phrasen",
+      "frequency_rank": 1606,
+      "concept_id": "tpl7_what_time_is_it",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Tänään on kaunis sää.",
+      "romanization": "",
+      "pronunciation_hint": "TÄ-nään on KAU-nis sää",
+      "meaning_de": "Das Wetter ist schön heute.",
+      "meaning_en": "The weather is nice today.",
+      "category": "natur_wetter",
+      "frequency_rank": 1607,
+      "concept_id": "tpl7_the_weather_is_nice",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Lasi vettä, kiitos.",
+      "romanization": "",
+      "pronunciation_hint": "LA-si VET-tä, KIII-tos",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1608,
+      "concept_id": "tpl7_water_please",
+      "tone": null,
+      "notes": "template_pack_7"
+    }
+  ]
+}

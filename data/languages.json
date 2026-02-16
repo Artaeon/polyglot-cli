@@ -1,0 +1,400 @@
+{
+  "languages": [
+    {
+      "id": "ru",
+      "name": "Russisch",
+      "native_name": "Русский",
+      "flag": "🇷🇺",
+      "family": "slavic",
+      "subfamily": "east_slavic",
+      "script": "cyrillic",
+      "difficulty_tier": 3,
+      "cluster_languages": ["uk", "be"],
+      "transfer_rates": {"uk": 0.85, "be": 0.85, "bg": 0.50, "mk": 0.45, "sk": 0.40, "cs": 0.38, "pl": 0.35, "sl": 0.35, "hr": 0.35},
+      "default_palace": {
+        "name": "Deine Wohnung",
+        "description": "Deine Wohnung — jedes Zimmer eine Station",
+        "theme": "Normal",
+        "stations": ["Eingang", "Flur", "Küche", "Wohnzimmer", "Bad", "Schlafzimmer", "Balkon", "Keller", "Dachboden", "Garten"]
+      }
+    },
+    {
+      "id": "uk",
+      "name": "Ukrainisch",
+      "native_name": "Українська",
+      "flag": "🇺🇦",
+      "family": "slavic",
+      "subfamily": "east_slavic",
+      "script": "cyrillic",
+      "difficulty_tier": 3,
+      "cluster_languages": ["ru", "be"],
+      "transfer_rates": {"ru": 0.85, "be": 0.80, "pl": 0.40, "sk": 0.38},
+      "default_palace": {
+        "name": "Deine Wohnung (Gelb-Blau)",
+        "description": "Deine Wohnung — alles in Gelb und Blau gestrichen",
+        "theme": "Gelb-Blau gestrichen",
+        "stations": ["Eingang", "Flur", "Küche", "Wohnzimmer", "Bad", "Schlafzimmer", "Balkon", "Keller", "Dachboden", "Garten"]
+      }
+    },
+    {
+      "id": "be",
+      "name": "Belarussisch",
+      "native_name": "Беларуская",
+      "flag": "🇧🇾",
+      "family": "slavic",
+      "subfamily": "east_slavic",
+      "script": "cyrillic",
+      "difficulty_tier": 3,
+      "cluster_languages": ["ru", "uk"],
+      "transfer_rates": {"ru": 0.85, "uk": 0.80, "pl": 0.40},
+      "default_palace": {
+        "name": "Deine Wohnung (Schnee)",
+        "description": "Deine Wohnung — es schneit drinnen",
+        "theme": "Es schneit drinnen",
+        "stations": ["Eingang", "Flur", "Küche", "Wohnzimmer", "Bad", "Schlafzimmer", "Balkon", "Keller", "Dachboden", "Garten"]
+      }
+    },
+    {
+      "id": "sk",
+      "name": "Slowakisch",
+      "native_name": "Slovenčina",
+      "flag": "🇸🇰",
+      "family": "slavic",
+      "subfamily": "west_slavic",
+      "script": "latin",
+      "difficulty_tier": 1,
+      "cluster_languages": ["cs", "pl"],
+      "transfer_rates": {"cs": 0.90, "pl": 0.50, "sl": 0.45, "hr": 0.40, "ru": 0.40},
+      "default_palace": {
+        "name": "Weg zur Arbeit",
+        "description": "Dein täglicher Weg zur Arbeit",
+        "theme": "Normal",
+        "stations": ["Haustür", "Bushaltestelle", "Kreuzung", "Ampel", "Brücke", "Park", "Supermarkt", "Bahnhof", "Bürogebäude", "Schreibtisch"]
+      }
+    },
+    {
+      "id": "cs",
+      "name": "Tschechisch",
+      "native_name": "Čeština",
+      "flag": "🇨🇿",
+      "family": "slavic",
+      "subfamily": "west_slavic",
+      "script": "latin",
+      "difficulty_tier": 1,
+      "cluster_languages": ["sk", "pl"],
+      "transfer_rates": {"sk": 0.90, "pl": 0.50, "ru": 0.38},
+      "default_palace": {
+        "name": "Weg zur Arbeit (Bier)",
+        "description": "Dein Weg zur Arbeit — alles ist aus Bier",
+        "theme": "Alles aus Bier",
+        "stations": ["Haustür", "Bushaltestelle", "Kreuzung", "Ampel", "Brücke", "Park", "Supermarkt", "Bahnhof", "Bürogebäude", "Schreibtisch"]
+      }
+    },
+    {
+      "id": "pl",
+      "name": "Polnisch",
+      "native_name": "Polski",
+      "flag": "🇵🇱",
+      "family": "slavic",
+      "subfamily": "west_slavic",
+      "script": "latin",
+      "difficulty_tier": 3,
+      "cluster_languages": ["sk", "cs"],
+      "transfer_rates": {"sk": 0.50, "cs": 0.50, "uk": 0.40, "ru": 0.35},
+      "default_palace": {
+        "name": "Einkaufszentrum",
+        "description": "Das große Einkaufszentrum in der Stadt",
+        "theme": "Normal",
+        "stations": ["Eingang", "Rolltreppe", "Bäckerei", "Buchhandlung", "Apotheke", "Kleidungsladen", "Foodcourt", "Kino", "Parkhaus", "Ausgang"]
+      }
+    },
+    {
+      "id": "sl",
+      "name": "Slowenisch",
+      "native_name": "Slovenščina",
+      "flag": "🇸🇮",
+      "family": "slavic",
+      "subfamily": "south_slavic",
+      "script": "latin",
+      "difficulty_tier": 1,
+      "cluster_languages": ["hr", "sk"],
+      "transfer_rates": {"hr": 0.80, "sk": 0.45, "cs": 0.40, "ru": 0.35},
+      "default_palace": {
+        "name": "Bergsee (Bled)",
+        "description": "Der Bleder See — Alpen, kristallklares Wasser",
+        "theme": "Alpen, kristallklar",
+        "stations": ["Seeufer", "Steg", "Ruderboot", "Insel", "Kirchturm", "Burgmauer", "Wanderweg", "Wasserfall", "Almhütte", "Gipfel"]
+      }
+    },
+    {
+      "id": "hr",
+      "name": "Kroatisch",
+      "native_name": "Hrvatski",
+      "flag": "🇭🇷",
+      "family": "slavic",
+      "subfamily": "south_slavic",
+      "script": "latin",
+      "difficulty_tier": 1,
+      "cluster_languages": ["sl", "bg"],
+      "transfer_rates": {"sl": 0.80, "bg": 0.45, "sk": 0.40, "ru": 0.35},
+      "default_palace": {
+        "name": "Adria-Strand",
+        "description": "Ein Strand an der Adria — Sonne, Meer",
+        "theme": "Sonne, Meer",
+        "stations": ["Strandeingang", "Sonnenschirm", "Liegestuhl", "Eisverkäufer", "Felsen", "Bootsanleger", "Leuchtturm", "Strandbar", "Volleyball", "Sonnenuntergang"]
+      }
+    },
+    {
+      "id": "bg",
+      "name": "Bulgarisch",
+      "native_name": "Български",
+      "flag": "🇧🇬",
+      "family": "slavic",
+      "subfamily": "south_slavic",
+      "script": "cyrillic",
+      "difficulty_tier": 3,
+      "cluster_languages": ["mk", "hr"],
+      "transfer_rates": {"mk": 0.85, "ru": 0.50, "hr": 0.45, "sl": 0.40},
+      "default_palace": {
+        "name": "Alte Schule",
+        "description": "Deine alte Schule — Erinnerungen an Kindheit",
+        "theme": "Normal",
+        "stations": ["Schultor", "Pausenhof", "Klassenzimmer", "Tafel", "Lehrerzimmer", "Turnhalle", "Bibliothek", "Kantine", "Musikraum", "Schulausgang"]
+      }
+    },
+    {
+      "id": "mk",
+      "name": "Mazedonisch",
+      "native_name": "Македонски",
+      "flag": "🇲🇰",
+      "family": "slavic",
+      "subfamily": "south_slavic",
+      "script": "cyrillic",
+      "difficulty_tier": 3,
+      "cluster_languages": ["bg", "hr"],
+      "transfer_rates": {"bg": 0.85, "hr": 0.40, "ru": 0.45},
+      "default_palace": {
+        "name": "Alte Schule (Antik)",
+        "description": "Deine alte Schule — mit antiken Säulen",
+        "theme": "Antike Säulen",
+        "stations": ["Schultor", "Pausenhof", "Klassenzimmer", "Tafel", "Lehrerzimmer", "Turnhalle", "Bibliothek", "Kantine", "Musikraum", "Schulausgang"]
+      }
+    },
+    {
+      "id": "it",
+      "name": "Italienisch",
+      "native_name": "Italiano",
+      "flag": "🇮🇹",
+      "family": "romance",
+      "subfamily": "",
+      "script": "latin",
+      "difficulty_tier": 2,
+      "cluster_languages": ["es", "pt", "fr", "ro"],
+      "transfer_rates": {"es": 0.80, "pt": 0.75, "fr": 0.60, "ro": 0.55},
+      "default_palace": {
+        "name": "Restaurant (innen)",
+        "description": "Ein gemütliches italienisches Restaurant",
+        "theme": "Innen, gemütlich",
+        "stations": ["Eingangstür", "Garderobe", "Bar", "Tisch", "Speisekarte", "Küche", "Pizzaofen", "Weinkeller", "Desserttheke", "Kasse"]
+      }
+    },
+    {
+      "id": "es",
+      "name": "Spanisch",
+      "native_name": "Español",
+      "flag": "🇪🇸",
+      "family": "romance",
+      "subfamily": "",
+      "script": "latin",
+      "difficulty_tier": 2,
+      "cluster_languages": ["it", "pt", "fr"],
+      "transfer_rates": {"pt": 0.85, "it": 0.80, "fr": 0.60, "ro": 0.50},
+      "default_palace": {
+        "name": "Restaurant (draußen)",
+        "description": "Ein Restaurant im Freien — Sonne!",
+        "theme": "Draußen, Sonne",
+        "stations": ["Terrasseneingang", "Brunnen", "Olivenbaum", "Sonnenschirm", "Tapas-Theke", "Grill", "Sangria-Bar", "Flamenco-Bühne", "Orangenbaum", "Ausgang"]
+      }
+    },
+    {
+      "id": "pt",
+      "name": "Portugiesisch",
+      "native_name": "Português",
+      "flag": "🇵🇹",
+      "family": "romance",
+      "subfamily": "",
+      "script": "latin",
+      "difficulty_tier": 2,
+      "cluster_languages": ["es", "it", "fr"],
+      "transfer_rates": {"es": 0.85, "it": 0.75, "fr": 0.60, "ro": 0.50},
+      "default_palace": {
+        "name": "Restaurant (Strand)",
+        "description": "Ein Strandrestaurant in Portugal",
+        "theme": "Am Strand",
+        "stations": ["Holzsteg", "Sandbar", "Surfbrett", "Muschelkorb", "Grillstation", "Hängematte", "Leuchtturm", "Fischernetz", "Sonnenliege", "Meeresblick"]
+      }
+    },
+    {
+      "id": "fr",
+      "name": "Französisch",
+      "native_name": "Français",
+      "flag": "🇫🇷",
+      "family": "romance",
+      "subfamily": "",
+      "script": "latin",
+      "difficulty_tier": 2,
+      "cluster_languages": ["it", "es", "pt", "ro"],
+      "transfer_rates": {"it": 0.60, "es": 0.60, "pt": 0.60, "ro": 0.55},
+      "default_palace": {
+        "name": "Museum",
+        "description": "Ein elegantes Museum in Paris",
+        "theme": "Elegant",
+        "stations": ["Foyer", "Ticketschalter", "Garderobe", "Gemäldesaal", "Skulpturenhalle", "Treppe", "Balkon", "Café", "Geschenkeladen", "Ausgang"]
+      }
+    },
+    {
+      "id": "ro",
+      "name": "Rumänisch",
+      "native_name": "Română",
+      "flag": "🇷🇴",
+      "family": "romance",
+      "subfamily": "",
+      "script": "latin",
+      "difficulty_tier": 2,
+      "cluster_languages": ["it", "fr"],
+      "transfer_rates": {"it": 0.55, "fr": 0.55, "es": 0.50, "pt": 0.50},
+      "default_palace": {
+        "name": "Altes Schloss",
+        "description": "Ein altes Schloss in Transsilvanien — Dracula-Vibes",
+        "theme": "Dracula-Vibes",
+        "stations": ["Zugbrücke", "Innenhof", "Treppe", "Rittersaal", "Kamin", "Turm", "Kerker", "Bibliothek", "Balkon", "Geheimgang"]
+      }
+    },
+    {
+      "id": "zh",
+      "name": "Chinesisch",
+      "native_name": "中文",
+      "flag": "🇨🇳",
+      "family": "sinosphere",
+      "subfamily": "",
+      "script": "hanzi",
+      "difficulty_tier": 5,
+      "cluster_languages": ["ja", "ko", "vi"],
+      "transfer_rates": {"ja": 0.40, "ko": 0.30, "vi": 0.25},
+      "default_palace": {
+        "name": "Traditioneller Garten",
+        "description": "Ein traditioneller chinesischer Garten",
+        "theme": "Traditionell",
+        "stations": ["Mondtor", "Teich", "Brücke", "Pavillon", "Bambushain", "Steinpfad", "Teehaus", "Lotusblüte", "Drachenstatue", "Glockenturm"]
+      }
+    },
+    {
+      "id": "ja",
+      "name": "Japanisch",
+      "native_name": "日本語",
+      "flag": "🇯🇵",
+      "family": "sinosphere",
+      "subfamily": "",
+      "script": "kanji_kana",
+      "difficulty_tier": 5,
+      "cluster_languages": ["zh", "ko"],
+      "transfer_rates": {"zh": 0.40, "ko": 0.15},
+      "default_palace": {
+        "name": "Zen-Garten",
+        "description": "Ein japanischer Zen-Garten — Steine und Ruhe",
+        "theme": "Steine, Ruhe",
+        "stations": ["Torii", "Kiesweg", "Steinlaterne", "Moosgarten", "Teestube", "Bambuszaun", "Wasserfall", "Brücke", "Pagode", "Kirschbaum"]
+      }
+    },
+    {
+      "id": "ko",
+      "name": "Koreanisch",
+      "native_name": "한국어",
+      "flag": "🇰🇷",
+      "family": "sinosphere",
+      "subfamily": "",
+      "script": "hangul",
+      "difficulty_tier": 5,
+      "cluster_languages": ["zh", "ja"],
+      "transfer_rates": {"zh": 0.30, "ja": 0.15},
+      "default_palace": {
+        "name": "Garten mit K-Pop Bühne",
+        "description": "Ein koreanischer Garten mit K-Pop Bühne",
+        "theme": "K-Pop Bühne drin",
+        "stations": ["Gartentor", "Kirschblütenallee", "Teich", "Bühne", "Lautsprecher", "Tanzfläche", "Imbissstand", "Karaoke-Kabine", "Aussichtspunkt", "Ausgang"]
+      }
+    },
+    {
+      "id": "vi",
+      "name": "Vietnamesisch",
+      "native_name": "Tiếng Việt",
+      "flag": "🇻🇳",
+      "family": "sinosphere",
+      "subfamily": "",
+      "script": "latin",
+      "difficulty_tier": 5,
+      "cluster_languages": ["zh"],
+      "transfer_rates": {"zh": 0.25},
+      "default_palace": {
+        "name": "Straßenmarkt",
+        "description": "Ein lebhafter vietnamesischer Straßenmarkt",
+        "theme": "Street Food",
+        "stations": ["Markteingang", "Obststand", "Nudelküche", "Gewürzregal", "Reissäcke", "Blumenstand", "Teeverkäufer", "Garküche", "Motorroller", "Tempel"]
+      }
+    },
+    {
+      "id": "hu",
+      "name": "Ungarisch",
+      "native_name": "Magyar",
+      "flag": "🇭🇺",
+      "family": "uralic",
+      "subfamily": "",
+      "script": "latin",
+      "difficulty_tier": 4,
+      "cluster_languages": ["fi", "et"],
+      "transfer_rates": {"fi": 0.15, "et": 0.10},
+      "default_palace": {
+        "name": "Haus der Großeltern",
+        "description": "Das Haus deiner Großeltern — nostalgisch",
+        "theme": "Nostalgisch",
+        "stations": ["Gartentor", "Vorgarten", "Veranda", "Wohnstube", "Küche", "Ofen", "Schlafkammer", "Speisekammer", "Werkstatt", "Obstgarten"]
+      }
+    },
+    {
+      "id": "fi",
+      "name": "Finnisch",
+      "native_name": "Suomi",
+      "flag": "🇫🇮",
+      "family": "uralic",
+      "subfamily": "",
+      "script": "latin",
+      "difficulty_tier": 4,
+      "cluster_languages": ["et", "hu"],
+      "transfer_rates": {"et": 0.70, "hu": 0.15},
+      "default_palace": {
+        "name": "Sauna im Wald",
+        "description": "Eine Sauna tief im finnischen Wald — dunkel und warm",
+        "theme": "Dunkel, warm",
+        "stations": ["Waldpfad", "Holzstapel", "Umkleide", "Saunaofen", "Aufgusseimer", "Ruhebank", "Kaltwasserbecken", "Terrasse", "Birkenwald", "See"]
+      }
+    },
+    {
+      "id": "et",
+      "name": "Estnisch",
+      "native_name": "Eesti",
+      "flag": "🇪🇪",
+      "family": "uralic",
+      "subfamily": "",
+      "script": "latin",
+      "difficulty_tier": 4,
+      "cluster_languages": ["fi", "hu"],
+      "transfer_rates": {"fi": 0.70, "hu": 0.10},
+      "default_palace": {
+        "name": "Sauna am Meer",
+        "description": "Eine Sauna an der Ostsee — hell, mit Meerblick",
+        "theme": "Hell, Meerblick",
+        "stations": ["Strandweg", "Düne", "Umkleide", "Saunaofen", "Fenster", "Ruheraum", "Kaltwasserbecken", "Terrasse", "Steg", "Meer"]
+      }
+    }
+  ]
+}

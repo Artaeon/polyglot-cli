@@ -1,0 +1,13 @@
+{
+  "language_id": "hr",
+  "words": [
+    {"word": "gdje je kontrola putovnica?", "romanization": "", "pronunciation_hint": "gdye ye kon-TRO-la pu-TOV-ni-tsa", "meaning_de": "wo ist die Passkontrolle?", "meaning_en": "where is passport control?", "category": "fragen_richtungen", "frequency_rank": 1301, "concept_id": "where_passport_control", "tone": null, "notes": "Zračna luka"},
+    {"word": "ovo je moja ukrcajna karta", "romanization": "", "pronunciation_hint": "O-vo ye MO-ya ukr-TSAY-na KAR-ta", "meaning_de": "hier ist meine Bordkarte", "meaning_en": "here is my boarding pass", "category": "phrasen", "frequency_rank": 1302, "concept_id": "here_boarding_pass", "tone": null, "notes": "Prijava"},
+    {"word": "moj let kasni", "romanization": "", "pronunciation_hint": "moy let KAS-ni", "meaning_de": "mein Flug hat Verspätung", "meaning_en": "my flight is delayed", "category": "phrasen", "frequency_rank": 1303, "concept_id": "flight_delayed", "tone": null, "notes": "Polazak"},
+    {"word": "gdje je preuzimanje prtljage?", "romanization": "", "pronunciation_hint": "gdye ye pre-u-ZI-ma-nye PRT-lya-ge", "meaning_de": "wo ist die Gepäckausgabe?", "meaning_en": "where is baggage claim?", "category": "fragen_richtungen", "frequency_rank": 1304, "concept_id": "where_baggage_claim", "tone": null, "notes": "Dolazak"},
+    {"word": "ovdje sam poslovno", "romanization": "", "pronunciation_hint": "OV-dye sam po-SLOV-no", "meaning_de": "ich bin geschäftlich hier", "meaning_en": "I am here for business", "category": "beruf_bildung", "frequency_rank": 1305, "concept_id": "here_for_business", "tone": null, "notes": "Posao"},
+    {"word": "imam sastanak u deset", "romanization": "", "pronunciation_hint": "EE-mam SAS-ta-nak u DE-set", "meaning_de": "ich habe um zehn ein Meeting", "meaning_en": "I have a meeting at ten", "category": "beruf_bildung", "frequency_rank": 1306, "concept_id": "meeting_at_ten", "tone": null, "notes": "Rad"},
+    {"word": "možemo li dogovoriti poziv?", "romanization": "", "pronunciation_hint": "MO-zhe-mo li do-go-VO-ri-ti PO-ziv", "meaning_de": "können wir einen Call planen?", "meaning_en": "can we schedule a call?", "category": "beruf_bildung", "frequency_rank": 1307, "concept_id": "schedule_call", "tone": null, "notes": "Komunikacija"},
+    {"word": "molim, pošaljite ugovor", "romanization": "", "pronunciation_hint": "MO-lim po-SHAL-yi-te U-go-vor", "meaning_de": "bitte senden Sie den Vertrag", "meaning_en": "please send the contract", "category": "beruf_bildung", "frequency_rank": 1308, "concept_id": "send_contract", "tone": null, "notes": "Dokumenti"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "language_id": "it",
+  "words": [
+    {"word": "mi sento male", "romanization": "", "pronunciation_hint": "mi SEN-to MA-le", "meaning_de": "mir ist schlecht", "meaning_en": "I feel sick", "category": "koerper_gesundheit", "frequency_rank": 1201, "concept_id": "i_feel_sick", "tone": null, "notes": "Salute"},
+    {"word": "ho un'allergia", "romanization": "", "pronunciation_hint": "o un al-ler-GI-a", "meaning_de": "ich habe eine Allergie", "meaning_en": "I have an allergy", "category": "koerper_gesundheit", "frequency_rank": 1202, "concept_id": "i_have_allergy", "tone": null, "notes": "Medico"},
+    {"word": "acqua, per favore", "romanization": "", "pronunciation_hint": "A-kwa per fa-VO-re", "meaning_de": "Wasser bitte", "meaning_en": "water please", "category": "essen_trinken", "frequency_rank": 1203, "concept_id": "water_please", "tone": null, "notes": "Ristorante"},
+    {"word": "è possibile il late check-out?", "romanization": "", "pronunciation_hint": "e pos-SI-bi-le il leit chek-aut", "meaning_de": "ist später Check-out möglich?", "meaning_en": "is late checkout possible?", "category": "phrasen", "frequency_rank": 1204, "concept_id": "late_checkout", "tone": null, "notes": "Hotel"},
+    {"word": "treno per il centro", "romanization": "", "pronunciation_hint": "TRE-no per il CHEN-tro", "meaning_de": "Zug ins Zentrum", "meaning_en": "train to city center", "category": "fragen_richtungen", "frequency_rank": 1205, "concept_id": "train_to_center", "tone": null, "notes": "Trasporti"},
+    {"word": "il wifi è gratuito?", "romanization": "", "pronunciation_hint": "il WI-fi e gra-TUI-to", "meaning_de": "ist WLAN kostenlos?", "meaning_en": "is wifi free?", "category": "phrasen", "frequency_rank": 1206, "concept_id": "is_wifi_free", "tone": null, "notes": "Alloggio"}
+  ]
+}

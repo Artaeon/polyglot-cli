@@ -1,0 +1,101 @@
+{
+  "language_id": "sk",
+  "words": [
+    {
+      "word": "Volám sa...",
+      "romanization": "",
+      "pronunciation_hint": "VO-laam sa",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1601,
+      "concept_id": "tpl7_my_name_is",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Hovorím trochu...",
+      "romanization": "",
+      "pronunciation_hint": "HO-vo-reem TRO-khoo",
+      "meaning_de": "Ich spreche ein bisschen...",
+      "meaning_en": "I speak a little...",
+      "category": "phrasen",
+      "frequency_rank": 1602,
+      "concept_id": "tpl7_i_speak_language",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Nerozumiem.",
+      "romanization": "",
+      "pronunciation_hint": "NE-ro-zu-myem",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1603,
+      "concept_id": "tpl7_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Chcel(a) by som...",
+      "romanization": "",
+      "pronunciation_hint": "KHTSEL bih som",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1604,
+      "concept_id": "tpl7_i_would_like",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Ďakujem veľmi pekne!",
+      "romanization": "",
+      "pronunciation_hint": "DYA-ku-yem VEL-mi PEK-ne",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1605,
+      "concept_id": "tpl7_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Koľko je hodín?",
+      "romanization": "",
+      "pronunciation_hint": "KOL-ko ye HO-deen",
+      "meaning_de": "Wie spät ist es?",
+      "meaning_en": "What time is it?",
+      "category": "phrasen",
+      "frequency_rank": 1606,
+      "concept_id": "tpl7_what_time_is_it",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Dnes je pekné počasie.",
+      "romanization": "",
+      "pronunciation_hint": "dnes ye PEK-nee PO-tscha-sye",
+      "meaning_de": "Das Wetter ist schön heute.",
+      "meaning_en": "The weather is nice today.",
+      "category": "natur_wetter",
+      "frequency_rank": 1607,
+      "concept_id": "tpl7_the_weather_is_nice",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "Pohár vody, prosím.",
+      "romanization": "",
+      "pronunciation_hint": "PO-haar VO-dih, PRO-seem",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1608,
+      "concept_id": "tpl7_water_please",
+      "tone": null,
+      "notes": "template_pack_7"
+    }
+  ]
+}

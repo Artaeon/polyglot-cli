@@ -1,0 +1,11 @@
+{
+  "language_id": "ro",
+  "words": [
+    {"word": "am o rezervare", "romanization": "", "pronunciation_hint": "am o re-zer-VA-re", "meaning_de": "ich habe eine Reservierung", "meaning_en": "I have a reservation", "category": "phrasen", "frequency_rank": 1101, "concept_id": "i_have_reservation", "tone": null, "notes": "Hotel"},
+    {"word": "am nevoie de un doctor", "romanization": "", "pronunciation_hint": "am ne-VO-ye de un DOK-tor", "meaning_de": "ich brauche einen Arzt", "meaning_en": "I need a doctor", "category": "koerper_gesundheit", "frequency_rank": 1102, "concept_id": "i_need_doctor", "tone": null, "notes": "Urgență"},
+    {"word": "chemați poliția", "romanization": "", "pronunciation_hint": "ke-MATS po-li-TSI-a", "meaning_de": "rufen Sie die Polizei", "meaning_en": "call the police", "category": "phrasen", "frequency_rank": 1103, "concept_id": "call_police", "tone": null, "notes": "Situație urgentă"},
+    {"word": "unde este spitalul?", "romanization": "", "pronunciation_hint": "UN-de YES-te spi-TA-lul", "meaning_de": "wo ist das Krankenhaus?", "meaning_en": "where is the hospital?", "category": "fragen_richtungen", "frequency_rank": 1104, "concept_id": "where_is_hospital", "tone": null, "notes": "Direcții"},
+    {"word": "mi-am pierdut pașaportul", "romanization": "", "pronunciation_hint": "mi-am pier-DUT pa-sha-POR-tul", "meaning_de": "ich habe meinen Pass verloren", "meaning_en": "I lost my passport", "category": "phrasen", "frequency_rank": 1105, "concept_id": "i_lost_passport", "tone": null, "notes": "Documente"},
+    {"word": "pot plăti cu cardul?", "romanization": "", "pronunciation_hint": "pot plə-TI ku KAR-dul", "meaning_de": "kann ich mit Karte zahlen?", "meaning_en": "can I pay by card?", "category": "essen_trinken", "frequency_rank": 1106, "concept_id": "card_payment_question", "tone": null, "notes": "Plată"}
+  ]
+}

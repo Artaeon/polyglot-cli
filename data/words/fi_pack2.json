@@ -1,0 +1,11 @@
+{
+  "language_id": "fi",
+  "words": [
+    {"word": "minulla on varaus", "romanization": "", "pronunciation_hint": "MI-nul-la on VA-raus", "meaning_de": "ich habe eine Reservierung", "meaning_en": "I have a reservation", "category": "phrasen", "frequency_rank": 1101, "concept_id": "i_have_reservation", "tone": null, "notes": "Hotelli"},
+    {"word": "tarvitsen lääkärin", "romanization": "", "pronunciation_hint": "TAR-vit-sen LÄÄ-kää-rin", "meaning_de": "ich brauche einen Arzt", "meaning_en": "I need a doctor", "category": "koerper_gesundheit", "frequency_rank": 1102, "concept_id": "i_need_doctor", "tone": null, "notes": "Hätä"},
+    {"word": "soittakaa poliisi", "romanization": "", "pronunciation_hint": "SOIT-ta-kaa po-LII-si", "meaning_de": "rufen Sie die Polizei", "meaning_en": "call the police", "category": "phrasen", "frequency_rank": 1103, "concept_id": "call_police", "tone": null, "notes": "Hätätilanne"},
+    {"word": "missä on sairaala?", "romanization": "", "pronunciation_hint": "MIS-sä on SAI-raa-la", "meaning_de": "wo ist das Krankenhaus?", "meaning_en": "where is the hospital?", "category": "fragen_richtungen", "frequency_rank": 1104, "concept_id": "where_is_hospital", "tone": null, "notes": "Kysyminen"},
+    {"word": "kadotin passini", "romanization": "", "pronunciation_hint": "ka-DO-tin PAS-si-ni", "meaning_de": "ich habe meinen Pass verloren", "meaning_en": "I lost my passport", "category": "phrasen", "frequency_rank": 1105, "concept_id": "i_lost_passport", "tone": null, "notes": "Asiakirjat"},
+    {"word": "voinko maksaa kortilla?", "romanization": "", "pronunciation_hint": "VOIN-ko MAK-saa KOR-til-la", "meaning_de": "kann ich mit Karte zahlen?", "meaning_en": "can I pay by card?", "category": "essen_trinken", "frequency_rank": 1106, "concept_id": "card_payment_question", "tone": null, "notes": "Maksu"}
+  ]
+}

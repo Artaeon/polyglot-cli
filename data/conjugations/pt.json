@@ -1,0 +1,1770 @@
+{
+  "language_id": "pt",
+  "meta": {
+    "persons": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "person_labels_de": {
+      "1sg": "ich (eu)",
+      "2sg": "du (tu)",
+      "3sg": "er/sie (ele/ela)",
+      "1pl": "wir (nós)",
+      "2pl": "ihr (vós)",
+      "3pl": "sie (eles/elas)"
+    },
+    "tenses": [
+      "presente",
+      "preterito_perfeito",
+      "futuro_simples"
+    ],
+    "tense_labels_de": {
+      "presente": "Praesens",
+      "preterito_perfeito": "Perfekt",
+      "futuro_simples": "Futur"
+    }
+  },
+  "conjugation_patterns": [
+    {
+      "pattern_id": "ar_regular",
+      "description_de": "-ar Verben",
+      "rule_de": "Stamm + -o, -as, -a, -amos, -ais, -am"
+    },
+    {
+      "pattern_id": "er_regular",
+      "description_de": "-er Verben",
+      "rule_de": "Stamm + -o, -es, -e, -emos, -eis, -em"
+    },
+    {
+      "pattern_id": "ir_regular",
+      "description_de": "-ir Verben",
+      "rule_de": "Stamm + -o, -es, -e, -imos, -is, -em"
+    }
+  ],
+  "verbs": [
+    {
+      "concept_id": "be",
+      "infinitive": "ser",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "sou",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "és",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "é",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "somos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "sois",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "são",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "fui",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "foste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "foi",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "fomos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "fostes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "foram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "serei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "serás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "será",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "seremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "sereis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "serão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "have",
+      "infinitive": "ter",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "tenho",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "tens",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "tem",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "temos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "tendes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "têm",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "tive",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "tiveste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "teve",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "tivemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "tivestes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "tiveram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "terei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "terás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "terá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "teremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "tereis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "terão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "go",
+      "infinitive": "ir",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "vou",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vais",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vai",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vamos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ides",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vão",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "fui",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "foste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "foi",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "fomos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "fostes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "foram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "irei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "irás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "irá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "iremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ireis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "irão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "come",
+      "infinitive": "vir",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "venho",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vens",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vem",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vimos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vindes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vêm",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "vim",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vieste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "veio",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "viemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "viestes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vieram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "virei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "virás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "virá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "viremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vireis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "virão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "eat",
+      "infinitive": "comer",
+      "romanization": null,
+      "pattern_id": "er_regular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "como",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "comes",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "come",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "comemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "comeis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "comem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "comi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "comeste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "comeu",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "comemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "comestes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "comeram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "comerei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "comerás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "comerá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "comeremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "comereis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "comerão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "drink",
+      "infinitive": "beber",
+      "romanization": null,
+      "pattern_id": "er_regular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "bebo",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "bebes",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bebe",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "bebemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "bebeis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "bebem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "bebi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "bebeste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bebeu",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "bebemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "bebestes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "beberam",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "beberei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "beberás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "beberá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "beberemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "bebereis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "beberão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "say",
+      "infinitive": "dizer",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "digo",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "dizes",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "diz",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "dizemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dizeis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "dizem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "disse",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "disseste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "disse",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "dissemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dissestes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "disseram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "direi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "dirás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "dirá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "diremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "direis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "dirão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "see",
+      "infinitive": "ver",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "vejo",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vês",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vê",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vedes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "veem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "vi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "viste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "viu",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vimos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vistes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "viram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "verei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "verás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "verá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "veremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vereis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "verão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "hear",
+      "infinitive": "ouvir",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "ouço",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ouves",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "ouve",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ouvimos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ouvis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "ouvem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "ouvi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ouviste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "ouviu",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ouvimos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ouvistes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "ouviram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "ouvirei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ouvirás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "ouvirá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ouviremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ouvireis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "ouvirão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "know",
+      "infinitive": "saber",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "sei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "sabes",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "sabe",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "sabemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "sabeis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "sabem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "soube",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "soubeste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "soube",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "soubemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "soubestes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "souberam",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "saberei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "saberás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "saberá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "saberemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "sabereis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "saberão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "want",
+      "infinitive": "querer",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "quero",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "queres",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "quer",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "queremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "quereis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "querem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "quis",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "quiseste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "quis",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "quisemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "quisestes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "quiseram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "quererei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "quererás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "quererá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "quereremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "querereis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "quererão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "can",
+      "infinitive": "poder",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "posso",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "podes",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "pode",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "podemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "podeis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "podem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "pude",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "pudeste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "pôde",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "pudemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "pudestes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "puderam",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "poderei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "poderás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "poderá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "poderemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "podereis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "poderão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "do_make",
+      "infinitive": "fazer",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "faço",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "fazes",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "faz",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "fazemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "fazeis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "fazem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "fiz",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "fizeste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "fez",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "fizemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "fizestes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "fizeram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "farei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "farás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "fará",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "faremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "fareis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "farão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "give",
+      "infinitive": "dar",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "dou",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "dás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "dá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "damos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dais",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "dão",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "dei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "deste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "deu",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "demos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "destes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "deram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "darei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "darás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "dará",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "daremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dareis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "darão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "take",
+      "infinitive": "tomar",
+      "romanization": null,
+      "pattern_id": "ar_regular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "tomo",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "tomas",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "toma",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "tomamos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "tomais",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "tomam",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "tomei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "tomaste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "tomou",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "tomámos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "tomastes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "tomaram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "tomarei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "tomarás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "tomará",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "tomaremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "tomareis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "tomarão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "read",
+      "infinitive": "ler",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "leio",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "lês",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "lê",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "lemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ledes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "leem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "li",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "leste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "leu",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "lemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "lestes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "leram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "lerei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "lerás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "lerá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "leremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "lereis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "lerão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "write",
+      "infinitive": "escrever",
+      "romanization": null,
+      "pattern_id": "er_regular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "escrevo",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "escreves",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "escreve",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "escrevemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "escreveis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "escrevem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "escrevi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "escreveste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "escreveu",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "escrevemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "escrevestes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "escreveram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "escreverei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "escreverás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "escreverá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "escreveremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "escrevereis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "escreverão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "sleep",
+      "infinitive": "dormir",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "durmo",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "dormes",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "dorme",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "dormimos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dormis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "dormem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "dormi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "dormiste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "dormiu",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "dormimos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dormistes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "dormiram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "dormirei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "dormirás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "dormirá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "dormiremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dormireis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "dormirão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "live",
+      "infinitive": "viver",
+      "romanization": null,
+      "pattern_id": "er_regular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "vivo",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vives",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vive",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vivemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "viveis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vivem",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "vivi",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "viveste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "viveu",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vivemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vivestes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "viveram",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "viverei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "viverás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "viverá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "viveremos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vivereis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "viverão",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "work",
+      "infinitive": "trabalhar",
+      "romanization": null,
+      "pattern_id": "ar_regular",
+      "forms": {
+        "presente": {
+          "1sg": {
+            "form": "trabalho",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "trabalhas",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "trabalha",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "trabalhamos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "trabalhais",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "trabalham",
+            "romanization": null
+          }
+        },
+        "preterito_perfeito": {
+          "1sg": {
+            "form": "trabalhei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "trabalhaste",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "trabalhou",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "trabalhámos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "trabalhastes",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "trabalharam",
+            "romanization": null
+          }
+        },
+        "futuro_simples": {
+          "1sg": {
+            "form": "trabalharei",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "trabalharás",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "trabalhará",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "trabalharemos",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "trabalhareis",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "trabalharão",
+            "romanization": null
+          }
+        }
+      }
+    }
+  ]
+}

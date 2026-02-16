@@ -1,0 +1,11 @@
+{
+  "language_id": "zh",
+  "words": [
+    {"word": "我不舒服", "romanization": "wǒ bù shūfu", "pronunciation_hint": "wo bu shu-fu", "meaning_de": "mir ist schlecht", "meaning_en": "I feel sick", "category": "koerper_gesundheit", "frequency_rank": 1201, "concept_id": "i_feel_sick", "tone": null, "notes": "健康"},
+    {"word": "我有过敏", "romanization": "wǒ yǒu guòmǐn", "pronunciation_hint": "wo you guo-min", "meaning_de": "ich habe eine Allergie", "meaning_en": "I have an allergy", "category": "koerper_gesundheit", "frequency_rank": 1202, "concept_id": "i_have_allergy", "tone": null, "notes": "医疗"},
+    {"word": "请给我水", "romanization": "qǐng gěi wǒ shuǐ", "pronunciation_hint": "qing gei wo shuei", "meaning_de": "Wasser bitte", "meaning_en": "water please", "category": "essen_trinken", "frequency_rank": 1203, "concept_id": "water_please", "tone": null, "notes": "餐厅"},
+    {"word": "可以晚点退房吗？", "romanization": "kěyǐ wǎndiǎn tuìfáng ma?", "pronunciation_hint": "ke-yi wan-dian tuei-fang ma", "meaning_de": "ist später Check-out möglich?", "meaning_en": "is late checkout possible?", "category": "phrasen", "frequency_rank": 1204, "concept_id": "late_checkout", "tone": null, "notes": "酒店"},
+    {"word": "去市中心的火车", "romanization": "qù shìzhōngxīn de huǒchē", "pronunciation_hint": "chu shi-zhong-xin de huo-che", "meaning_de": "Zug ins Zentrum", "meaning_en": "train to city center", "category": "fragen_richtungen", "frequency_rank": 1205, "concept_id": "train_to_center", "tone": null, "notes": "交通"},
+    {"word": "wifi 免费吗？", "romanization": "wifi miǎnfèi ma?", "pronunciation_hint": "wi-fi mian-fei ma", "meaning_de": "ist WLAN kostenlos?", "meaning_en": "is wifi free?", "category": "phrasen", "frequency_rank": 1206, "concept_id": "is_wifi_free", "tone": null, "notes": "住宿"}
+  ]
+}

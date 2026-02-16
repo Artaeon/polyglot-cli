@@ -1,0 +1,11 @@
+{
+  "language_id": "hu",
+  "words": [
+    {"word": "rosszul vagyok", "romanization": "", "pronunciation_hint": "ROS-sul va-dyok", "meaning_de": "mir ist schlecht", "meaning_en": "I feel sick", "category": "koerper_gesundheit", "frequency_rank": 1201, "concept_id": "i_feel_sick", "tone": null, "notes": "Egészség"},
+    {"word": "allergiám van", "romanization": "", "pronunciation_hint": "al-ler-GI-aam von", "meaning_de": "ich habe eine Allergie", "meaning_en": "I have an allergy", "category": "koerper_gesundheit", "frequency_rank": 1202, "concept_id": "i_have_allergy", "tone": null, "notes": "Orvos"},
+    {"word": "vizet, kérem", "romanization": "", "pronunciation_hint": "VI-zet KEE-rem", "meaning_de": "Wasser bitte", "meaning_en": "water please", "category": "essen_trinken", "frequency_rank": 1203, "concept_id": "water_please", "tone": null, "notes": "Étterem"},
+    {"word": "lehetséges a késői check-out?", "romanization": "", "pronunciation_hint": "LE-het-shee-gesh a KEE-shö-i chek-aut", "meaning_de": "ist später Check-out möglich?", "meaning_en": "is late checkout possible?", "category": "phrasen", "frequency_rank": 1204, "concept_id": "late_checkout", "tone": null, "notes": "Hotel"},
+    {"word": "vonat a belvárosba", "romanization": "", "pronunciation_hint": "VO-not a BEL-vaa-rosh-ba", "meaning_de": "Zug ins Zentrum", "meaning_en": "train to city center", "category": "fragen_richtungen", "frequency_rank": 1205, "concept_id": "train_to_center", "tone": null, "notes": "Közlekedés"},
+    {"word": "ingyenes a wifi?", "romanization": "", "pronunciation_hint": "IN-dye-nesh a WI-fi", "meaning_de": "ist WLAN kostenlos?", "meaning_en": "is wifi free?", "category": "phrasen", "frequency_rank": 1206, "concept_id": "is_wifi_free", "tone": null, "notes": "Szállás"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "language_id": "ru",
+  "words": [
+    {"word": "мне плохо", "romanization": "mne plokho", "pronunciation_hint": "mnye PLO-kha", "meaning_de": "mir ist schlecht", "meaning_en": "I feel sick", "category": "koerper_gesundheit", "frequency_rank": 1201, "concept_id": "i_feel_sick", "tone": null, "notes": "Gesundheit"},
+    {"word": "у меня аллергия", "romanization": "u menya allergiya", "pronunciation_hint": "u mye-NYA a-ler-GI-ya", "meaning_de": "ich habe eine Allergie", "meaning_en": "I have an allergy", "category": "koerper_gesundheit", "frequency_rank": 1202, "concept_id": "i_have_allergy", "tone": null, "notes": "Medizin"},
+    {"word": "воду, пожалуйста", "romanization": "vodu, pozhaluysta", "pronunciation_hint": "VO-du pa-ZHA-luy-sta", "meaning_de": "Wasser bitte", "meaning_en": "water please", "category": "essen_trinken", "frequency_rank": 1203, "concept_id": "water_please", "tone": null, "notes": "Restaurant"},
+    {"word": "можно поздний выезд?", "romanization": "mozhno pozdniy vyezd?", "pronunciation_hint": "MOZH-na POZD-niy VYE-zd", "meaning_de": "ist später Check-out möglich?", "meaning_en": "is late checkout possible?", "category": "phrasen", "frequency_rank": 1204, "concept_id": "late_checkout", "tone": null, "notes": "Hotel"},
+    {"word": "поезд до центра", "romanization": "poezd do tsentra", "pronunciation_hint": "PO-yezd da TSEN-tra", "meaning_de": "Zug ins Zentrum", "meaning_en": "train to city center", "category": "fragen_richtungen", "frequency_rank": 1205, "concept_id": "train_to_center", "tone": null, "notes": "Transport"},
+    {"word": "вайфай бесплатный?", "romanization": "vaifai besplatnyy?", "pronunciation_hint": "vai-FAI bis-PLAT-nyy", "meaning_de": "ist WLAN kostenlos?", "meaning_en": "is wifi free?", "category": "phrasen", "frequency_rank": 1206, "concept_id": "is_wifi_free", "tone": null, "notes": "Unterkunft"}
+  ]
+}

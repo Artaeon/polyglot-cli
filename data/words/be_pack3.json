@@ -1,0 +1,11 @@
+{
+  "language_id": "be",
+  "words": [
+    {"word": "мне блага", "romanization": "mne blaha", "pronunciation_hint": "mnye BLA-ha", "meaning_de": "mir ist schlecht", "meaning_en": "I feel sick", "category": "koerper_gesundheit", "frequency_rank": 1201, "concept_id": "i_feel_sick", "tone": null, "notes": "Здароўе"},
+    {"word": "у мяне алергія", "romanization": "u myane alergiya", "pronunciation_hint": "u MYA-ne a-ler-GI-ya", "meaning_de": "ich habe eine Allergie", "meaning_en": "I have an allergy", "category": "koerper_gesundheit", "frequency_rank": 1202, "concept_id": "i_have_allergy", "tone": null, "notes": "Медыцына"},
+    {"word": "вады, калі ласка", "romanization": "vady, kali laska", "pronunciation_hint": "va-DY KA-li LAS-ka", "meaning_de": "Wasser bitte", "meaning_en": "water please", "category": "essen_trinken", "frequency_rank": 1203, "concept_id": "water_please", "tone": null, "notes": "Кафэ"},
+    {"word": "можна позні выезд?", "romanization": "mozhna pozni vyezd?", "pronunciation_hint": "MOZH-na POZ-ni VYE-zd", "meaning_de": "ist später Check-out möglich?", "meaning_en": "is late checkout possible?", "category": "phrasen", "frequency_rank": 1204, "concept_id": "late_checkout", "tone": null, "notes": "Гатэль"},
+    {"word": "цягнік да цэнтра", "romanization": "tsyahnik da tsentra", "pronunciation_hint": "TSYAG-nik da TSEN-tra", "meaning_de": "Zug ins Zentrum", "meaning_en": "train to city center", "category": "fragen_richtungen", "frequency_rank": 1205, "concept_id": "train_to_center", "tone": null, "notes": "Транспарт"},
+    {"word": "вайфай бясплатны?", "romanization": "vaifai byasplatny?", "pronunciation_hint": "vai-FAI byas-PLAT-ny", "meaning_de": "ist WLAN kostenlos?", "meaning_en": "is wifi free?", "category": "phrasen", "frequency_rank": 1206, "concept_id": "is_wifi_free", "tone": null, "notes": "Жыллё"}
+  ]
+}

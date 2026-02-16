@@ -1,0 +1,11 @@
+{
+  "language_id": "zh",
+  "words": [
+    {"word": "我有预订", "romanization": "wǒ yǒu yùdìng", "pronunciation_hint": "wo you yu-ding", "meaning_de": "ich habe eine Reservierung", "meaning_en": "I have a reservation", "category": "phrasen", "frequency_rank": 1101, "concept_id": "i_have_reservation", "tone": null, "notes": "酒店"},
+    {"word": "我需要医生", "romanization": "wǒ xūyào yīshēng", "pronunciation_hint": "wo xu-yao yi-sheng", "meaning_de": "ich brauche einen Arzt", "meaning_en": "I need a doctor", "category": "koerper_gesundheit", "frequency_rank": 1102, "concept_id": "i_need_doctor", "tone": null, "notes": "急诊"},
+    {"word": "请叫警察", "romanization": "qǐng jiào jǐngchá", "pronunciation_hint": "qing jiao jing-cha", "meaning_de": "rufen Sie die Polizei", "meaning_en": "call the police", "category": "phrasen", "frequency_rank": 1103, "concept_id": "call_police", "tone": null, "notes": "紧急情况"},
+    {"word": "医院在哪里？", "romanization": "yīyuàn zài nǎlǐ?", "pronunciation_hint": "yi-yuan zai na-li", "meaning_de": "wo ist das Krankenhaus?", "meaning_en": "where is the hospital?", "category": "fragen_richtungen", "frequency_rank": 1104, "concept_id": "where_is_hospital", "tone": null, "notes": "问路"},
+    {"word": "我的护照丢了", "romanization": "wǒ de hùzhào diū le", "pronunciation_hint": "wo de hu-zhao diu le", "meaning_de": "ich habe meinen Pass verloren", "meaning_en": "I lost my passport", "category": "phrasen", "frequency_rank": 1105, "concept_id": "i_lost_passport", "tone": null, "notes": "证件"},
+    {"word": "可以刷卡吗？", "romanization": "kěyǐ shuākǎ ma?", "pronunciation_hint": "ke-yi shua-ka ma", "meaning_de": "kann ich mit Karte zahlen?", "meaning_en": "can I pay by card?", "category": "essen_trinken", "frequency_rank": 1106, "concept_id": "card_payment_question", "tone": null, "notes": "付款"}
+  ]
+}

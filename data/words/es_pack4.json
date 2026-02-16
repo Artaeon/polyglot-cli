@@ -1,0 +1,13 @@
+{
+  "language_id": "es",
+  "words": [
+    {"word": "¿dónde está el control de pasaportes?", "romanization": "", "pronunciation_hint": "DON-de es-TA el kon-TROL de pa-sa-POR-tes", "meaning_de": "wo ist die Passkontrolle?", "meaning_en": "where is passport control?", "category": "fragen_richtungen", "frequency_rank": 1301, "concept_id": "where_passport_control", "tone": null, "notes": "Aeropuerto"},
+    {"word": "aquí está mi tarjeta de embarque", "romanization": "", "pronunciation_hint": "a-KEE es-TA mi tar-HE-ta de em-BAR-ke", "meaning_de": "hier ist meine Bordkarte", "meaning_en": "here is my boarding pass", "category": "phrasen", "frequency_rank": 1302, "concept_id": "here_boarding_pass", "tone": null, "notes": "Check-in"},
+    {"word": "mi vuelo está retrasado", "romanization": "", "pronunciation_hint": "mi VWE-lo es-TA re-tra-SA-do", "meaning_de": "mein Flug hat Verspätung", "meaning_en": "my flight is delayed", "category": "phrasen", "frequency_rank": 1303, "concept_id": "flight_delayed", "tone": null, "notes": "Salida"},
+    {"word": "¿dónde está la recogida de equipaje?", "romanization": "", "pronunciation_hint": "DON-de es-TA la re-ko-HEE-da de e-ki-PA-he", "meaning_de": "wo ist die Gepäckausgabe?", "meaning_en": "where is baggage claim?", "category": "fragen_richtungen", "frequency_rank": 1304, "concept_id": "where_baggage_claim", "tone": null, "notes": "Llegada"},
+    {"word": "estoy aquí por negocios", "romanization": "", "pronunciation_hint": "es-TOY a-KEE por ne-GO-syos", "meaning_de": "ich bin geschäftlich hier", "meaning_en": "I am here for business", "category": "beruf_bildung", "frequency_rank": 1305, "concept_id": "here_for_business", "tone": null, "notes": "Trabajo"},
+    {"word": "tengo una reunión a las diez", "romanization": "", "pronunciation_hint": "TEN-go U-na re-u-NYON a las DYEZ", "meaning_de": "ich habe um zehn ein Meeting", "meaning_en": "I have a meeting at ten", "category": "beruf_bildung", "frequency_rank": 1306, "concept_id": "meeting_at_ten", "tone": null, "notes": "Agenda"},
+    {"word": "¿podemos programar una llamada?", "romanization": "", "pronunciation_hint": "po-DE-mos pro-gra-MAR U-na ya-MA-da", "meaning_de": "können wir einen Call planen?", "meaning_en": "can we schedule a call?", "category": "beruf_bildung", "frequency_rank": 1307, "concept_id": "schedule_call", "tone": null, "notes": "Comunicación"},
+    {"word": "por favor, envíe el contrato", "romanization": "", "pronunciation_hint": "por fa-BOR en-VEE-e el kon-TRA-to", "meaning_de": "bitte senden Sie den Vertrag", "meaning_en": "please send the contract", "category": "beruf_bildung", "frequency_rank": 1308, "concept_id": "send_contract", "tone": null, "notes": "Documentos"}
+  ]
+}

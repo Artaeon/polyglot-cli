@@ -1,0 +1,101 @@
+{
+  "language_id": "hr",
+  "words": [
+    {
+      "word": "Malo govorim...",
+      "romanization": "",
+      "pronunciation_hint": "MA-lo GO-vo-rim",
+      "meaning_de": "Ich spreche ein bisschen...",
+      "meaning_en": "I speak a little...",
+      "category": "phrasen",
+      "frequency_rank": 1501,
+      "concept_id": "tpl6_i_speak_language",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Koliko je sati?",
+      "romanization": "",
+      "pronunciation_hint": "ko-LEE-ko ye SA-tee",
+      "meaning_de": "Wie spät ist es?",
+      "meaning_en": "What time is it?",
+      "category": "phrasen",
+      "frequency_rank": 1502,
+      "concept_id": "tpl6_what_time_is_it",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Danas je lijepo vrijeme.",
+      "romanization": "",
+      "pronunciation_hint": "DA-nas ye LEE-ye-po VREE-ye-me",
+      "meaning_de": "Das Wetter ist schön heute.",
+      "meaning_en": "The weather is nice today.",
+      "category": "natur_wetter",
+      "frequency_rank": 1503,
+      "concept_id": "tpl6_the_weather_is_nice",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Gladan / Gladna sam.",
+      "romanization": "",
+      "pronunciation_hint": "GLA-dan sam",
+      "meaning_de": "Ich habe Hunger.",
+      "meaning_en": "I am hungry.",
+      "category": "essen_trinken",
+      "frequency_rank": 1504,
+      "concept_id": "tpl6_i_am_hungry",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Volim te.",
+      "romanization": "",
+      "pronunciation_hint": "VO-lim te",
+      "meaning_de": "Ich liebe dich.",
+      "meaning_en": "I love you.",
+      "category": "phrasen",
+      "frequency_rank": 1505,
+      "concept_id": "tpl6_i_love_you",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Bok, kako si?",
+      "romanization": "",
+      "pronunciation_hint": "bok, KA-ko see",
+      "meaning_de": "Hallo, wie geht es dir?",
+      "meaning_en": "Hello, how are you?",
+      "category": "phrasen",
+      "frequency_rank": 1506,
+      "concept_id": "tpl6_hello_how_are_you",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Gdje je toalet?",
+      "romanization": "",
+      "pronunciation_hint": "gd-ye ye to-a-LET",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1507,
+      "concept_id": "tpl6_where_is",
+      "tone": null,
+      "notes": "template_pack_6"
+    },
+    {
+      "word": "Koliko to košta?",
+      "romanization": "",
+      "pronunciation_hint": "ko-LEE-ko to KOSCH-ta",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1508,
+      "concept_id": "tpl6_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_6"
+    }
+  ]
+}

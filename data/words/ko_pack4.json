@@ -1,0 +1,13 @@
+{
+  "language_id": "ko",
+  "words": [
+    {"word": "여권 심사는 어디예요?", "romanization": "yeogwon simsaneun eodiyeyo?", "pronunciation_hint": "yo-gwon shim-sa-nun o-di-ye-yo", "meaning_de": "wo ist die Passkontrolle?", "meaning_en": "where is passport control?", "category": "fragen_richtungen", "frequency_rank": 1301, "concept_id": "where_passport_control", "tone": null, "notes": "공항"},
+    {"word": "여기 제 탑승권입니다", "romanization": "yeogi je tapseunggwonimnida", "pronunciation_hint": "yo-gi je tap-seung-gwo-nim-ni-da", "meaning_de": "hier ist meine Bordkarte", "meaning_en": "here is my boarding pass", "category": "phrasen", "frequency_rank": 1302, "concept_id": "here_boarding_pass", "tone": null, "notes": "체크인"},
+    {"word": "제 비행기가 지연됐어요", "romanization": "je bihaenggiga jiyeondwaesseoyo", "pronunciation_hint": "je bi-heng-gi-ga ji-yon-dwe-sso-yo", "meaning_de": "mein Flug hat Verspätung", "meaning_en": "my flight is delayed", "category": "phrasen", "frequency_rank": 1303, "concept_id": "flight_delayed", "tone": null, "notes": "출발"},
+    {"word": "수하물 찾는 곳이 어디예요?", "romanization": "suhamul chatneun gosi eodiyeyo?", "pronunciation_hint": "su-ha-mul chan-nun go-shi o-di-ye-yo", "meaning_de": "wo ist die Gepäckausgabe?", "meaning_en": "where is baggage claim?", "category": "fragen_richtungen", "frequency_rank": 1304, "concept_id": "where_baggage_claim", "tone": null, "notes": "도착"},
+    {"word": "출장으로 왔어요", "romanization": "chuljangeuro wasseoyo", "pronunciation_hint": "chul-jang-ü-ro wa-sso-yo", "meaning_de": "ich bin geschäftlich hier", "meaning_en": "I am here for business", "category": "beruf_bildung", "frequency_rank": 1305, "concept_id": "here_for_business", "tone": null, "notes": "비즈니스"},
+    {"word": "열 시에 회의가 있어요", "romanization": "yeol sie hoeuiga isseoyo", "pronunciation_hint": "yol shi-e hoe-ui-ga i-sso-yo", "meaning_de": "ich habe um zehn ein Meeting", "meaning_en": "I have a meeting at ten", "category": "beruf_bildung", "frequency_rank": 1306, "concept_id": "meeting_at_ten", "tone": null, "notes": "업무"},
+    {"word": "통화 일정을 잡을까요?", "romanization": "tonghwa iljeongeul jabeulkkayo?", "pronunciation_hint": "tong-hwa il-jong-ül ja-bül-kka-yo", "meaning_de": "können wir einen Call planen?", "meaning_en": "can we schedule a call?", "category": "beruf_bildung", "frequency_rank": 1307, "concept_id": "schedule_call", "tone": null, "notes": "소통"},
+    {"word": "계약서를 보내 주세요", "romanization": "gyeyakseoreul bonae juseyo", "pronunciation_hint": "gye-yak-so-rül bo-ne ju-se-yo", "meaning_de": "bitte senden Sie den Vertrag", "meaning_en": "please send the contract", "category": "beruf_bildung", "frequency_rank": 1308, "concept_id": "send_contract", "tone": null, "notes": "문서"}
+  ]
+}

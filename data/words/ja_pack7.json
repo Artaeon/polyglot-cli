@@ -1,0 +1,101 @@
+{
+  "language_id": "ja",
+  "words": [
+    {
+      "word": "私は...です。",
+      "romanization": "Watashi wa ... desu.",
+      "pronunciation_hint": "wa-ta-schi wa ... des",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1601,
+      "concept_id": "tpl7_my_name_is",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "...を少し話します。",
+      "romanization": "... wo sukoshi hanashimasu.",
+      "pronunciation_hint": "... o su-ko-schi ha-na-schi-mas",
+      "meaning_de": "Ich spreche ein bisschen...",
+      "meaning_en": "I speak a little...",
+      "category": "phrasen",
+      "frequency_rank": 1602,
+      "concept_id": "tpl7_i_speak_language",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "分かりません。",
+      "romanization": "Wakarimasen.",
+      "pronunciation_hint": "wa-ka-ri-ma-sen",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1603,
+      "concept_id": "tpl7_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "...をお願いします。",
+      "romanization": "... wo onegai shimasu.",
+      "pronunciation_hint": "... o o-ne-gai schi-mas",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1604,
+      "concept_id": "tpl7_i_would_like",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "どうもありがとうございます！",
+      "romanization": "Dōmo arigatō gozaimasu!",
+      "pronunciation_hint": "do-mo a-ri-ga-to go-sai-mas",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1605,
+      "concept_id": "tpl7_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "今何時ですか？",
+      "romanization": "Ima nanji desu ka?",
+      "pronunciation_hint": "i-ma nan-dschi des ka",
+      "meaning_de": "Wie spät ist es?",
+      "meaning_en": "What time is it?",
+      "category": "phrasen",
+      "frequency_rank": 1606,
+      "concept_id": "tpl7_what_time_is_it",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "今日はいい天気ですね。",
+      "romanization": "Kyō wa ii tenki desu ne.",
+      "pronunciation_hint": "kyoo wa ii ten-ki des ne",
+      "meaning_de": "Das Wetter ist schön heute.",
+      "meaning_en": "The weather is nice today.",
+      "category": "natur_wetter",
+      "frequency_rank": 1607,
+      "concept_id": "tpl7_the_weather_is_nice",
+      "tone": null,
+      "notes": "template_pack_7"
+    },
+    {
+      "word": "お水を一杯ください。",
+      "romanization": "Omizu wo ippai kudasai.",
+      "pronunciation_hint": "o-mi-su o ip-pai ku-da-sai",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1608,
+      "concept_id": "tpl7_water_please",
+      "tone": null,
+      "notes": "template_pack_7"
+    }
+  ]
+}

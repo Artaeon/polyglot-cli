@@ -1,0 +1,1767 @@
+{
+  "language_id": "bg",
+  "meta": {
+    "persons": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "person_labels_de": {
+      "1sg": "ich (аз)",
+      "2sg": "du (ти)",
+      "3sg": "er/sie/es (той/тя/то)",
+      "1pl": "wir (ние)",
+      "2pl": "ihr (вие)",
+      "3pl": "sie (те)"
+    },
+    "tenses": [
+      "segashno",
+      "minalo",
+      "budeshte"
+    ],
+    "tense_labels_de": {
+      "segashno": "Praesens (сегашно време)",
+      "minalo": "Vergangenheit (минало свършено време)",
+      "budeshte": "Futur (бъдеще време)"
+    }
+  },
+  "conjugation_patterns": [
+    {
+      "pattern_id": "first_conj",
+      "description_de": "I. Konjugation (-а/-е)"
+    },
+    {
+      "pattern_id": "second_conj",
+      "description_de": "II. Konjugation (-и)"
+    },
+    {
+      "pattern_id": "third_conj",
+      "description_de": "III. Konjugation (-а/-я)"
+    }
+  ],
+  "verbs": [
+    {
+      "concept_id": "be",
+      "infinitive": "съм",
+      "romanization": "sam",
+      "pattern_id": "irregular",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "съм",
+            "romanization": "sam"
+          },
+          "2sg": {
+            "form": "си",
+            "romanization": "si"
+          },
+          "3sg": {
+            "form": "е",
+            "romanization": "e"
+          },
+          "1pl": {
+            "form": "сме",
+            "romanization": "sme"
+          },
+          "2pl": {
+            "form": "сте",
+            "romanization": "ste"
+          },
+          "3pl": {
+            "form": "са",
+            "romanization": "sa"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "бях",
+            "romanization": "byah"
+          },
+          "2sg": {
+            "form": "беше",
+            "romanization": "beshe"
+          },
+          "3sg": {
+            "form": "беше",
+            "romanization": "beshe"
+          },
+          "1pl": {
+            "form": "бяхме",
+            "romanization": "byahme"
+          },
+          "2pl": {
+            "form": "бяхте",
+            "romanization": "byahte"
+          },
+          "3pl": {
+            "form": "бяха",
+            "romanization": "byaha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще съм",
+            "romanization": "shte sam"
+          },
+          "2sg": {
+            "form": "ще си",
+            "romanization": "shte si"
+          },
+          "3sg": {
+            "form": "ще е",
+            "romanization": "shte e"
+          },
+          "1pl": {
+            "form": "ще сме",
+            "romanization": "shte sme"
+          },
+          "2pl": {
+            "form": "ще сте",
+            "romanization": "shte ste"
+          },
+          "3pl": {
+            "form": "ще са",
+            "romanization": "shte sa"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "have",
+      "infinitive": "имам",
+      "romanization": "imam",
+      "pattern_id": "third_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "имам",
+            "romanization": "imam"
+          },
+          "2sg": {
+            "form": "имаш",
+            "romanization": "imash"
+          },
+          "3sg": {
+            "form": "има",
+            "romanization": "ima"
+          },
+          "1pl": {
+            "form": "имаме",
+            "romanization": "imame"
+          },
+          "2pl": {
+            "form": "имате",
+            "romanization": "imate"
+          },
+          "3pl": {
+            "form": "имат",
+            "romanization": "imat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "имах",
+            "romanization": "imah"
+          },
+          "2sg": {
+            "form": "имаше",
+            "romanization": "imashe"
+          },
+          "3sg": {
+            "form": "имаше",
+            "romanization": "imashe"
+          },
+          "1pl": {
+            "form": "имахме",
+            "romanization": "imahme"
+          },
+          "2pl": {
+            "form": "имахте",
+            "romanization": "imahte"
+          },
+          "3pl": {
+            "form": "имаха",
+            "romanization": "imaha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще имам",
+            "romanization": "shte imam"
+          },
+          "2sg": {
+            "form": "ще имаш",
+            "romanization": "shte imash"
+          },
+          "3sg": {
+            "form": "ще има",
+            "romanization": "shte ima"
+          },
+          "1pl": {
+            "form": "ще имаме",
+            "romanization": "shte imame"
+          },
+          "2pl": {
+            "form": "ще имате",
+            "romanization": "shte imate"
+          },
+          "3pl": {
+            "form": "ще имат",
+            "romanization": "shte imat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "go",
+      "infinitive": "отивам",
+      "romanization": "otivam",
+      "pattern_id": "third_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "отивам",
+            "romanization": "otivam"
+          },
+          "2sg": {
+            "form": "отиваш",
+            "romanization": "otivash"
+          },
+          "3sg": {
+            "form": "отива",
+            "romanization": "otiva"
+          },
+          "1pl": {
+            "form": "отиваме",
+            "romanization": "otivame"
+          },
+          "2pl": {
+            "form": "отивате",
+            "romanization": "otivate"
+          },
+          "3pl": {
+            "form": "отиват",
+            "romanization": "otivat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "отидох",
+            "romanization": "otidoh"
+          },
+          "2sg": {
+            "form": "отиде",
+            "romanization": "otide"
+          },
+          "3sg": {
+            "form": "отиде",
+            "romanization": "otide"
+          },
+          "1pl": {
+            "form": "отидохме",
+            "romanization": "otidohme"
+          },
+          "2pl": {
+            "form": "отидохте",
+            "romanization": "otidohte"
+          },
+          "3pl": {
+            "form": "отидоха",
+            "romanization": "otidoha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще отивам",
+            "romanization": "shte otivam"
+          },
+          "2sg": {
+            "form": "ще отиваш",
+            "romanization": "shte otivash"
+          },
+          "3sg": {
+            "form": "ще отива",
+            "romanization": "shte otiva"
+          },
+          "1pl": {
+            "form": "ще отиваме",
+            "romanization": "shte otivame"
+          },
+          "2pl": {
+            "form": "ще отивате",
+            "romanization": "shte otivate"
+          },
+          "3pl": {
+            "form": "ще отиват",
+            "romanization": "shte otivat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "come",
+      "infinitive": "идвам",
+      "romanization": "idvam",
+      "pattern_id": "third_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "идвам",
+            "romanization": "idvam"
+          },
+          "2sg": {
+            "form": "идваш",
+            "romanization": "idvash"
+          },
+          "3sg": {
+            "form": "идва",
+            "romanization": "idva"
+          },
+          "1pl": {
+            "form": "идваме",
+            "romanization": "idvame"
+          },
+          "2pl": {
+            "form": "идвате",
+            "romanization": "idvate"
+          },
+          "3pl": {
+            "form": "идват",
+            "romanization": "idvat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "дойдох",
+            "romanization": "doydoh"
+          },
+          "2sg": {
+            "form": "дойде",
+            "romanization": "doyde"
+          },
+          "3sg": {
+            "form": "дойде",
+            "romanization": "doyde"
+          },
+          "1pl": {
+            "form": "дойдохме",
+            "romanization": "doydohme"
+          },
+          "2pl": {
+            "form": "дойдохте",
+            "romanization": "doydohte"
+          },
+          "3pl": {
+            "form": "дойдоха",
+            "romanization": "doydoha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще идвам",
+            "romanization": "shte idvam"
+          },
+          "2sg": {
+            "form": "ще идваш",
+            "romanization": "shte idvash"
+          },
+          "3sg": {
+            "form": "ще идва",
+            "romanization": "shte idva"
+          },
+          "1pl": {
+            "form": "ще идваме",
+            "romanization": "shte idvame"
+          },
+          "2pl": {
+            "form": "ще идвате",
+            "romanization": "shte idvate"
+          },
+          "3pl": {
+            "form": "ще идват",
+            "romanization": "shte idvat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "eat",
+      "infinitive": "ям",
+      "romanization": "yam",
+      "pattern_id": "irregular",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "ям",
+            "romanization": "yam"
+          },
+          "2sg": {
+            "form": "ядеш",
+            "romanization": "yadesh"
+          },
+          "3sg": {
+            "form": "яде",
+            "romanization": "yade"
+          },
+          "1pl": {
+            "form": "ядем",
+            "romanization": "yadem"
+          },
+          "2pl": {
+            "form": "ядете",
+            "romanization": "yadete"
+          },
+          "3pl": {
+            "form": "ядат",
+            "romanization": "yadat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "ядох",
+            "romanization": "yadoh"
+          },
+          "2sg": {
+            "form": "яде",
+            "romanization": "yade"
+          },
+          "3sg": {
+            "form": "яде",
+            "romanization": "yade"
+          },
+          "1pl": {
+            "form": "ядохме",
+            "romanization": "yadohme"
+          },
+          "2pl": {
+            "form": "ядохте",
+            "romanization": "yadohte"
+          },
+          "3pl": {
+            "form": "ядоха",
+            "romanization": "yadoha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще ям",
+            "romanization": "shte yam"
+          },
+          "2sg": {
+            "form": "ще ядеш",
+            "romanization": "shte yadesh"
+          },
+          "3sg": {
+            "form": "ще яде",
+            "romanization": "shte yade"
+          },
+          "1pl": {
+            "form": "ще ядем",
+            "romanization": "shte yadem"
+          },
+          "2pl": {
+            "form": "ще ядете",
+            "romanization": "shte yadete"
+          },
+          "3pl": {
+            "form": "ще ядат",
+            "romanization": "shte yadat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "drink",
+      "infinitive": "пия",
+      "romanization": "piya",
+      "pattern_id": "first_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "пия",
+            "romanization": "piya"
+          },
+          "2sg": {
+            "form": "пиеш",
+            "romanization": "piesh"
+          },
+          "3sg": {
+            "form": "пие",
+            "romanization": "pie"
+          },
+          "1pl": {
+            "form": "пием",
+            "romanization": "piem"
+          },
+          "2pl": {
+            "form": "пиете",
+            "romanization": "piete"
+          },
+          "3pl": {
+            "form": "пият",
+            "romanization": "piyat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "пих",
+            "romanization": "pih"
+          },
+          "2sg": {
+            "form": "пи",
+            "romanization": "pi"
+          },
+          "3sg": {
+            "form": "пи",
+            "romanization": "pi"
+          },
+          "1pl": {
+            "form": "пихме",
+            "romanization": "pihme"
+          },
+          "2pl": {
+            "form": "пихте",
+            "romanization": "pihte"
+          },
+          "3pl": {
+            "form": "пиха",
+            "romanization": "piha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще пия",
+            "romanization": "shte piya"
+          },
+          "2sg": {
+            "form": "ще пиеш",
+            "romanization": "shte piesh"
+          },
+          "3sg": {
+            "form": "ще пие",
+            "romanization": "shte pie"
+          },
+          "1pl": {
+            "form": "ще пием",
+            "romanization": "shte piem"
+          },
+          "2pl": {
+            "form": "ще пиете",
+            "romanization": "shte piete"
+          },
+          "3pl": {
+            "form": "ще пият",
+            "romanization": "shte piyat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "say",
+      "infinitive": "казвам",
+      "romanization": "kazvam",
+      "pattern_id": "third_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "казвам",
+            "romanization": "kazvam"
+          },
+          "2sg": {
+            "form": "казваш",
+            "romanization": "kazvash"
+          },
+          "3sg": {
+            "form": "казва",
+            "romanization": "kazva"
+          },
+          "1pl": {
+            "form": "казваме",
+            "romanization": "kazvame"
+          },
+          "2pl": {
+            "form": "казвате",
+            "romanization": "kazvate"
+          },
+          "3pl": {
+            "form": "казват",
+            "romanization": "kazvat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "казах",
+            "romanization": "kazah"
+          },
+          "2sg": {
+            "form": "каза",
+            "romanization": "kaza"
+          },
+          "3sg": {
+            "form": "каза",
+            "romanization": "kaza"
+          },
+          "1pl": {
+            "form": "казахме",
+            "romanization": "kazahme"
+          },
+          "2pl": {
+            "form": "казахте",
+            "romanization": "kazahte"
+          },
+          "3pl": {
+            "form": "казаха",
+            "romanization": "kazaha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще казвам",
+            "romanization": "shte kazvam"
+          },
+          "2sg": {
+            "form": "ще казваш",
+            "romanization": "shte kazvash"
+          },
+          "3sg": {
+            "form": "ще казва",
+            "romanization": "shte kazva"
+          },
+          "1pl": {
+            "form": "ще казваме",
+            "romanization": "shte kazvame"
+          },
+          "2pl": {
+            "form": "ще казвате",
+            "romanization": "shte kazvate"
+          },
+          "3pl": {
+            "form": "ще казват",
+            "romanization": "shte kazvat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "see",
+      "infinitive": "виждам",
+      "romanization": "vizhdam",
+      "pattern_id": "third_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "виждам",
+            "romanization": "vizhdam"
+          },
+          "2sg": {
+            "form": "виждаш",
+            "romanization": "vizhdash"
+          },
+          "3sg": {
+            "form": "вижда",
+            "romanization": "vizhda"
+          },
+          "1pl": {
+            "form": "виждаме",
+            "romanization": "vizhdame"
+          },
+          "2pl": {
+            "form": "виждате",
+            "romanization": "vizhdate"
+          },
+          "3pl": {
+            "form": "виждат",
+            "romanization": "vizhdat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "видях",
+            "romanization": "vidyah"
+          },
+          "2sg": {
+            "form": "видя",
+            "romanization": "vidya"
+          },
+          "3sg": {
+            "form": "видя",
+            "romanization": "vidya"
+          },
+          "1pl": {
+            "form": "видяхме",
+            "romanization": "vidyahme"
+          },
+          "2pl": {
+            "form": "видяхте",
+            "romanization": "vidyahte"
+          },
+          "3pl": {
+            "form": "видяха",
+            "romanization": "vidyaha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще виждам",
+            "romanization": "shte vizhdam"
+          },
+          "2sg": {
+            "form": "ще виждаш",
+            "romanization": "shte vizhdash"
+          },
+          "3sg": {
+            "form": "ще вижда",
+            "romanization": "shte vizhda"
+          },
+          "1pl": {
+            "form": "ще виждаме",
+            "romanization": "shte vizhdame"
+          },
+          "2pl": {
+            "form": "ще виждате",
+            "romanization": "shte vizhdate"
+          },
+          "3pl": {
+            "form": "ще виждат",
+            "romanization": "shte vizhdat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "hear",
+      "infinitive": "чувам",
+      "romanization": "chuvam",
+      "pattern_id": "third_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "чувам",
+            "romanization": "chuvam"
+          },
+          "2sg": {
+            "form": "чуваш",
+            "romanization": "chuvash"
+          },
+          "3sg": {
+            "form": "чува",
+            "romanization": "chuva"
+          },
+          "1pl": {
+            "form": "чуваме",
+            "romanization": "chuvame"
+          },
+          "2pl": {
+            "form": "чувате",
+            "romanization": "chuvate"
+          },
+          "3pl": {
+            "form": "чуват",
+            "romanization": "chuvat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "чух",
+            "romanization": "chuh"
+          },
+          "2sg": {
+            "form": "чу",
+            "romanization": "chu"
+          },
+          "3sg": {
+            "form": "чу",
+            "romanization": "chu"
+          },
+          "1pl": {
+            "form": "чухме",
+            "romanization": "chuhme"
+          },
+          "2pl": {
+            "form": "чухте",
+            "romanization": "chuhte"
+          },
+          "3pl": {
+            "form": "чуха",
+            "romanization": "chuha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще чувам",
+            "romanization": "shte chuvam"
+          },
+          "2sg": {
+            "form": "ще чуваш",
+            "romanization": "shte chuvash"
+          },
+          "3sg": {
+            "form": "ще чува",
+            "romanization": "shte chuva"
+          },
+          "1pl": {
+            "form": "ще чуваме",
+            "romanization": "shte chuvame"
+          },
+          "2pl": {
+            "form": "ще чувате",
+            "romanization": "shte chuvate"
+          },
+          "3pl": {
+            "form": "ще чуват",
+            "romanization": "shte chuvat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "know",
+      "infinitive": "знам",
+      "romanization": "znam",
+      "pattern_id": "irregular",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "знам",
+            "romanization": "znam"
+          },
+          "2sg": {
+            "form": "знаеш",
+            "romanization": "znayesh"
+          },
+          "3sg": {
+            "form": "знае",
+            "romanization": "znaye"
+          },
+          "1pl": {
+            "form": "знаем",
+            "romanization": "znayem"
+          },
+          "2pl": {
+            "form": "знаете",
+            "romanization": "znayete"
+          },
+          "3pl": {
+            "form": "знаят",
+            "romanization": "znayat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "знаех",
+            "romanization": "znayeh"
+          },
+          "2sg": {
+            "form": "знаеше",
+            "romanization": "znayeshe"
+          },
+          "3sg": {
+            "form": "знаеше",
+            "romanization": "znayeshe"
+          },
+          "1pl": {
+            "form": "знаехме",
+            "romanization": "znayehme"
+          },
+          "2pl": {
+            "form": "знаехте",
+            "romanization": "znayehte"
+          },
+          "3pl": {
+            "form": "знаеха",
+            "romanization": "znayeha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще знам",
+            "romanization": "shte znam"
+          },
+          "2sg": {
+            "form": "ще знаеш",
+            "romanization": "shte znayesh"
+          },
+          "3sg": {
+            "form": "ще знае",
+            "romanization": "shte znaye"
+          },
+          "1pl": {
+            "form": "ще знаем",
+            "romanization": "shte znayem"
+          },
+          "2pl": {
+            "form": "ще знаете",
+            "romanization": "shte znayete"
+          },
+          "3pl": {
+            "form": "ще знаят",
+            "romanization": "shte znayat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "want",
+      "infinitive": "искам",
+      "romanization": "iskam",
+      "pattern_id": "third_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "искам",
+            "romanization": "iskam"
+          },
+          "2sg": {
+            "form": "искаш",
+            "romanization": "iskash"
+          },
+          "3sg": {
+            "form": "иска",
+            "romanization": "iska"
+          },
+          "1pl": {
+            "form": "искаме",
+            "romanization": "iskame"
+          },
+          "2pl": {
+            "form": "искате",
+            "romanization": "iskate"
+          },
+          "3pl": {
+            "form": "искат",
+            "romanization": "iskat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "исках",
+            "romanization": "iskah"
+          },
+          "2sg": {
+            "form": "искаше",
+            "romanization": "iskashe"
+          },
+          "3sg": {
+            "form": "искаше",
+            "romanization": "iskashe"
+          },
+          "1pl": {
+            "form": "искахме",
+            "romanization": "iskahme"
+          },
+          "2pl": {
+            "form": "искахте",
+            "romanization": "iskahte"
+          },
+          "3pl": {
+            "form": "искаха",
+            "romanization": "iskaha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще искам",
+            "romanization": "shte iskam"
+          },
+          "2sg": {
+            "form": "ще искаш",
+            "romanization": "shte iskash"
+          },
+          "3sg": {
+            "form": "ще иска",
+            "romanization": "shte iska"
+          },
+          "1pl": {
+            "form": "ще искаме",
+            "romanization": "shte iskame"
+          },
+          "2pl": {
+            "form": "ще искате",
+            "romanization": "shte iskate"
+          },
+          "3pl": {
+            "form": "ще искат",
+            "romanization": "shte iskat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "can",
+      "infinitive": "мога",
+      "romanization": "moga",
+      "pattern_id": "irregular",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "мога",
+            "romanization": "moga"
+          },
+          "2sg": {
+            "form": "можеш",
+            "romanization": "mozhesh"
+          },
+          "3sg": {
+            "form": "може",
+            "romanization": "mozhe"
+          },
+          "1pl": {
+            "form": "можем",
+            "romanization": "mozhem"
+          },
+          "2pl": {
+            "form": "можете",
+            "romanization": "mozhete"
+          },
+          "3pl": {
+            "form": "могат",
+            "romanization": "mogat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "можах",
+            "romanization": "mozhah"
+          },
+          "2sg": {
+            "form": "можа",
+            "romanization": "mozha"
+          },
+          "3sg": {
+            "form": "можа",
+            "romanization": "mozha"
+          },
+          "1pl": {
+            "form": "можахме",
+            "romanization": "mozhahme"
+          },
+          "2pl": {
+            "form": "можахте",
+            "romanization": "mozhahte"
+          },
+          "3pl": {
+            "form": "можаха",
+            "romanization": "mozhaha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще мога",
+            "romanization": "shte moga"
+          },
+          "2sg": {
+            "form": "ще можеш",
+            "romanization": "shte mozhesh"
+          },
+          "3sg": {
+            "form": "ще може",
+            "romanization": "shte mozhe"
+          },
+          "1pl": {
+            "form": "ще можем",
+            "romanization": "shte mozhem"
+          },
+          "2pl": {
+            "form": "ще можете",
+            "romanization": "shte mozhete"
+          },
+          "3pl": {
+            "form": "ще могат",
+            "romanization": "shte mogat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "do_make",
+      "infinitive": "правя",
+      "romanization": "pravya",
+      "pattern_id": "second_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "правя",
+            "romanization": "pravya"
+          },
+          "2sg": {
+            "form": "правиш",
+            "romanization": "pravish"
+          },
+          "3sg": {
+            "form": "прави",
+            "romanization": "pravi"
+          },
+          "1pl": {
+            "form": "правим",
+            "romanization": "pravim"
+          },
+          "2pl": {
+            "form": "правите",
+            "romanization": "pravite"
+          },
+          "3pl": {
+            "form": "правят",
+            "romanization": "pravyat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "правих",
+            "romanization": "pravih"
+          },
+          "2sg": {
+            "form": "прави",
+            "romanization": "pravi"
+          },
+          "3sg": {
+            "form": "прави",
+            "romanization": "pravi"
+          },
+          "1pl": {
+            "form": "правихме",
+            "romanization": "pravihme"
+          },
+          "2pl": {
+            "form": "правихте",
+            "romanization": "pravihte"
+          },
+          "3pl": {
+            "form": "правиха",
+            "romanization": "praviha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще правя",
+            "romanization": "shte pravya"
+          },
+          "2sg": {
+            "form": "ще правиш",
+            "romanization": "shte pravish"
+          },
+          "3sg": {
+            "form": "ще прави",
+            "romanization": "shte pravi"
+          },
+          "1pl": {
+            "form": "ще правим",
+            "romanization": "shte pravim"
+          },
+          "2pl": {
+            "form": "ще правите",
+            "romanization": "shte pravite"
+          },
+          "3pl": {
+            "form": "ще правят",
+            "romanization": "shte pravyat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "give",
+      "infinitive": "давам",
+      "romanization": "davam",
+      "pattern_id": "third_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "давам",
+            "romanization": "davam"
+          },
+          "2sg": {
+            "form": "даваш",
+            "romanization": "davash"
+          },
+          "3sg": {
+            "form": "дава",
+            "romanization": "dava"
+          },
+          "1pl": {
+            "form": "даваме",
+            "romanization": "davame"
+          },
+          "2pl": {
+            "form": "давате",
+            "romanization": "davate"
+          },
+          "3pl": {
+            "form": "дават",
+            "romanization": "davat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "дадох",
+            "romanization": "dadoh"
+          },
+          "2sg": {
+            "form": "даде",
+            "romanization": "dade"
+          },
+          "3sg": {
+            "form": "даде",
+            "romanization": "dade"
+          },
+          "1pl": {
+            "form": "дадохме",
+            "romanization": "dadohme"
+          },
+          "2pl": {
+            "form": "дадохте",
+            "romanization": "dadohte"
+          },
+          "3pl": {
+            "form": "дадоха",
+            "romanization": "dadoha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще давам",
+            "romanization": "shte davam"
+          },
+          "2sg": {
+            "form": "ще даваш",
+            "romanization": "shte davash"
+          },
+          "3sg": {
+            "form": "ще дава",
+            "romanization": "shte dava"
+          },
+          "1pl": {
+            "form": "ще даваме",
+            "romanization": "shte davame"
+          },
+          "2pl": {
+            "form": "ще давате",
+            "romanization": "shte davate"
+          },
+          "3pl": {
+            "form": "ще дават",
+            "romanization": "shte davat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "take",
+      "infinitive": "вземам",
+      "romanization": "vzemam",
+      "pattern_id": "third_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "вземам",
+            "romanization": "vzemam"
+          },
+          "2sg": {
+            "form": "вземаш",
+            "romanization": "vzemash"
+          },
+          "3sg": {
+            "form": "взема",
+            "romanization": "vzema"
+          },
+          "1pl": {
+            "form": "вземаме",
+            "romanization": "vzemame"
+          },
+          "2pl": {
+            "form": "вземате",
+            "romanization": "vzemate"
+          },
+          "3pl": {
+            "form": "вземат",
+            "romanization": "vzemat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "взех",
+            "romanization": "vzeh"
+          },
+          "2sg": {
+            "form": "взе",
+            "romanization": "vze"
+          },
+          "3sg": {
+            "form": "взе",
+            "romanization": "vze"
+          },
+          "1pl": {
+            "form": "взехме",
+            "romanization": "vzehme"
+          },
+          "2pl": {
+            "form": "взехте",
+            "romanization": "vzehte"
+          },
+          "3pl": {
+            "form": "взеха",
+            "romanization": "vzeha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще вземам",
+            "romanization": "shte vzemam"
+          },
+          "2sg": {
+            "form": "ще вземаш",
+            "romanization": "shte vzemash"
+          },
+          "3sg": {
+            "form": "ще взема",
+            "romanization": "shte vzema"
+          },
+          "1pl": {
+            "form": "ще вземаме",
+            "romanization": "shte vzemame"
+          },
+          "2pl": {
+            "form": "ще вземате",
+            "romanization": "shte vzemate"
+          },
+          "3pl": {
+            "form": "ще вземат",
+            "romanization": "shte vzemat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "read",
+      "infinitive": "чета",
+      "romanization": "cheta",
+      "pattern_id": "first_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "чета",
+            "romanization": "cheta"
+          },
+          "2sg": {
+            "form": "четеш",
+            "romanization": "chetesh"
+          },
+          "3sg": {
+            "form": "чете",
+            "romanization": "chete"
+          },
+          "1pl": {
+            "form": "четем",
+            "romanization": "chetem"
+          },
+          "2pl": {
+            "form": "четете",
+            "romanization": "chetete"
+          },
+          "3pl": {
+            "form": "четат",
+            "romanization": "chetat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "четох",
+            "romanization": "chetoh"
+          },
+          "2sg": {
+            "form": "чете",
+            "romanization": "chete"
+          },
+          "3sg": {
+            "form": "чете",
+            "romanization": "chete"
+          },
+          "1pl": {
+            "form": "четохме",
+            "romanization": "chetohme"
+          },
+          "2pl": {
+            "form": "четохте",
+            "romanization": "chetohte"
+          },
+          "3pl": {
+            "form": "четоха",
+            "romanization": "chetoha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще чета",
+            "romanization": "shte cheta"
+          },
+          "2sg": {
+            "form": "ще четеш",
+            "romanization": "shte chetesh"
+          },
+          "3sg": {
+            "form": "ще чете",
+            "romanization": "shte chete"
+          },
+          "1pl": {
+            "form": "ще четем",
+            "romanization": "shte chetem"
+          },
+          "2pl": {
+            "form": "ще четете",
+            "romanization": "shte chetete"
+          },
+          "3pl": {
+            "form": "ще четат",
+            "romanization": "shte chetat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "write",
+      "infinitive": "пиша",
+      "romanization": "pisha",
+      "pattern_id": "first_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "пиша",
+            "romanization": "pisha"
+          },
+          "2sg": {
+            "form": "пишеш",
+            "romanization": "pishesh"
+          },
+          "3sg": {
+            "form": "пише",
+            "romanization": "pishe"
+          },
+          "1pl": {
+            "form": "пишем",
+            "romanization": "pishem"
+          },
+          "2pl": {
+            "form": "пишете",
+            "romanization": "pishete"
+          },
+          "3pl": {
+            "form": "пишат",
+            "romanization": "pishat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "писах",
+            "romanization": "pisah"
+          },
+          "2sg": {
+            "form": "писа",
+            "romanization": "pisa"
+          },
+          "3sg": {
+            "form": "писа",
+            "romanization": "pisa"
+          },
+          "1pl": {
+            "form": "писахме",
+            "romanization": "pisahme"
+          },
+          "2pl": {
+            "form": "писахте",
+            "romanization": "pisahte"
+          },
+          "3pl": {
+            "form": "писаха",
+            "romanization": "pisaha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще пиша",
+            "romanization": "shte pisha"
+          },
+          "2sg": {
+            "form": "ще пишеш",
+            "romanization": "shte pishesh"
+          },
+          "3sg": {
+            "form": "ще пише",
+            "romanization": "shte pishe"
+          },
+          "1pl": {
+            "form": "ще пишем",
+            "romanization": "shte pishem"
+          },
+          "2pl": {
+            "form": "ще пишете",
+            "romanization": "shte pishete"
+          },
+          "3pl": {
+            "form": "ще пишат",
+            "romanization": "shte pishat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "sleep",
+      "infinitive": "спя",
+      "romanization": "spya",
+      "pattern_id": "second_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "спя",
+            "romanization": "spya"
+          },
+          "2sg": {
+            "form": "спиш",
+            "romanization": "spish"
+          },
+          "3sg": {
+            "form": "спи",
+            "romanization": "spi"
+          },
+          "1pl": {
+            "form": "спим",
+            "romanization": "spim"
+          },
+          "2pl": {
+            "form": "спите",
+            "romanization": "spite"
+          },
+          "3pl": {
+            "form": "спят",
+            "romanization": "spyat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "спах",
+            "romanization": "spah"
+          },
+          "2sg": {
+            "form": "спа",
+            "romanization": "spa"
+          },
+          "3sg": {
+            "form": "спа",
+            "romanization": "spa"
+          },
+          "1pl": {
+            "form": "спахме",
+            "romanization": "spahme"
+          },
+          "2pl": {
+            "form": "спахте",
+            "romanization": "spahte"
+          },
+          "3pl": {
+            "form": "спаха",
+            "romanization": "spaha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще спя",
+            "romanization": "shte spya"
+          },
+          "2sg": {
+            "form": "ще спиш",
+            "romanization": "shte spish"
+          },
+          "3sg": {
+            "form": "ще спи",
+            "romanization": "shte spi"
+          },
+          "1pl": {
+            "form": "ще спим",
+            "romanization": "shte spim"
+          },
+          "2pl": {
+            "form": "ще спите",
+            "romanization": "shte spite"
+          },
+          "3pl": {
+            "form": "ще спят",
+            "romanization": "shte spyat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "live",
+      "infinitive": "живея",
+      "romanization": "zhiveya",
+      "pattern_id": "first_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "живея",
+            "romanization": "zhiveya"
+          },
+          "2sg": {
+            "form": "живееш",
+            "romanization": "zhiveyesh"
+          },
+          "3sg": {
+            "form": "живее",
+            "romanization": "zhiveye"
+          },
+          "1pl": {
+            "form": "живеем",
+            "romanization": "zhiveyem"
+          },
+          "2pl": {
+            "form": "живеете",
+            "romanization": "zhiveyete"
+          },
+          "3pl": {
+            "form": "живеят",
+            "romanization": "zhiveyat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "живях",
+            "romanization": "zhivyah"
+          },
+          "2sg": {
+            "form": "живя",
+            "romanization": "zhivya"
+          },
+          "3sg": {
+            "form": "живя",
+            "romanization": "zhivya"
+          },
+          "1pl": {
+            "form": "живяхме",
+            "romanization": "zhivyahme"
+          },
+          "2pl": {
+            "form": "живяхте",
+            "romanization": "zhivyahte"
+          },
+          "3pl": {
+            "form": "живяха",
+            "romanization": "zhivyaha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще живея",
+            "romanization": "shte zhiveya"
+          },
+          "2sg": {
+            "form": "ще живееш",
+            "romanization": "shte zhiveyesh"
+          },
+          "3sg": {
+            "form": "ще живее",
+            "romanization": "shte zhiveye"
+          },
+          "1pl": {
+            "form": "ще живеем",
+            "romanization": "shte zhiveyem"
+          },
+          "2pl": {
+            "form": "ще живеете",
+            "romanization": "shte zhiveyete"
+          },
+          "3pl": {
+            "form": "ще живеят",
+            "romanization": "shte zhiveyat"
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "work",
+      "infinitive": "работя",
+      "romanization": "rabotya",
+      "pattern_id": "second_conj",
+      "forms": {
+        "segashno": {
+          "1sg": {
+            "form": "работя",
+            "romanization": "rabotya"
+          },
+          "2sg": {
+            "form": "работиш",
+            "romanization": "rabotish"
+          },
+          "3sg": {
+            "form": "работи",
+            "romanization": "raboti"
+          },
+          "1pl": {
+            "form": "работим",
+            "romanization": "rabotim"
+          },
+          "2pl": {
+            "form": "работите",
+            "romanization": "rabotite"
+          },
+          "3pl": {
+            "form": "работят",
+            "romanization": "rabotyat"
+          }
+        },
+        "minalo": {
+          "1sg": {
+            "form": "работих",
+            "romanization": "rabotih"
+          },
+          "2sg": {
+            "form": "работи",
+            "romanization": "raboti"
+          },
+          "3sg": {
+            "form": "работи",
+            "romanization": "raboti"
+          },
+          "1pl": {
+            "form": "работихме",
+            "romanization": "rabotihme"
+          },
+          "2pl": {
+            "form": "работихте",
+            "romanization": "rabotihte"
+          },
+          "3pl": {
+            "form": "работиха",
+            "romanization": "rabotiha"
+          }
+        },
+        "budeshte": {
+          "1sg": {
+            "form": "ще работя",
+            "romanization": "shte rabotya"
+          },
+          "2sg": {
+            "form": "ще работиш",
+            "romanization": "shte rabotish"
+          },
+          "3sg": {
+            "form": "ще работи",
+            "romanization": "shte raboti"
+          },
+          "1pl": {
+            "form": "ще работим",
+            "romanization": "shte rabotim"
+          },
+          "2pl": {
+            "form": "ще работите",
+            "romanization": "shte rabotite"
+          },
+          "3pl": {
+            "form": "ще работят",
+            "romanization": "shte rabotyat"
+          }
+        }
+      }
+    }
+  ]
+}

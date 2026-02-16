@@ -1,0 +1,13 @@
+{
+  "language_id": "sk",
+  "words": [
+    {"word": "kde je pasová kontrola?", "romanization": "", "pronunciation_hint": "gde ye PA-so-va kon-TRO-la", "meaning_de": "wo ist die Passkontrolle?", "meaning_en": "where is passport control?", "category": "fragen_richtungen", "frequency_rank": 1301, "concept_id": "where_passport_control", "tone": null, "notes": "Letisko"},
+    {"word": "tu je moja palubná vstupenka", "romanization": "", "pronunciation_hint": "tu ye MO-ya PA-lub-na VSTU-pen-ka", "meaning_de": "hier ist meine Bordkarte", "meaning_en": "here is my boarding pass", "category": "phrasen", "frequency_rank": 1302, "concept_id": "here_boarding_pass", "tone": null, "notes": "Check-in"},
+    {"word": "môj let mešká", "romanization": "", "pronunciation_hint": "muuy let MESH-kaa", "meaning_de": "mein Flug hat Verspätung", "meaning_en": "my flight is delayed", "category": "phrasen", "frequency_rank": 1303, "concept_id": "flight_delayed", "tone": null, "notes": "Odlet"},
+    {"word": "kde je výdaj batožiny?", "romanization": "", "pronunciation_hint": "gde ye VY-day ba-to-ZHI-nyi", "meaning_de": "wo ist die Gepäckausgabe?", "meaning_en": "where is baggage claim?", "category": "fragen_richtungen", "frequency_rank": 1304, "concept_id": "where_baggage_claim", "tone": null, "notes": "Prílet"},
+    {"word": "som tu služobne", "romanization": "", "pronunciation_hint": "som tu SLU-zhob-ne", "meaning_de": "ich bin geschäftlich hier", "meaning_en": "I am here for business", "category": "beruf_bildung", "frequency_rank": 1305, "concept_id": "here_for_business", "tone": null, "notes": "Biznis"},
+    {"word": "mám stretnutie o desiatej", "romanization": "", "pronunciation_hint": "maam STRET-nu-tye o de-SYA-tey", "meaning_de": "ich habe um zehn ein Meeting", "meaning_en": "I have a meeting at ten", "category": "beruf_bildung", "frequency_rank": 1306, "concept_id": "meeting_at_ten", "tone": null, "notes": "Práca"},
+    {"word": "môžeme naplánovať hovor?", "romanization": "", "pronunciation_hint": "MUU-zhe-me na-PLA-no-vat HO-vor", "meaning_de": "können wir einen Call planen?", "meaning_en": "can we schedule a call?", "category": "beruf_bildung", "frequency_rank": 1307, "concept_id": "schedule_call", "tone": null, "notes": "Komunikácia"},
+    {"word": "prosím, pošlite zmluvu", "romanization": "", "pronunciation_hint": "PRO-seem PO-shli-te ZMLU-vu", "meaning_de": "bitte senden Sie den Vertrag", "meaning_en": "please send the contract", "category": "beruf_bildung", "frequency_rank": 1308, "concept_id": "send_contract", "tone": null, "notes": "Dokumenty"}
+  ]
+}

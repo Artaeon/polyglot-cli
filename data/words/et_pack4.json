@@ -1,0 +1,13 @@
+{
+  "language_id": "et",
+  "words": [
+    {"word": "kus on passikontroll?", "romanization": "", "pronunciation_hint": "kus on PAS-si-kon-troll", "meaning_de": "wo ist die Passkontrolle?", "meaning_en": "where is passport control?", "category": "fragen_richtungen", "frequency_rank": 1301, "concept_id": "where_passport_control", "tone": null, "notes": "Lennujaam"},
+    {"word": "siin on minu pardakaart", "romanization": "", "pronunciation_hint": "siin on MI-nu PAR-da-kaart", "meaning_de": "hier ist meine Bordkarte", "meaning_en": "here is my boarding pass", "category": "phrasen", "frequency_rank": 1302, "concept_id": "here_boarding_pass", "tone": null, "notes": "Check-in"},
+    {"word": "minu lend hilineb", "romanization": "", "pronunciation_hint": "MI-nu lend HI-li-neb", "meaning_de": "mein Flug hat Verspätung", "meaning_en": "my flight is delayed", "category": "phrasen", "frequency_rank": 1303, "concept_id": "flight_delayed", "tone": null, "notes": "Väljumine"},
+    {"word": "kus on pagasi väljastus?", "romanization": "", "pronunciation_hint": "kus on PA-ga-si VÄL-yas-tus", "meaning_de": "wo ist die Gepäckausgabe?", "meaning_en": "where is baggage claim?", "category": "fragen_richtungen", "frequency_rank": 1304, "concept_id": "where_baggage_claim", "tone": null, "notes": "Saabumine"},
+    {"word": "olen siin tööasjus", "romanization": "", "pronunciation_hint": "O-len siin TÖÖ-as-yus", "meaning_de": "ich bin geschäftlich hier", "meaning_en": "I am here for business", "category": "beruf_bildung", "frequency_rank": 1305, "concept_id": "here_for_business", "tone": null, "notes": "Äri"},
+    {"word": "mul on kohtumine kell kümme", "romanization": "", "pronunciation_hint": "mul on KOH-tu-mi-ne kell KÜM-me", "meaning_de": "ich habe um zehn ein Meeting", "meaning_en": "I have a meeting at ten", "category": "beruf_bildung", "frequency_rank": 1306, "concept_id": "meeting_at_ten", "tone": null, "notes": "Töö"},
+    {"word": "kas saame kõne planeerida?", "romanization": "", "pronunciation_hint": "kas SAA-me KÕ-ne pla-NEE-ri-da", "meaning_de": "können wir einen Call planen?", "meaning_en": "can we schedule a call?", "category": "beruf_bildung", "frequency_rank": 1307, "concept_id": "schedule_call", "tone": null, "notes": "Suhtlus"},
+    {"word": "palun saatke leping", "romanization": "", "pronunciation_hint": "PA-lun SAAT-ke LE-ping", "meaning_de": "bitte senden Sie den Vertrag", "meaning_en": "please send the contract", "category": "beruf_bildung", "frequency_rank": 1308, "concept_id": "send_contract", "tone": null, "notes": "Dokumendid"}
+  ]
+}

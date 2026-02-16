@@ -1,0 +1,11 @@
+{
+  "language_id": "cs",
+  "words": [
+    {"word": "mám rezervaci", "romanization": "", "pronunciation_hint": "maam re-zer-VA-tsi", "meaning_de": "ich habe eine Reservierung", "meaning_en": "I have a reservation", "category": "phrasen", "frequency_rank": 1101, "concept_id": "i_have_reservation", "tone": null, "notes": "Hotel"},
+    {"word": "potřebuji lékaře", "romanization": "", "pronunciation_hint": "po-TRE-bu-yi LYE-ka-zhe", "meaning_de": "ich brauche einen Arzt", "meaning_en": "I need a doctor", "category": "koerper_gesundheit", "frequency_rank": 1102, "concept_id": "i_need_doctor", "tone": null, "notes": "Naléhavé"},
+    {"word": "zavolejte policii", "romanization": "", "pronunciation_hint": "za-VO-ley-tye po-LI-tsi-i", "meaning_de": "rufen Sie die Polizei", "meaning_en": "call the police", "category": "phrasen", "frequency_rank": 1103, "concept_id": "call_police", "tone": null, "notes": "Nouze"},
+    {"word": "kde je nemocnice?", "romanization": "", "pronunciation_hint": "gde ye ne-MOTS-ni-tse", "meaning_de": "wo ist das Krankenhaus?", "meaning_en": "where is the hospital?", "category": "fragen_richtungen", "frequency_rank": 1104, "concept_id": "where_is_hospital", "tone": null, "notes": "Směr"},
+    {"word": "ztratil jsem pas", "romanization": "", "pronunciation_hint": "ZTRA-til syem pas", "meaning_de": "ich habe meinen Pass verloren", "meaning_en": "I lost my passport", "category": "phrasen", "frequency_rank": 1105, "concept_id": "i_lost_passport", "tone": null, "notes": "Doklady"},
+    {"word": "mohu platit kartou?", "romanization": "", "pronunciation_hint": "MO-hu PLA-tit KAR-tou", "meaning_de": "kann ich mit Karte zahlen?", "meaning_en": "can I pay by card?", "category": "essen_trinken", "frequency_rank": 1106, "concept_id": "card_payment_question", "tone": null, "notes": "Platba"}
+  ]
+}

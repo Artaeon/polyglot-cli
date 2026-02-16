@@ -1,0 +1,11 @@
+{
+  "language_id": "vi",
+  "words": [
+    {"word": "tôi có đặt phòng", "romanization": "toi co dat phong", "pronunciation_hint": "toi ko dat fong", "meaning_de": "ich habe eine Reservierung", "meaning_en": "I have a reservation", "category": "phrasen", "frequency_rank": 1101, "concept_id": "i_have_reservation", "tone": null, "notes": "Khách sạn"},
+    {"word": "tôi cần bác sĩ", "romanization": "toi can bac si", "pronunciation_hint": "toi kan bak si", "meaning_de": "ich brauche einen Arzt", "meaning_en": "I need a doctor", "category": "koerper_gesundheit", "frequency_rank": 1102, "concept_id": "i_need_doctor", "tone": null, "notes": "Khẩn cấp"},
+    {"word": "hãy gọi cảnh sát", "romanization": "hay goi canh sat", "pronunciation_hint": "hai goi kan sat", "meaning_de": "rufen Sie die Polizei", "meaning_en": "call the police", "category": "phrasen", "frequency_rank": 1103, "concept_id": "call_police", "tone": null, "notes": "Tình huống khẩn"},
+    {"word": "bệnh viện ở đâu?", "romanization": "benh vien o dau?", "pronunciation_hint": "benh vien ə dau", "meaning_de": "wo ist das Krankenhaus?", "meaning_en": "where is the hospital?", "category": "fragen_richtungen", "frequency_rank": 1104, "concept_id": "where_is_hospital", "tone": null, "notes": "Hỏi đường"},
+    {"word": "tôi làm mất hộ chiếu", "romanization": "toi lam mat ho chieu", "pronunciation_hint": "toi lam mat ho chieu", "meaning_de": "ich habe meinen Pass verloren", "meaning_en": "I lost my passport", "category": "phrasen", "frequency_rank": 1105, "concept_id": "i_lost_passport", "tone": null, "notes": "Giấy tờ"},
+    {"word": "tôi có thể trả bằng thẻ không?", "romanization": "toi co the tra bang the khong?", "pronunciation_hint": "toi ko the cha bang the kong", "meaning_de": "kann ich mit Karte zahlen?", "meaning_en": "can I pay by card?", "category": "essen_trinken", "frequency_rank": 1106, "concept_id": "card_payment_question", "tone": null, "notes": "Thanh toán"}
+  ]
+}

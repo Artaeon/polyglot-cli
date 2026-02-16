@@ -1,0 +1,688 @@
+{
+  "language_id": "pl",
+  "meta": {
+    "persons": ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"],
+    "person_labels_de": {
+      "1sg": "ich (ja)",
+      "2sg": "du (ty)",
+      "3sg": "er/sie/es (on/ona/ono)",
+      "1pl": "wir (my)",
+      "2pl": "ihr (wy)",
+      "3pl": "sie (oni/one)"
+    },
+    "tenses": ["present", "past_masc", "past_fem"],
+    "tense_labels_de": {
+      "present": "Praesens",
+      "past_masc": "Vergangenheit (maennlich)",
+      "past_fem": "Vergangenheit (weiblich)"
+    }
+  },
+  "conjugation_patterns": [
+    {
+      "id": "am_conjugation",
+      "label": "koniugacja -am/-asz",
+      "description": "First conjugation: verbs with -am, -asz endings in present tense",
+      "example": "czytać"
+    },
+    {
+      "id": "em_conjugation",
+      "label": "koniugacja -em/-esz",
+      "description": "Second conjugation: verbs with -em, -esz endings in present tense",
+      "example": "rozumieć"
+    },
+    {
+      "id": "e_conjugation",
+      "label": "koniugacja -ę/-isz/-ysz",
+      "description": "Third conjugation: verbs with -ę, -isz/-ysz endings in present tense",
+      "example": "robić"
+    },
+    {
+      "id": "irregular",
+      "label": "nieregularne",
+      "description": "Irregular verbs with unique conjugation patterns",
+      "example": "być"
+    }
+  ],
+  "verbs": [
+    {
+      "concept_id": "work",
+      "infinitive": "pracować",
+      "romanization": null,
+      "pattern_id": "am_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "pracuję", "romanization": null},
+          "2sg": {"form": "pracujesz", "romanization": null},
+          "3sg": {"form": "pracuje", "romanization": null},
+          "1pl": {"form": "pracujemy", "romanization": null},
+          "2pl": {"form": "pracujecie", "romanization": null},
+          "3pl": {"form": "pracują", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "pracowałem", "romanization": null},
+          "2sg": {"form": "pracowałeś", "romanization": null},
+          "3sg": {"form": "pracował", "romanization": null},
+          "1pl": {"form": "pracowaliśmy", "romanization": null},
+          "2pl": {"form": "pracowaliście", "romanization": null},
+          "3pl": {"form": "pracowali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "pracowałam", "romanization": null},
+          "2sg": {"form": "pracowałaś", "romanization": null},
+          "3sg": {"form": "pracowała", "romanization": null},
+          "1pl": {"form": "pracowałyśmy", "romanization": null},
+          "2pl": {"form": "pracowałyście", "romanization": null},
+          "3pl": {"form": "pracowały", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "know",
+      "infinitive": "wiedzieć",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "wiem", "romanization": null},
+          "2sg": {"form": "wiesz", "romanization": null},
+          "3sg": {"form": "wie", "romanization": null},
+          "1pl": {"form": "wiemy", "romanization": null},
+          "2pl": {"form": "wiecie", "romanization": null},
+          "3pl": {"form": "wiedzą", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "wiedziałem", "romanization": null},
+          "2sg": {"form": "wiedziałeś", "romanization": null},
+          "3sg": {"form": "wiedział", "romanization": null},
+          "1pl": {"form": "wiedzieliśmy", "romanization": null},
+          "2pl": {"form": "wiedzieliście", "romanization": null},
+          "3pl": {"form": "wiedzieli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "wiedziałam", "romanization": null},
+          "2sg": {"form": "wiedziałaś", "romanization": null},
+          "3sg": {"form": "wiedziała", "romanization": null},
+          "1pl": {"form": "wiedziałyśmy", "romanization": null},
+          "2pl": {"form": "wiedziałyście", "romanization": null},
+          "3pl": {"form": "wiedziały", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "read",
+      "infinitive": "czytać",
+      "romanization": null,
+      "pattern_id": "am_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "czytam", "romanization": null},
+          "2sg": {"form": "czytasz", "romanization": null},
+          "3sg": {"form": "czyta", "romanization": null},
+          "1pl": {"form": "czytamy", "romanization": null},
+          "2pl": {"form": "czytacie", "romanization": null},
+          "3pl": {"form": "czytają", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "czytałem", "romanization": null},
+          "2sg": {"form": "czytałeś", "romanization": null},
+          "3sg": {"form": "czytał", "romanization": null},
+          "1pl": {"form": "czytaliśmy", "romanization": null},
+          "2pl": {"form": "czytaliście", "romanization": null},
+          "3pl": {"form": "czytali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "czytałam", "romanization": null},
+          "2sg": {"form": "czytałaś", "romanization": null},
+          "3sg": {"form": "czytała", "romanization": null},
+          "1pl": {"form": "czytałyśmy", "romanization": null},
+          "2pl": {"form": "czytałyście", "romanization": null},
+          "3pl": {"form": "czytały", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "write",
+      "infinitive": "pisać",
+      "romanization": null,
+      "pattern_id": "e_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "piszę", "romanization": null},
+          "2sg": {"form": "piszesz", "romanization": null},
+          "3sg": {"form": "pisze", "romanization": null},
+          "1pl": {"form": "piszemy", "romanization": null},
+          "2pl": {"form": "piszecie", "romanization": null},
+          "3pl": {"form": "piszą", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "pisałem", "romanization": null},
+          "2sg": {"form": "pisałeś", "romanization": null},
+          "3sg": {"form": "pisał", "romanization": null},
+          "1pl": {"form": "pisaliśmy", "romanization": null},
+          "2pl": {"form": "pisaliście", "romanization": null},
+          "3pl": {"form": "pisali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "pisałam", "romanization": null},
+          "2sg": {"form": "pisałaś", "romanization": null},
+          "3sg": {"form": "pisała", "romanization": null},
+          "1pl": {"form": "pisałyśmy", "romanization": null},
+          "2pl": {"form": "pisałyście", "romanization": null},
+          "3pl": {"form": "pisały", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "do_make",
+      "infinitive": "robić",
+      "romanization": null,
+      "pattern_id": "e_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "robię", "romanization": null},
+          "2sg": {"form": "robisz", "romanization": null},
+          "3sg": {"form": "robi", "romanization": null},
+          "1pl": {"form": "robimy", "romanization": null},
+          "2pl": {"form": "robicie", "romanization": null},
+          "3pl": {"form": "robią", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "robiłem", "romanization": null},
+          "2sg": {"form": "robiłeś", "romanization": null},
+          "3sg": {"form": "robił", "romanization": null},
+          "1pl": {"form": "robiliśmy", "romanization": null},
+          "2pl": {"form": "robiliście", "romanization": null},
+          "3pl": {"form": "robili", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "robiłam", "romanization": null},
+          "2sg": {"form": "robiłaś", "romanization": null},
+          "3sg": {"form": "robiła", "romanization": null},
+          "1pl": {"form": "robiłyśmy", "romanization": null},
+          "2pl": {"form": "robiłyście", "romanization": null},
+          "3pl": {"form": "robiły", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "understand",
+      "infinitive": "rozumieć",
+      "romanization": null,
+      "pattern_id": "em_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "rozumiem", "romanization": null},
+          "2sg": {"form": "rozumiesz", "romanization": null},
+          "3sg": {"form": "rozumie", "romanization": null},
+          "1pl": {"form": "rozumiemy", "romanization": null},
+          "2pl": {"form": "rozumiecie", "romanization": null},
+          "3pl": {"form": "rozumieją", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "rozumiałem", "romanization": null},
+          "2sg": {"form": "rozumiałeś", "romanization": null},
+          "3sg": {"form": "rozumiał", "romanization": null},
+          "1pl": {"form": "rozumieliśmy", "romanization": null},
+          "2pl": {"form": "rozumieliście", "romanization": null},
+          "3pl": {"form": "rozumieli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "rozumiałam", "romanization": null},
+          "2sg": {"form": "rozumiałaś", "romanization": null},
+          "3sg": {"form": "rozumiała", "romanization": null},
+          "1pl": {"form": "rozumiałyśmy", "romanization": null},
+          "2pl": {"form": "rozumiałyście", "romanization": null},
+          "3pl": {"form": "rozumiały", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "live",
+      "infinitive": "mieszkać",
+      "romanization": null,
+      "pattern_id": "am_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "mieszkam", "romanization": null},
+          "2sg": {"form": "mieszkasz", "romanization": null},
+          "3sg": {"form": "mieszka", "romanization": null},
+          "1pl": {"form": "mieszkamy", "romanization": null},
+          "2pl": {"form": "mieszkacie", "romanization": null},
+          "3pl": {"form": "mieszkają", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "mieszkałem", "romanization": null},
+          "2sg": {"form": "mieszkałeś", "romanization": null},
+          "3sg": {"form": "mieszkał", "romanization": null},
+          "1pl": {"form": "mieszkaliśmy", "romanization": null},
+          "2pl": {"form": "mieszkaliście", "romanization": null},
+          "3pl": {"form": "mieszkali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "mieszkałam", "romanization": null},
+          "2sg": {"form": "mieszkałaś", "romanization": null},
+          "3sg": {"form": "mieszkała", "romanization": null},
+          "1pl": {"form": "mieszkałyśmy", "romanization": null},
+          "2pl": {"form": "mieszkałyście", "romanization": null},
+          "3pl": {"form": "mieszkały", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "give",
+      "infinitive": "dawać",
+      "romanization": null,
+      "pattern_id": "am_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "daję", "romanization": null},
+          "2sg": {"form": "dajesz", "romanization": null},
+          "3sg": {"form": "daje", "romanization": null},
+          "1pl": {"form": "dajemy", "romanization": null},
+          "2pl": {"form": "dajecie", "romanization": null},
+          "3pl": {"form": "dają", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "dawałem", "romanization": null},
+          "2sg": {"form": "dawałeś", "romanization": null},
+          "3sg": {"form": "dawał", "romanization": null},
+          "1pl": {"form": "dawaliśmy", "romanization": null},
+          "2pl": {"form": "dawaliście", "romanization": null},
+          "3pl": {"form": "dawali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "dawałam", "romanization": null},
+          "2sg": {"form": "dawałaś", "romanization": null},
+          "3sg": {"form": "dawała", "romanization": null},
+          "1pl": {"form": "dawałyśmy", "romanization": null},
+          "2pl": {"form": "dawałyście", "romanization": null},
+          "3pl": {"form": "dawały", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "love",
+      "infinitive": "kochać",
+      "romanization": null,
+      "pattern_id": "am_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "kocham", "romanization": null},
+          "2sg": {"form": "kochasz", "romanization": null},
+          "3sg": {"form": "kocha", "romanization": null},
+          "1pl": {"form": "kochamy", "romanization": null},
+          "2pl": {"form": "kochacie", "romanization": null},
+          "3pl": {"form": "kochają", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "kochałem", "romanization": null},
+          "2sg": {"form": "kochałeś", "romanization": null},
+          "3sg": {"form": "kochał", "romanization": null},
+          "1pl": {"form": "kochaliśmy", "romanization": null},
+          "2pl": {"form": "kochaliście", "romanization": null},
+          "3pl": {"form": "kochali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "kochałam", "romanization": null},
+          "2sg": {"form": "kochałaś", "romanization": null},
+          "3sg": {"form": "kochała", "romanization": null},
+          "1pl": {"form": "kochałyśmy", "romanization": null},
+          "2pl": {"form": "kochałyście", "romanization": null},
+          "3pl": {"form": "kochały", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "say",
+      "infinitive": "mówić",
+      "romanization": null,
+      "pattern_id": "e_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "mówię", "romanization": null},
+          "2sg": {"form": "mówisz", "romanization": null},
+          "3sg": {"form": "mówi", "romanization": null},
+          "1pl": {"form": "mówimy", "romanization": null},
+          "2pl": {"form": "mówicie", "romanization": null},
+          "3pl": {"form": "mówią", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "mówiłem", "romanization": null},
+          "2sg": {"form": "mówiłeś", "romanization": null},
+          "3sg": {"form": "mówił", "romanization": null},
+          "1pl": {"form": "mówiliśmy", "romanization": null},
+          "2pl": {"form": "mówiliście", "romanization": null},
+          "3pl": {"form": "mówili", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "mówiłam", "romanization": null},
+          "2sg": {"form": "mówiłaś", "romanization": null},
+          "3sg": {"form": "mówiła", "romanization": null},
+          "1pl": {"form": "mówiłyśmy", "romanization": null},
+          "2pl": {"form": "mówiłyście", "romanization": null},
+          "3pl": {"form": "mówiły", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "see",
+      "infinitive": "widzieć",
+      "romanization": null,
+      "pattern_id": "e_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "widzę", "romanization": null},
+          "2sg": {"form": "widzisz", "romanization": null},
+          "3sg": {"form": "widzi", "romanization": null},
+          "1pl": {"form": "widzimy", "romanization": null},
+          "2pl": {"form": "widzicie", "romanization": null},
+          "3pl": {"form": "widzą", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "widziałem", "romanization": null},
+          "2sg": {"form": "widziałeś", "romanization": null},
+          "3sg": {"form": "widział", "romanization": null},
+          "1pl": {"form": "widzieliśmy", "romanization": null},
+          "2pl": {"form": "widzieliście", "romanization": null},
+          "3pl": {"form": "widzieli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "widziałam", "romanization": null},
+          "2sg": {"form": "widziałaś", "romanization": null},
+          "3sg": {"form": "widziała", "romanization": null},
+          "1pl": {"form": "widziałyśmy", "romanization": null},
+          "2pl": {"form": "widziałyście", "romanization": null},
+          "3pl": {"form": "widziały", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "want",
+      "infinitive": "chcieć",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "chcę", "romanization": null},
+          "2sg": {"form": "chcesz", "romanization": null},
+          "3sg": {"form": "chce", "romanization": null},
+          "1pl": {"form": "chcemy", "romanization": null},
+          "2pl": {"form": "chcecie", "romanization": null},
+          "3pl": {"form": "chcą", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "chciałem", "romanization": null},
+          "2sg": {"form": "chciałeś", "romanization": null},
+          "3sg": {"form": "chciał", "romanization": null},
+          "1pl": {"form": "chcieliśmy", "romanization": null},
+          "2pl": {"form": "chcieliście", "romanization": null},
+          "3pl": {"form": "chcieli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "chciałam", "romanization": null},
+          "2sg": {"form": "chciałaś", "romanization": null},
+          "3sg": {"form": "chciała", "romanization": null},
+          "1pl": {"form": "chciałyśmy", "romanization": null},
+          "2pl": {"form": "chciałyście", "romanization": null},
+          "3pl": {"form": "chciały", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "can",
+      "infinitive": "móc",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "mogę", "romanization": null},
+          "2sg": {"form": "możesz", "romanization": null},
+          "3sg": {"form": "może", "romanization": null},
+          "1pl": {"form": "możemy", "romanization": null},
+          "2pl": {"form": "możecie", "romanization": null},
+          "3pl": {"form": "mogą", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "mogłem", "romanization": null},
+          "2sg": {"form": "mogłeś", "romanization": null},
+          "3sg": {"form": "mógł", "romanization": null},
+          "1pl": {"form": "mogliśmy", "romanization": null},
+          "2pl": {"form": "mogliście", "romanization": null},
+          "3pl": {"form": "mogli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "mogłam", "romanization": null},
+          "2sg": {"form": "mogłaś", "romanization": null},
+          "3sg": {"form": "mogła", "romanization": null},
+          "1pl": {"form": "mogłyśmy", "romanization": null},
+          "2pl": {"form": "mogłyście", "romanization": null},
+          "3pl": {"form": "mogły", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "go",
+      "infinitive": "iść",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "idę", "romanization": null},
+          "2sg": {"form": "idziesz", "romanization": null},
+          "3sg": {"form": "idzie", "romanization": null},
+          "1pl": {"form": "idziemy", "romanization": null},
+          "2pl": {"form": "idziecie", "romanization": null},
+          "3pl": {"form": "idą", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "szedłem", "romanization": null},
+          "2sg": {"form": "szedłeś", "romanization": null},
+          "3sg": {"form": "szedł", "romanization": null},
+          "1pl": {"form": "szliśmy", "romanization": null},
+          "2pl": {"form": "szliście", "romanization": null},
+          "3pl": {"form": "szli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "szłam", "romanization": null},
+          "2sg": {"form": "szłaś", "romanization": null},
+          "3sg": {"form": "szła", "romanization": null},
+          "1pl": {"form": "szłyśmy", "romanization": null},
+          "2pl": {"form": "szłyście", "romanization": null},
+          "3pl": {"form": "szły", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "eat",
+      "infinitive": "jeść",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "jem", "romanization": null},
+          "2sg": {"form": "jesz", "romanization": null},
+          "3sg": {"form": "je", "romanization": null},
+          "1pl": {"form": "jemy", "romanization": null},
+          "2pl": {"form": "jecie", "romanization": null},
+          "3pl": {"form": "jedzą", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "jadłem", "romanization": null},
+          "2sg": {"form": "jadłeś", "romanization": null},
+          "3sg": {"form": "jadł", "romanization": null},
+          "1pl": {"form": "jedliśmy", "romanization": null},
+          "2pl": {"form": "jedliście", "romanization": null},
+          "3pl": {"form": "jedli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "jadłam", "romanization": null},
+          "2sg": {"form": "jadłaś", "romanization": null},
+          "3sg": {"form": "jadła", "romanization": null},
+          "1pl": {"form": "jadłyśmy", "romanization": null},
+          "2pl": {"form": "jadłyście", "romanization": null},
+          "3pl": {"form": "jadły", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "drink",
+      "infinitive": "pić",
+      "romanization": null,
+      "pattern_id": "e_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "piję", "romanization": null},
+          "2sg": {"form": "pijesz", "romanization": null},
+          "3sg": {"form": "pije", "romanization": null},
+          "1pl": {"form": "pijemy", "romanization": null},
+          "2pl": {"form": "pijecie", "romanization": null},
+          "3pl": {"form": "piją", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "piłem", "romanization": null},
+          "2sg": {"form": "piłeś", "romanization": null},
+          "3sg": {"form": "pił", "romanization": null},
+          "1pl": {"form": "piliśmy", "romanization": null},
+          "2pl": {"form": "piliście", "romanization": null},
+          "3pl": {"form": "pili", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "piłam", "romanization": null},
+          "2sg": {"form": "piłaś", "romanization": null},
+          "3sg": {"form": "piła", "romanization": null},
+          "1pl": {"form": "piłyśmy", "romanization": null},
+          "2pl": {"form": "piłyście", "romanization": null},
+          "3pl": {"form": "piły", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "buy",
+      "infinitive": "kupować",
+      "romanization": null,
+      "pattern_id": "am_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "kupuję", "romanization": null},
+          "2sg": {"form": "kupujesz", "romanization": null},
+          "3sg": {"form": "kupuje", "romanization": null},
+          "1pl": {"form": "kupujemy", "romanization": null},
+          "2pl": {"form": "kupujecie", "romanization": null},
+          "3pl": {"form": "kupują", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "kupowałem", "romanization": null},
+          "2sg": {"form": "kupowałeś", "romanization": null},
+          "3sg": {"form": "kupował", "romanization": null},
+          "1pl": {"form": "kupowaliśmy", "romanization": null},
+          "2pl": {"form": "kupowaliście", "romanization": null},
+          "3pl": {"form": "kupowali", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "kupowałam", "romanization": null},
+          "2sg": {"form": "kupowałaś", "romanization": null},
+          "3sg": {"form": "kupowała", "romanization": null},
+          "1pl": {"form": "kupowałyśmy", "romanization": null},
+          "2pl": {"form": "kupowałyście", "romanization": null},
+          "3pl": {"form": "kupowały", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "be",
+      "infinitive": "być",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "jestem", "romanization": null},
+          "2sg": {"form": "jesteś", "romanization": null},
+          "3sg": {"form": "jest", "romanization": null},
+          "1pl": {"form": "jesteśmy", "romanization": null},
+          "2pl": {"form": "jesteście", "romanization": null},
+          "3pl": {"form": "są", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "byłem", "romanization": null},
+          "2sg": {"form": "byłeś", "romanization": null},
+          "3sg": {"form": "był", "romanization": null},
+          "1pl": {"form": "byliśmy", "romanization": null},
+          "2pl": {"form": "byliście", "romanization": null},
+          "3pl": {"form": "byli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "byłam", "romanization": null},
+          "2sg": {"form": "byłaś", "romanization": null},
+          "3sg": {"form": "była", "romanization": null},
+          "1pl": {"form": "byłyśmy", "romanization": null},
+          "2pl": {"form": "byłyście", "romanization": null},
+          "3pl": {"form": "były", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "have",
+      "infinitive": "mieć",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "present": {
+          "1sg": {"form": "mam", "romanization": null},
+          "2sg": {"form": "masz", "romanization": null},
+          "3sg": {"form": "ma", "romanization": null},
+          "1pl": {"form": "mamy", "romanization": null},
+          "2pl": {"form": "macie", "romanization": null},
+          "3pl": {"form": "mają", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "miałem", "romanization": null},
+          "2sg": {"form": "miałeś", "romanization": null},
+          "3sg": {"form": "miał", "romanization": null},
+          "1pl": {"form": "mieliśmy", "romanization": null},
+          "2pl": {"form": "mieliście", "romanization": null},
+          "3pl": {"form": "mieli", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "miałam", "romanization": null},
+          "2sg": {"form": "miałaś", "romanization": null},
+          "3sg": {"form": "miała", "romanization": null},
+          "1pl": {"form": "miałyśmy", "romanization": null},
+          "2pl": {"form": "miałyście", "romanization": null},
+          "3pl": {"form": "miały", "romanization": null}
+        }
+      }
+    },
+    {
+      "concept_id": "come",
+      "infinitive": "przychodzić",
+      "romanization": null,
+      "pattern_id": "e_conjugation",
+      "forms": {
+        "present": {
+          "1sg": {"form": "przychodzę", "romanization": null},
+          "2sg": {"form": "przychodzisz", "romanization": null},
+          "3sg": {"form": "przychodzi", "romanization": null},
+          "1pl": {"form": "przychodzimy", "romanization": null},
+          "2pl": {"form": "przychodzicie", "romanization": null},
+          "3pl": {"form": "przychodzą", "romanization": null}
+        },
+        "past_masc": {
+          "1sg": {"form": "przychodziłem", "romanization": null},
+          "2sg": {"form": "przychodziłeś", "romanization": null},
+          "3sg": {"form": "przychodził", "romanization": null},
+          "1pl": {"form": "przychodziliśmy", "romanization": null},
+          "2pl": {"form": "przychodziliście", "romanization": null},
+          "3pl": {"form": "przychodzili", "romanization": null}
+        },
+        "past_fem": {
+          "1sg": {"form": "przychodziłam", "romanization": null},
+          "2sg": {"form": "przychodziłaś", "romanization": null},
+          "3sg": {"form": "przychodziła", "romanization": null},
+          "1pl": {"form": "przychodziłyśmy", "romanization": null},
+          "2pl": {"form": "przychodziłyście", "romanization": null},
+          "3pl": {"form": "przychodziły", "romanization": null}
+        }
+      }
+    }
+  ]
+}

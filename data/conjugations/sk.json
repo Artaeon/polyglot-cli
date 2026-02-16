@@ -1,0 +1,1767 @@
+{
+  "language_id": "sk",
+  "meta": {
+    "persons": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "person_labels_de": {
+      "1sg": "ich (ja)",
+      "2sg": "du (ty)",
+      "3sg": "er/sie/es (on/ona/ono)",
+      "1pl": "wir (my)",
+      "2pl": "ihr (vy)",
+      "3pl": "sie (oni/ony)"
+    },
+    "tenses": [
+      "pritomny",
+      "minuly",
+      "buduci"
+    ],
+    "tense_labels_de": {
+      "pritomny": "Praesens",
+      "minuly": "Vergangenheit",
+      "buduci": "Futur"
+    }
+  },
+  "conjugation_patterns": [
+    {
+      "pattern_id": "a_conj",
+      "description_de": "-ať Verben"
+    },
+    {
+      "pattern_id": "e_conj",
+      "description_de": "-eť/-ieť Verben"
+    },
+    {
+      "pattern_id": "i_conj",
+      "description_de": "-iť Verben"
+    }
+  ],
+  "verbs": [
+    {
+      "concept_id": "be",
+      "infinitive": "byť",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "sú",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "bol som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "bol si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bol",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "bol sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "bol ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "bol",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "have",
+      "infinitive": "mať",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "mám",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "máš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "má",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "máme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "máte",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "majú",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "mal som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "mal si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "mal",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "mal sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "mal ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "mal",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem mať",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš mať",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude mať",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme mať",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete mať",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú mať",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "go",
+      "infinitive": "ísť",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "idem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ideš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "ide",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "ideme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "idete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "idú",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "išiel som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "išiel si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "išiel",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "išiel sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "išiel ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "išiel",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "pôjdem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "pôjdeš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "pôjde",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "pôjdeme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "pôjdete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "pôjdu",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "come",
+      "infinitive": "prísť",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "prídem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "prídeš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "príde",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "prídeme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "prídete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "prídu",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "prišiel som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "prišiel si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "prišiel",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "prišiel sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "prišiel ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "prišiel",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem prísť",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš prísť",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude prísť",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme prísť",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete prísť",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú prísť",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "eat",
+      "infinitive": "jesť",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "jem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "ješ",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "je",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "jeme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "jete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "jedia",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "jedol som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "jedol si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "jedol",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "jedol sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "jedol ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "jedol",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem jesť",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš jesť",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude jesť",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme jesť",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete jesť",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú jesť",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "drink",
+      "infinitive": "piť",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "pijem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "piješ",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "pije",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "pijeme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "pijete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "pijú",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "pil som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "pil si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "pil",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "pil sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "pil ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "pil",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem piť",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš piť",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude piť",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme piť",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete piť",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú piť",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "say",
+      "infinitive": "povedať",
+      "romanization": null,
+      "pattern_id": "e_conj",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "poviem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "povieš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "povie",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "povieme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "poviete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "povedia",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "povedal som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "povedal si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "povedal",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "povedal sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "povedal ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "povedal",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem povedať",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš povedať",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude povedať",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme povedať",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete povedať",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú povedať",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "see",
+      "infinitive": "vidieť",
+      "romanization": null,
+      "pattern_id": "e_conj",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "vidím",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vidíš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vidí",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vidíme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vidíte",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vidia",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "videl som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "videl si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "videl",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "videl sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "videl ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "videl",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem vidieť",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš vidieť",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude vidieť",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme vidieť",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete vidieť",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú vidieť",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "hear",
+      "infinitive": "počuť",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "počujem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "počuješ",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "počuje",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "počujeme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "počujete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "počujú",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "počul som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "počul si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "počul",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "počul sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "počul ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "počul",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem počuť",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš počuť",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude počuť",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme počuť",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete počuť",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú počuť",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "know",
+      "infinitive": "vedieť",
+      "romanization": null,
+      "pattern_id": "e_conj",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "viem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vieš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vie",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vieme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "viete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vedia",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "vedel som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vedel si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vedel",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vedel sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vedel ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vedel",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem vedieť",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš vedieť",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude vedieť",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme vedieť",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete vedieť",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú vedieť",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "want",
+      "infinitive": "chcieť",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "chcem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "chceš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "chce",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "chceme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "chcete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "chcú",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "chcel som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "chcel si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "chcel",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "chcel sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "chcel ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "chcel",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem chcieť",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš chcieť",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude chcieť",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme chcieť",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete chcieť",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú chcieť",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "can",
+      "infinitive": "môcť",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "môžem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "môžeš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "môže",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "môžeme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "môžete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "môžu",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "mohol som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "mohol si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "mohol",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "mohol sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "mohol ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "mohol",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem môcť",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš môcť",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude môcť",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme môcť",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete môcť",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú môcť",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "do_make",
+      "infinitive": "robiť",
+      "romanization": null,
+      "pattern_id": "i_conj",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "robím",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "robíš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "robí",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "robíme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "robíte",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "robia",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "robil som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "robil si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "robil",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "robil sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "robil ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "robil",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem robiť",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš robiť",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude robiť",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme robiť",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete robiť",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú robiť",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "give",
+      "infinitive": "dať",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "dám",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "dáš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "dá",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "dáme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dáte",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "dajú",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "dal som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "dal si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "dal",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "dal sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "dal ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "dal",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem dať",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš dať",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude dať",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme dať",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete dať",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú dať",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "take",
+      "infinitive": "vziať",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "vezmem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vezmeš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vezme",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vezmeme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vezmete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vezmú",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "vzal som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "vzal si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "vzal",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "vzal sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "vzal ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "vzal",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem vziať",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš vziať",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude vziať",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme vziať",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete vziať",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú vziať",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "read",
+      "infinitive": "čítať",
+      "romanization": null,
+      "pattern_id": "a_conj",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "čítam",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "čítaš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "číta",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "čítame",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "čítate",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "čítajú",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "čítal som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "čítal si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "čítal",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "čítal sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "čítal ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "čítal",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem čítať",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš čítať",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude čítať",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme čítať",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete čítať",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú čítať",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "write",
+      "infinitive": "písať",
+      "romanization": null,
+      "pattern_id": "e_conj",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "píšem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "píšeš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "píše",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "píšeme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "píšete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "píšu",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "písal som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "písal si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "písal",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "písal sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "písal ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "písal",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem písať",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš písať",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude písať",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme písať",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete písať",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú písať",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "sleep",
+      "infinitive": "spať",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "spím",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "spíš",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "spí",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "spíme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "spíte",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "spia",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "spal som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "spal si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "spal",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "spal sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "spal ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "spal",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem spať",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš spať",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude spať",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme spať",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete spať",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú spať",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "live",
+      "infinitive": "žiť",
+      "romanization": null,
+      "pattern_id": "irregular",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "žijem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "žiješ",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "žije",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "žijeme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "žijete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "žijú",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "žil som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "žil si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "žil",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "žil sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "žil ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "žil",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem žiť",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš žiť",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude žiť",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme žiť",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete žiť",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú žiť",
+            "romanization": null
+          }
+        }
+      }
+    },
+    {
+      "concept_id": "work",
+      "infinitive": "pracovať",
+      "romanization": null,
+      "pattern_id": "a_conj",
+      "forms": {
+        "pritomny": {
+          "1sg": {
+            "form": "pracujem",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "pracuješ",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "pracuje",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "pracujeme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "pracujete",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "pracujú",
+            "romanization": null
+          }
+        },
+        "minuly": {
+          "1sg": {
+            "form": "pracoval som",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "pracoval si",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "pracoval",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "pracoval sme",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "pracoval ste",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "pracoval",
+            "romanization": null
+          }
+        },
+        "buduci": {
+          "1sg": {
+            "form": "budem pracovať",
+            "romanization": null
+          },
+          "2sg": {
+            "form": "budeš pracovať",
+            "romanization": null
+          },
+          "3sg": {
+            "form": "bude pracovať",
+            "romanization": null
+          },
+          "1pl": {
+            "form": "budeme pracovať",
+            "romanization": null
+          },
+          "2pl": {
+            "form": "budete pracovať",
+            "romanization": null
+          },
+          "3pl": {
+            "form": "budú pracovať",
+            "romanization": null
+          }
+        }
+      }
+    }
+  ]
+}

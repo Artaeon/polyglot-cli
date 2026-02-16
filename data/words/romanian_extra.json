@@ -1,0 +1,13 @@
+{
+  "language_id": "ro",
+  "words": [
+    {"word": "gară", "romanization": "", "pronunciation_hint": "GA-rə", "meaning_de": "Bahnhof", "meaning_en": "station", "category": "fragen_richtungen", "frequency_rank": 1001, "concept_id": "station", "tone": null, "notes": "Gară de tren"},
+    {"word": "bilet", "romanization": "", "pronunciation_hint": "bi-LET", "meaning_de": "Ticket", "meaning_en": "ticket", "category": "fragen_richtungen", "frequency_rank": 1002, "concept_id": "ticket", "tone": null, "notes": "Pentru tren/autobuz"},
+    {"word": "farmacie", "romanization": "", "pronunciation_hint": "far-ma-CHEE-e", "meaning_de": "Apotheke", "meaning_en": "pharmacy", "category": "koerper_gesundheit", "frequency_rank": 1003, "concept_id": "pharmacy", "tone": null, "notes": "Sănătate"},
+    {"word": "am nevoie de ajutor", "romanization": "", "pronunciation_hint": "am ne-VO-ye de a-zhu-TOR", "meaning_de": "ich brauche Hilfe", "meaning_en": "I need help", "category": "phrasen", "frequency_rank": 1004, "concept_id": "i_need_help", "tone": null, "notes": "Fraza de urgență"},
+    {"word": "unde este stația?", "romanization": "", "pronunciation_hint": "UN-de YES-te STA-tsi-a", "meaning_de": "wo ist die Haltestelle?", "meaning_en": "where is the stop?", "category": "fragen_richtungen", "frequency_rank": 1005, "concept_id": "where_is_stop", "tone": null, "notes": "Stație de autobuz"},
+    {"word": "deschis", "romanization": "", "pronunciation_hint": "des-KIS", "meaning_de": "offen", "meaning_en": "open", "category": "adjektive", "frequency_rank": 1006, "concept_id": "open_adj", "tone": null, "notes": "Magazin deschis"},
+    {"word": "închis", "romanization": "", "pronunciation_hint": "în-KIS", "meaning_de": "geschlossen", "meaning_en": "closed", "category": "adjektive", "frequency_rank": 1007, "concept_id": "closed_adj", "tone": null, "notes": "Magazin închis"},
+    {"word": "bon", "romanization": "", "pronunciation_hint": "bon", "meaning_de": "Quittung", "meaning_en": "receipt", "category": "essen_trinken", "frequency_rank": 1008, "concept_id": "receipt", "tone": null, "notes": "Bon fiscal"}
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "language_id": "ko",
+  "words": [
+    {
+      "word": "안녕, 잘 지내?",
+      "romanization": "Annyeong, jal jinae?",
+      "pronunciation_hint": "an-nyong, dschal dschi-ne",
+      "meaning_de": "Hallo, wie geht es dir?",
+      "meaning_en": "Hello, how are you?",
+      "category": "phrasen",
+      "frequency_rank": 1401,
+      "concept_id": "tpl5_hello_how_are_you",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "저는 ...입니다.",
+      "romanization": "Jeoneun ...imnida.",
+      "pronunciation_hint": "dschö-nün ... im-ni-da",
+      "meaning_de": "Mein Name ist...",
+      "meaning_en": "My name is...",
+      "category": "phrasen",
+      "frequency_rank": 1402,
+      "concept_id": "tpl5_my_name_is",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "이해하지 못해요.",
+      "romanization": "Ihaehaji mothaeyo.",
+      "pronunciation_hint": "i-he-ha-dschi mo-te-yo",
+      "meaning_de": "Ich verstehe nicht.",
+      "meaning_en": "I don't understand.",
+      "category": "phrasen",
+      "frequency_rank": 1403,
+      "concept_id": "tpl5_i_dont_understand",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "화장실이 어디에요?",
+      "romanization": "Hwajangsiri eodieyo?",
+      "pronunciation_hint": "hwa-dschang-schi-ri ö-di-e-yo",
+      "meaning_de": "Wo ist die Toilette?",
+      "meaning_en": "Where is the toilet?",
+      "category": "fragen_richtungen",
+      "frequency_rank": 1404,
+      "concept_id": "tpl5_where_is",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "이거 얼마예요?",
+      "romanization": "Igeo eolmayeyo?",
+      "pronunciation_hint": "i-gö öl-ma-ye-yo",
+      "meaning_de": "Wie viel kostet das?",
+      "meaning_en": "How much does this cost?",
+      "category": "phrasen",
+      "frequency_rank": 1405,
+      "concept_id": "tpl5_how_much_cost",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "...을/를 주세요.",
+      "romanization": "...eul/reul juseyo.",
+      "pronunciation_hint": "... ül/rül dschu-se-yo",
+      "meaning_de": "Ich hätte gerne...",
+      "meaning_en": "I would like...",
+      "category": "phrasen",
+      "frequency_rank": 1406,
+      "concept_id": "tpl5_i_would_like",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "정말 감사합니다!",
+      "romanization": "Jeongmal gamsahamnida!",
+      "pronunciation_hint": "dschong-mal gam-sa-ham-ni-da",
+      "meaning_de": "Vielen Dank!",
+      "meaning_en": "Thank you very much!",
+      "category": "phrasen",
+      "frequency_rank": 1407,
+      "concept_id": "tpl5_thank_you_very_much",
+      "tone": null,
+      "notes": "template_pack_5"
+    },
+    {
+      "word": "물 한 잔 주세요.",
+      "romanization": "Mul han jan juseyo.",
+      "pronunciation_hint": "mul han dschan dschu-se-yo",
+      "meaning_de": "Ein Glas Wasser, bitte.",
+      "meaning_en": "A glass of water, please.",
+      "category": "essen_trinken",
+      "frequency_rank": 1408,
+      "concept_id": "tpl5_water_please",
+      "tone": null,
+      "notes": "template_pack_5"
+    }
+  ]
+}

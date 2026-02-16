@@ -1,0 +1,885 @@
+{
+  "language_id": "ru",
+  "meta": {
+    "persons": ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"],
+    "person_labels_de": {
+      "1sg": "ich (я)",
+      "2sg": "du (ты)",
+      "3sg": "er/sie/es (он/она/оно)",
+      "1pl": "wir (мы)",
+      "2pl": "ihr (вы)",
+      "3pl": "sie (они)"
+    },
+    "tenses": ["present", "past_masc", "past_fem", "past_pl"],
+    "tense_labels_de": {
+      "present": "Praesens",
+      "past_masc": "Vergangenheit (m)",
+      "past_fem": "Vergangenheit (f)",
+      "past_pl": "Vergangenheit (pl)"
+    }
+  },
+  "conjugation_patterns": [
+    {
+      "pattern_id": "first_conj_at",
+      "description_de": "-ать Verben (1. Konjugation)",
+      "rule_de": "Stamm + -аю, -аешь, -ает, -аем, -аете, -ают",
+      "endings": {
+        "present": {
+          "1sg": "-аю",
+          "2sg": "-аешь",
+          "3sg": "-ает",
+          "1pl": "-аем",
+          "2pl": "-аете",
+          "3pl": "-ают"
+        }
+      }
+    },
+    {
+      "pattern_id": "second_conj_it",
+      "description_de": "-ить Verben (2. Konjugation)",
+      "rule_de": "Stamm + -ю/-у, -ишь, -ит, -им, -ите, -ят/-ат",
+      "endings": {
+        "present": {
+          "1sg": "-ю/-у",
+          "2sg": "-ишь",
+          "3sg": "-ит",
+          "1pl": "-им",
+          "2pl": "-ите",
+          "3pl": "-ят/-ат"
+        }
+      }
+    }
+  ],
+  "verbs": [
+    {
+      "concept_id": "work",
+      "infinitive": "работать",
+      "romanization": "rabotat'",
+      "translation_de": "arbeiten",
+      "pattern_id": "first_conj_at",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "работаю", "romanization": "rabotayu" },
+          "2sg": { "form": "работаешь", "romanization": "rabotayesh'" },
+          "3sg": { "form": "работает", "romanization": "rabotayet" },
+          "1pl": { "form": "работаем", "romanization": "rabotayem" },
+          "2pl": { "form": "работаете", "romanization": "rabotayete" },
+          "3pl": { "form": "работают", "romanization": "rabotayut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "работал", "romanization": "rabotal" },
+          "2sg": { "form": "работал", "romanization": "rabotal" },
+          "3sg": { "form": "работал", "romanization": "rabotal" },
+          "1pl": { "form": "работал", "romanization": "rabotal" },
+          "2pl": { "form": "работал", "romanization": "rabotal" },
+          "3pl": { "form": "работал", "romanization": "rabotal" }
+        },
+        "past_fem": {
+          "1sg": { "form": "работала", "romanization": "rabotala" },
+          "2sg": { "form": "работала", "romanization": "rabotala" },
+          "3sg": { "form": "работала", "romanization": "rabotala" },
+          "1pl": { "form": "работала", "romanization": "rabotala" },
+          "2pl": { "form": "работала", "romanization": "rabotala" },
+          "3pl": { "form": "работала", "romanization": "rabotala" }
+        },
+        "past_pl": {
+          "1sg": { "form": "работали", "romanization": "rabotali" },
+          "2sg": { "form": "работали", "romanization": "rabotali" },
+          "3sg": { "form": "работали", "romanization": "rabotali" },
+          "1pl": { "form": "работали", "romanization": "rabotali" },
+          "2pl": { "form": "работали", "romanization": "rabotali" },
+          "3pl": { "form": "работали", "romanization": "rabotali" }
+        }
+      }
+    },
+    {
+      "concept_id": "know",
+      "infinitive": "знать",
+      "romanization": "znat'",
+      "translation_de": "wissen/kennen",
+      "pattern_id": "first_conj_at",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "знаю", "romanization": "znayu" },
+          "2sg": { "form": "знаешь", "romanization": "znayesh'" },
+          "3sg": { "form": "знает", "romanization": "znayet" },
+          "1pl": { "form": "знаем", "romanization": "znayem" },
+          "2pl": { "form": "знаете", "romanization": "znayete" },
+          "3pl": { "form": "знают", "romanization": "znayut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "знал", "romanization": "znal" },
+          "2sg": { "form": "знал", "romanization": "znal" },
+          "3sg": { "form": "знал", "romanization": "znal" },
+          "1pl": { "form": "знал", "romanization": "znal" },
+          "2pl": { "form": "знал", "romanization": "znal" },
+          "3pl": { "form": "знал", "romanization": "znal" }
+        },
+        "past_fem": {
+          "1sg": { "form": "знала", "romanization": "znala" },
+          "2sg": { "form": "знала", "romanization": "znala" },
+          "3sg": { "form": "знала", "romanization": "znala" },
+          "1pl": { "form": "знала", "romanization": "znala" },
+          "2pl": { "form": "знала", "romanization": "znala" },
+          "3pl": { "form": "знала", "romanization": "znala" }
+        },
+        "past_pl": {
+          "1sg": { "form": "знали", "romanization": "znali" },
+          "2sg": { "form": "знали", "romanization": "znali" },
+          "3sg": { "form": "знали", "romanization": "znali" },
+          "1pl": { "form": "знали", "romanization": "znali" },
+          "2pl": { "form": "знали", "romanization": "znali" },
+          "3pl": { "form": "знали", "romanization": "znali" }
+        }
+      }
+    },
+    {
+      "concept_id": "read",
+      "infinitive": "читать",
+      "romanization": "chitat'",
+      "translation_de": "lesen",
+      "pattern_id": "first_conj_at",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "читаю", "romanization": "chitayu" },
+          "2sg": { "form": "читаешь", "romanization": "chitayesh'" },
+          "3sg": { "form": "читает", "romanization": "chitayet" },
+          "1pl": { "form": "читаем", "romanization": "chitayem" },
+          "2pl": { "form": "читаете", "romanization": "chitayete" },
+          "3pl": { "form": "читают", "romanization": "chitayut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "читал", "romanization": "chital" },
+          "2sg": { "form": "читал", "romanization": "chital" },
+          "3sg": { "form": "читал", "romanization": "chital" },
+          "1pl": { "form": "читал", "romanization": "chital" },
+          "2pl": { "form": "читал", "romanization": "chital" },
+          "3pl": { "form": "читал", "romanization": "chital" }
+        },
+        "past_fem": {
+          "1sg": { "form": "читала", "romanization": "chitala" },
+          "2sg": { "form": "читала", "romanization": "chitala" },
+          "3sg": { "form": "читала", "romanization": "chitala" },
+          "1pl": { "form": "читала", "romanization": "chitala" },
+          "2pl": { "form": "читала", "romanization": "chitala" },
+          "3pl": { "form": "читала", "romanization": "chitala" }
+        },
+        "past_pl": {
+          "1sg": { "form": "читали", "romanization": "chitali" },
+          "2sg": { "form": "читали", "romanization": "chitali" },
+          "3sg": { "form": "читали", "romanization": "chitali" },
+          "1pl": { "form": "читали", "romanization": "chitali" },
+          "2pl": { "form": "читали", "romanization": "chitali" },
+          "3pl": { "form": "читали", "romanization": "chitali" }
+        }
+      }
+    },
+    {
+      "concept_id": "write",
+      "infinitive": "писать",
+      "romanization": "pisat'",
+      "translation_de": "schreiben",
+      "pattern_id": "first_conj_at",
+      "irregular": true,
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "пишу", "romanization": "pishu" },
+          "2sg": { "form": "пишешь", "romanization": "pishesh'" },
+          "3sg": { "form": "пишет", "romanization": "pishet" },
+          "1pl": { "form": "пишем", "romanization": "pishem" },
+          "2pl": { "form": "пишете", "romanization": "pishete" },
+          "3pl": { "form": "пишут", "romanization": "pishut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "писал", "romanization": "pisal" },
+          "2sg": { "form": "писал", "romanization": "pisal" },
+          "3sg": { "form": "писал", "romanization": "pisal" },
+          "1pl": { "form": "писал", "romanization": "pisal" },
+          "2pl": { "form": "писал", "romanization": "pisal" },
+          "3pl": { "form": "писал", "romanization": "pisal" }
+        },
+        "past_fem": {
+          "1sg": { "form": "писала", "romanization": "pisala" },
+          "2sg": { "form": "писала", "romanization": "pisala" },
+          "3sg": { "form": "писала", "romanization": "pisala" },
+          "1pl": { "form": "писала", "romanization": "pisala" },
+          "2pl": { "form": "писала", "romanization": "pisala" },
+          "3pl": { "form": "писала", "romanization": "pisala" }
+        },
+        "past_pl": {
+          "1sg": { "form": "писали", "romanization": "pisali" },
+          "2sg": { "form": "писали", "romanization": "pisali" },
+          "3sg": { "form": "писали", "romanization": "pisali" },
+          "1pl": { "form": "писали", "romanization": "pisali" },
+          "2pl": { "form": "писали", "romanization": "pisali" },
+          "3pl": { "form": "писали", "romanization": "pisali" }
+        }
+      }
+    },
+    {
+      "concept_id": "do_make",
+      "infinitive": "делать",
+      "romanization": "delat'",
+      "translation_de": "tun/machen",
+      "pattern_id": "first_conj_at",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "делаю", "romanization": "delayu" },
+          "2sg": { "form": "делаешь", "romanization": "delayesh'" },
+          "3sg": { "form": "делает", "romanization": "delayet" },
+          "1pl": { "form": "делаем", "romanization": "delayem" },
+          "2pl": { "form": "делаете", "romanization": "delayete" },
+          "3pl": { "form": "делают", "romanization": "delayut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "делал", "romanization": "delal" },
+          "2sg": { "form": "делал", "romanization": "delal" },
+          "3sg": { "form": "делал", "romanization": "delal" },
+          "1pl": { "form": "делал", "romanization": "delal" },
+          "2pl": { "form": "делал", "romanization": "delal" },
+          "3pl": { "form": "делал", "romanization": "delal" }
+        },
+        "past_fem": {
+          "1sg": { "form": "делала", "romanization": "delala" },
+          "2sg": { "form": "делала", "romanization": "delala" },
+          "3sg": { "form": "делала", "romanization": "delala" },
+          "1pl": { "form": "делала", "romanization": "delala" },
+          "2pl": { "form": "делала", "romanization": "delala" },
+          "3pl": { "form": "делала", "romanization": "delala" }
+        },
+        "past_pl": {
+          "1sg": { "form": "делали", "romanization": "delali" },
+          "2sg": { "form": "делали", "romanization": "delali" },
+          "3sg": { "form": "делали", "romanization": "delali" },
+          "1pl": { "form": "делали", "romanization": "delali" },
+          "2pl": { "form": "делали", "romanization": "delali" },
+          "3pl": { "form": "делали", "romanization": "delali" }
+        }
+      }
+    },
+    {
+      "concept_id": "understand",
+      "infinitive": "понимать",
+      "romanization": "ponimat'",
+      "translation_de": "verstehen",
+      "pattern_id": "first_conj_at",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "понимаю", "romanization": "ponimayu" },
+          "2sg": { "form": "понимаешь", "romanization": "ponimayesh'" },
+          "3sg": { "form": "понимает", "romanization": "ponimayet" },
+          "1pl": { "form": "понимаем", "romanization": "ponimayem" },
+          "2pl": { "form": "понимаете", "romanization": "ponimayete" },
+          "3pl": { "form": "понимают", "romanization": "ponimayut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "понимал", "romanization": "ponimal" },
+          "2sg": { "form": "понимал", "romanization": "ponimal" },
+          "3sg": { "form": "понимал", "romanization": "ponimal" },
+          "1pl": { "form": "понимал", "romanization": "ponimal" },
+          "2pl": { "form": "понимал", "romanization": "ponimal" },
+          "3pl": { "form": "понимал", "romanization": "ponimal" }
+        },
+        "past_fem": {
+          "1sg": { "form": "понимала", "romanization": "ponimala" },
+          "2sg": { "form": "понимала", "romanization": "ponimala" },
+          "3sg": { "form": "понимала", "romanization": "ponimala" },
+          "1pl": { "form": "понимала", "romanization": "ponimala" },
+          "2pl": { "form": "понимала", "romanization": "ponimala" },
+          "3pl": { "form": "понимала", "romanization": "ponimala" }
+        },
+        "past_pl": {
+          "1sg": { "form": "понимали", "romanization": "ponimali" },
+          "2sg": { "form": "понимали", "romanization": "ponimali" },
+          "3sg": { "form": "понимали", "romanization": "ponimali" },
+          "1pl": { "form": "понимали", "romanization": "ponimali" },
+          "2pl": { "form": "понимали", "romanization": "ponimali" },
+          "3pl": { "form": "понимали", "romanization": "ponimali" }
+        }
+      }
+    },
+    {
+      "concept_id": "live",
+      "infinitive": "жить",
+      "romanization": "zhit'",
+      "translation_de": "leben",
+      "pattern_id": "first_conj_at",
+      "irregular": true,
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "живу", "romanization": "zhivu" },
+          "2sg": { "form": "живёшь", "romanization": "zhivyosh'" },
+          "3sg": { "form": "живёт", "romanization": "zhivyot" },
+          "1pl": { "form": "живём", "romanization": "zhivyom" },
+          "2pl": { "form": "живёте", "romanization": "zhivyote" },
+          "3pl": { "form": "живут", "romanization": "zhivut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "жил", "romanization": "zhil" },
+          "2sg": { "form": "жил", "romanization": "zhil" },
+          "3sg": { "form": "жил", "romanization": "zhil" },
+          "1pl": { "form": "жил", "romanization": "zhil" },
+          "2pl": { "form": "жил", "romanization": "zhil" },
+          "3pl": { "form": "жил", "romanization": "zhil" }
+        },
+        "past_fem": {
+          "1sg": { "form": "жила", "romanization": "zhila" },
+          "2sg": { "form": "жила", "romanization": "zhila" },
+          "3sg": { "form": "жила", "romanization": "zhila" },
+          "1pl": { "form": "жила", "romanization": "zhila" },
+          "2pl": { "form": "жила", "romanization": "zhila" },
+          "3pl": { "form": "жила", "romanization": "zhila" }
+        },
+        "past_pl": {
+          "1sg": { "form": "жили", "romanization": "zhili" },
+          "2sg": { "form": "жили", "romanization": "zhili" },
+          "3sg": { "form": "жили", "romanization": "zhili" },
+          "1pl": { "form": "жили", "romanization": "zhili" },
+          "2pl": { "form": "жили", "romanization": "zhili" },
+          "3pl": { "form": "жили", "romanization": "zhili" }
+        }
+      }
+    },
+    {
+      "concept_id": "give",
+      "infinitive": "давать",
+      "romanization": "davat'",
+      "translation_de": "geben",
+      "pattern_id": "first_conj_at",
+      "irregular": true,
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "даю", "romanization": "dayu" },
+          "2sg": { "form": "даёшь", "romanization": "dayosh'" },
+          "3sg": { "form": "даёт", "romanization": "dayot" },
+          "1pl": { "form": "даём", "romanization": "dayom" },
+          "2pl": { "form": "даёте", "romanization": "dayote" },
+          "3pl": { "form": "дают", "romanization": "dayut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "давал", "romanization": "daval" },
+          "2sg": { "form": "давал", "romanization": "daval" },
+          "3sg": { "form": "давал", "romanization": "daval" },
+          "1pl": { "form": "давал", "romanization": "daval" },
+          "2pl": { "form": "давал", "romanization": "daval" },
+          "3pl": { "form": "давал", "romanization": "daval" }
+        },
+        "past_fem": {
+          "1sg": { "form": "давала", "romanization": "davala" },
+          "2sg": { "form": "давала", "romanization": "davala" },
+          "3sg": { "form": "давала", "romanization": "davala" },
+          "1pl": { "form": "давала", "romanization": "davala" },
+          "2pl": { "form": "давала", "romanization": "davala" },
+          "3pl": { "form": "давала", "romanization": "davala" }
+        },
+        "past_pl": {
+          "1sg": { "form": "давали", "romanization": "davali" },
+          "2sg": { "form": "давали", "romanization": "davali" },
+          "3sg": { "form": "давали", "romanization": "davali" },
+          "1pl": { "form": "давали", "romanization": "davali" },
+          "2pl": { "form": "давали", "romanization": "davali" },
+          "3pl": { "form": "давали", "romanization": "davali" }
+        }
+      }
+    },
+    {
+      "concept_id": "love",
+      "infinitive": "любить",
+      "romanization": "lyubit'",
+      "translation_de": "lieben",
+      "pattern_id": "second_conj_it",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "люблю", "romanization": "lyublyu" },
+          "2sg": { "form": "любишь", "romanization": "lyubish'" },
+          "3sg": { "form": "любит", "romanization": "lyubit" },
+          "1pl": { "form": "любим", "romanization": "lyubim" },
+          "2pl": { "form": "любите", "romanization": "lyubite" },
+          "3pl": { "form": "любят", "romanization": "lyubyat" }
+        },
+        "past_masc": {
+          "1sg": { "form": "любил", "romanization": "lyubil" },
+          "2sg": { "form": "любил", "romanization": "lyubil" },
+          "3sg": { "form": "любил", "romanization": "lyubil" },
+          "1pl": { "form": "любил", "romanization": "lyubil" },
+          "2pl": { "form": "любил", "romanization": "lyubil" },
+          "3pl": { "form": "любил", "romanization": "lyubil" }
+        },
+        "past_fem": {
+          "1sg": { "form": "любила", "romanization": "lyubila" },
+          "2sg": { "form": "любила", "romanization": "lyubila" },
+          "3sg": { "form": "любила", "romanization": "lyubila" },
+          "1pl": { "form": "любила", "romanization": "lyubila" },
+          "2pl": { "form": "любила", "romanization": "lyubila" },
+          "3pl": { "form": "любила", "romanization": "lyubila" }
+        },
+        "past_pl": {
+          "1sg": { "form": "любили", "romanization": "lyubili" },
+          "2sg": { "form": "любили", "romanization": "lyubili" },
+          "3sg": { "form": "любили", "romanization": "lyubili" },
+          "1pl": { "form": "любили", "romanization": "lyubili" },
+          "2pl": { "form": "любили", "romanization": "lyubili" },
+          "3pl": { "form": "любили", "romanization": "lyubili" }
+        }
+      }
+    },
+    {
+      "concept_id": "say",
+      "infinitive": "говорить",
+      "romanization": "govorit'",
+      "translation_de": "sprechen/sagen",
+      "pattern_id": "second_conj_it",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "говорю", "romanization": "govoryu" },
+          "2sg": { "form": "говоришь", "romanization": "govorish'" },
+          "3sg": { "form": "говорит", "romanization": "govorit" },
+          "1pl": { "form": "говорим", "romanization": "govorim" },
+          "2pl": { "form": "говорите", "romanization": "govorite" },
+          "3pl": { "form": "говорят", "romanization": "govoryat" }
+        },
+        "past_masc": {
+          "1sg": { "form": "говорил", "romanization": "govoril" },
+          "2sg": { "form": "говорил", "romanization": "govoril" },
+          "3sg": { "form": "говорил", "romanization": "govoril" },
+          "1pl": { "form": "говорил", "romanization": "govoril" },
+          "2pl": { "form": "говорил", "romanization": "govoril" },
+          "3pl": { "form": "говорил", "romanization": "govoril" }
+        },
+        "past_fem": {
+          "1sg": { "form": "говорила", "romanization": "govorila" },
+          "2sg": { "form": "говорила", "romanization": "govorila" },
+          "3sg": { "form": "говорила", "romanization": "govorila" },
+          "1pl": { "form": "говорила", "romanization": "govorila" },
+          "2pl": { "form": "говорила", "romanization": "govorila" },
+          "3pl": { "form": "говорила", "romanization": "govorila" }
+        },
+        "past_pl": {
+          "1sg": { "form": "говорили", "romanization": "govorili" },
+          "2sg": { "form": "говорили", "romanization": "govorili" },
+          "3sg": { "form": "говорили", "romanization": "govorili" },
+          "1pl": { "form": "говорили", "romanization": "govorili" },
+          "2pl": { "form": "говорили", "romanization": "govorili" },
+          "3pl": { "form": "говорили", "romanization": "govorili" }
+        }
+      }
+    },
+    {
+      "concept_id": "see",
+      "infinitive": "видеть",
+      "romanization": "videt'",
+      "translation_de": "sehen",
+      "pattern_id": "second_conj_it",
+      "irregular": true,
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "вижу", "romanization": "vizhu" },
+          "2sg": { "form": "видишь", "romanization": "vidish'" },
+          "3sg": { "form": "видит", "romanization": "vidit" },
+          "1pl": { "form": "видим", "romanization": "vidim" },
+          "2pl": { "form": "видите", "romanization": "vidite" },
+          "3pl": { "form": "видят", "romanization": "vidyat" }
+        },
+        "past_masc": {
+          "1sg": { "form": "видел", "romanization": "videl" },
+          "2sg": { "form": "видел", "romanization": "videl" },
+          "3sg": { "form": "видел", "romanization": "videl" },
+          "1pl": { "form": "видел", "romanization": "videl" },
+          "2pl": { "form": "видел", "romanization": "videl" },
+          "3pl": { "form": "видел", "romanization": "videl" }
+        },
+        "past_fem": {
+          "1sg": { "form": "видела", "romanization": "videla" },
+          "2sg": { "form": "видела", "romanization": "videla" },
+          "3sg": { "form": "видела", "romanization": "videla" },
+          "1pl": { "form": "видела", "romanization": "videla" },
+          "2pl": { "form": "видела", "romanization": "videla" },
+          "3pl": { "form": "видела", "romanization": "videla" }
+        },
+        "past_pl": {
+          "1sg": { "form": "видели", "romanization": "videli" },
+          "2sg": { "form": "видели", "romanization": "videli" },
+          "3sg": { "form": "видели", "romanization": "videli" },
+          "1pl": { "form": "видели", "romanization": "videli" },
+          "2pl": { "form": "видели", "romanization": "videli" },
+          "3pl": { "form": "видели", "romanization": "videli" }
+        }
+      }
+    },
+    {
+      "concept_id": "want",
+      "infinitive": "хотеть",
+      "romanization": "khotet'",
+      "translation_de": "wollen",
+      "pattern_id": "mixed",
+      "irregular": true,
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "хочу", "romanization": "khochu" },
+          "2sg": { "form": "хочешь", "romanization": "khochesh'" },
+          "3sg": { "form": "хочет", "romanization": "khochet" },
+          "1pl": { "form": "хотим", "romanization": "khotim" },
+          "2pl": { "form": "хотите", "romanization": "khotite" },
+          "3pl": { "form": "хотят", "romanization": "khotyat" }
+        },
+        "past_masc": {
+          "1sg": { "form": "хотел", "romanization": "khotel" },
+          "2sg": { "form": "хотел", "romanization": "khotel" },
+          "3sg": { "form": "хотел", "romanization": "khotel" },
+          "1pl": { "form": "хотел", "romanization": "khotel" },
+          "2pl": { "form": "хотел", "romanization": "khotel" },
+          "3pl": { "form": "хотел", "romanization": "khotel" }
+        },
+        "past_fem": {
+          "1sg": { "form": "хотела", "romanization": "khotela" },
+          "2sg": { "form": "хотела", "romanization": "khotela" },
+          "3sg": { "form": "хотела", "romanization": "khotela" },
+          "1pl": { "form": "хотела", "romanization": "khotela" },
+          "2pl": { "form": "хотела", "romanization": "khotela" },
+          "3pl": { "form": "хотела", "romanization": "khotela" }
+        },
+        "past_pl": {
+          "1sg": { "form": "хотели", "romanization": "khoteli" },
+          "2sg": { "form": "хотели", "romanization": "khoteli" },
+          "3sg": { "form": "хотели", "romanization": "khoteli" },
+          "1pl": { "form": "хотели", "romanization": "khoteli" },
+          "2pl": { "form": "хотели", "romanization": "khoteli" },
+          "3pl": { "form": "хотели", "romanization": "khoteli" }
+        }
+      }
+    },
+    {
+      "concept_id": "can",
+      "infinitive": "мочь",
+      "romanization": "moch'",
+      "translation_de": "koennen",
+      "pattern_id": "irregular",
+      "irregular": true,
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "могу", "romanization": "mogu" },
+          "2sg": { "form": "можешь", "romanization": "mozhesh'" },
+          "3sg": { "form": "может", "romanization": "mozhet" },
+          "1pl": { "form": "можем", "romanization": "mozhem" },
+          "2pl": { "form": "можете", "romanization": "mozhete" },
+          "3pl": { "form": "могут", "romanization": "mogut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "мог", "romanization": "mog" },
+          "2sg": { "form": "мог", "romanization": "mog" },
+          "3sg": { "form": "мог", "romanization": "mog" },
+          "1pl": { "form": "мог", "romanization": "mog" },
+          "2pl": { "form": "мог", "romanization": "mog" },
+          "3pl": { "form": "мог", "romanization": "mog" }
+        },
+        "past_fem": {
+          "1sg": { "form": "могла", "romanization": "mogla" },
+          "2sg": { "form": "могла", "romanization": "mogla" },
+          "3sg": { "form": "могла", "romanization": "mogla" },
+          "1pl": { "form": "могла", "romanization": "mogla" },
+          "2pl": { "form": "могла", "romanization": "mogla" },
+          "3pl": { "form": "могла", "romanization": "mogla" }
+        },
+        "past_pl": {
+          "1sg": { "form": "могли", "romanization": "mogli" },
+          "2sg": { "form": "могли", "romanization": "mogli" },
+          "3sg": { "form": "могли", "romanization": "mogli" },
+          "1pl": { "form": "могли", "romanization": "mogli" },
+          "2pl": { "form": "могли", "romanization": "mogli" },
+          "3pl": { "form": "могли", "romanization": "mogli" }
+        }
+      }
+    },
+    {
+      "concept_id": "go",
+      "infinitive": "идти",
+      "romanization": "idti",
+      "translation_de": "gehen (zu Fuss)",
+      "pattern_id": "irregular",
+      "irregular": true,
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "иду", "romanization": "idu" },
+          "2sg": { "form": "идёшь", "romanization": "idyosh'" },
+          "3sg": { "form": "идёт", "romanization": "idyot" },
+          "1pl": { "form": "идём", "romanization": "idyom" },
+          "2pl": { "form": "идёте", "romanization": "idyote" },
+          "3pl": { "form": "идут", "romanization": "idut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "шёл", "romanization": "shyol" },
+          "2sg": { "form": "шёл", "romanization": "shyol" },
+          "3sg": { "form": "шёл", "romanization": "shyol" },
+          "1pl": { "form": "шёл", "romanization": "shyol" },
+          "2pl": { "form": "шёл", "romanization": "shyol" },
+          "3pl": { "form": "шёл", "romanization": "shyol" }
+        },
+        "past_fem": {
+          "1sg": { "form": "шла", "romanization": "shla" },
+          "2sg": { "form": "шла", "romanization": "shla" },
+          "3sg": { "form": "шла", "romanization": "shla" },
+          "1pl": { "form": "шла", "romanization": "shla" },
+          "2pl": { "form": "шла", "romanization": "shla" },
+          "3pl": { "form": "шла", "romanization": "shla" }
+        },
+        "past_pl": {
+          "1sg": { "form": "шли", "romanization": "shli" },
+          "2sg": { "form": "шли", "romanization": "shli" },
+          "3sg": { "form": "шли", "romanization": "shli" },
+          "1pl": { "form": "шли", "romanization": "shli" },
+          "2pl": { "form": "шли", "romanization": "shli" },
+          "3pl": { "form": "шли", "romanization": "shli" }
+        }
+      }
+    },
+    {
+      "concept_id": "eat",
+      "infinitive": "есть",
+      "romanization": "yest'",
+      "translation_de": "essen",
+      "pattern_id": "irregular",
+      "irregular": true,
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "ем", "romanization": "yem" },
+          "2sg": { "form": "ешь", "romanization": "yesh'" },
+          "3sg": { "form": "ест", "romanization": "yest" },
+          "1pl": { "form": "едим", "romanization": "yedim" },
+          "2pl": { "form": "едите", "romanization": "yedite" },
+          "3pl": { "form": "едят", "romanization": "yedyat" }
+        },
+        "past_masc": {
+          "1sg": { "form": "ел", "romanization": "yel" },
+          "2sg": { "form": "ел", "romanization": "yel" },
+          "3sg": { "form": "ел", "romanization": "yel" },
+          "1pl": { "form": "ел", "romanization": "yel" },
+          "2pl": { "form": "ел", "romanization": "yel" },
+          "3pl": { "form": "ел", "romanization": "yel" }
+        },
+        "past_fem": {
+          "1sg": { "form": "ела", "romanization": "yela" },
+          "2sg": { "form": "ела", "romanization": "yela" },
+          "3sg": { "form": "ела", "romanization": "yela" },
+          "1pl": { "form": "ела", "romanization": "yela" },
+          "2pl": { "form": "ела", "romanization": "yela" },
+          "3pl": { "form": "ела", "romanization": "yela" }
+        },
+        "past_pl": {
+          "1sg": { "form": "ели", "romanization": "yeli" },
+          "2sg": { "form": "ели", "romanization": "yeli" },
+          "3sg": { "form": "ели", "romanization": "yeli" },
+          "1pl": { "form": "ели", "romanization": "yeli" },
+          "2pl": { "form": "ели", "romanization": "yeli" },
+          "3pl": { "form": "ели", "romanization": "yeli" }
+        }
+      }
+    },
+    {
+      "concept_id": "drink",
+      "infinitive": "пить",
+      "romanization": "pit'",
+      "translation_de": "trinken",
+      "pattern_id": "first_conj_at",
+      "irregular": true,
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "пью", "romanization": "p'yu" },
+          "2sg": { "form": "пьёшь", "romanization": "p'yosh'" },
+          "3sg": { "form": "пьёт", "romanization": "p'yot" },
+          "1pl": { "form": "пьём", "romanization": "p'yom" },
+          "2pl": { "form": "пьёте", "romanization": "p'yote" },
+          "3pl": { "form": "пьют", "romanization": "p'yut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "пил", "romanization": "pil" },
+          "2sg": { "form": "пил", "romanization": "pil" },
+          "3sg": { "form": "пил", "romanization": "pil" },
+          "1pl": { "form": "пил", "romanization": "pil" },
+          "2pl": { "form": "пил", "romanization": "pil" },
+          "3pl": { "form": "пил", "romanization": "pil" }
+        },
+        "past_fem": {
+          "1sg": { "form": "пила", "romanization": "pila" },
+          "2sg": { "form": "пила", "romanization": "pila" },
+          "3sg": { "form": "пила", "romanization": "pila" },
+          "1pl": { "form": "пила", "romanization": "pila" },
+          "2pl": { "form": "пила", "romanization": "pila" },
+          "3pl": { "form": "пила", "romanization": "pila" }
+        },
+        "past_pl": {
+          "1sg": { "form": "пили", "romanization": "pili" },
+          "2sg": { "form": "пили", "romanization": "pili" },
+          "3sg": { "form": "пили", "romanization": "pili" },
+          "1pl": { "form": "пили", "romanization": "pili" },
+          "2pl": { "form": "пили", "romanization": "pili" },
+          "3pl": { "form": "пили", "romanization": "pili" }
+        }
+      }
+    },
+    {
+      "concept_id": "buy",
+      "infinitive": "покупать",
+      "romanization": "pokupat'",
+      "translation_de": "kaufen",
+      "pattern_id": "first_conj_at",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "покупаю", "romanization": "pokupayu" },
+          "2sg": { "form": "покупаешь", "romanization": "pokupayesh'" },
+          "3sg": { "form": "покупает", "romanization": "pokupayet" },
+          "1pl": { "form": "покупаем", "romanization": "pokupayem" },
+          "2pl": { "form": "покупаете", "romanization": "pokupayete" },
+          "3pl": { "form": "покупают", "romanization": "pokupayut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "покупал", "romanization": "pokupal" },
+          "2sg": { "form": "покупал", "romanization": "pokupal" },
+          "3sg": { "form": "покупал", "romanization": "pokupal" },
+          "1pl": { "form": "покупал", "romanization": "pokupal" },
+          "2pl": { "form": "покупал", "romanization": "pokupal" },
+          "3pl": { "form": "покупал", "romanization": "pokupal" }
+        },
+        "past_fem": {
+          "1sg": { "form": "покупала", "romanization": "pokupala" },
+          "2sg": { "form": "покупала", "romanization": "pokupala" },
+          "3sg": { "form": "покупала", "romanization": "pokupala" },
+          "1pl": { "form": "покупала", "romanization": "pokupala" },
+          "2pl": { "form": "покупала", "romanization": "pokupala" },
+          "3pl": { "form": "покупала", "romanization": "pokupala" }
+        },
+        "past_pl": {
+          "1sg": { "form": "покупали", "romanization": "pokupali" },
+          "2sg": { "form": "покупали", "romanization": "pokupali" },
+          "3sg": { "form": "покупали", "romanization": "pokupali" },
+          "1pl": { "form": "покупали", "romanization": "pokupali" },
+          "2pl": { "form": "покупали", "romanization": "pokupali" },
+          "3pl": { "form": "покупали", "romanization": "pokupali" }
+        }
+      }
+    },
+    {
+      "concept_id": "be",
+      "infinitive": "быть",
+      "romanization": "byt'",
+      "translation_de": "sein",
+      "pattern_id": "irregular",
+      "irregular": true,
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "есть", "romanization": "yest'" },
+          "2sg": { "form": "есть", "romanization": "yest'" },
+          "3sg": { "form": "есть", "romanization": "yest'" },
+          "1pl": { "form": "есть", "romanization": "yest'" },
+          "2pl": { "form": "есть", "romanization": "yest'" },
+          "3pl": { "form": "есть", "romanization": "yest'" }
+        },
+        "past_masc": {
+          "1sg": { "form": "был", "romanization": "byl" },
+          "2sg": { "form": "был", "romanization": "byl" },
+          "3sg": { "form": "был", "romanization": "byl" },
+          "1pl": { "form": "был", "romanization": "byl" },
+          "2pl": { "form": "был", "romanization": "byl" },
+          "3pl": { "form": "был", "romanization": "byl" }
+        },
+        "past_fem": {
+          "1sg": { "form": "была", "romanization": "byla" },
+          "2sg": { "form": "была", "romanization": "byla" },
+          "3sg": { "form": "была", "romanization": "byla" },
+          "1pl": { "form": "была", "romanization": "byla" },
+          "2pl": { "form": "была", "romanization": "byla" },
+          "3pl": { "form": "была", "romanization": "byla" }
+        },
+        "past_pl": {
+          "1sg": { "form": "были", "romanization": "byli" },
+          "2sg": { "form": "были", "romanization": "byli" },
+          "3sg": { "form": "были", "romanization": "byli" },
+          "1pl": { "form": "были", "romanization": "byli" },
+          "2pl": { "form": "были", "romanization": "byli" },
+          "3pl": { "form": "были", "romanization": "byli" }
+        }
+      }
+    },
+    {
+      "concept_id": "have",
+      "infinitive": "иметь",
+      "romanization": "imet'",
+      "translation_de": "haben",
+      "pattern_id": "first_conj_at",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "имею", "romanization": "imeyu" },
+          "2sg": { "form": "имеешь", "romanization": "imeyesh'" },
+          "3sg": { "form": "имеет", "romanization": "imeyet" },
+          "1pl": { "form": "имеем", "romanization": "imeyem" },
+          "2pl": { "form": "имеете", "romanization": "imeyete" },
+          "3pl": { "form": "имеют", "romanization": "imeyut" }
+        },
+        "past_masc": {
+          "1sg": { "form": "имел", "romanization": "imel" },
+          "2sg": { "form": "имел", "romanization": "imel" },
+          "3sg": { "form": "имел", "romanization": "imel" },
+          "1pl": { "form": "имел", "romanization": "imel" },
+          "2pl": { "form": "имел", "romanization": "imel" },
+          "3pl": { "form": "имел", "romanization": "imel" }
+        },
+        "past_fem": {
+          "1sg": { "form": "имела", "romanization": "imela" },
+          "2sg": { "form": "имела", "romanization": "imela" },
+          "3sg": { "form": "имела", "romanization": "imela" },
+          "1pl": { "form": "имела", "romanization": "imela" },
+          "2pl": { "form": "имела", "romanization": "imela" },
+          "3pl": { "form": "имела", "romanization": "imela" }
+        },
+        "past_pl": {
+          "1sg": { "form": "имели", "romanization": "imeli" },
+          "2sg": { "form": "имели", "romanization": "imeli" },
+          "3sg": { "form": "имели", "romanization": "imeli" },
+          "1pl": { "form": "имели", "romanization": "imeli" },
+          "2pl": { "form": "имели", "romanization": "imeli" },
+          "3pl": { "form": "имели", "romanization": "imeli" }
+        }
+      }
+    },
+    {
+      "concept_id": "come",
+      "infinitive": "приходить",
+      "romanization": "prikhodit'",
+      "translation_de": "kommen",
+      "pattern_id": "second_conj_it",
+      "conjugations": {
+        "present": {
+          "1sg": { "form": "прихожу", "romanization": "prikhozhu" },
+          "2sg": { "form": "приходишь", "romanization": "prikhodish'" },
+          "3sg": { "form": "приходит", "romanization": "prikhodit" },
+          "1pl": { "form": "приходим", "romanization": "prikhodim" },
+          "2pl": { "form": "приходите", "romanization": "prikhodite" },
+          "3pl": { "form": "приходят", "romanization": "prikhodyat" }
+        },
+        "past_masc": {
+          "1sg": { "form": "приходил", "romanization": "prikhodil" },
+          "2sg": { "form": "приходил", "romanization": "prikhodil" },
+          "3sg": { "form": "приходил", "romanization": "prikhodil" },
+          "1pl": { "form": "приходил", "romanization": "prikhodil" },
+          "2pl": { "form": "приходил", "romanization": "prikhodil" },
+          "3pl": { "form": "приходил", "romanization": "prikhodil" }
+        },
+        "past_fem": {
+          "1sg": { "form": "приходила", "romanization": "prikhodila" },
+          "2sg": { "form": "приходила", "romanization": "prikhodila" },
+          "3sg": { "form": "приходила", "romanization": "prikhodila" },
+          "1pl": { "form": "приходила", "romanization": "prikhodila" },
+          "2pl": { "form": "приходила", "romanization": "prikhodila" },
+          "3pl": { "form": "приходила", "romanization": "prikhodila" }
+        },
+        "past_pl": {
+          "1sg": { "form": "приходили", "romanization": "prikhodili" },
+          "2sg": { "form": "приходили", "romanization": "prikhodili" },
+          "3sg": { "form": "приходили", "romanization": "prikhodili" },
+          "1pl": { "form": "приходили", "romanization": "prikhodili" },
+          "2pl": { "form": "приходили", "romanization": "prikhodili" },
+          "3pl": { "form": "приходили", "romanization": "prikhodili" }
+        }
+      }
+    }
+  ]
+}

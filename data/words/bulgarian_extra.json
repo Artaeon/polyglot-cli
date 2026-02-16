@@ -1,0 +1,17 @@
+{
+  "language_id": "bg",
+  "words": [
+    {"word": "гара", "romanization": "gara", "pronunciation_hint": "GA-ra", "meaning_de": "Bahnhof", "meaning_en": "station", "category": "fragen_richtungen", "frequency_rank": 1001, "concept_id": "station", "tone": null, "notes": "жп гара = Bahnhof"},
+    {"word": "билет", "romanization": "bilet", "pronunciation_hint": "bi-LET", "meaning_de": "Ticket", "meaning_en": "ticket", "category": "fragen_richtungen", "frequency_rank": 1002, "concept_id": "ticket", "tone": null, "notes": "За влак/автобус"},
+    {"word": "перон", "romanization": "peron", "pronunciation_hint": "pe-RON", "meaning_de": "Bahnsteig", "meaning_en": "platform", "category": "fragen_richtungen", "frequency_rank": 1003, "concept_id": "platform", "tone": null, "notes": "На перон"},
+    {"word": "аптека", "romanization": "apteka", "pronunciation_hint": "ap-TE-ka", "meaning_de": "Apotheke", "meaning_en": "pharmacy", "category": "koerper_gesundheit", "frequency_rank": 1004, "concept_id": "pharmacy", "tone": null, "notes": "Здраве"},
+    {"word": "болка", "romanization": "bolka", "pronunciation_hint": "BOL-ka", "meaning_de": "Schmerz", "meaning_en": "pain", "category": "koerper_gesundheit", "frequency_rank": 1005, "concept_id": "pain_general", "tone": null, "notes": "Имам болка"},
+    {"word": "имам нужда от помощ", "romanization": "imam nuzhda ot pomosht", "pronunciation_hint": "I-mam NUZH-da ot PO-mosht", "meaning_de": "ich brauche Hilfe", "meaning_en": "I need help", "category": "phrasen", "frequency_rank": 1006, "concept_id": "i_need_help", "tone": null, "notes": "Спешна фраза"},
+    {"word": "къде е спирката?", "romanization": "kade e spirkata", "pronunciation_hint": "ku-DE e SPIR-ka-ta", "meaning_de": "wo ist die Haltestelle?", "meaning_en": "where is the stop?", "category": "fragen_richtungen", "frequency_rank": 1007, "concept_id": "where_is_stop", "tone": null, "notes": "Автобус/трамвай"},
+    {"word": "отворено", "romanization": "otvoreno", "pronunciation_hint": "ot-VO-re-no", "meaning_de": "offen", "meaning_en": "open", "category": "adjektive", "frequency_rank": 1008, "concept_id": "open_adj", "tone": null, "notes": "Работно време"},
+    {"word": "затворено", "romanization": "zatvoreno", "pronunciation_hint": "zat-VO-re-no", "meaning_de": "geschlossen", "meaning_en": "closed", "category": "adjektive", "frequency_rank": 1009, "concept_id": "closed_adj", "tone": null, "notes": "Обектът е затворен"},
+    {"word": "касова бележка", "romanization": "kasova belezhka", "pronunciation_hint": "KA-so-va be-LEZH-ka", "meaning_de": "Quittung", "meaning_en": "receipt", "category": "essen_trinken", "frequency_rank": 1010, "concept_id": "receipt", "tone": null, "notes": "В магазин"},
+    {"word": "без", "romanization": "bez", "pronunciation_hint": "bez", "meaning_de": "ohne", "meaning_en": "without", "category": "zeitwoerter_konjunktionen", "frequency_rank": 1011, "concept_id": "without", "tone": null, "notes": "без захар"},
+    {"word": "с", "romanization": "s", "pronunciation_hint": "s", "meaning_de": "mit", "meaning_en": "with", "category": "zeitwoerter_konjunktionen", "frequency_rank": 1012, "concept_id": "with", "tone": null, "notes": "с мляко"}
+  ]
+}
